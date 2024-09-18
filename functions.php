@@ -8,6 +8,7 @@ function boldhimalaya_enqueue_scripts()
     wp_enqueue_style('light-gallery', 'https://cdn.jsdelivr.net/npm/lightgallery@1.6.11/dist/css/lightgallery.min.css', array(), '1.0.0');
     wp_enqueue_style('jquery-ui-style', 'https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css', array(), '1.12.1');
     wp_enqueue_style('flatpickr-style', 'https://cdnjs.cloudflare.com/ajax/libs/flatpickr/4.6.13/flatpickr.min.css', array(), '4.6.13', 'all', );
+    wp_enqueue_style('bootstrap-style', 'https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css', array(), '5.3.3', null );
     wp_enqueue_style('custom-style', get_template_directory_uri() . '/assets/css/styles.css', array(), '1.0.0');
 
     wp_enqueue_script('jquery', 'https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js', array(), '3.6.0', true);

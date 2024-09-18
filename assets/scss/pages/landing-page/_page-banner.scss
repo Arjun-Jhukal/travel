@@ -1,0 +1,57 @@
+.page-banner {
+	.pb-content {
+		position: relative;
+
+		.feature-image {
+			filter: blur(8px);
+		}
+
+		.pb-absolute-text {
+			position: absolute;
+			left: 50%;
+			top: 50%;
+			transform: translate(-50%, -50%);
+
+			h1,
+			span {
+				color: #fff;
+			}
+
+			h1 {
+				margin-bottom: 40px;
+			}
+
+			.pb-reviews {
+				gap: 8px;
+				ul {
+					li {
+						line-height: 0;
+					}
+				}
+				> p {
+					font-size: 14px;
+					font-weight: 600;
+					line-height: 140%;
+					letter-spacing: -0.035px;
+					> span {
+						&:last-child {
+							text-decoration: underline;
+						}
+					}
+				}
+			}
+		}
+	}
+}
+
+@media (min-width: 1200px) {
+	.page-banner {
+		.pb-content {
+			.pb-absolute-text {
+				h1 {
+					min-width: 991px;
+				}
+			}
+		}
+	}
+}
