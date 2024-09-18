@@ -64,9 +64,8 @@ p {
 }
 
 small {
-	font-size: 12px;
-	line-height: 130%;
-	color: $secondary;
+	color: $black;
+	display: inline-block;
 }
 
 ul,
@@ -84,6 +83,19 @@ ol {
 }
 
 /* Utility Classes*/
+
+.sm-text {
+	color: $secondary;
+	font-size: 14px;
+	line-height: 140%;
+	letter-spacing: -0.035px;
+}
+.section-title {
+	margin-bottom: 36px;
+	h2 {
+		margin-bottom: 16px;
+	}
+}
 
 .stars {
 	display: flex;
