@@ -1,0 +1,25 @@
+.package-listing {
+	.row {
+		> div {
+			&:not(:last-child) {
+				.package-item {
+					margin-bottom: 32px;
+				}
+			}
+		}
+	}
+}
+@media (min-width: 768px) {
+	.package-listing {
+		.row {
+			--bs-gutter-y: 32px;
+			> div {
+				&:not(:last-child) {
+					.package-item {
+						margin-bottom: 0;
+					}
+				}
+			}
+		}
+	}
+}

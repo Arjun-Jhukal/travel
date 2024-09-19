@@ -3,6 +3,7 @@ $darkGreen: #015637;
 $white: #fff;
 $black: #1e201f;
 $secondary: #363a38;
+$red: #f00;
 
 * {
 	margin: 0;
@@ -74,6 +75,11 @@ h6 {
 	line-height: 130%;
 }
 
+h5 {
+	font-size: 20px;
+	line-height: 130%;
+}
+
 p {
 	margin: 0;
 }
@@ -113,17 +119,20 @@ ol {
 	margin-bottom: 60px;
 }
 
-.sm-text {
-	color: $secondary;
-	font-size: 14px;
-	line-height: 140%;
-	letter-spacing: -0.035px;
-}
-
 .section-title {
 	margin-bottom: 36px;
 	h2 {
 		margin-bottom: 16px;
+	}
+	p {
+		color: $secondary;
+	}
+
+	.st-brief {
+		max-width: 486px;
+		> p {
+			margin-bottom: 16px;
+		}
 	}
 }
 
@@ -154,6 +163,23 @@ ol {
 	}
 }
 
+.sm-text {
+	color: $secondary;
+	font-size: 14px;
+	line-height: 140%;
+	letter-spacing: -0.035px;
+}
+
+.discount {
+	border-radius: 4px;
+	background: #e2e9f1;
+	color: $secondary;
+	font-size: 10px;
+	font-weight: 600;
+	line-height: 130%;
+	padding: 4px 6px;
+}
+
 .stars {
 	display: flex;
 	justify-content: center;
@@ -180,6 +206,119 @@ ol {
 
 		* {
 			display: none;
+		}
+	}
+}
+
+.bg-slightly-dark {
+	background-color: #f9f9f9;
+}
+
+.tag {
+	padding: 4px 16px;
+	border-radius: 8px 0 0 0;
+	position: absolute;
+	top: 0;
+	left: 0;
+
+	small {
+		font-weight: 600;
+		color: #fff;
+	}
+
+	&.popular {
+		background-color: #17a40b;
+	}
+
+	&.trending {
+		background-color: #ec4c29;
+	}
+
+	&.most-selling {
+		background-color: #3d85f1;
+	}
+}
+
+.package-item {
+	border-radius: 8px;
+	border: 1px solid rgba(0, 0, 0, 0.2);
+	box-shadow: 2px 2px 8px 0px rgba(0, 0, 0, 0.1);
+	overflow: hidden;
+	position: relative;
+
+	.pi-image {
+		position: relative;
+		border-radius: 8px 8px 0 0;
+
+		.discount {
+			position: absolute;
+			right: 12px;
+			bottom: 12px;
+		}
+	}
+	.wishlist {
+		position: absolute;
+		top: 8px;
+		right: 8px;
+	}
+
+	.pi-content {
+		padding: 16px;
+
+		> a {
+			display: block;
+			margin-bottom: 12px;
+		}
+		> small {
+			color: $secondary;
+			margin-bottom: 12px;
+		}
+
+		.pl-key-indicator {
+			padding: 8px 0;
+			border-top: 1px solid #e5e5e5;
+			border-bottom: 1px solid #e5e5e5;
+			margin-bottom: 14px;
+
+			small {
+				font-weight: 600;
+			}
+
+			span {
+				> small {
+					&:last-child {
+						font-weight: 400;
+					}
+				}
+			}
+		}
+
+		.price-wrapper {
+			.price {
+				gap: 8px;
+			}
+		}
+		del {
+			color: $red;
+			font-size: 14px;
+			font-weight: 700;
+			line-height: 170%;
+		}
+
+		.bh-btn {
+			opacity: 0;
+			transform: translateY(20px);
+			visibility: hidden;
+		}
+	}
+
+	&:hover {
+		.pi-content {
+			.bh-btn {
+				opacity: 1;
+				transform: translateY(0);
+				visibility: visible;
+			}
 		}
 	}
 }
