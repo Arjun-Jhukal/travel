@@ -18,6 +18,15 @@ body {
 	color: #363a38;
 }
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	margin-bottom: 0;
+}
+
 h3 {
 	font-weight: 700;
 }
@@ -59,6 +68,12 @@ h2 {
 		color: $lightGreen;
 	}
 }
+
+h6 {
+	font-size: 18px;
+	line-height: 130%;
+}
+
 p {
 	margin: 0;
 }
@@ -66,6 +81,16 @@ p {
 small {
 	color: $black;
 	display: inline-block;
+	font-size: 14px;
+	line-height: 140%;
+	letter-spacing: -0.035px;
+}
+
+a {
+	text-decoration: none;
+	color: inherit;
+	display: inline-block;
+	transition: all 0.3s ease-in-out;
 }
 
 ul,
@@ -84,12 +109,17 @@ ol {
 
 /* Utility Classes*/
 
+.section-gap {
+	margin-bottom: 60px;
+}
+
 .sm-text {
 	color: $secondary;
 	font-size: 14px;
 	line-height: 140%;
 	letter-spacing: -0.035px;
 }
+
 .section-title {
 	margin-bottom: 36px;
 	h2 {
@@ -97,8 +127,59 @@ ol {
 	}
 }
 
+.bh-btn {
+	&-filled-dark {
+		padding: 8px 24px;
+		color: #fff;
+		border-radius: 46px;
+		font-size: 16px;
+		font-style: normal;
+		font-weight: 400;
+		line-height: 148%;
+		letter-spacing: -0.08px;
+		background-color: $darkGreen;
+
+		&:hover {
+			opacity: 0.7;
+		}
+	}
+
+	&-underlined {
+		font-size: 14px;
+		font-weight: 600;
+		line-height: 140%;
+		letter-spacing: -0.035px;
+		text-decoration-line: underline;
+		color: $lightGreen;
+	}
+}
+
 .stars {
 	display: flex;
 	justify-content: center;
 	align-items: center;
+}
+
+.slick-dots {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	gap: 8px;
+	margin-top: 32px;
+
+	li {
+		width: 12px;
+		height: 12px;
+		border-radius: 50%;
+		border: 1px solid $secondary;
+
+		&.slick-active {
+			background-color: $darkGreen;
+			border-color: $darkGreen;
+		}
+
+		* {
+			display: none;
+		}
+	}
 }

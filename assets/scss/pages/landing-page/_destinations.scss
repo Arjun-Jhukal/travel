@@ -1,0 +1,59 @@
+.destination-item {
+	position: relative;
+	border-radius: 8px;
+	overflow: hidden;
+
+	&::before {
+		content: "";
+		position: absolute;
+		inset: 0;
+		background: linear-gradient(
+			180deg,
+			rgba(0, 0, 0, 0) 60%,
+			rgba(0, 0, 0, 0.6) 90%
+		);
+	}
+
+	> a {
+		display: block;
+	}
+
+	.dsi-content {
+		position: absolute;
+		left: 12px;
+		right: 12px;
+		bottom: 8px;
+
+		h6,
+		p {
+			color: $white;
+		}
+
+		p {
+			line-height: 140%;
+		}
+	}
+}
+
+.destinations {
+	background: url(../images/bg-01.png) rgba(211, 211, 211, 0.15) 50% / cover
+		no-repeat;
+
+	.destinations-slider-wrapper {
+		.destinations-slider {
+			border-radius: 8px;
+			overflow: hidden;
+			margin: 0 -8px;
+
+			.destination-item {
+				margin: 0 12px;
+			}
+		}
+	}
+}
+
+@media (min-width: 992px) {
+	.destinations {
+		padding: 96px 0;
+	}
+}

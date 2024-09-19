@@ -1,16 +1,26 @@
 .page-banner {
+	height: calc(100vh - 100px);
 	.pb-content {
 		position: relative;
+		height: 100%;
 
 		.feature-image {
 			filter: blur(8px);
+			height: 100%;
+
+			img {
+				height: 100%;
+				width: 100%;
+				object-fit: cover;
+			}
 		}
 
 		.pb-absolute-text {
 			position: absolute;
-			left: 50%;
 			top: 50%;
-			transform: translate(-50%, -50%);
+			transform: translateY(-50%);
+			left: 24px;
+			right: 24px;
 
 			h1,
 			span {
@@ -39,6 +49,20 @@
 						}
 					}
 				}
+			}
+		}
+	}
+}
+
+@media (min-width: 768px) {
+	.page-banner {
+		height: auto;
+		.pb-content {
+			.pb-absolute-text {
+				left: 50%;
+				top: 50%;
+				right: unset;
+				transform: translate(-50%, -50%);
 			}
 		}
 	}

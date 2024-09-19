@@ -1,4 +1,12 @@
 @media (min-width: 768px) {
+	.section-title {
+		margin-bottom: 48px;
+		p {
+			font-size: 14px;
+			line-height: 140%;
+			letter-spacing: -0.035px;
+		}
+	}
 }
 
 @media (min-width: 992px) {
@@ -24,11 +32,6 @@
 	}
 	h5 {
 		font-size: 20px;
-		line-height: 130%;
-	}
-
-	h6 {
-		font-size: 18px;
 		line-height: 130%;
 	}
 
