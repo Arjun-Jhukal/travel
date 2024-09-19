@@ -1,4 +1,4 @@
-<section class="activities ">
+<section class="activities section-gap">
   <div class="container">
     <div class="section-title">
       <h2 class="text-center">Experience Our Diverse

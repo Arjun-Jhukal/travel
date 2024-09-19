@@ -17,6 +17,7 @@ body {
 	font-size: 16px;
 	font-weight: 400;
 	color: #363a38;
+	background-color: #f9f9f9;
 }
 
 h1,
@@ -113,6 +114,12 @@ ol {
 	}
 }
 
+button {
+	background-color: transparent;
+	outline: none;
+	border: none;
+}
+
 /* Utility Classes*/
 
 .section-gap {
@@ -160,6 +167,19 @@ ol {
 		letter-spacing: -0.035px;
 		text-decoration-line: underline;
 		color: $lightGreen;
+	}
+
+	&-outlined {
+		padding: 12px 24px;
+		border: 1px solid $white;
+		color: #fff;
+		line-height: 148%;
+		letter-spacing: -0.08px;
+		border-radius: 46px;
+
+		span {
+			margin-left: 12px;
+		}
 	}
 }
 
@@ -210,8 +230,8 @@ ol {
 	}
 }
 
-.bg-slightly-dark {
-	background-color: #f9f9f9;
+.bg-white {
+	background-color: $white;
 }
 
 .tag {
@@ -388,6 +408,38 @@ ol {
 				align-items: center;
 				justify-content: space-between;
 			}
+		}
+	}
+}
+
+.blog-item {
+	.bi-image {
+		border-radius: 16px;
+		margin-bottom: 16px;
+		max-height: 393px;
+		overflow: hidden;
+
+		a {
+			display: block;
+			height: 100%;
+
+			img {
+				width: 100%;
+				height: 100%;
+				object-fit: cover;
+			}
+		}
+	}
+	.bi-content {
+		small {
+			color: $secondary;
+			margin-bottom: 8px;
+		}
+		a {
+			display: block;
+			color: $black;
+			font-weight: 600;
+			line-height: 120%;
 		}
 	}
 }

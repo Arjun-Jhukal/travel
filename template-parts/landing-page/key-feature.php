@@ -1,4 +1,4 @@
-<section class="key-features section-gap bg-slightly-dark">
+<section class="key-features section-gap">
   <div class="container">
     <div class="section-title">
       <h2 class="text-center">Your Perfect Travel Partner and

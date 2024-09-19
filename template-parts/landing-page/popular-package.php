@@ -1,4 +1,4 @@
-<section class="package-listing section-gap">
+<section class="package-listing section-gap bg-white">
   <div class="container">
     <div class="section-title d-flex justify-content-between align-items-start flex-wrap">
       <h2>Experience Our

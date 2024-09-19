@@ -7,6 +7,12 @@
 			letter-spacing: -0.035px;
 		}
 	}
+
+	.blog-item {
+		.bi-image {
+			max-height: 360px;
+		}
+	}
 }
 
 @media (min-width: 992px) {

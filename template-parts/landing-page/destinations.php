@@ -1,4 +1,4 @@
-<section class="destinations">
+<section class="destinations section-gap">
   <div class=" container">
     <div class="section-title d-flex justify-content-between align-items-center">
       <h2>Uncover the Hottest <span>Destinations of the Season</span></h2>

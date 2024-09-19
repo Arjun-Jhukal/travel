@@ -1,0 +1,45 @@
+.blogs {
+	.blog-slider-wrapper {
+		.blog-slider {
+			border-radius: 16px;
+			overflow: hidden;
+
+			.blog-item {
+				padding: 0 8px;
+				.bi-image {
+					max-height: 393px;
+				}
+			}
+		}
+	}
+
+	.blog-next {
+		transform: rotate(180deg);
+	}
+
+	.blog-next,
+	.blog-prev {
+		&.slick-disabled {
+			opacity: 0.5;
+		}
+		rect,
+		path {
+			transition: all 0.3s ease-in-out;
+		}
+
+		&:hover {
+			rect {
+				fill: $lightGreen;
+			}
+			path {
+				fill: $white;
+			}
+		}
+	}
+}
+
+@media (min-width: 992px) {
+	.blogs {
+		padding: 96px 0;
+	}
+}
