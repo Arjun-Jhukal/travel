@@ -374,6 +374,279 @@
     </div>
   </div>
 </footer>
+
+
+
+<div class="mega-menu-wrapper" data-for="mega-destinations">
+  <div class="mm-container">
+    <div class="row">
+      <div class="col-lg-3">
+        <ul class="mm-controller">
+          <li class="dropdown-menu-item active" tab-target="nepal">
+            <a href="#">
+              <p>
+                <img src="<?php echo get_parent_theme_file_uri()?>/assets/images/destinaton-01.png" alt=""
+                  class="img-fluid">
+                <span>Nepal</span>
+              </p>
+            </a>
+          </li>
+          <li class="dropdown-menu-item " tab-target="india">
+            <a href="#">
+              <p>
+                <img src="<?php echo get_parent_theme_file_uri()?>/assets/images/destinaton-02.png" alt=""
+                  class="img-fluid">
+                <span>India</span>
+              </p>
+            </a>
+          </li>
+          <li class="dropdown-menu-item " tab-target="vietnam">
+            <a href="#">
+              <p>
+                <img src="<?php echo get_parent_theme_file_uri()?>/assets/images/destinaton-03.png" alt=""
+                  class="img-fluid">
+                <span>Vietnam</span>
+              </p>
+            </a>
+          </li>
+          <li class="dropdown-menu-item " tab-target="new_zealand">
+            <a href="#">
+              <p>
+                <img src="<?php echo get_parent_theme_file_uri()?>/assets/images/destinaton-04.png" alt=""
+                  class="img-fluid">
+                <span>New Zealand</span>
+              </p>
+            </a>
+          </li>
+          <li class="dropdown-menu-item " tab-target="dubai">
+            <a href="#">
+              <p>
+                <img src="<?php echo get_parent_theme_file_uri()?>/assets/images/destinaton-05.png" alt=""
+                  class="img-fluid">
+                <span>Dubai</span>
+              </p>
+            </a>
+          </li>
+          <li class="dropdown-menu-item " tab-target="thailand">
+            <a href="#">
+              <p>
+                <img src="<?php echo get_parent_theme_file_uri()?>/assets/images/destinaton-06.png" alt=""
+                  class="img-fluid">
+                <span>Thailand</span>
+              </p>
+            </a>
+          </li>
+          <li class="dropdown-menu-item " tab-target="europe">
+            <a href="#">
+              <p>
+                <img src="<?php echo get_parent_theme_file_uri()?>/assets/images/destinaton-07.png" alt=""
+                  class="img-fluid">
+                <span>Europe</span>
+              </p>
+            </a>
+          </li>
+          <li class="dropdown-menu-item " tab-target="fizi">
+            <a href="#">
+              <p>
+                <img src="<?php echo get_parent_theme_file_uri()?>/assets/images/destinaton-08.png" alt=""
+                  class="img-fluid">
+                <span>Fiji</span>
+              </p>
+            </a>
+          </li>
+          <li class="dropdown-menu-item " tab-target="srilanka">
+            <a href="#">
+              <p>
+                <img src="<?php echo get_parent_theme_file_uri()?>/assets/images/destinaton-09.png" alt=""
+                  class="img-fluid">
+                <span>Srilanka</span>
+              </p>
+            </a>
+          </li>
+        </ul>
+      </div>
+      <div class="col-lg-9">
+        <div class="tab-content-wrapper">
+          <div class="tab-content" data-tab-content="nepal">
+            <div class="tc-header d-flex justify-content-between align-items-center">
+              <div class="dropdown-menu-item d-flex justify-content-start align-items-center">
+                <img src="<?php echo get_parent_theme_file_uri()?>/assets/images/destinaton-01.png" alt=""
+                  class="img-fluid">
+                <h4 class="d-inline-block">Nepal</h4>
+              </div>
+              <a href="#" class="bh-btn bh-btn-filled-dark">View Nepal in Detail</a>
+            </div>
+            <ul class="inner-tab d-flex justify-content-center align-items-center">
+              <li class="active"><a href="#">Trekking/Hiking</a></li>
+              <li><a href="#">Hunting</a></li>
+              <li><a href="#">Water Sports</a></li>
+              <li><a href="#">Spritual Religious</a></li>
+              <li><a href="#">Wildlife & Nature</a></li>
+              <li><a href="#">Tours & Sightseen</a></li>
+            </ul>
+            <div class="tc-list-box">
+              <div class="row">
+                <div class="col-md-6 col-lg-4">
+                  <div class="tclb-item">
+                    <h6>Everest Region</h6>
+                    <ul>
+                      <li>
+                        <a href="#" data-toggle="tooltip" data-placement="right"
+                          title=" Gokyo Chola Pass Kalapatthar Trekking">
+                          Gokyo Chola Pass Kalapatthar Trekking
+                        </a>
+                      </li>
+                      <li>
+                        <a href="#" data-toggle="tooltip" data-placement="right"
+                          title=" Gokyo Chola Pass Kalapatthar Trekking">
+                          Everest View Trek
+                        </a>
+                      </li>
+                      <li>
+                        <a href="#" data-toggle="tooltip" data-placement="right"
+                          title=" Gokyo Chola Pass Kalapatthar Trekking">
+                          Everest Basecamp Trek
+                        </a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                  <div class="tclb-item">
+                    <h6>Everest Region</h6>
+                    <ul>
+                      <li>
+                        <a href="#" data-toggle="tooltip" data-placement="right"
+                          title=" Gokyo Chola Pass Kalapatthar Trekking">
+                          Gokyo Chola Pass Kalapatthar Trekking
+                        </a>
+                      </li>
+                      <li>
+                        <a href="#" data-toggle="tooltip" data-placement="right"
+                          title=" Gokyo Chola Pass Kalapatthar Trekking">
+                          Everest View Trek
+                        </a>
+                      </li>
+                      <li>
+                        <a href="#" data-toggle="tooltip" data-placement="right"
+                          title=" Gokyo Chola Pass Kalapatthar Trekking">
+                          Everest Basecamp Trek
+                        </a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                  <div class="tclb-item">
+                    <h6>Everest Region</h6>
+                    <ul>
+                      <li>
+                        <a href="#" data-toggle="tooltip" data-placement="right"
+                          title=" Gokyo Chola Pass Kalapatthar Trekking">
+                          Gokyo Chola Pass Kalapatthar Trekking
+                        </a>
+                      </li>
+                      <li>
+                        <a href="#" data-toggle="tooltip" data-placement="right"
+                          title=" Gokyo Chola Pass Kalapatthar Trekking">
+                          Everest View Trek
+                        </a>
+                      </li>
+                      <li>
+                        <a href="#" data-toggle="tooltip" data-placement="right"
+                          title=" Gokyo Chola Pass Kalapatthar Trekking">
+                          Everest Basecamp Trek
+                        </a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                  <div class="tclb-item">
+                    <h6>Everest Region</h6>
+                    <ul>
+                      <li>
+                        <a href="#" data-toggle="tooltip" data-placement="right"
+                          title=" Gokyo Chola Pass Kalapatthar Trekking">
+                          Gokyo Chola Pass Kalapatthar Trekking
+                        </a>
+                      </li>
+                      <li>
+                        <a href="#" data-toggle="tooltip" data-placement="right"
+                          title=" Gokyo Chola Pass Kalapatthar Trekking">
+                          Everest View Trek
+                        </a>
+                      </li>
+                      <li>
+                        <a href="#" data-toggle="tooltip" data-placement="right"
+                          title=" Gokyo Chola Pass Kalapatthar Trekking">
+                          Everest Basecamp Trek
+                        </a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                  <div class="tclb-item">
+                    <h6>Everest Region</h6>
+                    <ul>
+                      <li>
+                        <a href="#" data-toggle="tooltip" data-placement="right"
+                          title=" Gokyo Chola Pass Kalapatthar Trekking">
+                          Gokyo Chola Pass Kalapatthar Trekking
+                        </a>
+                      </li>
+                      <li>
+                        <a href="#" data-toggle="tooltip" data-placement="right"
+                          title=" Gokyo Chola Pass Kalapatthar Trekking">
+                          Everest View Trek
+                        </a>
+                      </li>
+                      <li>
+                        <a href="#" data-toggle="tooltip" data-placement="right"
+                          title=" Gokyo Chola Pass Kalapatthar Trekking">
+                          Everest Basecamp Trek
+                        </a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                  <div class="tclb-item">
+                    <h6>Everest Region</h6>
+                    <ul>
+                      <li>
+                        <a href="#" data-toggle="tooltip" data-placement="right"
+                          title=" Gokyo Chola Pass Kalapatthar Trekking">
+                          Gokyo Chola Pass Kalapatthar Trekking
+                        </a>
+                      </li>
+                      <li>
+                        <a href="#" data-toggle="tooltip" data-placement="right"
+                          title=" Gokyo Chola Pass Kalapatthar Trekking">
+                          Everest View Trek
+                        </a>
+                      </li>
+                      <li>
+                        <a href="#" data-toggle="tooltip" data-placement="right"
+                          title=" Gokyo Chola Pass Kalapatthar Trekking">
+                          Everest Basecamp Trek
+                        </a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="text-center">
+              <a href="#" class="bh-btn bh-btn-filled-dark">View Trekking in Detail</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
 <?php wp_footer(); ?>
 </body>
 

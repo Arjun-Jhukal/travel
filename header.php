@@ -103,16 +103,18 @@
               <ul class="dropdown-items">
                 <li class="dropdown-menu-item">
                   <a href="#">
-                    <img src="<?php echo get_parent_theme_file_uri()?>/assets/images/profile.png" alt=""
-                      class="img-fluid">
-                    <span class="sm-text">Go to Dashboard</span>
+                    <p> <img src="<?php echo get_parent_theme_file_uri()?>/assets/images/profile.png" alt=""
+                        class="img-fluid">
+                      <span class="sm-text">Go to Dashboard</span>
+                    </p>
                   </a>
                 </li>
                 <li class="dropdown-menu-item">
                   <a href="#">
-                    <img src="<?php echo get_parent_theme_file_uri()?>/assets/images/icons/logout.svg" alt=""
-                      class="img-fluid">
-                    <span class="sm-text">Logout</span>
+                    <p> <img src="<?php echo get_parent_theme_file_uri()?>/assets/images/icons/logout.svg" alt=""
+                        class="img-fluid">
+                      <span class="sm-text">Logout</span>
+                    </p>
                   </a>
                 </li>
               </ul>
