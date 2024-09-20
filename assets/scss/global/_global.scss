@@ -183,6 +183,7 @@ input {
 }
 
 .bh-btn {
+	transition: all 0.3s ease-in-out;
 	&-filled-dark {
 		padding: 8px 24px;
 		color: #fff;
@@ -223,6 +224,26 @@ input {
 		span {
 			margin-left: 12px;
 		}
+	}
+
+	&-pan,
+	&-filled-light {
+		line-height: 148%;
+		letter-spacing: -0.08px;
+	}
+
+	&-plan {
+		padding: 6px 24px;
+		border-radius: 46px;
+		border: 1px solid $white;
+		color: $white;
+	}
+	&-filled-light {
+		padding: 6px 24px;
+		border-radius: 46px;
+		border: 1px solid $white;
+		background: $white;
+		color: $black;
 	}
 }
 
@@ -276,6 +297,42 @@ input {
 
 .bg-white {
 	background-color: $white;
+}
+
+.wishlist {
+	position: relative;
+
+	&.filled {
+		svg {
+			stroke: $red;
+			path {
+				fill: $red;
+			}
+		}
+		sup {
+			opacity: 1;
+			visibility: visible;
+		}
+	}
+	sup {
+		color: $white;
+		font-size: 10px;
+		font-weight: 600;
+		line-height: 130%;
+		width: 14px;
+		height: 14px;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		border-radius: 24px;
+		border: 1px solid #fff;
+		background: #ee2f3a;
+		position: absolute;
+		bottom: 11px;
+		left: 12px;
+		opacity: 0;
+		visibility: hidden;
+	}
 }
 
 .tag {
