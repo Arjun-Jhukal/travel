@@ -15,9 +15,119 @@
 </head>
 
 <body>
-  <header class="header">
+  <a href="#" class="overlay"></a>
+
+  <?php
+  $isAuthenticated=true;
+  ?>
+  <header class="header front-page-header">
     <div class="container">
-      <h1>Head goes Here</h1>
+      <div class="header-content-box">
+        <!-- Primary Header For Desktop -->
+        <div class="header-content-wrapper d-flex justify-content-between align-items-center">
+          <div class="header-logo">
+            <a href="<?php get_home_url()?>">
+              <img src="<?php echo get_parent_theme_file_uri()?>/assets/images/logo.svg" alt="" class="img-fluid">
+            </a>
+          </div>
+          <div class="primary-menu">
+            <ul class="d-lg-flex justify-content-center align-items-center">
+              <li class="mega-menu mega-destinations"><a href="#">Destinations</a></li>
+              <li class="mega-menu mega-activities"><a href="#">Activities</a></li>
+              <li class="menu-has-children">
+                <a href="#">Travel Styles</a>
+                <ul class="dropdown-items">
+                  <li class="dropdown-menu-item">
+                    <a href="#">
+                      <span class="sm-text">Trekking/Hiking</span>
+                    </a>
+                  </li>
+                  <li class="dropdown-menu-item">
+                    <a href="#">
+                      <span class="sm-text">Water Sports</span>
+                    </a>
+                  </li>
+                  <li class="dropdown-menu-item">
+                    <a href="#">
+                      <span class="sm-text">Site Seeing</span>
+                    </a>
+                  </li>
+                </ul>
+              </li>
+              <li class="menu-has-children">
+                <a href="#">Company</a>
+                <ul class="dropdown-items">
+                  <li class="dropdown-menu-item">
+                    <a href="#">
+                      <span class="sm-text">About</span>
+                    </a>
+                  </li>
+                  <li class="dropdown-menu-item">
+                    <a href="#">
+                      <span class="sm-text">Achievements</span>
+                    </a>
+                  </li>
+                  <li class="dropdown-menu-item">
+                    <a href="#">
+                      <span class="sm-text">Commitments</span>
+                    </a>
+                  </li>
+                </ul>
+
+              </li>
+              <li><a href="#">Contact</a></li>
+            </ul>
+          </div>
+
+          <div class="header-right d-flex justify-content-end align-items-center">
+            <a href="#" class="wishlist filled">
+              <svg xmlns="http://www.w3.org/2000/svg" width="18" height="16" viewBox="0 0 18 16" fill="none"
+                stroke="#fff">
+                <path
+                  d="M8.30415 15.7388C8.49669 15.9072 8.74374 16 9 16C9.25612 16 9.50331 15.9072 9.69571 15.739C10.4245 15.1023 11.1267 14.5043 11.7463 13.9769L11.7466 13.9767C13.5596 12.4329 15.1253 11.0997 16.2149 9.78616C17.4328 8.31791 18 6.92567 18 5.40473C18 3.92701 17.493 2.56372 16.5722 1.56581C15.6404 0.556101 14.3617 0 12.9717 0C11.9327 0 10.9811 0.3282 10.1435 0.975406C9.7207 1.3021 9.33769 1.70192 9 2.16828C8.66245 1.70192 8.2793 1.3021 7.8566 0.975406C7.01903 0.3282 6.06747 0 5.02844 0C3.63826 0 2.35973 0.556101 1.42795 1.56581C0.507156 2.56372 0 3.92701 0 5.40473C0 6.92567 0.567307 8.31791 1.78528 9.7863C2.87485 11.0998 4.44081 12.4332 6.25424 13.9772L6.2574 13.9799C6.87593 14.5065 7.577 15.1035 8.30415 15.7388Z"
+                  fill="" />
+              </svg>
+              <sup>2</sup>
+            </a>
+            <div class="plan-trip">
+              <button class="bh-btn bh-btn-plan">Plan a Trip</button>
+            </div>
+            <?php if($isAuthenticated): ?>
+            <div class="profile menu-has-children">
+              <div class="profile-image menu-has-children">
+                <a href="#">
+                  <img src="<?php echo get_parent_theme_file_uri()?>/assets/images/profile.png" alt=""
+                    class="img-fluid">
+                </a>
+              </div>
+              <ul class="dropdown-items">
+                <li class="dropdown-menu-item">
+                  <a href="#">
+                    <img src="<?php echo get_parent_theme_file_uri()?>/assets/images/profile.png" alt=""
+                      class="img-fluid">
+                    <span class="sm-text">Go to Dashboard</span>
+                  </a>
+                </li>
+                <li class="dropdown-menu-item">
+                  <a href="#">
+                    <img src="<?php echo get_parent_theme_file_uri()?>/assets/images/icons/logout.svg" alt=""
+                      class="img-fluid">
+                    <span class="sm-text">Logout</span>
+                  </a>
+                </li>
+              </ul>
+            </div>
+            <?php else: ?>
+            <div class="login">
+              <a href="#" class="bh-btn bh-btn-filled-light">Login</a>
+            </div>
+            <?php endif; ?>
+
+
+          </div>
+        </div>
+      </div>
     </div>
   </header>
+
   <main>
