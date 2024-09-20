@@ -20,13 +20,13 @@
   <?php
   $isAuthenticated=true;
   ?>
-  <header class="header front-page-header">
+  <header class="header <?php if(is_front_page()) echo 'front-page-header'; ?>">
     <div class="container">
       <div class="header-content-box">
         <!-- Primary Header For Desktop -->
         <div class="header-content-wrapper d-flex justify-content-between align-items-center">
           <div class="header-logo">
-            <a href="<?php get_home_url()?>">
+            <a href="<?php echo get_home_url()?>">
               <img src="<?php echo get_parent_theme_file_uri()?>/assets/images/logo.svg" alt="" class="img-fluid">
             </a>
           </div>

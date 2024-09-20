@@ -1,5 +1,19 @@
 .header {
 	padding: 24px 0;
+	&:not(.front-page-header) {
+		background-color: #fff;
+
+		.bh-btn {
+			&-plan {
+				color: $darkGreen;
+				border-color: $darkGreen;
+			}
+			&-filled-light {
+				background-color: $darkGreen;
+				color: $white;
+			}
+		}
+	}
 
 	&.front-page-header {
 		position: absolute;
@@ -14,6 +28,15 @@
 					> a {
 						color: #fff;
 					}
+				}
+			}
+		}
+
+		.menu-has-children,
+		.mega-menu {
+			> a {
+				&::after {
+					background-image: url(../images/icons/triangle-down.svg);
 				}
 			}
 		}
@@ -56,7 +79,7 @@
 				top: 50%;
 				transform: translateY(-50%);
 				right: 0;
-				background-image: url(../images/icons/triangle-down.svg);
+				background-image: url(../images/icons/triangle-down-dark.svg);
 				background-position: center;
 				background-repeat: no-repeat;
 				background-size: contain;

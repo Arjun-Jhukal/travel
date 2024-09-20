@@ -1,5 +1,5 @@
 </main>
-<footer class="footer bg-white">
+<footer class="footer ">
   <div class="footer-animate">
     <div class="fa-content-wrapper">
       <h2 class="text-center">

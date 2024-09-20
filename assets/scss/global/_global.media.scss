@@ -48,6 +48,64 @@
 	.section-gap {
 		margin-bottom: 96px;
 	}
+
+	.package-item {
+		&.package-horizontal {
+			box-shadow: none;
+			background-color: #fff;
+			padding: 12px 24px 12px 12px;
+
+			.pi-image {
+				border-radius: 4px;
+				overflow: hidden;
+			}
+
+			.pi-content {
+				padding: 0 110px 0 0;
+				border-right: 1px solid rgba(0, 0, 0, 0.1);
+
+				> small {
+					margin-bottom: 24px;
+				}
+			}
+			.pl-key-indicator {
+				margin-bottom: 0;
+
+				img {
+					width: 18px;
+					height: 18px;
+					margin-top: -4px;
+				}
+
+				small {
+					font-size: 16px;
+					font-weight: 600;
+					line-height: 148%;
+					letter-spacing: -0.08px;
+				}
+				span {
+					small {
+						&:not(:last-child) {
+							font-size: 14px;
+							font-weight: 400;
+							line-height: 140%;
+							letter-spacing: -0.035px;
+						}
+					}
+				}
+			}
+			.price-wrapper {
+				margin-bottom: 24px;
+			}
+			.package-btn-group {
+				a {
+					&:first-child {
+						margin-bottom: 8px;
+					}
+				}
+			}
+		}
+	}
 }
 
 @media (min-width: 1300px) {

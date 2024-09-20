@@ -1,0 +1,29 @@
+.wishlist-auth-message {
+	padding: 60px 0;
+	box-shadow: 0px 1px 12px 0px rgba(0, 0, 0, 0.08);
+
+	.wam-content {
+		max-width: 588px;
+		margin: 0 auto;
+		h6 {
+			margin-bottom: 32px;
+		}
+
+		.bh-btn {
+			width: 310px;
+			text-align: center;
+		}
+	}
+}
+
+@media (min-width: 768px) {
+	.wishlist-auth-message {
+		padding: 80px 0;
+	}
+}
+
+@media (min-width: 991px) {
+	.wishlist-auth-message {
+		padding: 96px 0;
+	}
+}
