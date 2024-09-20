@@ -217,11 +217,12 @@ button {
 		width: 12px;
 		height: 12px;
 		border-radius: 50%;
-		border: 1px solid $secondary;
+		background-color: $secondary;
+		opacity: 0.2;
 
 		&.slick-active {
-			background-color: $darkGreen;
-			border-color: $darkGreen;
+			background-color: $lightGreen;
+			opacity: 1;
 		}
 
 		* {
