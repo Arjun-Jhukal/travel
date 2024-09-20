@@ -1,6 +1,6 @@
 <section class="destinations section-gap">
   <div class=" container">
-    <div class="section-title d-flex justify-content-between align-items-center">
+    <div class="section-title d-flex justify-content-between align-items-center flex-wrap">
       <h2>Uncover the Hottest <span>Destinations of the Season</span></h2>
       <a href="#" class="bh-btn bh-btn-filled-dark">View All</a>
     </div>
