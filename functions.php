@@ -1,7 +1,7 @@
 <?php
-// require 'includes/gutenberg/blocks.php';
 require_once get_template_directory() . '/inc/utils.php';
 require_once get_template_directory() . '/inc/enqueue.php';
+require_once get_template_directory() . '/inc/acf-blocks.php';
 function boldhimalaya_theme_support()
 {
     add_theme_support('title-tag');
