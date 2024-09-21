@@ -32,7 +32,7 @@
           </div>
           <div class="primary-menu">
             <ul class="d-lg-flex justify-content-center align-items-center">
-              <li class="mega-menu mega-destinations"><a href="#">Destinations</a></li>
+              <li class="mega-menu mega-destinations "><a href="#">Destinations</a></li>
               <li class="mega-menu mega-activities"><a href="#">Activities</a></li>
               <li class="menu-has-children">
                 <a href="#">Travel Styles</a>
@@ -126,6 +126,17271 @@
             <?php endif; ?>
 
 
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="mega-menu-box">
+        <div class="mega-menu-wrapper " id="mega-destinations">
+          <div class="mm-container">
+            <div class="row">
+              <div class="col-lg-3">
+                <ul class="mm-controller">
+                  <li class="dropdown-menu-item active">
+                    <a href="#nepal">
+                      <p>
+                        <img src="<?php echo get_parent_theme_file_uri()?>/assets/images/destinaton-01.png" alt=""
+                          class="img-fluid">
+                        <span>Nepal</span>
+                      </p>
+                    </a>
+                  </li>
+                  <li class="dropdown-menu-item">
+                    <a href="#india">
+                      <p>
+                        <img src="<?php echo get_parent_theme_file_uri()?>/assets/images/destinaton-02.png" alt=""
+                          class="img-fluid">
+                        <span>India</span>
+                      </p>
+                    </a>
+                  </li>
+                  <li class="dropdown-menu-item ">
+                    <a href="#vietnam">
+                      <p>
+                        <img src="<?php echo get_parent_theme_file_uri()?>/assets/images/destinaton-03.png" alt=""
+                          class="img-fluid">
+                        <span>Vietnam</span>
+                      </p>
+                    </a>
+                  </li>
+                  <li class="dropdown-menu-item ">
+                    <a href="#new_zealand">
+                      <p>
+                        <img src="<?php echo get_parent_theme_file_uri()?>/assets/images/destinaton-04.png" alt=""
+                          class="img-fluid">
+                        <span>New Zealand</span>
+                      </p>
+                    </a>
+                  </li>
+                  <li class="dropdown-menu-item ">
+                    <a href="#dubai">
+                      <p>
+                        <img src="<?php echo get_parent_theme_file_uri()?>/assets/images/destinaton-05.png" alt=""
+                          class="img-fluid">
+                        <span>Dubai</span>
+                      </p>
+                    </a>
+                  </li>
+                  <li class="dropdown-menu-item ">
+                    <a href="#thailand">
+                      <p>
+                        <img src="<?php echo get_parent_theme_file_uri()?>/assets/images/destinaton-06.png" alt=""
+                          class="img-fluid">
+                        <span>Thailand</span>
+                      </p>
+                    </a>
+                  </li>
+                  <li class="dropdown-menu-item ">
+                    <a href="#europe">
+                      <p>
+                        <img src="<?php echo get_parent_theme_file_uri()?>/assets/images/destinaton-07.png" alt=""
+                          class="img-fluid">
+                        <span>Europe</span>
+                      </p>
+                    </a>
+                  </li>
+                  <li class="dropdown-menu-item ">
+                    <a href="#fizi">
+                      <p>
+                        <img src="<?php echo get_parent_theme_file_uri()?>/assets/images/destinaton-08.png" alt=""
+                          class="img-fluid">
+                        <span>Fiji</span>
+                      </p>
+                    </a>
+                  </li>
+                  <li class="dropdown-menu-item ">
+                    <a href=" #srilanka">
+                      <p>
+                        <img src="<?php echo get_parent_theme_file_uri()?>/assets/images/destinaton-09.png" alt=""
+                          class="img-fluid">
+                        <span>Srilanka</span>
+                      </p>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+              <div class="col-lg-9">
+                <div class="tab-content-wrapper">
+                  <div class="tab-content active" id="nepal">
+                    <div class="tc-header d-flex justify-content-between align-items-center">
+                      <div class="dropdown-menu-item d-flex justify-content-start align-items-center">
+                        <img src="<?php echo get_parent_theme_file_uri()?>/assets/images/destinaton-01.png" alt=""
+                          class="img-fluid">
+                        <h4 class="d-inline-block">Nepal</h4>
+                      </div>
+                      <a href="#" class="bh-btn bh-btn-filled-dark">View Nepal in Detail</a>
+                    </div>
+                    <ul class="inner-tab d-flex justify-content-center align-items-center">
+                      <li class="active"><a href="#itc1">Trekking/Hiking</a></li>
+                      <li><a href="#itc2">Hunting</a></li>
+                      <li><a href="#itc3">Water Sports</a></li>
+                      <li><a href="#itc4">Spritual Religious</a></li>
+                      <li><a href="#itc5">Wildlife & Nature</a></li>
+                      <li><a href="#itc6">Tours & Sightseen</a></li>
+                    </ul>
+                    <div class="tc-list-box">
+                      <div class="inner-tab-content active" id="itc1">
+                        <div class="row">
+                          <div class="col-md-6 col-lg-4">
+                            <div class="tclb-item">
+                              <h6>Everest Region</h6>
+                              <ul>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Gokyo Chola Pass Kalapatthar Trekking
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest View Trek
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest Basecamp Trek
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                          <div class="col-md-6 col-lg-4">
+                            <div class="tclb-item">
+                              <h6>Annapurna Region</h6>
+                              <ul>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title="Everest Basecamp Trek">
+                                    Everest Basecamp Trek
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title="Annapurna Circuit Trek">
+                                    Annapurna Circuit Trek
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Annapurna Basecamp Trek">
+                                    Annapurna Basecamp Trek
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title="Annapurna Circuit Trek">
+                                    Annapurna Circuit Trek
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                          <div class="col-md-6 col-lg-4">
+                            <div class="tclb-item">
+                              <h6>Manaslu Region</h6>
+                              <ul>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title="Everest Basecamp Trek">
+                                    Everest Basecamp Trek
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title="Annapurna Circuit Trek">
+                                    Annapurna Circuit Trek
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Annapurna Basecamp Trek">
+                                    Annapurna Basecamp Trek
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title="Annapurna Circuit Trek">
+                                    Annapurna Circuit Trek
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                          <div class="col-md-6 col-lg-4">
+                            <div class="tclb-item">
+                              <h6>Langtang Region</h6>
+                              <ul>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title="Everest Basecamp Trek">
+                                    Everest Basecamp Trek
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title="Annapurna Circuit Trek">
+                                    Annapurna Circuit Trek
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Annapurna Basecamp Trek">
+                                    Annapurna Basecamp Trek
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title="Annapurna Circuit Trek">
+                                    Annapurna Circuit Trek
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                          <div class="col-md-6 col-lg-4">
+                            <div class="tclb-item">
+                              <h6>Kanchanjunga Region</h6>
+                              <ul>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title="Gokyo Chola Pass Kalapatthar Trekking">
+                                    Gokyo Chola Pass Kalapatthar Trekking
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest View Trek
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest Basecamp Trek
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                          <div class="col-md-6 col-lg-4">
+                            <div class="tclb-item">
+                              <h6>Dhaulagiri Region</h6>
+                              <ul>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title="Everest Basecamp Trek">
+                                    Everest Basecamp Trek
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title="Annapurna Circuit Trek">
+                                    Annapurna Circuit Trek
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Annapurna Basecamp Trek">
+                                    Annapurna Basecamp Trek
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title="Annapurna Circuit Trek">
+                                    Annapurna Circuit Trek
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="inner-tab-content" id="itc2">
+                        <div class="row">
+                          <div class="col-md-6 col-lg-4">
+                            <div class="tclb-item">
+                              <h6>Everest Region 2</h6>
+                              <ul>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Gokyo Chola Pass Kalapatthar Trekking
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest View Trek
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest Basecamp Trek
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                          <div class="col-md-6 col-lg-4">
+                            <div class="tclb-item">
+                              <h6>Everest Region</h6>
+                              <ul>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Gokyo Chola Pass Kalapatthar Trekking
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest View Trek
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest Basecamp Trek
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                          <div class="col-md-6 col-lg-4">
+                            <div class="tclb-item">
+                              <h6>Everest Region</h6>
+                              <ul>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Gokyo Chola Pass Kalapatthar Trekking
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest View Trek
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest Basecamp Trek
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                          <div class="col-md-6 col-lg-4">
+                            <div class="tclb-item">
+                              <h6>Everest Region</h6>
+                              <ul>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Gokyo Chola Pass Kalapatthar Trekking
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest View Trek
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest Basecamp Trek
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                          <div class="col-md-6 col-lg-4">
+                            <div class="tclb-item">
+                              <h6>Everest Region</h6>
+                              <ul>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Gokyo Chola Pass Kalapatthar Trekking
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest View Trek
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest Basecamp Trek
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                          <div class="col-md-6 col-lg-4">
+                            <div class="tclb-item">
+                              <h6>Everest Region</h6>
+                              <ul>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Gokyo Chola Pass Kalapatthar Trekking
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest View Trek
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest Basecamp Trek
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="inner-tab-content" id="itc3">
+                        <div class="row">
+                          <div class="col-md-6 col-lg-4">
+                            <div class="tclb-item">
+                              <h6>Everest Region 3</h6>
+                              <ul>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Gokyo Chola Pass Kalapatthar Trekking
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest View Trek
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest Basecamp Trek
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                          <div class="col-md-6 col-lg-4">
+                            <div class="tclb-item">
+                              <h6>Everest Region</h6>
+                              <ul>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Gokyo Chola Pass Kalapatthar Trekking
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest View Trek
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest Basecamp Trek
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                          <div class="col-md-6 col-lg-4">
+                            <div class="tclb-item">
+                              <h6>Everest Region</h6>
+                              <ul>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Gokyo Chola Pass Kalapatthar Trekking
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest View Trek
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest Basecamp Trek
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                          <div class="col-md-6 col-lg-4">
+                            <div class="tclb-item">
+                              <h6>Everest Region</h6>
+                              <ul>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Gokyo Chola Pass Kalapatthar Trekking
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest View Trek
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest Basecamp Trek
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                          <div class="col-md-6 col-lg-4">
+                            <div class="tclb-item">
+                              <h6>Everest Region</h6>
+                              <ul>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Gokyo Chola Pass Kalapatthar Trekking
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest View Trek
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest Basecamp Trek
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                          <div class="col-md-6 col-lg-4">
+                            <div class="tclb-item">
+                              <h6>Everest Region</h6>
+                              <ul>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Gokyo Chola Pass Kalapatthar Trekking
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest View Trek
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest Basecamp Trek
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="inner-tab-content" id="itc4">
+                        <div class="row">
+                          <div class="col-md-6 col-lg-4">
+                            <div class="tclb-item">
+                              <h6>Everest Region 4</h6>
+                              <ul>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Gokyo Chola Pass Kalapatthar Trekking
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest View Trek
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest Basecamp Trek
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                          <div class="col-md-6 col-lg-4">
+                            <div class="tclb-item">
+                              <h6>Everest Region</h6>
+                              <ul>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Gokyo Chola Pass Kalapatthar Trekking
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest View Trek
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest Basecamp Trek
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                          <div class="col-md-6 col-lg-4">
+                            <div class="tclb-item">
+                              <h6>Everest Region</h6>
+                              <ul>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Gokyo Chola Pass Kalapatthar Trekking
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest View Trek
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest Basecamp Trek
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                          <div class="col-md-6 col-lg-4">
+                            <div class="tclb-item">
+                              <h6>Everest Region</h6>
+                              <ul>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Gokyo Chola Pass Kalapatthar Trekking
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest View Trek
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest Basecamp Trek
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                          <div class="col-md-6 col-lg-4">
+                            <div class="tclb-item">
+                              <h6>Everest Region</h6>
+                              <ul>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Gokyo Chola Pass Kalapatthar Trekking
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest View Trek
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest Basecamp Trek
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                          <div class="col-md-6 col-lg-4">
+                            <div class="tclb-item">
+                              <h6>Everest Region</h6>
+                              <ul>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Gokyo Chola Pass Kalapatthar Trekking
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest View Trek
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest Basecamp Trek
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="inner-tab-content" id="itc5">
+                        <div class="row">
+                          <div class="col-md-6 col-lg-4">
+                            <div class="tclb-item">
+                              <h6>Everest Region 5</h6>
+                              <ul>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Gokyo Chola Pass Kalapatthar Trekking
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest View Trek
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest Basecamp Trek
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                          <div class="col-md-6 col-lg-4">
+                            <div class="tclb-item">
+                              <h6>Everest Region</h6>
+                              <ul>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Gokyo Chola Pass Kalapatthar Trekking
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest View Trek
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest Basecamp Trek
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                          <div class="col-md-6 col-lg-4">
+                            <div class="tclb-item">
+                              <h6>Everest Region</h6>
+                              <ul>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Gokyo Chola Pass Kalapatthar Trekking
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest View Trek
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest Basecamp Trek
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                          <div class="col-md-6 col-lg-4">
+                            <div class="tclb-item">
+                              <h6>Everest Region</h6>
+                              <ul>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Gokyo Chola Pass Kalapatthar Trekking
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest View Trek
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest Basecamp Trek
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                          <div class="col-md-6 col-lg-4">
+                            <div class="tclb-item">
+                              <h6>Everest Region</h6>
+                              <ul>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Gokyo Chola Pass Kalapatthar Trekking
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest View Trek
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest Basecamp Trek
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                          <div class="col-md-6 col-lg-4">
+                            <div class="tclb-item">
+                              <h6>Everest Region</h6>
+                              <ul>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Gokyo Chola Pass Kalapatthar Trekking
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest View Trek
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest Basecamp Trek
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="inner-tab-content" id="itc6">
+                        <div class="row">
+                          <div class="col-md-6 col-lg-4">
+                            <div class="tclb-item">
+                              <h6>Everest Region 6</h6>
+                              <ul>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Gokyo Chola Pass Kalapatthar Trekking
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest View Trek
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest Basecamp Trek
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                          <div class="col-md-6 col-lg-4">
+                            <div class="tclb-item">
+                              <h6>Everest Region</h6>
+                              <ul>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Gokyo Chola Pass Kalapatthar Trekking
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest View Trek
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest Basecamp Trek
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                          <div class="col-md-6 col-lg-4">
+                            <div class="tclb-item">
+                              <h6>Everest Region</h6>
+                              <ul>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Gokyo Chola Pass Kalapatthar Trekking
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest View Trek
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest Basecamp Trek
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                          <div class="col-md-6 col-lg-4">
+                            <div class="tclb-item">
+                              <h6>Everest Region</h6>
+                              <ul>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Gokyo Chola Pass Kalapatthar Trekking
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest View Trek
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest Basecamp Trek
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                          <div class="col-md-6 col-lg-4">
+                            <div class="tclb-item">
+                              <h6>Everest Region</h6>
+                              <ul>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Gokyo Chola Pass Kalapatthar Trekking
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest View Trek
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest Basecamp Trek
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                          <div class="col-md-6 col-lg-4">
+                            <div class="tclb-item">
+                              <h6>Everest Region</h6>
+                              <ul>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Gokyo Chola Pass Kalapatthar Trekking
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest View Trek
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest Basecamp Trek
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="text-center">
+                      <a href="#" class="bh-btn bh-btn-filled-dark">View Trekking in Detail</a>
+                    </div>
+                  </div>
+                  <div class="tab-content" id="india">
+                    <div class="tc-header d-flex justify-content-between align-items-center">
+                      <div class="dropdown-menu-item d-flex justify-content-start align-items-center">
+                        <img src="<?php echo get_parent_theme_file_uri()?>/assets/images/destinaton-02.png" alt=""
+                          class="img-fluid">
+                        <h4 class="d-inline-block">India</h4>
+                      </div>
+                      <a href="#" class="bh-btn bh-btn-filled-dark">View Nepal in Detail</a>
+                    </div>
+                    <ul class="inner-tab d-flex justify-content-center align-items-center">
+                      <li class="active"><a href="#itc1">Trekking/Hiking</a></li>
+                      <li><a href="#itc2">Hunting</a></li>
+                      <li><a href="#itc3">Water Sports</a></li>
+                      <li><a href="#itc4">Spritual Religious</a></li>
+                      <li><a href="#itc5">Wildlife & Nature</a></li>
+                      <li><a href="#itc6">Tours & Sightseen</a></li>
+                    </ul>
+                    <div class="tc-list-box">
+                      <div class="inner-tab-content active" id="itc1">
+                        <div class="row">
+                          <div class="col-md-6 col-lg-4">
+                            <div class="tclb-item">
+                              <h6>Everest Region</h6>
+                              <ul>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Gokyo Chola Pass Kalapatthar Trekking
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest View Trek
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest Basecamp Trek
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                          <div class="col-md-6 col-lg-4">
+                            <div class="tclb-item">
+                              <h6>Everest Region</h6>
+                              <ul>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Gokyo Chola Pass Kalapatthar Trekking
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest View Trek
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest Basecamp Trek
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                          <div class="col-md-6 col-lg-4">
+                            <div class="tclb-item">
+                              <h6>Everest Region</h6>
+                              <ul>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Gokyo Chola Pass Kalapatthar Trekking
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest View Trek
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest Basecamp Trek
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                          <div class="col-md-6 col-lg-4">
+                            <div class="tclb-item">
+                              <h6>Everest Region</h6>
+                              <ul>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Gokyo Chola Pass Kalapatthar Trekking
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest View Trek
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest Basecamp Trek
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                          <div class="col-md-6 col-lg-4">
+                            <div class="tclb-item">
+                              <h6>Everest Region</h6>
+                              <ul>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Gokyo Chola Pass Kalapatthar Trekking
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest View Trek
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest Basecamp Trek
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                          <div class="col-md-6 col-lg-4">
+                            <div class="tclb-item">
+                              <h6>Everest Region</h6>
+                              <ul>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Gokyo Chola Pass Kalapatthar Trekking
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest View Trek
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest Basecamp Trek
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="inner-tab-content" id="itc2">
+                        <div class="row">
+                          <div class="col-md-6 col-lg-4">
+                            <div class="tclb-item">
+                              <h6>Everest Region 2</h6>
+                              <ul>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Gokyo Chola Pass Kalapatthar Trekking
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest View Trek
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest Basecamp Trek
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                          <div class="col-md-6 col-lg-4">
+                            <div class="tclb-item">
+                              <h6>Everest Region</h6>
+                              <ul>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Gokyo Chola Pass Kalapatthar Trekking
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest View Trek
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest Basecamp Trek
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                          <div class="col-md-6 col-lg-4">
+                            <div class="tclb-item">
+                              <h6>Everest Region</h6>
+                              <ul>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Gokyo Chola Pass Kalapatthar Trekking
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest View Trek
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest Basecamp Trek
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                          <div class="col-md-6 col-lg-4">
+                            <div class="tclb-item">
+                              <h6>Everest Region</h6>
+                              <ul>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Gokyo Chola Pass Kalapatthar Trekking
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest View Trek
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest Basecamp Trek
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                          <div class="col-md-6 col-lg-4">
+                            <div class="tclb-item">
+                              <h6>Everest Region</h6>
+                              <ul>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Gokyo Chola Pass Kalapatthar Trekking
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest View Trek
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest Basecamp Trek
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                          <div class="col-md-6 col-lg-4">
+                            <div class="tclb-item">
+                              <h6>Everest Region</h6>
+                              <ul>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Gokyo Chola Pass Kalapatthar Trekking
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest View Trek
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest Basecamp Trek
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="inner-tab-content" id="itc3">
+                        <div class="row">
+                          <div class="col-md-6 col-lg-4">
+                            <div class="tclb-item">
+                              <h6>Everest Region 3</h6>
+                              <ul>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Gokyo Chola Pass Kalapatthar Trekking
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest View Trek
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest Basecamp Trek
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                          <div class="col-md-6 col-lg-4">
+                            <div class="tclb-item">
+                              <h6>Everest Region</h6>
+                              <ul>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Gokyo Chola Pass Kalapatthar Trekking
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest View Trek
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest Basecamp Trek
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                          <div class="col-md-6 col-lg-4">
+                            <div class="tclb-item">
+                              <h6>Everest Region</h6>
+                              <ul>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Gokyo Chola Pass Kalapatthar Trekking
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest View Trek
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest Basecamp Trek
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                          <div class="col-md-6 col-lg-4">
+                            <div class="tclb-item">
+                              <h6>Everest Region</h6>
+                              <ul>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Gokyo Chola Pass Kalapatthar Trekking
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest View Trek
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest Basecamp Trek
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                          <div class="col-md-6 col-lg-4">
+                            <div class="tclb-item">
+                              <h6>Everest Region</h6>
+                              <ul>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Gokyo Chola Pass Kalapatthar Trekking
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest View Trek
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest Basecamp Trek
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                          <div class="col-md-6 col-lg-4">
+                            <div class="tclb-item">
+                              <h6>Everest Region</h6>
+                              <ul>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Gokyo Chola Pass Kalapatthar Trekking
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest View Trek
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest Basecamp Trek
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="inner-tab-content" id="itc4">
+                        <div class="row">
+                          <div class="col-md-6 col-lg-4">
+                            <div class="tclb-item">
+                              <h6>Everest Region 4</h6>
+                              <ul>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Gokyo Chola Pass Kalapatthar Trekking
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest View Trek
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest Basecamp Trek
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                          <div class="col-md-6 col-lg-4">
+                            <div class="tclb-item">
+                              <h6>Everest Region</h6>
+                              <ul>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Gokyo Chola Pass Kalapatthar Trekking
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest View Trek
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest Basecamp Trek
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                          <div class="col-md-6 col-lg-4">
+                            <div class="tclb-item">
+                              <h6>Everest Region</h6>
+                              <ul>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Gokyo Chola Pass Kalapatthar Trekking
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest View Trek
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest Basecamp Trek
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                          <div class="col-md-6 col-lg-4">
+                            <div class="tclb-item">
+                              <h6>Everest Region</h6>
+                              <ul>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Gokyo Chola Pass Kalapatthar Trekking
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest View Trek
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest Basecamp Trek
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                          <div class="col-md-6 col-lg-4">
+                            <div class="tclb-item">
+                              <h6>Everest Region</h6>
+                              <ul>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Gokyo Chola Pass Kalapatthar Trekking
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest View Trek
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest Basecamp Trek
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                          <div class="col-md-6 col-lg-4">
+                            <div class="tclb-item">
+                              <h6>Everest Region</h6>
+                              <ul>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Gokyo Chola Pass Kalapatthar Trekking
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest View Trek
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest Basecamp Trek
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="inner-tab-content" id="itc5">
+                        <div class="row">
+                          <div class="col-md-6 col-lg-4">
+                            <div class="tclb-item">
+                              <h6>Everest Region 5</h6>
+                              <ul>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Gokyo Chola Pass Kalapatthar Trekking
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest View Trek
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest Basecamp Trek
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                          <div class="col-md-6 col-lg-4">
+                            <div class="tclb-item">
+                              <h6>Everest Region</h6>
+                              <ul>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Gokyo Chola Pass Kalapatthar Trekking
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest View Trek
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest Basecamp Trek
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                          <div class="col-md-6 col-lg-4">
+                            <div class="tclb-item">
+                              <h6>Everest Region</h6>
+                              <ul>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Gokyo Chola Pass Kalapatthar Trekking
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest View Trek
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest Basecamp Trek
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                          <div class="col-md-6 col-lg-4">
+                            <div class="tclb-item">
+                              <h6>Everest Region</h6>
+                              <ul>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Gokyo Chola Pass Kalapatthar Trekking
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest View Trek
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest Basecamp Trek
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                          <div class="col-md-6 col-lg-4">
+                            <div class="tclb-item">
+                              <h6>Everest Region</h6>
+                              <ul>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Gokyo Chola Pass Kalapatthar Trekking
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest View Trek
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest Basecamp Trek
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                          <div class="col-md-6 col-lg-4">
+                            <div class="tclb-item">
+                              <h6>Everest Region</h6>
+                              <ul>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Gokyo Chola Pass Kalapatthar Trekking
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest View Trek
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest Basecamp Trek
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="inner-tab-content" id="itc6">
+                        <div class="row">
+                          <div class="col-md-6 col-lg-4">
+                            <div class="tclb-item">
+                              <h6>Everest Region 6</h6>
+                              <ul>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Gokyo Chola Pass Kalapatthar Trekking
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest View Trek
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest Basecamp Trek
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                          <div class="col-md-6 col-lg-4">
+                            <div class="tclb-item">
+                              <h6>Everest Region</h6>
+                              <ul>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Gokyo Chola Pass Kalapatthar Trekking
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest View Trek
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest Basecamp Trek
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                          <div class="col-md-6 col-lg-4">
+                            <div class="tclb-item">
+                              <h6>Everest Region</h6>
+                              <ul>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Gokyo Chola Pass Kalapatthar Trekking
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest View Trek
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest Basecamp Trek
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                          <div class="col-md-6 col-lg-4">
+                            <div class="tclb-item">
+                              <h6>Everest Region</h6>
+                              <ul>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Gokyo Chola Pass Kalapatthar Trekking
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest View Trek
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest Basecamp Trek
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                          <div class="col-md-6 col-lg-4">
+                            <div class="tclb-item">
+                              <h6>Everest Region</h6>
+                              <ul>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Gokyo Chola Pass Kalapatthar Trekking
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest View Trek
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest Basecamp Trek
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                          <div class="col-md-6 col-lg-4">
+                            <div class="tclb-item">
+                              <h6>Everest Region</h6>
+                              <ul>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Gokyo Chola Pass Kalapatthar Trekking
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest View Trek
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest Basecamp Trek
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="text-center">
+                      <a href="#" class="bh-btn bh-btn-filled-dark">View Trekking in Detail</a>
+                    </div>
+                  </div>
+                  <div class="tab-content" id="vietnam">
+                    <div class="tc-header d-flex justify-content-between align-items-center">
+                      <div class="dropdown-menu-item d-flex justify-content-start align-items-center">
+                        <img src="<?php echo get_parent_theme_file_uri()?>/assets/images/destinaton-03.png" alt=""
+                          class="img-fluid">
+                        <h4 class="d-inline-block">Vietnam</h4>
+                      </div>
+                      <a href="#" class="bh-btn bh-btn-filled-dark">View Nepal in Detail</a>
+                    </div>
+                    <ul class="inner-tab d-flex justify-content-center align-items-center">
+                      <li class="active"><a href="#itc1">Trekking/Hiking</a></li>
+                      <li><a href="#itc2">Hunting</a></li>
+                      <li><a href="#itc3">Water Sports</a></li>
+                      <li><a href="#itc4">Spritual Religious</a></li>
+                      <li><a href="#itc5">Wildlife & Nature</a></li>
+                      <li><a href="#itc6">Tours & Sightseen</a></li>
+                    </ul>
+                    <div class="tc-list-box">
+                      <div class="inner-tab-content active" id="itc1">
+                        <div class="row">
+                          <div class="col-md-6 col-lg-4">
+                            <div class="tclb-item">
+                              <h6>Everest Region</h6>
+                              <ul>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Gokyo Chola Pass Kalapatthar Trekking
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest View Trek
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest Basecamp Trek
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                          <div class="col-md-6 col-lg-4">
+                            <div class="tclb-item">
+                              <h6>Everest Region</h6>
+                              <ul>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Gokyo Chola Pass Kalapatthar Trekking
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest View Trek
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest Basecamp Trek
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                          <div class="col-md-6 col-lg-4">
+                            <div class="tclb-item">
+                              <h6>Everest Region</h6>
+                              <ul>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Gokyo Chola Pass Kalapatthar Trekking
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest View Trek
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest Basecamp Trek
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                          <div class="col-md-6 col-lg-4">
+                            <div class="tclb-item">
+                              <h6>Everest Region</h6>
+                              <ul>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Gokyo Chola Pass Kalapatthar Trekking
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest View Trek
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest Basecamp Trek
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                          <div class="col-md-6 col-lg-4">
+                            <div class="tclb-item">
+                              <h6>Everest Region</h6>
+                              <ul>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Gokyo Chola Pass Kalapatthar Trekking
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest View Trek
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest Basecamp Trek
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                          <div class="col-md-6 col-lg-4">
+                            <div class="tclb-item">
+                              <h6>Everest Region</h6>
+                              <ul>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Gokyo Chola Pass Kalapatthar Trekking
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest View Trek
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest Basecamp Trek
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="inner-tab-content" id="itc2">
+                        <div class="row">
+                          <div class="col-md-6 col-lg-4">
+                            <div class="tclb-item">
+                              <h6>Everest Region 2</h6>
+                              <ul>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Gokyo Chola Pass Kalapatthar Trekking
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest View Trek
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest Basecamp Trek
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                          <div class="col-md-6 col-lg-4">
+                            <div class="tclb-item">
+                              <h6>Everest Region</h6>
+                              <ul>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Gokyo Chola Pass Kalapatthar Trekking
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest View Trek
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest Basecamp Trek
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                          <div class="col-md-6 col-lg-4">
+                            <div class="tclb-item">
+                              <h6>Everest Region</h6>
+                              <ul>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Gokyo Chola Pass Kalapatthar Trekking
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest View Trek
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest Basecamp Trek
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                          <div class="col-md-6 col-lg-4">
+                            <div class="tclb-item">
+                              <h6>Everest Region</h6>
+                              <ul>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Gokyo Chola Pass Kalapatthar Trekking
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest View Trek
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest Basecamp Trek
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                          <div class="col-md-6 col-lg-4">
+                            <div class="tclb-item">
+                              <h6>Everest Region</h6>
+                              <ul>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Gokyo Chola Pass Kalapatthar Trekking
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest View Trek
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest Basecamp Trek
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                          <div class="col-md-6 col-lg-4">
+                            <div class="tclb-item">
+                              <h6>Everest Region</h6>
+                              <ul>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Gokyo Chola Pass Kalapatthar Trekking
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest View Trek
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest Basecamp Trek
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="inner-tab-content" id="itc3">
+                        <div class="row">
+                          <div class="col-md-6 col-lg-4">
+                            <div class="tclb-item">
+                              <h6>Everest Region 3</h6>
+                              <ul>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Gokyo Chola Pass Kalapatthar Trekking
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest View Trek
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest Basecamp Trek
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                          <div class="col-md-6 col-lg-4">
+                            <div class="tclb-item">
+                              <h6>Everest Region</h6>
+                              <ul>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Gokyo Chola Pass Kalapatthar Trekking
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest View Trek
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest Basecamp Trek
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                          <div class="col-md-6 col-lg-4">
+                            <div class="tclb-item">
+                              <h6>Everest Region</h6>
+                              <ul>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Gokyo Chola Pass Kalapatthar Trekking
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest View Trek
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest Basecamp Trek
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                          <div class="col-md-6 col-lg-4">
+                            <div class="tclb-item">
+                              <h6>Everest Region</h6>
+                              <ul>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Gokyo Chola Pass Kalapatthar Trekking
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest View Trek
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest Basecamp Trek
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                          <div class="col-md-6 col-lg-4">
+                            <div class="tclb-item">
+                              <h6>Everest Region</h6>
+                              <ul>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Gokyo Chola Pass Kalapatthar Trekking
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest View Trek
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest Basecamp Trek
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                          <div class="col-md-6 col-lg-4">
+                            <div class="tclb-item">
+                              <h6>Everest Region</h6>
+                              <ul>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Gokyo Chola Pass Kalapatthar Trekking
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest View Trek
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest Basecamp Trek
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="inner-tab-content" id="itc4">
+                        <div class="row">
+                          <div class="col-md-6 col-lg-4">
+                            <div class="tclb-item">
+                              <h6>Everest Region 4</h6>
+                              <ul>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Gokyo Chola Pass Kalapatthar Trekking
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest View Trek
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest Basecamp Trek
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                          <div class="col-md-6 col-lg-4">
+                            <div class="tclb-item">
+                              <h6>Everest Region</h6>
+                              <ul>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Gokyo Chola Pass Kalapatthar Trekking
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest View Trek
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest Basecamp Trek
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                          <div class="col-md-6 col-lg-4">
+                            <div class="tclb-item">
+                              <h6>Everest Region</h6>
+                              <ul>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Gokyo Chola Pass Kalapatthar Trekking
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest View Trek
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest Basecamp Trek
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                          <div class="col-md-6 col-lg-4">
+                            <div class="tclb-item">
+                              <h6>Everest Region</h6>
+                              <ul>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Gokyo Chola Pass Kalapatthar Trekking
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest View Trek
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest Basecamp Trek
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                          <div class="col-md-6 col-lg-4">
+                            <div class="tclb-item">
+                              <h6>Everest Region</h6>
+                              <ul>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Gokyo Chola Pass Kalapatthar Trekking
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest View Trek
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest Basecamp Trek
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                          <div class="col-md-6 col-lg-4">
+                            <div class="tclb-item">
+                              <h6>Everest Region</h6>
+                              <ul>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Gokyo Chola Pass Kalapatthar Trekking
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest View Trek
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest Basecamp Trek
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="inner-tab-content" id="itc5">
+                        <div class="row">
+                          <div class="col-md-6 col-lg-4">
+                            <div class="tclb-item">
+                              <h6>Everest Region 5</h6>
+                              <ul>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Gokyo Chola Pass Kalapatthar Trekking
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest View Trek
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest Basecamp Trek
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                          <div class="col-md-6 col-lg-4">
+                            <div class="tclb-item">
+                              <h6>Everest Region</h6>
+                              <ul>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Gokyo Chola Pass Kalapatthar Trekking
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest View Trek
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest Basecamp Trek
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                          <div class="col-md-6 col-lg-4">
+                            <div class="tclb-item">
+                              <h6>Everest Region</h6>
+                              <ul>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Gokyo Chola Pass Kalapatthar Trekking
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest View Trek
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest Basecamp Trek
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                          <div class="col-md-6 col-lg-4">
+                            <div class="tclb-item">
+                              <h6>Everest Region</h6>
+                              <ul>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Gokyo Chola Pass Kalapatthar Trekking
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest View Trek
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest Basecamp Trek
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                          <div class="col-md-6 col-lg-4">
+                            <div class="tclb-item">
+                              <h6>Everest Region</h6>
+                              <ul>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Gokyo Chola Pass Kalapatthar Trekking
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest View Trek
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest Basecamp Trek
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                          <div class="col-md-6 col-lg-4">
+                            <div class="tclb-item">
+                              <h6>Everest Region</h6>
+                              <ul>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Gokyo Chola Pass Kalapatthar Trekking
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest View Trek
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest Basecamp Trek
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="inner-tab-content" id="itc6">
+                        <div class="row">
+                          <div class="col-md-6 col-lg-4">
+                            <div class="tclb-item">
+                              <h6>Everest Region 6</h6>
+                              <ul>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Gokyo Chola Pass Kalapatthar Trekking
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest View Trek
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest Basecamp Trek
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                          <div class="col-md-6 col-lg-4">
+                            <div class="tclb-item">
+                              <h6>Everest Region</h6>
+                              <ul>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Gokyo Chola Pass Kalapatthar Trekking
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest View Trek
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest Basecamp Trek
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                          <div class="col-md-6 col-lg-4">
+                            <div class="tclb-item">
+                              <h6>Everest Region</h6>
+                              <ul>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Gokyo Chola Pass Kalapatthar Trekking
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest View Trek
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest Basecamp Trek
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                          <div class="col-md-6 col-lg-4">
+                            <div class="tclb-item">
+                              <h6>Everest Region</h6>
+                              <ul>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Gokyo Chola Pass Kalapatthar Trekking
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest View Trek
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest Basecamp Trek
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                          <div class="col-md-6 col-lg-4">
+                            <div class="tclb-item">
+                              <h6>Everest Region</h6>
+                              <ul>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Gokyo Chola Pass Kalapatthar Trekking
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest View Trek
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest Basecamp Trek
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                          <div class="col-md-6 col-lg-4">
+                            <div class="tclb-item">
+                              <h6>Everest Region</h6>
+                              <ul>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Gokyo Chola Pass Kalapatthar Trekking
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest View Trek
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest Basecamp Trek
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="text-center">
+                      <a href="#" class="bh-btn bh-btn-filled-dark">View Trekking in Detail</a>
+                    </div>
+                  </div>
+                  <div class="tab-content" id="new_zealand">
+                    <div class="tc-header d-flex justify-content-between align-items-center">
+                      <div class="dropdown-menu-item d-flex justify-content-start align-items-center">
+                        <img src="<?php echo get_parent_theme_file_uri()?>/assets/images/destinaton-04.png" alt=""
+                          class="img-fluid">
+                        <h4 class="d-inline-block">New Zealand</h4>
+                      </div>
+                      <a href="#" class="bh-btn bh-btn-filled-dark">View Nepal in Detail</a>
+                    </div>
+                    <ul class="inner-tab d-flex justify-content-center align-items-center">
+                      <li class="active"><a href="#itc1">Trekking/Hiking</a></li>
+                      <li><a href="#itc2">Hunting</a></li>
+                      <li><a href="#itc3">Water Sports</a></li>
+                      <li><a href="#itc4">Spritual Religious</a></li>
+                      <li><a href="#itc5">Wildlife & Nature</a></li>
+                      <li><a href="#itc6">Tours & Sightseen</a></li>
+                    </ul>
+                    <div class="tc-list-box">
+                      <div class="inner-tab-content active" id="itc1">
+                        <div class="row">
+                          <div class="col-md-6 col-lg-4">
+                            <div class="tclb-item">
+                              <h6>Everest Region</h6>
+                              <ul>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Gokyo Chola Pass Kalapatthar Trekking
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest View Trek
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest Basecamp Trek
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                          <div class="col-md-6 col-lg-4">
+                            <div class="tclb-item">
+                              <h6>Everest Region</h6>
+                              <ul>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Gokyo Chola Pass Kalapatthar Trekking
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest View Trek
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest Basecamp Trek
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                          <div class="col-md-6 col-lg-4">
+                            <div class="tclb-item">
+                              <h6>Everest Region</h6>
+                              <ul>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Gokyo Chola Pass Kalapatthar Trekking
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest View Trek
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest Basecamp Trek
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                          <div class="col-md-6 col-lg-4">
+                            <div class="tclb-item">
+                              <h6>Everest Region</h6>
+                              <ul>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Gokyo Chola Pass Kalapatthar Trekking
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest View Trek
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest Basecamp Trek
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                          <div class="col-md-6 col-lg-4">
+                            <div class="tclb-item">
+                              <h6>Everest Region</h6>
+                              <ul>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Gokyo Chola Pass Kalapatthar Trekking
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest View Trek
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest Basecamp Trek
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                          <div class="col-md-6 col-lg-4">
+                            <div class="tclb-item">
+                              <h6>Everest Region</h6>
+                              <ul>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Gokyo Chola Pass Kalapatthar Trekking
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest View Trek
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest Basecamp Trek
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="inner-tab-content" id="itc2">
+                        <div class="row">
+                          <div class="col-md-6 col-lg-4">
+                            <div class="tclb-item">
+                              <h6>Everest Region 2</h6>
+                              <ul>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Gokyo Chola Pass Kalapatthar Trekking
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest View Trek
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest Basecamp Trek
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                          <div class="col-md-6 col-lg-4">
+                            <div class="tclb-item">
+                              <h6>Everest Region</h6>
+                              <ul>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Gokyo Chola Pass Kalapatthar Trekking
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest View Trek
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest Basecamp Trek
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                          <div class="col-md-6 col-lg-4">
+                            <div class="tclb-item">
+                              <h6>Everest Region</h6>
+                              <ul>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Gokyo Chola Pass Kalapatthar Trekking
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest View Trek
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest Basecamp Trek
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                          <div class="col-md-6 col-lg-4">
+                            <div class="tclb-item">
+                              <h6>Everest Region</h6>
+                              <ul>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Gokyo Chola Pass Kalapatthar Trekking
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest View Trek
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest Basecamp Trek
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                          <div class="col-md-6 col-lg-4">
+                            <div class="tclb-item">
+                              <h6>Everest Region</h6>
+                              <ul>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Gokyo Chola Pass Kalapatthar Trekking
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest View Trek
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest Basecamp Trek
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                          <div class="col-md-6 col-lg-4">
+                            <div class="tclb-item">
+                              <h6>Everest Region</h6>
+                              <ul>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Gokyo Chola Pass Kalapatthar Trekking
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest View Trek
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest Basecamp Trek
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="inner-tab-content" id="itc3">
+                        <div class="row">
+                          <div class="col-md-6 col-lg-4">
+                            <div class="tclb-item">
+                              <h6>Everest Region 3</h6>
+                              <ul>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Gokyo Chola Pass Kalapatthar Trekking
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest View Trek
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest Basecamp Trek
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                          <div class="col-md-6 col-lg-4">
+                            <div class="tclb-item">
+                              <h6>Everest Region</h6>
+                              <ul>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Gokyo Chola Pass Kalapatthar Trekking
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest View Trek
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest Basecamp Trek
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                          <div class="col-md-6 col-lg-4">
+                            <div class="tclb-item">
+                              <h6>Everest Region</h6>
+                              <ul>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Gokyo Chola Pass Kalapatthar Trekking
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest View Trek
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest Basecamp Trek
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                          <div class="col-md-6 col-lg-4">
+                            <div class="tclb-item">
+                              <h6>Everest Region</h6>
+                              <ul>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Gokyo Chola Pass Kalapatthar Trekking
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest View Trek
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest Basecamp Trek
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                          <div class="col-md-6 col-lg-4">
+                            <div class="tclb-item">
+                              <h6>Everest Region</h6>
+                              <ul>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Gokyo Chola Pass Kalapatthar Trekking
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest View Trek
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest Basecamp Trek
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                          <div class="col-md-6 col-lg-4">
+                            <div class="tclb-item">
+                              <h6>Everest Region</h6>
+                              <ul>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Gokyo Chola Pass Kalapatthar Trekking
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest View Trek
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest Basecamp Trek
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="inner-tab-content" id="itc4">
+                        <div class="row">
+                          <div class="col-md-6 col-lg-4">
+                            <div class="tclb-item">
+                              <h6>Everest Region 4</h6>
+                              <ul>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Gokyo Chola Pass Kalapatthar Trekking
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest View Trek
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest Basecamp Trek
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                          <div class="col-md-6 col-lg-4">
+                            <div class="tclb-item">
+                              <h6>Everest Region</h6>
+                              <ul>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Gokyo Chola Pass Kalapatthar Trekking
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest View Trek
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest Basecamp Trek
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                          <div class="col-md-6 col-lg-4">
+                            <div class="tclb-item">
+                              <h6>Everest Region</h6>
+                              <ul>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Gokyo Chola Pass Kalapatthar Trekking
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest View Trek
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest Basecamp Trek
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                          <div class="col-md-6 col-lg-4">
+                            <div class="tclb-item">
+                              <h6>Everest Region</h6>
+                              <ul>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Gokyo Chola Pass Kalapatthar Trekking
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest View Trek
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest Basecamp Trek
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                          <div class="col-md-6 col-lg-4">
+                            <div class="tclb-item">
+                              <h6>Everest Region</h6>
+                              <ul>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Gokyo Chola Pass Kalapatthar Trekking
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest View Trek
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest Basecamp Trek
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                          <div class="col-md-6 col-lg-4">
+                            <div class="tclb-item">
+                              <h6>Everest Region</h6>
+                              <ul>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Gokyo Chola Pass Kalapatthar Trekking
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest View Trek
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest Basecamp Trek
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="inner-tab-content" id="itc5">
+                        <div class="row">
+                          <div class="col-md-6 col-lg-4">
+                            <div class="tclb-item">
+                              <h6>Everest Region 5</h6>
+                              <ul>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Gokyo Chola Pass Kalapatthar Trekking
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest View Trek
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest Basecamp Trek
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                          <div class="col-md-6 col-lg-4">
+                            <div class="tclb-item">
+                              <h6>Everest Region</h6>
+                              <ul>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Gokyo Chola Pass Kalapatthar Trekking
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest View Trek
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest Basecamp Trek
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                          <div class="col-md-6 col-lg-4">
+                            <div class="tclb-item">
+                              <h6>Everest Region</h6>
+                              <ul>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Gokyo Chola Pass Kalapatthar Trekking
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest View Trek
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest Basecamp Trek
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                          <div class="col-md-6 col-lg-4">
+                            <div class="tclb-item">
+                              <h6>Everest Region</h6>
+                              <ul>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Gokyo Chola Pass Kalapatthar Trekking
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest View Trek
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest Basecamp Trek
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                          <div class="col-md-6 col-lg-4">
+                            <div class="tclb-item">
+                              <h6>Everest Region</h6>
+                              <ul>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Gokyo Chola Pass Kalapatthar Trekking
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest View Trek
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest Basecamp Trek
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                          <div class="col-md-6 col-lg-4">
+                            <div class="tclb-item">
+                              <h6>Everest Region</h6>
+                              <ul>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Gokyo Chola Pass Kalapatthar Trekking
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest View Trek
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest Basecamp Trek
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="inner-tab-content" id="itc6">
+                        <div class="row">
+                          <div class="col-md-6 col-lg-4">
+                            <div class="tclb-item">
+                              <h6>Everest Region 6</h6>
+                              <ul>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Gokyo Chola Pass Kalapatthar Trekking
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest View Trek
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest Basecamp Trek
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                          <div class="col-md-6 col-lg-4">
+                            <div class="tclb-item">
+                              <h6>Everest Region</h6>
+                              <ul>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Gokyo Chola Pass Kalapatthar Trekking
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest View Trek
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest Basecamp Trek
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                          <div class="col-md-6 col-lg-4">
+                            <div class="tclb-item">
+                              <h6>Everest Region</h6>
+                              <ul>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Gokyo Chola Pass Kalapatthar Trekking
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest View Trek
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest Basecamp Trek
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                          <div class="col-md-6 col-lg-4">
+                            <div class="tclb-item">
+                              <h6>Everest Region</h6>
+                              <ul>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Gokyo Chola Pass Kalapatthar Trekking
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest View Trek
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest Basecamp Trek
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                          <div class="col-md-6 col-lg-4">
+                            <div class="tclb-item">
+                              <h6>Everest Region</h6>
+                              <ul>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Gokyo Chola Pass Kalapatthar Trekking
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest View Trek
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest Basecamp Trek
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                          <div class="col-md-6 col-lg-4">
+                            <div class="tclb-item">
+                              <h6>Everest Region</h6>
+                              <ul>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Gokyo Chola Pass Kalapatthar Trekking
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest View Trek
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest Basecamp Trek
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="text-center">
+                      <a href="#" class="bh-btn bh-btn-filled-dark">View Trekking in Detail</a>
+                    </div>
+                  </div>
+                  <div class="tab-content" id="dubai">
+                    <div class="tc-header d-flex justify-content-between align-items-center">
+                      <div class="dropdown-menu-item d-flex justify-content-start align-items-center">
+                        <img src="<?php echo get_parent_theme_file_uri()?>/assets/images/destinaton-05.png" alt=""
+                          class="img-fluid">
+                        <h4 class="d-inline-block">Dubai</h4>
+                      </div>
+                      <a href="#" class="bh-btn bh-btn-filled-dark">View Nepal in Detail</a>
+                    </div>
+                    <ul class="inner-tab d-flex justify-content-center align-items-center">
+                      <li class="active"><a href="#itc1">Trekking/Hiking</a></li>
+                      <li><a href="#itc2">Hunting</a></li>
+                      <li><a href="#itc3">Water Sports</a></li>
+                      <li><a href="#itc4">Spritual Religious</a></li>
+                      <li><a href="#itc5">Wildlife & Nature</a></li>
+                      <li><a href="#itc6">Tours & Sightseen</a></li>
+                    </ul>
+                    <div class="tc-list-box">
+                      <div class="inner-tab-content active" id="itc1">
+                        <div class="row">
+                          <div class="col-md-6 col-lg-4">
+                            <div class="tclb-item">
+                              <h6>Everest Region</h6>
+                              <ul>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Gokyo Chola Pass Kalapatthar Trekking
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest View Trek
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest Basecamp Trek
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                          <div class="col-md-6 col-lg-4">
+                            <div class="tclb-item">
+                              <h6>Everest Region</h6>
+                              <ul>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Gokyo Chola Pass Kalapatthar Trekking
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest View Trek
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest Basecamp Trek
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                          <div class="col-md-6 col-lg-4">
+                            <div class="tclb-item">
+                              <h6>Everest Region</h6>
+                              <ul>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Gokyo Chola Pass Kalapatthar Trekking
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest View Trek
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest Basecamp Trek
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                          <div class="col-md-6 col-lg-4">
+                            <div class="tclb-item">
+                              <h6>Everest Region</h6>
+                              <ul>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Gokyo Chola Pass Kalapatthar Trekking
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest View Trek
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest Basecamp Trek
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                          <div class="col-md-6 col-lg-4">
+                            <div class="tclb-item">
+                              <h6>Everest Region</h6>
+                              <ul>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Gokyo Chola Pass Kalapatthar Trekking
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest View Trek
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest Basecamp Trek
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                          <div class="col-md-6 col-lg-4">
+                            <div class="tclb-item">
+                              <h6>Everest Region</h6>
+                              <ul>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Gokyo Chola Pass Kalapatthar Trekking
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest View Trek
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest Basecamp Trek
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="inner-tab-content" id="itc2">
+                        <div class="row">
+                          <div class="col-md-6 col-lg-4">
+                            <div class="tclb-item">
+                              <h6>Everest Region 2</h6>
+                              <ul>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Gokyo Chola Pass Kalapatthar Trekking
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest View Trek
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest Basecamp Trek
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                          <div class="col-md-6 col-lg-4">
+                            <div class="tclb-item">
+                              <h6>Everest Region</h6>
+                              <ul>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Gokyo Chola Pass Kalapatthar Trekking
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest View Trek
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest Basecamp Trek
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                          <div class="col-md-6 col-lg-4">
+                            <div class="tclb-item">
+                              <h6>Everest Region</h6>
+                              <ul>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Gokyo Chola Pass Kalapatthar Trekking
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest View Trek
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest Basecamp Trek
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                          <div class="col-md-6 col-lg-4">
+                            <div class="tclb-item">
+                              <h6>Everest Region</h6>
+                              <ul>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Gokyo Chola Pass Kalapatthar Trekking
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest View Trek
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest Basecamp Trek
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                          <div class="col-md-6 col-lg-4">
+                            <div class="tclb-item">
+                              <h6>Everest Region</h6>
+                              <ul>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Gokyo Chola Pass Kalapatthar Trekking
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest View Trek
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest Basecamp Trek
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                          <div class="col-md-6 col-lg-4">
+                            <div class="tclb-item">
+                              <h6>Everest Region</h6>
+                              <ul>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Gokyo Chola Pass Kalapatthar Trekking
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest View Trek
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest Basecamp Trek
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="inner-tab-content" id="itc3">
+                        <div class="row">
+                          <div class="col-md-6 col-lg-4">
+                            <div class="tclb-item">
+                              <h6>Everest Region 3</h6>
+                              <ul>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Gokyo Chola Pass Kalapatthar Trekking
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest View Trek
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest Basecamp Trek
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                          <div class="col-md-6 col-lg-4">
+                            <div class="tclb-item">
+                              <h6>Everest Region</h6>
+                              <ul>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Gokyo Chola Pass Kalapatthar Trekking
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest View Trek
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest Basecamp Trek
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                          <div class="col-md-6 col-lg-4">
+                            <div class="tclb-item">
+                              <h6>Everest Region</h6>
+                              <ul>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Gokyo Chola Pass Kalapatthar Trekking
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest View Trek
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest Basecamp Trek
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                          <div class="col-md-6 col-lg-4">
+                            <div class="tclb-item">
+                              <h6>Everest Region</h6>
+                              <ul>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Gokyo Chola Pass Kalapatthar Trekking
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest View Trek
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest Basecamp Trek
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                          <div class="col-md-6 col-lg-4">
+                            <div class="tclb-item">
+                              <h6>Everest Region</h6>
+                              <ul>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Gokyo Chola Pass Kalapatthar Trekking
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest View Trek
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest Basecamp Trek
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                          <div class="col-md-6 col-lg-4">
+                            <div class="tclb-item">
+                              <h6>Everest Region</h6>
+                              <ul>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Gokyo Chola Pass Kalapatthar Trekking
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest View Trek
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest Basecamp Trek
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="inner-tab-content" id="itc4">
+                        <div class="row">
+                          <div class="col-md-6 col-lg-4">
+                            <div class="tclb-item">
+                              <h6>Everest Region 4</h6>
+                              <ul>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Gokyo Chola Pass Kalapatthar Trekking
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest View Trek
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest Basecamp Trek
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                          <div class="col-md-6 col-lg-4">
+                            <div class="tclb-item">
+                              <h6>Everest Region</h6>
+                              <ul>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Gokyo Chola Pass Kalapatthar Trekking
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest View Trek
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest Basecamp Trek
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                          <div class="col-md-6 col-lg-4">
+                            <div class="tclb-item">
+                              <h6>Everest Region</h6>
+                              <ul>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Gokyo Chola Pass Kalapatthar Trekking
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest View Trek
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest Basecamp Trek
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                          <div class="col-md-6 col-lg-4">
+                            <div class="tclb-item">
+                              <h6>Everest Region</h6>
+                              <ul>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Gokyo Chola Pass Kalapatthar Trekking
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest View Trek
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest Basecamp Trek
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                          <div class="col-md-6 col-lg-4">
+                            <div class="tclb-item">
+                              <h6>Everest Region</h6>
+                              <ul>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Gokyo Chola Pass Kalapatthar Trekking
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest View Trek
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest Basecamp Trek
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                          <div class="col-md-6 col-lg-4">
+                            <div class="tclb-item">
+                              <h6>Everest Region</h6>
+                              <ul>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Gokyo Chola Pass Kalapatthar Trekking
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest View Trek
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest Basecamp Trek
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="inner-tab-content" id="itc5">
+                        <div class="row">
+                          <div class="col-md-6 col-lg-4">
+                            <div class="tclb-item">
+                              <h6>Everest Region 5</h6>
+                              <ul>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Gokyo Chola Pass Kalapatthar Trekking
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest View Trek
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest Basecamp Trek
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                          <div class="col-md-6 col-lg-4">
+                            <div class="tclb-item">
+                              <h6>Everest Region</h6>
+                              <ul>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Gokyo Chola Pass Kalapatthar Trekking
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest View Trek
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest Basecamp Trek
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                          <div class="col-md-6 col-lg-4">
+                            <div class="tclb-item">
+                              <h6>Everest Region</h6>
+                              <ul>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Gokyo Chola Pass Kalapatthar Trekking
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest View Trek
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest Basecamp Trek
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                          <div class="col-md-6 col-lg-4">
+                            <div class="tclb-item">
+                              <h6>Everest Region</h6>
+                              <ul>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Gokyo Chola Pass Kalapatthar Trekking
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest View Trek
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest Basecamp Trek
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                          <div class="col-md-6 col-lg-4">
+                            <div class="tclb-item">
+                              <h6>Everest Region</h6>
+                              <ul>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Gokyo Chola Pass Kalapatthar Trekking
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest View Trek
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest Basecamp Trek
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                          <div class="col-md-6 col-lg-4">
+                            <div class="tclb-item">
+                              <h6>Everest Region</h6>
+                              <ul>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Gokyo Chola Pass Kalapatthar Trekking
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest View Trek
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest Basecamp Trek
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="inner-tab-content" id="itc6">
+                        <div class="row">
+                          <div class="col-md-6 col-lg-4">
+                            <div class="tclb-item">
+                              <h6>Everest Region 6</h6>
+                              <ul>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Gokyo Chola Pass Kalapatthar Trekking
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest View Trek
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest Basecamp Trek
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                          <div class="col-md-6 col-lg-4">
+                            <div class="tclb-item">
+                              <h6>Everest Region</h6>
+                              <ul>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Gokyo Chola Pass Kalapatthar Trekking
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest View Trek
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest Basecamp Trek
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                          <div class="col-md-6 col-lg-4">
+                            <div class="tclb-item">
+                              <h6>Everest Region</h6>
+                              <ul>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Gokyo Chola Pass Kalapatthar Trekking
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest View Trek
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest Basecamp Trek
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                          <div class="col-md-6 col-lg-4">
+                            <div class="tclb-item">
+                              <h6>Everest Region</h6>
+                              <ul>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Gokyo Chola Pass Kalapatthar Trekking
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest View Trek
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest Basecamp Trek
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                          <div class="col-md-6 col-lg-4">
+                            <div class="tclb-item">
+                              <h6>Everest Region</h6>
+                              <ul>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Gokyo Chola Pass Kalapatthar Trekking
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest View Trek
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest Basecamp Trek
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                          <div class="col-md-6 col-lg-4">
+                            <div class="tclb-item">
+                              <h6>Everest Region</h6>
+                              <ul>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Gokyo Chola Pass Kalapatthar Trekking
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest View Trek
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest Basecamp Trek
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="text-center">
+                      <a href="#" class="bh-btn bh-btn-filled-dark">View Trekking in Detail</a>
+                    </div>
+                  </div>
+                  <div class="tab-content" id="thailand">
+                    <div class="tc-header d-flex justify-content-between align-items-center">
+                      <div class="dropdown-menu-item d-flex justify-content-start align-items-center">
+                        <img src="<?php echo get_parent_theme_file_uri()?>/assets/images/destinaton-06.png" alt=""
+                          class="img-fluid">
+                        <h4 class="d-inline-block">Thailand</h4>
+                      </div>
+                      <a href="#" class="bh-btn bh-btn-filled-dark">View Nepal in Detail</a>
+                    </div>
+                    <ul class="inner-tab d-flex justify-content-center align-items-center">
+                      <li class="active"><a href="#itc1">Trekking/Hiking</a></li>
+                      <li><a href="#itc2">Hunting</a></li>
+                      <li><a href="#itc3">Water Sports</a></li>
+                      <li><a href="#itc4">Spritual Religious</a></li>
+                      <li><a href="#itc5">Wildlife & Nature</a></li>
+                      <li><a href="#itc6">Tours & Sightseen</a></li>
+                    </ul>
+                    <div class="tc-list-box">
+                      <div class="inner-tab-content active" id="itc1">
+                        <div class="row">
+                          <div class="col-md-6 col-lg-4">
+                            <div class="tclb-item">
+                              <h6>Everest Region</h6>
+                              <ul>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Gokyo Chola Pass Kalapatthar Trekking
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest View Trek
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest Basecamp Trek
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                          <div class="col-md-6 col-lg-4">
+                            <div class="tclb-item">
+                              <h6>Everest Region</h6>
+                              <ul>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Gokyo Chola Pass Kalapatthar Trekking
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest View Trek
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest Basecamp Trek
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                          <div class="col-md-6 col-lg-4">
+                            <div class="tclb-item">
+                              <h6>Everest Region</h6>
+                              <ul>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Gokyo Chola Pass Kalapatthar Trekking
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest View Trek
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest Basecamp Trek
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                          <div class="col-md-6 col-lg-4">
+                            <div class="tclb-item">
+                              <h6>Everest Region</h6>
+                              <ul>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Gokyo Chola Pass Kalapatthar Trekking
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest View Trek
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest Basecamp Trek
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                          <div class="col-md-6 col-lg-4">
+                            <div class="tclb-item">
+                              <h6>Everest Region</h6>
+                              <ul>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Gokyo Chola Pass Kalapatthar Trekking
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest View Trek
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest Basecamp Trek
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                          <div class="col-md-6 col-lg-4">
+                            <div class="tclb-item">
+                              <h6>Everest Region</h6>
+                              <ul>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Gokyo Chola Pass Kalapatthar Trekking
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest View Trek
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest Basecamp Trek
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="inner-tab-content" id="itc2">
+                        <div class="row">
+                          <div class="col-md-6 col-lg-4">
+                            <div class="tclb-item">
+                              <h6>Everest Region 2</h6>
+                              <ul>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Gokyo Chola Pass Kalapatthar Trekking
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest View Trek
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest Basecamp Trek
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                          <div class="col-md-6 col-lg-4">
+                            <div class="tclb-item">
+                              <h6>Everest Region</h6>
+                              <ul>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Gokyo Chola Pass Kalapatthar Trekking
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest View Trek
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest Basecamp Trek
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                          <div class="col-md-6 col-lg-4">
+                            <div class="tclb-item">
+                              <h6>Everest Region</h6>
+                              <ul>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Gokyo Chola Pass Kalapatthar Trekking
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest View Trek
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest Basecamp Trek
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                          <div class="col-md-6 col-lg-4">
+                            <div class="tclb-item">
+                              <h6>Everest Region</h6>
+                              <ul>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Gokyo Chola Pass Kalapatthar Trekking
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest View Trek
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest Basecamp Trek
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                          <div class="col-md-6 col-lg-4">
+                            <div class="tclb-item">
+                              <h6>Everest Region</h6>
+                              <ul>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Gokyo Chola Pass Kalapatthar Trekking
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest View Trek
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest Basecamp Trek
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                          <div class="col-md-6 col-lg-4">
+                            <div class="tclb-item">
+                              <h6>Everest Region</h6>
+                              <ul>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Gokyo Chola Pass Kalapatthar Trekking
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest View Trek
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest Basecamp Trek
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="inner-tab-content" id="itc3">
+                        <div class="row">
+                          <div class="col-md-6 col-lg-4">
+                            <div class="tclb-item">
+                              <h6>Everest Region 3</h6>
+                              <ul>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Gokyo Chola Pass Kalapatthar Trekking
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest View Trek
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest Basecamp Trek
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                          <div class="col-md-6 col-lg-4">
+                            <div class="tclb-item">
+                              <h6>Everest Region</h6>
+                              <ul>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Gokyo Chola Pass Kalapatthar Trekking
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest View Trek
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest Basecamp Trek
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                          <div class="col-md-6 col-lg-4">
+                            <div class="tclb-item">
+                              <h6>Everest Region</h6>
+                              <ul>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Gokyo Chola Pass Kalapatthar Trekking
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest View Trek
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest Basecamp Trek
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                          <div class="col-md-6 col-lg-4">
+                            <div class="tclb-item">
+                              <h6>Everest Region</h6>
+                              <ul>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Gokyo Chola Pass Kalapatthar Trekking
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest View Trek
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest Basecamp Trek
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                          <div class="col-md-6 col-lg-4">
+                            <div class="tclb-item">
+                              <h6>Everest Region</h6>
+                              <ul>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Gokyo Chola Pass Kalapatthar Trekking
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest View Trek
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest Basecamp Trek
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                          <div class="col-md-6 col-lg-4">
+                            <div class="tclb-item">
+                              <h6>Everest Region</h6>
+                              <ul>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Gokyo Chola Pass Kalapatthar Trekking
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest View Trek
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest Basecamp Trek
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="inner-tab-content" id="itc4">
+                        <div class="row">
+                          <div class="col-md-6 col-lg-4">
+                            <div class="tclb-item">
+                              <h6>Everest Region 4</h6>
+                              <ul>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Gokyo Chola Pass Kalapatthar Trekking
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest View Trek
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest Basecamp Trek
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                          <div class="col-md-6 col-lg-4">
+                            <div class="tclb-item">
+                              <h6>Everest Region</h6>
+                              <ul>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Gokyo Chola Pass Kalapatthar Trekking
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest View Trek
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest Basecamp Trek
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                          <div class="col-md-6 col-lg-4">
+                            <div class="tclb-item">
+                              <h6>Everest Region</h6>
+                              <ul>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Gokyo Chola Pass Kalapatthar Trekking
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest View Trek
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest Basecamp Trek
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                          <div class="col-md-6 col-lg-4">
+                            <div class="tclb-item">
+                              <h6>Everest Region</h6>
+                              <ul>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Gokyo Chola Pass Kalapatthar Trekking
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest View Trek
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest Basecamp Trek
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                          <div class="col-md-6 col-lg-4">
+                            <div class="tclb-item">
+                              <h6>Everest Region</h6>
+                              <ul>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Gokyo Chola Pass Kalapatthar Trekking
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest View Trek
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest Basecamp Trek
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                          <div class="col-md-6 col-lg-4">
+                            <div class="tclb-item">
+                              <h6>Everest Region</h6>
+                              <ul>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Gokyo Chola Pass Kalapatthar Trekking
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest View Trek
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest Basecamp Trek
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="inner-tab-content" id="itc5">
+                        <div class="row">
+                          <div class="col-md-6 col-lg-4">
+                            <div class="tclb-item">
+                              <h6>Everest Region 5</h6>
+                              <ul>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Gokyo Chola Pass Kalapatthar Trekking
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest View Trek
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest Basecamp Trek
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                          <div class="col-md-6 col-lg-4">
+                            <div class="tclb-item">
+                              <h6>Everest Region</h6>
+                              <ul>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Gokyo Chola Pass Kalapatthar Trekking
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest View Trek
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest Basecamp Trek
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                          <div class="col-md-6 col-lg-4">
+                            <div class="tclb-item">
+                              <h6>Everest Region</h6>
+                              <ul>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Gokyo Chola Pass Kalapatthar Trekking
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest View Trek
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest Basecamp Trek
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                          <div class="col-md-6 col-lg-4">
+                            <div class="tclb-item">
+                              <h6>Everest Region</h6>
+                              <ul>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Gokyo Chola Pass Kalapatthar Trekking
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest View Trek
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest Basecamp Trek
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                          <div class="col-md-6 col-lg-4">
+                            <div class="tclb-item">
+                              <h6>Everest Region</h6>
+                              <ul>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Gokyo Chola Pass Kalapatthar Trekking
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest View Trek
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest Basecamp Trek
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                          <div class="col-md-6 col-lg-4">
+                            <div class="tclb-item">
+                              <h6>Everest Region</h6>
+                              <ul>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Gokyo Chola Pass Kalapatthar Trekking
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest View Trek
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest Basecamp Trek
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="inner-tab-content" id="itc6">
+                        <div class="row">
+                          <div class="col-md-6 col-lg-4">
+                            <div class="tclb-item">
+                              <h6>Everest Region 6</h6>
+                              <ul>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Gokyo Chola Pass Kalapatthar Trekking
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest View Trek
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest Basecamp Trek
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                          <div class="col-md-6 col-lg-4">
+                            <div class="tclb-item">
+                              <h6>Everest Region</h6>
+                              <ul>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Gokyo Chola Pass Kalapatthar Trekking
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest View Trek
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest Basecamp Trek
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                          <div class="col-md-6 col-lg-4">
+                            <div class="tclb-item">
+                              <h6>Everest Region</h6>
+                              <ul>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Gokyo Chola Pass Kalapatthar Trekking
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest View Trek
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest Basecamp Trek
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                          <div class="col-md-6 col-lg-4">
+                            <div class="tclb-item">
+                              <h6>Everest Region</h6>
+                              <ul>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Gokyo Chola Pass Kalapatthar Trekking
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest View Trek
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest Basecamp Trek
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                          <div class="col-md-6 col-lg-4">
+                            <div class="tclb-item">
+                              <h6>Everest Region</h6>
+                              <ul>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Gokyo Chola Pass Kalapatthar Trekking
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest View Trek
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest Basecamp Trek
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                          <div class="col-md-6 col-lg-4">
+                            <div class="tclb-item">
+                              <h6>Everest Region</h6>
+                              <ul>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Gokyo Chola Pass Kalapatthar Trekking
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest View Trek
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest Basecamp Trek
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="text-center">
+                      <a href="#" class="bh-btn bh-btn-filled-dark">View Trekking in Detail</a>
+                    </div>
+                  </div>
+                  <div class="tab-content" id="europe">
+                    <div class="tc-header d-flex justify-content-between align-items-center">
+                      <div class="dropdown-menu-item d-flex justify-content-start align-items-center">
+                        <img src="<?php echo get_parent_theme_file_uri()?>/assets/images/destinaton-07.png" alt=""
+                          class="img-fluid">
+                        <h4 class="d-inline-block">Europe</h4>
+                      </div>
+                      <a href="#" class="bh-btn bh-btn-filled-dark">View Nepal in Detail</a>
+                    </div>
+                    <ul class="inner-tab d-flex justify-content-center align-items-center">
+                      <li class="active"><a href="#itc1">Trekking/Hiking</a></li>
+                      <li><a href="#itc2">Hunting</a></li>
+                      <li><a href="#itc3">Water Sports</a></li>
+                      <li><a href="#itc4">Spritual Religious</a></li>
+                      <li><a href="#itc5">Wildlife & Nature</a></li>
+                      <li><a href="#itc6">Tours & Sightseen</a></li>
+                    </ul>
+                    <div class="tc-list-box">
+                      <div class="inner-tab-content active" id="itc1">
+                        <div class="row">
+                          <div class="col-md-6 col-lg-4">
+                            <div class="tclb-item">
+                              <h6>Everest Region</h6>
+                              <ul>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Gokyo Chola Pass Kalapatthar Trekking
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest View Trek
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest Basecamp Trek
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                          <div class="col-md-6 col-lg-4">
+                            <div class="tclb-item">
+                              <h6>Everest Region</h6>
+                              <ul>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Gokyo Chola Pass Kalapatthar Trekking
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest View Trek
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest Basecamp Trek
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                          <div class="col-md-6 col-lg-4">
+                            <div class="tclb-item">
+                              <h6>Everest Region</h6>
+                              <ul>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Gokyo Chola Pass Kalapatthar Trekking
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest View Trek
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest Basecamp Trek
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                          <div class="col-md-6 col-lg-4">
+                            <div class="tclb-item">
+                              <h6>Everest Region</h6>
+                              <ul>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Gokyo Chola Pass Kalapatthar Trekking
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest View Trek
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest Basecamp Trek
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                          <div class="col-md-6 col-lg-4">
+                            <div class="tclb-item">
+                              <h6>Everest Region</h6>
+                              <ul>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Gokyo Chola Pass Kalapatthar Trekking
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest View Trek
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest Basecamp Trek
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                          <div class="col-md-6 col-lg-4">
+                            <div class="tclb-item">
+                              <h6>Everest Region</h6>
+                              <ul>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Gokyo Chola Pass Kalapatthar Trekking
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest View Trek
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest Basecamp Trek
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="inner-tab-content" id="itc2">
+                        <div class="row">
+                          <div class="col-md-6 col-lg-4">
+                            <div class="tclb-item">
+                              <h6>Everest Region 2</h6>
+                              <ul>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Gokyo Chola Pass Kalapatthar Trekking
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest View Trek
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest Basecamp Trek
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                          <div class="col-md-6 col-lg-4">
+                            <div class="tclb-item">
+                              <h6>Everest Region</h6>
+                              <ul>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Gokyo Chola Pass Kalapatthar Trekking
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest View Trek
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest Basecamp Trek
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                          <div class="col-md-6 col-lg-4">
+                            <div class="tclb-item">
+                              <h6>Everest Region</h6>
+                              <ul>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Gokyo Chola Pass Kalapatthar Trekking
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest View Trek
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest Basecamp Trek
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                          <div class="col-md-6 col-lg-4">
+                            <div class="tclb-item">
+                              <h6>Everest Region</h6>
+                              <ul>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Gokyo Chola Pass Kalapatthar Trekking
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest View Trek
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest Basecamp Trek
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                          <div class="col-md-6 col-lg-4">
+                            <div class="tclb-item">
+                              <h6>Everest Region</h6>
+                              <ul>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Gokyo Chola Pass Kalapatthar Trekking
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest View Trek
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest Basecamp Trek
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                          <div class="col-md-6 col-lg-4">
+                            <div class="tclb-item">
+                              <h6>Everest Region</h6>
+                              <ul>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Gokyo Chola Pass Kalapatthar Trekking
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest View Trek
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest Basecamp Trek
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="inner-tab-content" id="itc3">
+                        <div class="row">
+                          <div class="col-md-6 col-lg-4">
+                            <div class="tclb-item">
+                              <h6>Everest Region 3</h6>
+                              <ul>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Gokyo Chola Pass Kalapatthar Trekking
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest View Trek
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest Basecamp Trek
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                          <div class="col-md-6 col-lg-4">
+                            <div class="tclb-item">
+                              <h6>Everest Region</h6>
+                              <ul>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Gokyo Chola Pass Kalapatthar Trekking
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest View Trek
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest Basecamp Trek
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                          <div class="col-md-6 col-lg-4">
+                            <div class="tclb-item">
+                              <h6>Everest Region</h6>
+                              <ul>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Gokyo Chola Pass Kalapatthar Trekking
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest View Trek
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest Basecamp Trek
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                          <div class="col-md-6 col-lg-4">
+                            <div class="tclb-item">
+                              <h6>Everest Region</h6>
+                              <ul>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Gokyo Chola Pass Kalapatthar Trekking
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest View Trek
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest Basecamp Trek
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                          <div class="col-md-6 col-lg-4">
+                            <div class="tclb-item">
+                              <h6>Everest Region</h6>
+                              <ul>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Gokyo Chola Pass Kalapatthar Trekking
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest View Trek
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest Basecamp Trek
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                          <div class="col-md-6 col-lg-4">
+                            <div class="tclb-item">
+                              <h6>Everest Region</h6>
+                              <ul>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Gokyo Chola Pass Kalapatthar Trekking
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest View Trek
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest Basecamp Trek
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="inner-tab-content" id="itc4">
+                        <div class="row">
+                          <div class="col-md-6 col-lg-4">
+                            <div class="tclb-item">
+                              <h6>Everest Region 4</h6>
+                              <ul>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Gokyo Chola Pass Kalapatthar Trekking
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest View Trek
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest Basecamp Trek
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                          <div class="col-md-6 col-lg-4">
+                            <div class="tclb-item">
+                              <h6>Everest Region</h6>
+                              <ul>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Gokyo Chola Pass Kalapatthar Trekking
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest View Trek
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest Basecamp Trek
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                          <div class="col-md-6 col-lg-4">
+                            <div class="tclb-item">
+                              <h6>Everest Region</h6>
+                              <ul>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Gokyo Chola Pass Kalapatthar Trekking
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest View Trek
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest Basecamp Trek
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                          <div class="col-md-6 col-lg-4">
+                            <div class="tclb-item">
+                              <h6>Everest Region</h6>
+                              <ul>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Gokyo Chola Pass Kalapatthar Trekking
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest View Trek
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest Basecamp Trek
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                          <div class="col-md-6 col-lg-4">
+                            <div class="tclb-item">
+                              <h6>Everest Region</h6>
+                              <ul>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Gokyo Chola Pass Kalapatthar Trekking
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest View Trek
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest Basecamp Trek
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                          <div class="col-md-6 col-lg-4">
+                            <div class="tclb-item">
+                              <h6>Everest Region</h6>
+                              <ul>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Gokyo Chola Pass Kalapatthar Trekking
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest View Trek
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest Basecamp Trek
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="inner-tab-content" id="itc5">
+                        <div class="row">
+                          <div class="col-md-6 col-lg-4">
+                            <div class="tclb-item">
+                              <h6>Everest Region 5</h6>
+                              <ul>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Gokyo Chola Pass Kalapatthar Trekking
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest View Trek
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest Basecamp Trek
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                          <div class="col-md-6 col-lg-4">
+                            <div class="tclb-item">
+                              <h6>Everest Region</h6>
+                              <ul>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Gokyo Chola Pass Kalapatthar Trekking
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest View Trek
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest Basecamp Trek
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                          <div class="col-md-6 col-lg-4">
+                            <div class="tclb-item">
+                              <h6>Everest Region</h6>
+                              <ul>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Gokyo Chola Pass Kalapatthar Trekking
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest View Trek
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest Basecamp Trek
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                          <div class="col-md-6 col-lg-4">
+                            <div class="tclb-item">
+                              <h6>Everest Region</h6>
+                              <ul>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Gokyo Chola Pass Kalapatthar Trekking
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest View Trek
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest Basecamp Trek
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                          <div class="col-md-6 col-lg-4">
+                            <div class="tclb-item">
+                              <h6>Everest Region</h6>
+                              <ul>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Gokyo Chola Pass Kalapatthar Trekking
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest View Trek
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest Basecamp Trek
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                          <div class="col-md-6 col-lg-4">
+                            <div class="tclb-item">
+                              <h6>Everest Region</h6>
+                              <ul>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Gokyo Chola Pass Kalapatthar Trekking
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest View Trek
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest Basecamp Trek
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="inner-tab-content" id="itc6">
+                        <div class="row">
+                          <div class="col-md-6 col-lg-4">
+                            <div class="tclb-item">
+                              <h6>Everest Region 6</h6>
+                              <ul>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Gokyo Chola Pass Kalapatthar Trekking
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest View Trek
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest Basecamp Trek
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                          <div class="col-md-6 col-lg-4">
+                            <div class="tclb-item">
+                              <h6>Everest Region</h6>
+                              <ul>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Gokyo Chola Pass Kalapatthar Trekking
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest View Trek
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest Basecamp Trek
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                          <div class="col-md-6 col-lg-4">
+                            <div class="tclb-item">
+                              <h6>Everest Region</h6>
+                              <ul>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Gokyo Chola Pass Kalapatthar Trekking
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest View Trek
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest Basecamp Trek
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                          <div class="col-md-6 col-lg-4">
+                            <div class="tclb-item">
+                              <h6>Everest Region</h6>
+                              <ul>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Gokyo Chola Pass Kalapatthar Trekking
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest View Trek
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest Basecamp Trek
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                          <div class="col-md-6 col-lg-4">
+                            <div class="tclb-item">
+                              <h6>Everest Region</h6>
+                              <ul>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Gokyo Chola Pass Kalapatthar Trekking
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest View Trek
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest Basecamp Trek
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                          <div class="col-md-6 col-lg-4">
+                            <div class="tclb-item">
+                              <h6>Everest Region</h6>
+                              <ul>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Gokyo Chola Pass Kalapatthar Trekking
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest View Trek
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest Basecamp Trek
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="text-center">
+                      <a href="#" class="bh-btn bh-btn-filled-dark">View Trekking in Detail</a>
+                    </div>
+                  </div>
+                  <div class="tab-content" id="fiji">
+                    <div class="tc-header d-flex justify-content-between align-items-center">
+                      <div class="dropdown-menu-item d-flex justify-content-start align-items-center">
+                        <img src="<?php echo get_parent_theme_file_uri()?>/assets/images/destinaton-08.png" alt=""
+                          class="img-fluid">
+                        <h4 class="d-inline-block">Fiji</h4>
+                      </div>
+                      <a href="#" class="bh-btn bh-btn-filled-dark">View Nepal in Detail</a>
+                    </div>
+                    <ul class="inner-tab d-flex justify-content-center align-items-center">
+                      <li class="active"><a href="#itc1">Trekking/Hiking</a></li>
+                      <li><a href="#itc2">Hunting</a></li>
+                      <li><a href="#itc3">Water Sports</a></li>
+                      <li><a href="#itc4">Spritual Religious</a></li>
+                      <li><a href="#itc5">Wildlife & Nature</a></li>
+                      <li><a href="#itc6">Tours & Sightseen</a></li>
+                    </ul>
+                    <div class="tc-list-box">
+                      <div class="inner-tab-content active" id="itc1">
+                        <div class="row">
+                          <div class="col-md-6 col-lg-4">
+                            <div class="tclb-item">
+                              <h6>Everest Region</h6>
+                              <ul>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Gokyo Chola Pass Kalapatthar Trekking
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest View Trek
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest Basecamp Trek
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                          <div class="col-md-6 col-lg-4">
+                            <div class="tclb-item">
+                              <h6>Everest Region</h6>
+                              <ul>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Gokyo Chola Pass Kalapatthar Trekking
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest View Trek
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest Basecamp Trek
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                          <div class="col-md-6 col-lg-4">
+                            <div class="tclb-item">
+                              <h6>Everest Region</h6>
+                              <ul>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Gokyo Chola Pass Kalapatthar Trekking
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest View Trek
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest Basecamp Trek
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                          <div class="col-md-6 col-lg-4">
+                            <div class="tclb-item">
+                              <h6>Everest Region</h6>
+                              <ul>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Gokyo Chola Pass Kalapatthar Trekking
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest View Trek
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest Basecamp Trek
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                          <div class="col-md-6 col-lg-4">
+                            <div class="tclb-item">
+                              <h6>Everest Region</h6>
+                              <ul>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Gokyo Chola Pass Kalapatthar Trekking
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest View Trek
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest Basecamp Trek
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                          <div class="col-md-6 col-lg-4">
+                            <div class="tclb-item">
+                              <h6>Everest Region</h6>
+                              <ul>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Gokyo Chola Pass Kalapatthar Trekking
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest View Trek
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest Basecamp Trek
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="inner-tab-content" id="itc2">
+                        <div class="row">
+                          <div class="col-md-6 col-lg-4">
+                            <div class="tclb-item">
+                              <h6>Everest Region 2</h6>
+                              <ul>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Gokyo Chola Pass Kalapatthar Trekking
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest View Trek
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest Basecamp Trek
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                          <div class="col-md-6 col-lg-4">
+                            <div class="tclb-item">
+                              <h6>Everest Region</h6>
+                              <ul>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Gokyo Chola Pass Kalapatthar Trekking
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest View Trek
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest Basecamp Trek
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                          <div class="col-md-6 col-lg-4">
+                            <div class="tclb-item">
+                              <h6>Everest Region</h6>
+                              <ul>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Gokyo Chola Pass Kalapatthar Trekking
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest View Trek
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest Basecamp Trek
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                          <div class="col-md-6 col-lg-4">
+                            <div class="tclb-item">
+                              <h6>Everest Region</h6>
+                              <ul>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Gokyo Chola Pass Kalapatthar Trekking
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest View Trek
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest Basecamp Trek
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                          <div class="col-md-6 col-lg-4">
+                            <div class="tclb-item">
+                              <h6>Everest Region</h6>
+                              <ul>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Gokyo Chola Pass Kalapatthar Trekking
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest View Trek
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest Basecamp Trek
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                          <div class="col-md-6 col-lg-4">
+                            <div class="tclb-item">
+                              <h6>Everest Region</h6>
+                              <ul>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Gokyo Chola Pass Kalapatthar Trekking
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest View Trek
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest Basecamp Trek
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="inner-tab-content" id="itc3">
+                        <div class="row">
+                          <div class="col-md-6 col-lg-4">
+                            <div class="tclb-item">
+                              <h6>Everest Region 3</h6>
+                              <ul>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Gokyo Chola Pass Kalapatthar Trekking
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest View Trek
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest Basecamp Trek
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                          <div class="col-md-6 col-lg-4">
+                            <div class="tclb-item">
+                              <h6>Everest Region</h6>
+                              <ul>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Gokyo Chola Pass Kalapatthar Trekking
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest View Trek
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest Basecamp Trek
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                          <div class="col-md-6 col-lg-4">
+                            <div class="tclb-item">
+                              <h6>Everest Region</h6>
+                              <ul>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Gokyo Chola Pass Kalapatthar Trekking
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest View Trek
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest Basecamp Trek
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                          <div class="col-md-6 col-lg-4">
+                            <div class="tclb-item">
+                              <h6>Everest Region</h6>
+                              <ul>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Gokyo Chola Pass Kalapatthar Trekking
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest View Trek
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest Basecamp Trek
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                          <div class="col-md-6 col-lg-4">
+                            <div class="tclb-item">
+                              <h6>Everest Region</h6>
+                              <ul>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Gokyo Chola Pass Kalapatthar Trekking
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest View Trek
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest Basecamp Trek
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                          <div class="col-md-6 col-lg-4">
+                            <div class="tclb-item">
+                              <h6>Everest Region</h6>
+                              <ul>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Gokyo Chola Pass Kalapatthar Trekking
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest View Trek
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest Basecamp Trek
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="inner-tab-content" id="itc4">
+                        <div class="row">
+                          <div class="col-md-6 col-lg-4">
+                            <div class="tclb-item">
+                              <h6>Everest Region 4</h6>
+                              <ul>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Gokyo Chola Pass Kalapatthar Trekking
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest View Trek
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest Basecamp Trek
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                          <div class="col-md-6 col-lg-4">
+                            <div class="tclb-item">
+                              <h6>Everest Region</h6>
+                              <ul>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Gokyo Chola Pass Kalapatthar Trekking
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest View Trek
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest Basecamp Trek
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                          <div class="col-md-6 col-lg-4">
+                            <div class="tclb-item">
+                              <h6>Everest Region</h6>
+                              <ul>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Gokyo Chola Pass Kalapatthar Trekking
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest View Trek
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest Basecamp Trek
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                          <div class="col-md-6 col-lg-4">
+                            <div class="tclb-item">
+                              <h6>Everest Region</h6>
+                              <ul>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Gokyo Chola Pass Kalapatthar Trekking
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest View Trek
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest Basecamp Trek
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                          <div class="col-md-6 col-lg-4">
+                            <div class="tclb-item">
+                              <h6>Everest Region</h6>
+                              <ul>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Gokyo Chola Pass Kalapatthar Trekking
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest View Trek
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest Basecamp Trek
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                          <div class="col-md-6 col-lg-4">
+                            <div class="tclb-item">
+                              <h6>Everest Region</h6>
+                              <ul>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Gokyo Chola Pass Kalapatthar Trekking
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest View Trek
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest Basecamp Trek
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="inner-tab-content" id="itc5">
+                        <div class="row">
+                          <div class="col-md-6 col-lg-4">
+                            <div class="tclb-item">
+                              <h6>Everest Region 5</h6>
+                              <ul>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Gokyo Chola Pass Kalapatthar Trekking
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest View Trek
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest Basecamp Trek
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                          <div class="col-md-6 col-lg-4">
+                            <div class="tclb-item">
+                              <h6>Everest Region</h6>
+                              <ul>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Gokyo Chola Pass Kalapatthar Trekking
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest View Trek
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest Basecamp Trek
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                          <div class="col-md-6 col-lg-4">
+                            <div class="tclb-item">
+                              <h6>Everest Region</h6>
+                              <ul>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Gokyo Chola Pass Kalapatthar Trekking
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest View Trek
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest Basecamp Trek
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                          <div class="col-md-6 col-lg-4">
+                            <div class="tclb-item">
+                              <h6>Everest Region</h6>
+                              <ul>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Gokyo Chola Pass Kalapatthar Trekking
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest View Trek
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest Basecamp Trek
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                          <div class="col-md-6 col-lg-4">
+                            <div class="tclb-item">
+                              <h6>Everest Region</h6>
+                              <ul>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Gokyo Chola Pass Kalapatthar Trekking
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest View Trek
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest Basecamp Trek
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                          <div class="col-md-6 col-lg-4">
+                            <div class="tclb-item">
+                              <h6>Everest Region</h6>
+                              <ul>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Gokyo Chola Pass Kalapatthar Trekking
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest View Trek
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest Basecamp Trek
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="inner-tab-content" id="itc6">
+                        <div class="row">
+                          <div class="col-md-6 col-lg-4">
+                            <div class="tclb-item">
+                              <h6>Everest Region 6</h6>
+                              <ul>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Gokyo Chola Pass Kalapatthar Trekking
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest View Trek
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest Basecamp Trek
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                          <div class="col-md-6 col-lg-4">
+                            <div class="tclb-item">
+                              <h6>Everest Region</h6>
+                              <ul>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Gokyo Chola Pass Kalapatthar Trekking
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest View Trek
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest Basecamp Trek
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                          <div class="col-md-6 col-lg-4">
+                            <div class="tclb-item">
+                              <h6>Everest Region</h6>
+                              <ul>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Gokyo Chola Pass Kalapatthar Trekking
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest View Trek
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest Basecamp Trek
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                          <div class="col-md-6 col-lg-4">
+                            <div class="tclb-item">
+                              <h6>Everest Region</h6>
+                              <ul>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Gokyo Chola Pass Kalapatthar Trekking
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest View Trek
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest Basecamp Trek
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                          <div class="col-md-6 col-lg-4">
+                            <div class="tclb-item">
+                              <h6>Everest Region</h6>
+                              <ul>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Gokyo Chola Pass Kalapatthar Trekking
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest View Trek
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest Basecamp Trek
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                          <div class="col-md-6 col-lg-4">
+                            <div class="tclb-item">
+                              <h6>Everest Region</h6>
+                              <ul>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Gokyo Chola Pass Kalapatthar Trekking
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest View Trek
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest Basecamp Trek
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="text-center">
+                      <a href="#" class="bh-btn bh-btn-filled-dark">View Trekking in Detail</a>
+                    </div>
+                  </div>
+                  <div class="tab-content" id="srilanka">
+                    <div class="tc-header d-flex justify-content-between align-items-center">
+                      <div class="dropdown-menu-item d-flex justify-content-start align-items-center">
+                        <img src="<?php echo get_parent_theme_file_uri()?>/assets/images/destinaton-09.png" alt=""
+                          class="img-fluid">
+                        <h4 class="d-inline-block">Srilanka</h4>
+                      </div>
+                      <a href="#" class="bh-btn bh-btn-filled-dark">View Nepal in Detail</a>
+                    </div>
+                    <ul class="inner-tab d-flex justify-content-center align-items-center">
+                      <li class="active"><a href="#itc1">Trekking/Hiking</a></li>
+                      <li><a href="#itc2">Hunting</a></li>
+                      <li><a href="#itc3">Water Sports</a></li>
+                      <li><a href="#itc4">Spritual Religious</a></li>
+                      <li><a href="#itc5">Wildlife & Nature</a></li>
+                      <li><a href="#itc6">Tours & Sightseen</a></li>
+                    </ul>
+                    <div class="tc-list-box">
+                      <div class="inner-tab-content active" id="itc1">
+                        <div class="row">
+                          <div class="col-md-6 col-lg-4">
+                            <div class="tclb-item">
+                              <h6>Everest Region</h6>
+                              <ul>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Gokyo Chola Pass Kalapatthar Trekking
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest View Trek
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest Basecamp Trek
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                          <div class="col-md-6 col-lg-4">
+                            <div class="tclb-item">
+                              <h6>Everest Region</h6>
+                              <ul>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Gokyo Chola Pass Kalapatthar Trekking
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest View Trek
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest Basecamp Trek
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                          <div class="col-md-6 col-lg-4">
+                            <div class="tclb-item">
+                              <h6>Everest Region</h6>
+                              <ul>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Gokyo Chola Pass Kalapatthar Trekking
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest View Trek
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest Basecamp Trek
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                          <div class="col-md-6 col-lg-4">
+                            <div class="tclb-item">
+                              <h6>Everest Region</h6>
+                              <ul>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Gokyo Chola Pass Kalapatthar Trekking
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest View Trek
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest Basecamp Trek
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                          <div class="col-md-6 col-lg-4">
+                            <div class="tclb-item">
+                              <h6>Everest Region</h6>
+                              <ul>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Gokyo Chola Pass Kalapatthar Trekking
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest View Trek
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest Basecamp Trek
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                          <div class="col-md-6 col-lg-4">
+                            <div class="tclb-item">
+                              <h6>Everest Region</h6>
+                              <ul>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Gokyo Chola Pass Kalapatthar Trekking
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest View Trek
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest Basecamp Trek
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="inner-tab-content" id="itc2">
+                        <div class="row">
+                          <div class="col-md-6 col-lg-4">
+                            <div class="tclb-item">
+                              <h6>Everest Region 2</h6>
+                              <ul>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Gokyo Chola Pass Kalapatthar Trekking
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest View Trek
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest Basecamp Trek
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                          <div class="col-md-6 col-lg-4">
+                            <div class="tclb-item">
+                              <h6>Everest Region</h6>
+                              <ul>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Gokyo Chola Pass Kalapatthar Trekking
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest View Trek
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest Basecamp Trek
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                          <div class="col-md-6 col-lg-4">
+                            <div class="tclb-item">
+                              <h6>Everest Region</h6>
+                              <ul>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Gokyo Chola Pass Kalapatthar Trekking
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest View Trek
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest Basecamp Trek
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                          <div class="col-md-6 col-lg-4">
+                            <div class="tclb-item">
+                              <h6>Everest Region</h6>
+                              <ul>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Gokyo Chola Pass Kalapatthar Trekking
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest View Trek
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest Basecamp Trek
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                          <div class="col-md-6 col-lg-4">
+                            <div class="tclb-item">
+                              <h6>Everest Region</h6>
+                              <ul>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Gokyo Chola Pass Kalapatthar Trekking
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest View Trek
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest Basecamp Trek
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                          <div class="col-md-6 col-lg-4">
+                            <div class="tclb-item">
+                              <h6>Everest Region</h6>
+                              <ul>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Gokyo Chola Pass Kalapatthar Trekking
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest View Trek
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest Basecamp Trek
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="inner-tab-content" id="itc3">
+                        <div class="row">
+                          <div class="col-md-6 col-lg-4">
+                            <div class="tclb-item">
+                              <h6>Everest Region 3</h6>
+                              <ul>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Gokyo Chola Pass Kalapatthar Trekking
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest View Trek
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest Basecamp Trek
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                          <div class="col-md-6 col-lg-4">
+                            <div class="tclb-item">
+                              <h6>Everest Region</h6>
+                              <ul>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Gokyo Chola Pass Kalapatthar Trekking
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest View Trek
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest Basecamp Trek
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                          <div class="col-md-6 col-lg-4">
+                            <div class="tclb-item">
+                              <h6>Everest Region</h6>
+                              <ul>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Gokyo Chola Pass Kalapatthar Trekking
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest View Trek
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest Basecamp Trek
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                          <div class="col-md-6 col-lg-4">
+                            <div class="tclb-item">
+                              <h6>Everest Region</h6>
+                              <ul>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Gokyo Chola Pass Kalapatthar Trekking
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest View Trek
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest Basecamp Trek
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                          <div class="col-md-6 col-lg-4">
+                            <div class="tclb-item">
+                              <h6>Everest Region</h6>
+                              <ul>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Gokyo Chola Pass Kalapatthar Trekking
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest View Trek
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest Basecamp Trek
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                          <div class="col-md-6 col-lg-4">
+                            <div class="tclb-item">
+                              <h6>Everest Region</h6>
+                              <ul>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Gokyo Chola Pass Kalapatthar Trekking
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest View Trek
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest Basecamp Trek
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="inner-tab-content" id="itc4">
+                        <div class="row">
+                          <div class="col-md-6 col-lg-4">
+                            <div class="tclb-item">
+                              <h6>Everest Region 4</h6>
+                              <ul>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Gokyo Chola Pass Kalapatthar Trekking
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest View Trek
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest Basecamp Trek
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                          <div class="col-md-6 col-lg-4">
+                            <div class="tclb-item">
+                              <h6>Everest Region</h6>
+                              <ul>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Gokyo Chola Pass Kalapatthar Trekking
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest View Trek
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest Basecamp Trek
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                          <div class="col-md-6 col-lg-4">
+                            <div class="tclb-item">
+                              <h6>Everest Region</h6>
+                              <ul>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Gokyo Chola Pass Kalapatthar Trekking
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest View Trek
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest Basecamp Trek
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                          <div class="col-md-6 col-lg-4">
+                            <div class="tclb-item">
+                              <h6>Everest Region</h6>
+                              <ul>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Gokyo Chola Pass Kalapatthar Trekking
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest View Trek
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest Basecamp Trek
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                          <div class="col-md-6 col-lg-4">
+                            <div class="tclb-item">
+                              <h6>Everest Region</h6>
+                              <ul>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Gokyo Chola Pass Kalapatthar Trekking
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest View Trek
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest Basecamp Trek
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                          <div class="col-md-6 col-lg-4">
+                            <div class="tclb-item">
+                              <h6>Everest Region</h6>
+                              <ul>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Gokyo Chola Pass Kalapatthar Trekking
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest View Trek
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest Basecamp Trek
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="inner-tab-content" id="itc5">
+                        <div class="row">
+                          <div class="col-md-6 col-lg-4">
+                            <div class="tclb-item">
+                              <h6>Everest Region 5</h6>
+                              <ul>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Gokyo Chola Pass Kalapatthar Trekking
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest View Trek
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest Basecamp Trek
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                          <div class="col-md-6 col-lg-4">
+                            <div class="tclb-item">
+                              <h6>Everest Region</h6>
+                              <ul>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Gokyo Chola Pass Kalapatthar Trekking
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest View Trek
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest Basecamp Trek
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                          <div class="col-md-6 col-lg-4">
+                            <div class="tclb-item">
+                              <h6>Everest Region</h6>
+                              <ul>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Gokyo Chola Pass Kalapatthar Trekking
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest View Trek
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest Basecamp Trek
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                          <div class="col-md-6 col-lg-4">
+                            <div class="tclb-item">
+                              <h6>Everest Region</h6>
+                              <ul>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Gokyo Chola Pass Kalapatthar Trekking
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest View Trek
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest Basecamp Trek
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                          <div class="col-md-6 col-lg-4">
+                            <div class="tclb-item">
+                              <h6>Everest Region</h6>
+                              <ul>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Gokyo Chola Pass Kalapatthar Trekking
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest View Trek
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest Basecamp Trek
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                          <div class="col-md-6 col-lg-4">
+                            <div class="tclb-item">
+                              <h6>Everest Region</h6>
+                              <ul>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Gokyo Chola Pass Kalapatthar Trekking
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest View Trek
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest Basecamp Trek
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="inner-tab-content" id="itc6">
+                        <div class="row">
+                          <div class="col-md-6 col-lg-4">
+                            <div class="tclb-item">
+                              <h6>Everest Region 6</h6>
+                              <ul>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Gokyo Chola Pass Kalapatthar Trekking
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest View Trek
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest Basecamp Trek
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                          <div class="col-md-6 col-lg-4">
+                            <div class="tclb-item">
+                              <h6>Everest Region</h6>
+                              <ul>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Gokyo Chola Pass Kalapatthar Trekking
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest View Trek
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest Basecamp Trek
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                          <div class="col-md-6 col-lg-4">
+                            <div class="tclb-item">
+                              <h6>Everest Region</h6>
+                              <ul>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Gokyo Chola Pass Kalapatthar Trekking
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest View Trek
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest Basecamp Trek
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                          <div class="col-md-6 col-lg-4">
+                            <div class="tclb-item">
+                              <h6>Everest Region</h6>
+                              <ul>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Gokyo Chola Pass Kalapatthar Trekking
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest View Trek
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest Basecamp Trek
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                          <div class="col-md-6 col-lg-4">
+                            <div class="tclb-item">
+                              <h6>Everest Region</h6>
+                              <ul>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Gokyo Chola Pass Kalapatthar Trekking
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest View Trek
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest Basecamp Trek
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                          <div class="col-md-6 col-lg-4">
+                            <div class="tclb-item">
+                              <h6>Everest Region</h6>
+                              <ul>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Gokyo Chola Pass Kalapatthar Trekking
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest View Trek
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest Basecamp Trek
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="text-center">
+                      <a href="#" class="bh-btn bh-btn-filled-dark">View Trekking in Detail</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="mega-menu-wrapper" id="mega-activities">
+          <div class="mm-container">
+            <div class="row">
+              <div class="col-lg-3">
+                <ul class="mm-controller">
+                  <li class="dropdown-menu-item active">
+                    <a href="#nepal">
+                      <p>
+                        <img src="<?php echo get_parent_theme_file_uri()?>/assets/images/destinaton-01.png" alt=""
+                          class="img-fluid">
+                        <span>Nepal</span>
+                      </p>
+                    </a>
+                  </li>
+                  <li class="dropdown-menu-item">
+                    <a href="#india">
+                      <p>
+                        <img src="<?php echo get_parent_theme_file_uri()?>/assets/images/destinaton-02.png" alt=""
+                          class="img-fluid">
+                        <span>India</span>
+                      </p>
+                    </a>
+                  </li>
+                  <li class="dropdown-menu-item ">
+                    <a href="#vietnam">
+                      <p>
+                        <img src="<?php echo get_parent_theme_file_uri()?>/assets/images/destinaton-03.png" alt=""
+                          class="img-fluid">
+                        <span>Vietnam</span>
+                      </p>
+                    </a>
+                  </li>
+                  <li class="dropdown-menu-item ">
+                    <a href="#new_zealand">
+                      <p>
+                        <img src="<?php echo get_parent_theme_file_uri()?>/assets/images/destinaton-04.png" alt=""
+                          class="img-fluid">
+                        <span>New Zealand</span>
+                      </p>
+                    </a>
+                  </li>
+                  <li class="dropdown-menu-item ">
+                    <a href="#dubai">
+                      <p>
+                        <img src="<?php echo get_parent_theme_file_uri()?>/assets/images/destinaton-05.png" alt=""
+                          class="img-fluid">
+                        <span>Dubai</span>
+                      </p>
+                    </a>
+                  </li>
+                  <li class="dropdown-menu-item ">
+                    <a href="#thailand">
+                      <p>
+                        <img src="<?php echo get_parent_theme_file_uri()?>/assets/images/destinaton-06.png" alt=""
+                          class="img-fluid">
+                        <span>Thailand</span>
+                      </p>
+                    </a>
+                  </li>
+                  <li class="dropdown-menu-item ">
+                    <a href="#europe">
+                      <p>
+                        <img src="<?php echo get_parent_theme_file_uri()?>/assets/images/destinaton-07.png" alt=""
+                          class="img-fluid">
+                        <span>Europe</span>
+                      </p>
+                    </a>
+                  </li>
+                  <li class="dropdown-menu-item ">
+                    <a href="#fizi">
+                      <p>
+                        <img src="<?php echo get_parent_theme_file_uri()?>/assets/images/destinaton-08.png" alt=""
+                          class="img-fluid">
+                        <span>Fiji</span>
+                      </p>
+                    </a>
+                  </li>
+                  <li class="dropdown-menu-item ">
+                    <a href=" #srilanka">
+                      <p>
+                        <img src="<?php echo get_parent_theme_file_uri()?>/assets/images/destinaton-09.png" alt=""
+                          class="img-fluid">
+                        <span>Srilanka</span>
+                      </p>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+              <div class="col-lg-9">
+                <div class="tab-content-wrapper">
+                  <div class="tab-content active" id="nepal">
+                    <div class="tc-header d-flex justify-content-between align-items-center">
+                      <div class="dropdown-menu-item d-flex justify-content-start align-items-center">
+                        <img src="<?php echo get_parent_theme_file_uri()?>/assets/images/destinaton-01.png" alt=""
+                          class="img-fluid">
+                        <h4 class="d-inline-block">Activity In Nepal</h4>
+                      </div>
+                      <a href="#" class="bh-btn bh-btn-filled-dark">View Nepal in Detail</a>
+                    </div>
+                    <ul class="inner-tab d-flex justify-content-center align-items-center">
+                      <li class="active"><a href="#itc1">Trekking/Hiking</a></li>
+                      <li><a href="#itc2">Hunting</a></li>
+                      <li><a href="#itc3">Water Sports</a></li>
+                      <li><a href="#itc4">Spritual Religious</a></li>
+                      <li><a href="#itc5">Wildlife & Nature</a></li>
+                      <li><a href="#itc6">Tours & Sightseen</a></li>
+                    </ul>
+                    <div class="tc-list-box">
+                      <div class="inner-tab-content active" id="itc1">
+                        <div class="row">
+                          <div class="col-md-6 col-lg-4">
+                            <div class="tclb-item">
+                              <h6>Everest Region</h6>
+                              <ul>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Gokyo Chola Pass Kalapatthar Trekking
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest View Trek
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest Basecamp Trek
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                          <div class="col-md-6 col-lg-4">
+                            <div class="tclb-item">
+                              <h6>Everest Region</h6>
+                              <ul>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Gokyo Chola Pass Kalapatthar Trekking
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest View Trek
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest Basecamp Trek
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                          <div class="col-md-6 col-lg-4">
+                            <div class="tclb-item">
+                              <h6>Everest Region</h6>
+                              <ul>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Gokyo Chola Pass Kalapatthar Trekking
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest View Trek
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest Basecamp Trek
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                          <div class="col-md-6 col-lg-4">
+                            <div class="tclb-item">
+                              <h6>Everest Region</h6>
+                              <ul>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Gokyo Chola Pass Kalapatthar Trekking
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest View Trek
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest Basecamp Trek
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                          <div class="col-md-6 col-lg-4">
+                            <div class="tclb-item">
+                              <h6>Everest Region</h6>
+                              <ul>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Gokyo Chola Pass Kalapatthar Trekking
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest View Trek
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest Basecamp Trek
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                          <div class="col-md-6 col-lg-4">
+                            <div class="tclb-item">
+                              <h6>Everest Region</h6>
+                              <ul>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Gokyo Chola Pass Kalapatthar Trekking
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest View Trek
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest Basecamp Trek
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="inner-tab-content" id="itc2">
+                        <div class="row">
+                          <div class="col-md-6 col-lg-4">
+                            <div class="tclb-item">
+                              <h6>Everest Region 2</h6>
+                              <ul>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Gokyo Chola Pass Kalapatthar Trekking
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest View Trek
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest Basecamp Trek
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                          <div class="col-md-6 col-lg-4">
+                            <div class="tclb-item">
+                              <h6>Everest Region</h6>
+                              <ul>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Gokyo Chola Pass Kalapatthar Trekking
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest View Trek
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest Basecamp Trek
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                          <div class="col-md-6 col-lg-4">
+                            <div class="tclb-item">
+                              <h6>Everest Region</h6>
+                              <ul>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Gokyo Chola Pass Kalapatthar Trekking
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest View Trek
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest Basecamp Trek
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                          <div class="col-md-6 col-lg-4">
+                            <div class="tclb-item">
+                              <h6>Everest Region</h6>
+                              <ul>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Gokyo Chola Pass Kalapatthar Trekking
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest View Trek
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest Basecamp Trek
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                          <div class="col-md-6 col-lg-4">
+                            <div class="tclb-item">
+                              <h6>Everest Region</h6>
+                              <ul>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Gokyo Chola Pass Kalapatthar Trekking
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest View Trek
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest Basecamp Trek
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                          <div class="col-md-6 col-lg-4">
+                            <div class="tclb-item">
+                              <h6>Everest Region</h6>
+                              <ul>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Gokyo Chola Pass Kalapatthar Trekking
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest View Trek
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest Basecamp Trek
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="inner-tab-content" id="itc3">
+                        <div class="row">
+                          <div class="col-md-6 col-lg-4">
+                            <div class="tclb-item">
+                              <h6>Everest Region 3</h6>
+                              <ul>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Gokyo Chola Pass Kalapatthar Trekking
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest View Trek
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest Basecamp Trek
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                          <div class="col-md-6 col-lg-4">
+                            <div class="tclb-item">
+                              <h6>Everest Region</h6>
+                              <ul>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Gokyo Chola Pass Kalapatthar Trekking
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest View Trek
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest Basecamp Trek
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                          <div class="col-md-6 col-lg-4">
+                            <div class="tclb-item">
+                              <h6>Everest Region</h6>
+                              <ul>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Gokyo Chola Pass Kalapatthar Trekking
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest View Trek
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest Basecamp Trek
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                          <div class="col-md-6 col-lg-4">
+                            <div class="tclb-item">
+                              <h6>Everest Region</h6>
+                              <ul>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Gokyo Chola Pass Kalapatthar Trekking
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest View Trek
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest Basecamp Trek
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                          <div class="col-md-6 col-lg-4">
+                            <div class="tclb-item">
+                              <h6>Everest Region</h6>
+                              <ul>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Gokyo Chola Pass Kalapatthar Trekking
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest View Trek
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest Basecamp Trek
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                          <div class="col-md-6 col-lg-4">
+                            <div class="tclb-item">
+                              <h6>Everest Region</h6>
+                              <ul>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Gokyo Chola Pass Kalapatthar Trekking
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest View Trek
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest Basecamp Trek
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="inner-tab-content" id="itc4">
+                        <div class="row">
+                          <div class="col-md-6 col-lg-4">
+                            <div class="tclb-item">
+                              <h6>Everest Region 4</h6>
+                              <ul>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Gokyo Chola Pass Kalapatthar Trekking
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest View Trek
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest Basecamp Trek
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                          <div class="col-md-6 col-lg-4">
+                            <div class="tclb-item">
+                              <h6>Everest Region</h6>
+                              <ul>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Gokyo Chola Pass Kalapatthar Trekking
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest View Trek
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest Basecamp Trek
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                          <div class="col-md-6 col-lg-4">
+                            <div class="tclb-item">
+                              <h6>Everest Region</h6>
+                              <ul>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Gokyo Chola Pass Kalapatthar Trekking
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest View Trek
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest Basecamp Trek
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                          <div class="col-md-6 col-lg-4">
+                            <div class="tclb-item">
+                              <h6>Everest Region</h6>
+                              <ul>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Gokyo Chola Pass Kalapatthar Trekking
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest View Trek
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest Basecamp Trek
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                          <div class="col-md-6 col-lg-4">
+                            <div class="tclb-item">
+                              <h6>Everest Region</h6>
+                              <ul>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Gokyo Chola Pass Kalapatthar Trekking
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest View Trek
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest Basecamp Trek
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                          <div class="col-md-6 col-lg-4">
+                            <div class="tclb-item">
+                              <h6>Everest Region</h6>
+                              <ul>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Gokyo Chola Pass Kalapatthar Trekking
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest View Trek
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest Basecamp Trek
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="inner-tab-content" id="itc5">
+                        <div class="row">
+                          <div class="col-md-6 col-lg-4">
+                            <div class="tclb-item">
+                              <h6>Everest Region 5</h6>
+                              <ul>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Gokyo Chola Pass Kalapatthar Trekking
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest View Trek
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest Basecamp Trek
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                          <div class="col-md-6 col-lg-4">
+                            <div class="tclb-item">
+                              <h6>Everest Region</h6>
+                              <ul>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Gokyo Chola Pass Kalapatthar Trekking
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest View Trek
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest Basecamp Trek
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                          <div class="col-md-6 col-lg-4">
+                            <div class="tclb-item">
+                              <h6>Everest Region</h6>
+                              <ul>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Gokyo Chola Pass Kalapatthar Trekking
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest View Trek
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest Basecamp Trek
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                          <div class="col-md-6 col-lg-4">
+                            <div class="tclb-item">
+                              <h6>Everest Region</h6>
+                              <ul>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Gokyo Chola Pass Kalapatthar Trekking
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest View Trek
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest Basecamp Trek
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                          <div class="col-md-6 col-lg-4">
+                            <div class="tclb-item">
+                              <h6>Everest Region</h6>
+                              <ul>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Gokyo Chola Pass Kalapatthar Trekking
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest View Trek
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest Basecamp Trek
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                          <div class="col-md-6 col-lg-4">
+                            <div class="tclb-item">
+                              <h6>Everest Region</h6>
+                              <ul>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Gokyo Chola Pass Kalapatthar Trekking
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest View Trek
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest Basecamp Trek
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="inner-tab-content" id="itc6">
+                        <div class="row">
+                          <div class="col-md-6 col-lg-4">
+                            <div class="tclb-item">
+                              <h6>Everest Region 6</h6>
+                              <ul>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Gokyo Chola Pass Kalapatthar Trekking
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest View Trek
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest Basecamp Trek
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                          <div class="col-md-6 col-lg-4">
+                            <div class="tclb-item">
+                              <h6>Everest Region</h6>
+                              <ul>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Gokyo Chola Pass Kalapatthar Trekking
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest View Trek
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest Basecamp Trek
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                          <div class="col-md-6 col-lg-4">
+                            <div class="tclb-item">
+                              <h6>Everest Region</h6>
+                              <ul>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Gokyo Chola Pass Kalapatthar Trekking
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest View Trek
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest Basecamp Trek
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                          <div class="col-md-6 col-lg-4">
+                            <div class="tclb-item">
+                              <h6>Everest Region</h6>
+                              <ul>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Gokyo Chola Pass Kalapatthar Trekking
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest View Trek
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest Basecamp Trek
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                          <div class="col-md-6 col-lg-4">
+                            <div class="tclb-item">
+                              <h6>Everest Region</h6>
+                              <ul>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Gokyo Chola Pass Kalapatthar Trekking
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest View Trek
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest Basecamp Trek
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                          <div class="col-md-6 col-lg-4">
+                            <div class="tclb-item">
+                              <h6>Everest Region</h6>
+                              <ul>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Gokyo Chola Pass Kalapatthar Trekking
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest View Trek
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest Basecamp Trek
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="text-center">
+                      <a href="#" class="bh-btn bh-btn-filled-dark">View Trekking in Detail</a>
+                    </div>
+                  </div>
+                  <div class="tab-content" id="india">
+                    <div class="tc-header d-flex justify-content-between align-items-center">
+                      <div class="dropdown-menu-item d-flex justify-content-start align-items-center">
+                        <img src="<?php echo get_parent_theme_file_uri()?>/assets/images/destinaton-02.png" alt=""
+                          class="img-fluid">
+                        <h4 class="d-inline-block">India</h4>
+                      </div>
+                      <a href="#" class="bh-btn bh-btn-filled-dark">View Nepal in Detail</a>
+                    </div>
+                    <ul class="inner-tab d-flex justify-content-center align-items-center">
+                      <li class="active"><a href="#itc1">Trekking/Hiking</a></li>
+                      <li><a href="#itc2">Hunting</a></li>
+                      <li><a href="#itc3">Water Sports</a></li>
+                      <li><a href="#itc4">Spritual Religious</a></li>
+                      <li><a href="#itc5">Wildlife & Nature</a></li>
+                      <li><a href="#itc6">Tours & Sightseen</a></li>
+                    </ul>
+                    <div class="tc-list-box">
+                      <div class="inner-tab-content active" id="itc1">
+                        <div class="row">
+                          <div class="col-md-6 col-lg-4">
+                            <div class="tclb-item">
+                              <h6>Everest Region</h6>
+                              <ul>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Gokyo Chola Pass Kalapatthar Trekking
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest View Trek
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest Basecamp Trek
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                          <div class="col-md-6 col-lg-4">
+                            <div class="tclb-item">
+                              <h6>Everest Region</h6>
+                              <ul>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Gokyo Chola Pass Kalapatthar Trekking
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest View Trek
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest Basecamp Trek
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                          <div class="col-md-6 col-lg-4">
+                            <div class="tclb-item">
+                              <h6>Everest Region</h6>
+                              <ul>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Gokyo Chola Pass Kalapatthar Trekking
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest View Trek
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest Basecamp Trek
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                          <div class="col-md-6 col-lg-4">
+                            <div class="tclb-item">
+                              <h6>Everest Region</h6>
+                              <ul>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Gokyo Chola Pass Kalapatthar Trekking
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest View Trek
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest Basecamp Trek
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                          <div class="col-md-6 col-lg-4">
+                            <div class="tclb-item">
+                              <h6>Everest Region</h6>
+                              <ul>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Gokyo Chola Pass Kalapatthar Trekking
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest View Trek
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest Basecamp Trek
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                          <div class="col-md-6 col-lg-4">
+                            <div class="tclb-item">
+                              <h6>Everest Region</h6>
+                              <ul>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Gokyo Chola Pass Kalapatthar Trekking
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest View Trek
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest Basecamp Trek
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="inner-tab-content" id="itc2">
+                        <div class="row">
+                          <div class="col-md-6 col-lg-4">
+                            <div class="tclb-item">
+                              <h6>Everest Region 2</h6>
+                              <ul>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Gokyo Chola Pass Kalapatthar Trekking
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest View Trek
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest Basecamp Trek
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                          <div class="col-md-6 col-lg-4">
+                            <div class="tclb-item">
+                              <h6>Everest Region</h6>
+                              <ul>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Gokyo Chola Pass Kalapatthar Trekking
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest View Trek
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest Basecamp Trek
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                          <div class="col-md-6 col-lg-4">
+                            <div class="tclb-item">
+                              <h6>Everest Region</h6>
+                              <ul>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Gokyo Chola Pass Kalapatthar Trekking
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest View Trek
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest Basecamp Trek
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                          <div class="col-md-6 col-lg-4">
+                            <div class="tclb-item">
+                              <h6>Everest Region</h6>
+                              <ul>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Gokyo Chola Pass Kalapatthar Trekking
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest View Trek
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest Basecamp Trek
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                          <div class="col-md-6 col-lg-4">
+                            <div class="tclb-item">
+                              <h6>Everest Region</h6>
+                              <ul>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Gokyo Chola Pass Kalapatthar Trekking
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest View Trek
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest Basecamp Trek
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                          <div class="col-md-6 col-lg-4">
+                            <div class="tclb-item">
+                              <h6>Everest Region</h6>
+                              <ul>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Gokyo Chola Pass Kalapatthar Trekking
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest View Trek
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest Basecamp Trek
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="inner-tab-content" id="itc3">
+                        <div class="row">
+                          <div class="col-md-6 col-lg-4">
+                            <div class="tclb-item">
+                              <h6>Everest Region 3</h6>
+                              <ul>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Gokyo Chola Pass Kalapatthar Trekking
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest View Trek
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest Basecamp Trek
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                          <div class="col-md-6 col-lg-4">
+                            <div class="tclb-item">
+                              <h6>Everest Region</h6>
+                              <ul>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Gokyo Chola Pass Kalapatthar Trekking
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest View Trek
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest Basecamp Trek
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                          <div class="col-md-6 col-lg-4">
+                            <div class="tclb-item">
+                              <h6>Everest Region</h6>
+                              <ul>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Gokyo Chola Pass Kalapatthar Trekking
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest View Trek
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest Basecamp Trek
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                          <div class="col-md-6 col-lg-4">
+                            <div class="tclb-item">
+                              <h6>Everest Region</h6>
+                              <ul>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Gokyo Chola Pass Kalapatthar Trekking
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest View Trek
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest Basecamp Trek
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                          <div class="col-md-6 col-lg-4">
+                            <div class="tclb-item">
+                              <h6>Everest Region</h6>
+                              <ul>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Gokyo Chola Pass Kalapatthar Trekking
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest View Trek
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest Basecamp Trek
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                          <div class="col-md-6 col-lg-4">
+                            <div class="tclb-item">
+                              <h6>Everest Region</h6>
+                              <ul>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Gokyo Chola Pass Kalapatthar Trekking
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest View Trek
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest Basecamp Trek
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="inner-tab-content" id="itc4">
+                        <div class="row">
+                          <div class="col-md-6 col-lg-4">
+                            <div class="tclb-item">
+                              <h6>Everest Region 4</h6>
+                              <ul>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Gokyo Chola Pass Kalapatthar Trekking
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest View Trek
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest Basecamp Trek
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                          <div class="col-md-6 col-lg-4">
+                            <div class="tclb-item">
+                              <h6>Everest Region</h6>
+                              <ul>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Gokyo Chola Pass Kalapatthar Trekking
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest View Trek
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest Basecamp Trek
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                          <div class="col-md-6 col-lg-4">
+                            <div class="tclb-item">
+                              <h6>Everest Region</h6>
+                              <ul>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Gokyo Chola Pass Kalapatthar Trekking
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest View Trek
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest Basecamp Trek
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                          <div class="col-md-6 col-lg-4">
+                            <div class="tclb-item">
+                              <h6>Everest Region</h6>
+                              <ul>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Gokyo Chola Pass Kalapatthar Trekking
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest View Trek
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest Basecamp Trek
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                          <div class="col-md-6 col-lg-4">
+                            <div class="tclb-item">
+                              <h6>Everest Region</h6>
+                              <ul>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Gokyo Chola Pass Kalapatthar Trekking
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest View Trek
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest Basecamp Trek
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                          <div class="col-md-6 col-lg-4">
+                            <div class="tclb-item">
+                              <h6>Everest Region</h6>
+                              <ul>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Gokyo Chola Pass Kalapatthar Trekking
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest View Trek
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest Basecamp Trek
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="inner-tab-content" id="itc5">
+                        <div class="row">
+                          <div class="col-md-6 col-lg-4">
+                            <div class="tclb-item">
+                              <h6>Everest Region 5</h6>
+                              <ul>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Gokyo Chola Pass Kalapatthar Trekking
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest View Trek
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest Basecamp Trek
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                          <div class="col-md-6 col-lg-4">
+                            <div class="tclb-item">
+                              <h6>Everest Region</h6>
+                              <ul>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Gokyo Chola Pass Kalapatthar Trekking
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest View Trek
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest Basecamp Trek
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                          <div class="col-md-6 col-lg-4">
+                            <div class="tclb-item">
+                              <h6>Everest Region</h6>
+                              <ul>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Gokyo Chola Pass Kalapatthar Trekking
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest View Trek
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest Basecamp Trek
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                          <div class="col-md-6 col-lg-4">
+                            <div class="tclb-item">
+                              <h6>Everest Region</h6>
+                              <ul>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Gokyo Chola Pass Kalapatthar Trekking
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest View Trek
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest Basecamp Trek
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                          <div class="col-md-6 col-lg-4">
+                            <div class="tclb-item">
+                              <h6>Everest Region</h6>
+                              <ul>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Gokyo Chola Pass Kalapatthar Trekking
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest View Trek
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest Basecamp Trek
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                          <div class="col-md-6 col-lg-4">
+                            <div class="tclb-item">
+                              <h6>Everest Region</h6>
+                              <ul>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Gokyo Chola Pass Kalapatthar Trekking
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest View Trek
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest Basecamp Trek
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="inner-tab-content" id="itc6">
+                        <div class="row">
+                          <div class="col-md-6 col-lg-4">
+                            <div class="tclb-item">
+                              <h6>Everest Region 6</h6>
+                              <ul>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Gokyo Chola Pass Kalapatthar Trekking
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest View Trek
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest Basecamp Trek
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                          <div class="col-md-6 col-lg-4">
+                            <div class="tclb-item">
+                              <h6>Everest Region</h6>
+                              <ul>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Gokyo Chola Pass Kalapatthar Trekking
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest View Trek
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest Basecamp Trek
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                          <div class="col-md-6 col-lg-4">
+                            <div class="tclb-item">
+                              <h6>Everest Region</h6>
+                              <ul>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Gokyo Chola Pass Kalapatthar Trekking
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest View Trek
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest Basecamp Trek
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                          <div class="col-md-6 col-lg-4">
+                            <div class="tclb-item">
+                              <h6>Everest Region</h6>
+                              <ul>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Gokyo Chola Pass Kalapatthar Trekking
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest View Trek
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest Basecamp Trek
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                          <div class="col-md-6 col-lg-4">
+                            <div class="tclb-item">
+                              <h6>Everest Region</h6>
+                              <ul>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Gokyo Chola Pass Kalapatthar Trekking
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest View Trek
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest Basecamp Trek
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                          <div class="col-md-6 col-lg-4">
+                            <div class="tclb-item">
+                              <h6>Everest Region</h6>
+                              <ul>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Gokyo Chola Pass Kalapatthar Trekking
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest View Trek
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest Basecamp Trek
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="text-center">
+                      <a href="#" class="bh-btn bh-btn-filled-dark">View Trekking in Detail</a>
+                    </div>
+                  </div>
+                  <div class="tab-content" id="vietnam">
+                    <div class="tc-header d-flex justify-content-between align-items-center">
+                      <div class="dropdown-menu-item d-flex justify-content-start align-items-center">
+                        <img src="<?php echo get_parent_theme_file_uri()?>/assets/images/destinaton-03.png" alt=""
+                          class="img-fluid">
+                        <h4 class="d-inline-block">Vietnam</h4>
+                      </div>
+                      <a href="#" class="bh-btn bh-btn-filled-dark">View Nepal in Detail</a>
+                    </div>
+                    <ul class="inner-tab d-flex justify-content-center align-items-center">
+                      <li class="active"><a href="#itc1">Trekking/Hiking</a></li>
+                      <li><a href="#itc2">Hunting</a></li>
+                      <li><a href="#itc3">Water Sports</a></li>
+                      <li><a href="#itc4">Spritual Religious</a></li>
+                      <li><a href="#itc5">Wildlife & Nature</a></li>
+                      <li><a href="#itc6">Tours & Sightseen</a></li>
+                    </ul>
+                    <div class="tc-list-box">
+                      <div class="inner-tab-content active" id="itc1">
+                        <div class="row">
+                          <div class="col-md-6 col-lg-4">
+                            <div class="tclb-item">
+                              <h6>Everest Region</h6>
+                              <ul>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Gokyo Chola Pass Kalapatthar Trekking
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest View Trek
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest Basecamp Trek
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                          <div class="col-md-6 col-lg-4">
+                            <div class="tclb-item">
+                              <h6>Everest Region</h6>
+                              <ul>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Gokyo Chola Pass Kalapatthar Trekking
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest View Trek
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest Basecamp Trek
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                          <div class="col-md-6 col-lg-4">
+                            <div class="tclb-item">
+                              <h6>Everest Region</h6>
+                              <ul>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Gokyo Chola Pass Kalapatthar Trekking
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest View Trek
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest Basecamp Trek
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                          <div class="col-md-6 col-lg-4">
+                            <div class="tclb-item">
+                              <h6>Everest Region</h6>
+                              <ul>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Gokyo Chola Pass Kalapatthar Trekking
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest View Trek
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest Basecamp Trek
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                          <div class="col-md-6 col-lg-4">
+                            <div class="tclb-item">
+                              <h6>Everest Region</h6>
+                              <ul>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Gokyo Chola Pass Kalapatthar Trekking
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest View Trek
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest Basecamp Trek
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                          <div class="col-md-6 col-lg-4">
+                            <div class="tclb-item">
+                              <h6>Everest Region</h6>
+                              <ul>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Gokyo Chola Pass Kalapatthar Trekking
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest View Trek
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest Basecamp Trek
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="inner-tab-content" id="itc2">
+                        <div class="row">
+                          <div class="col-md-6 col-lg-4">
+                            <div class="tclb-item">
+                              <h6>Everest Region 2</h6>
+                              <ul>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Gokyo Chola Pass Kalapatthar Trekking
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest View Trek
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest Basecamp Trek
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                          <div class="col-md-6 col-lg-4">
+                            <div class="tclb-item">
+                              <h6>Everest Region</h6>
+                              <ul>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Gokyo Chola Pass Kalapatthar Trekking
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest View Trek
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest Basecamp Trek
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                          <div class="col-md-6 col-lg-4">
+                            <div class="tclb-item">
+                              <h6>Everest Region</h6>
+                              <ul>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Gokyo Chola Pass Kalapatthar Trekking
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest View Trek
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest Basecamp Trek
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                          <div class="col-md-6 col-lg-4">
+                            <div class="tclb-item">
+                              <h6>Everest Region</h6>
+                              <ul>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Gokyo Chola Pass Kalapatthar Trekking
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest View Trek
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest Basecamp Trek
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                          <div class="col-md-6 col-lg-4">
+                            <div class="tclb-item">
+                              <h6>Everest Region</h6>
+                              <ul>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Gokyo Chola Pass Kalapatthar Trekking
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest View Trek
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest Basecamp Trek
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                          <div class="col-md-6 col-lg-4">
+                            <div class="tclb-item">
+                              <h6>Everest Region</h6>
+                              <ul>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Gokyo Chola Pass Kalapatthar Trekking
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest View Trek
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest Basecamp Trek
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="inner-tab-content" id="itc3">
+                        <div class="row">
+                          <div class="col-md-6 col-lg-4">
+                            <div class="tclb-item">
+                              <h6>Everest Region 3</h6>
+                              <ul>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Gokyo Chola Pass Kalapatthar Trekking
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest View Trek
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest Basecamp Trek
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                          <div class="col-md-6 col-lg-4">
+                            <div class="tclb-item">
+                              <h6>Everest Region</h6>
+                              <ul>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Gokyo Chola Pass Kalapatthar Trekking
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest View Trek
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest Basecamp Trek
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                          <div class="col-md-6 col-lg-4">
+                            <div class="tclb-item">
+                              <h6>Everest Region</h6>
+                              <ul>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Gokyo Chola Pass Kalapatthar Trekking
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest View Trek
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest Basecamp Trek
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                          <div class="col-md-6 col-lg-4">
+                            <div class="tclb-item">
+                              <h6>Everest Region</h6>
+                              <ul>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Gokyo Chola Pass Kalapatthar Trekking
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest View Trek
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest Basecamp Trek
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                          <div class="col-md-6 col-lg-4">
+                            <div class="tclb-item">
+                              <h6>Everest Region</h6>
+                              <ul>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Gokyo Chola Pass Kalapatthar Trekking
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest View Trek
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest Basecamp Trek
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                          <div class="col-md-6 col-lg-4">
+                            <div class="tclb-item">
+                              <h6>Everest Region</h6>
+                              <ul>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Gokyo Chola Pass Kalapatthar Trekking
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest View Trek
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest Basecamp Trek
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="inner-tab-content" id="itc4">
+                        <div class="row">
+                          <div class="col-md-6 col-lg-4">
+                            <div class="tclb-item">
+                              <h6>Everest Region 4</h6>
+                              <ul>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Gokyo Chola Pass Kalapatthar Trekking
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest View Trek
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest Basecamp Trek
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                          <div class="col-md-6 col-lg-4">
+                            <div class="tclb-item">
+                              <h6>Everest Region</h6>
+                              <ul>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Gokyo Chola Pass Kalapatthar Trekking
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest View Trek
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest Basecamp Trek
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                          <div class="col-md-6 col-lg-4">
+                            <div class="tclb-item">
+                              <h6>Everest Region</h6>
+                              <ul>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Gokyo Chola Pass Kalapatthar Trekking
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest View Trek
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest Basecamp Trek
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                          <div class="col-md-6 col-lg-4">
+                            <div class="tclb-item">
+                              <h6>Everest Region</h6>
+                              <ul>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Gokyo Chola Pass Kalapatthar Trekking
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest View Trek
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest Basecamp Trek
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                          <div class="col-md-6 col-lg-4">
+                            <div class="tclb-item">
+                              <h6>Everest Region</h6>
+                              <ul>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Gokyo Chola Pass Kalapatthar Trekking
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest View Trek
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest Basecamp Trek
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                          <div class="col-md-6 col-lg-4">
+                            <div class="tclb-item">
+                              <h6>Everest Region</h6>
+                              <ul>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Gokyo Chola Pass Kalapatthar Trekking
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest View Trek
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest Basecamp Trek
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="inner-tab-content" id="itc5">
+                        <div class="row">
+                          <div class="col-md-6 col-lg-4">
+                            <div class="tclb-item">
+                              <h6>Everest Region 5</h6>
+                              <ul>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Gokyo Chola Pass Kalapatthar Trekking
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest View Trek
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest Basecamp Trek
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                          <div class="col-md-6 col-lg-4">
+                            <div class="tclb-item">
+                              <h6>Everest Region</h6>
+                              <ul>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Gokyo Chola Pass Kalapatthar Trekking
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest View Trek
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest Basecamp Trek
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                          <div class="col-md-6 col-lg-4">
+                            <div class="tclb-item">
+                              <h6>Everest Region</h6>
+                              <ul>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Gokyo Chola Pass Kalapatthar Trekking
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest View Trek
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest Basecamp Trek
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                          <div class="col-md-6 col-lg-4">
+                            <div class="tclb-item">
+                              <h6>Everest Region</h6>
+                              <ul>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Gokyo Chola Pass Kalapatthar Trekking
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest View Trek
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest Basecamp Trek
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                          <div class="col-md-6 col-lg-4">
+                            <div class="tclb-item">
+                              <h6>Everest Region</h6>
+                              <ul>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Gokyo Chola Pass Kalapatthar Trekking
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest View Trek
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest Basecamp Trek
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                          <div class="col-md-6 col-lg-4">
+                            <div class="tclb-item">
+                              <h6>Everest Region</h6>
+                              <ul>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Gokyo Chola Pass Kalapatthar Trekking
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest View Trek
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest Basecamp Trek
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="inner-tab-content" id="itc6">
+                        <div class="row">
+                          <div class="col-md-6 col-lg-4">
+                            <div class="tclb-item">
+                              <h6>Everest Region 6</h6>
+                              <ul>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Gokyo Chola Pass Kalapatthar Trekking
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest View Trek
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest Basecamp Trek
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                          <div class="col-md-6 col-lg-4">
+                            <div class="tclb-item">
+                              <h6>Everest Region</h6>
+                              <ul>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Gokyo Chola Pass Kalapatthar Trekking
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest View Trek
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest Basecamp Trek
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                          <div class="col-md-6 col-lg-4">
+                            <div class="tclb-item">
+                              <h6>Everest Region</h6>
+                              <ul>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Gokyo Chola Pass Kalapatthar Trekking
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest View Trek
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest Basecamp Trek
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                          <div class="col-md-6 col-lg-4">
+                            <div class="tclb-item">
+                              <h6>Everest Region</h6>
+                              <ul>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Gokyo Chola Pass Kalapatthar Trekking
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest View Trek
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest Basecamp Trek
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                          <div class="col-md-6 col-lg-4">
+                            <div class="tclb-item">
+                              <h6>Everest Region</h6>
+                              <ul>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Gokyo Chola Pass Kalapatthar Trekking
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest View Trek
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest Basecamp Trek
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                          <div class="col-md-6 col-lg-4">
+                            <div class="tclb-item">
+                              <h6>Everest Region</h6>
+                              <ul>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Gokyo Chola Pass Kalapatthar Trekking
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest View Trek
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest Basecamp Trek
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="text-center">
+                      <a href="#" class="bh-btn bh-btn-filled-dark">View Trekking in Detail</a>
+                    </div>
+                  </div>
+                  <div class="tab-content" id="new_zealand">
+                    <div class="tc-header d-flex justify-content-between align-items-center">
+                      <div class="dropdown-menu-item d-flex justify-content-start align-items-center">
+                        <img src="<?php echo get_parent_theme_file_uri()?>/assets/images/destinaton-04.png" alt=""
+                          class="img-fluid">
+                        <h4 class="d-inline-block">New Zealand</h4>
+                      </div>
+                      <a href="#" class="bh-btn bh-btn-filled-dark">View Nepal in Detail</a>
+                    </div>
+                    <ul class="inner-tab d-flex justify-content-center align-items-center">
+                      <li class="active"><a href="#itc1">Trekking/Hiking</a></li>
+                      <li><a href="#itc2">Hunting</a></li>
+                      <li><a href="#itc3">Water Sports</a></li>
+                      <li><a href="#itc4">Spritual Religious</a></li>
+                      <li><a href="#itc5">Wildlife & Nature</a></li>
+                      <li><a href="#itc6">Tours & Sightseen</a></li>
+                    </ul>
+                    <div class="tc-list-box">
+                      <div class="inner-tab-content active" id="itc1">
+                        <div class="row">
+                          <div class="col-md-6 col-lg-4">
+                            <div class="tclb-item">
+                              <h6>Everest Region</h6>
+                              <ul>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Gokyo Chola Pass Kalapatthar Trekking
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest View Trek
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest Basecamp Trek
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                          <div class="col-md-6 col-lg-4">
+                            <div class="tclb-item">
+                              <h6>Everest Region</h6>
+                              <ul>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Gokyo Chola Pass Kalapatthar Trekking
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest View Trek
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest Basecamp Trek
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                          <div class="col-md-6 col-lg-4">
+                            <div class="tclb-item">
+                              <h6>Everest Region</h6>
+                              <ul>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Gokyo Chola Pass Kalapatthar Trekking
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest View Trek
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest Basecamp Trek
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                          <div class="col-md-6 col-lg-4">
+                            <div class="tclb-item">
+                              <h6>Everest Region</h6>
+                              <ul>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Gokyo Chola Pass Kalapatthar Trekking
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest View Trek
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest Basecamp Trek
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                          <div class="col-md-6 col-lg-4">
+                            <div class="tclb-item">
+                              <h6>Everest Region</h6>
+                              <ul>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Gokyo Chola Pass Kalapatthar Trekking
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest View Trek
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest Basecamp Trek
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                          <div class="col-md-6 col-lg-4">
+                            <div class="tclb-item">
+                              <h6>Everest Region</h6>
+                              <ul>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Gokyo Chola Pass Kalapatthar Trekking
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest View Trek
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest Basecamp Trek
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="inner-tab-content" id="itc2">
+                        <div class="row">
+                          <div class="col-md-6 col-lg-4">
+                            <div class="tclb-item">
+                              <h6>Everest Region 2</h6>
+                              <ul>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Gokyo Chola Pass Kalapatthar Trekking
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest View Trek
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest Basecamp Trek
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                          <div class="col-md-6 col-lg-4">
+                            <div class="tclb-item">
+                              <h6>Everest Region</h6>
+                              <ul>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Gokyo Chola Pass Kalapatthar Trekking
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest View Trek
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest Basecamp Trek
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                          <div class="col-md-6 col-lg-4">
+                            <div class="tclb-item">
+                              <h6>Everest Region</h6>
+                              <ul>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Gokyo Chola Pass Kalapatthar Trekking
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest View Trek
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest Basecamp Trek
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                          <div class="col-md-6 col-lg-4">
+                            <div class="tclb-item">
+                              <h6>Everest Region</h6>
+                              <ul>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Gokyo Chola Pass Kalapatthar Trekking
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest View Trek
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest Basecamp Trek
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                          <div class="col-md-6 col-lg-4">
+                            <div class="tclb-item">
+                              <h6>Everest Region</h6>
+                              <ul>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Gokyo Chola Pass Kalapatthar Trekking
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest View Trek
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest Basecamp Trek
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                          <div class="col-md-6 col-lg-4">
+                            <div class="tclb-item">
+                              <h6>Everest Region</h6>
+                              <ul>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Gokyo Chola Pass Kalapatthar Trekking
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest View Trek
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest Basecamp Trek
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="inner-tab-content" id="itc3">
+                        <div class="row">
+                          <div class="col-md-6 col-lg-4">
+                            <div class="tclb-item">
+                              <h6>Everest Region 3</h6>
+                              <ul>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Gokyo Chola Pass Kalapatthar Trekking
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest View Trek
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest Basecamp Trek
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                          <div class="col-md-6 col-lg-4">
+                            <div class="tclb-item">
+                              <h6>Everest Region</h6>
+                              <ul>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Gokyo Chola Pass Kalapatthar Trekking
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest View Trek
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest Basecamp Trek
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                          <div class="col-md-6 col-lg-4">
+                            <div class="tclb-item">
+                              <h6>Everest Region</h6>
+                              <ul>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Gokyo Chola Pass Kalapatthar Trekking
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest View Trek
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest Basecamp Trek
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                          <div class="col-md-6 col-lg-4">
+                            <div class="tclb-item">
+                              <h6>Everest Region</h6>
+                              <ul>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Gokyo Chola Pass Kalapatthar Trekking
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest View Trek
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest Basecamp Trek
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                          <div class="col-md-6 col-lg-4">
+                            <div class="tclb-item">
+                              <h6>Everest Region</h6>
+                              <ul>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Gokyo Chola Pass Kalapatthar Trekking
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest View Trek
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest Basecamp Trek
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                          <div class="col-md-6 col-lg-4">
+                            <div class="tclb-item">
+                              <h6>Everest Region</h6>
+                              <ul>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Gokyo Chola Pass Kalapatthar Trekking
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest View Trek
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest Basecamp Trek
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="inner-tab-content" id="itc4">
+                        <div class="row">
+                          <div class="col-md-6 col-lg-4">
+                            <div class="tclb-item">
+                              <h6>Everest Region 4</h6>
+                              <ul>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Gokyo Chola Pass Kalapatthar Trekking
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest View Trek
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest Basecamp Trek
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                          <div class="col-md-6 col-lg-4">
+                            <div class="tclb-item">
+                              <h6>Everest Region</h6>
+                              <ul>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Gokyo Chola Pass Kalapatthar Trekking
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest View Trek
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest Basecamp Trek
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                          <div class="col-md-6 col-lg-4">
+                            <div class="tclb-item">
+                              <h6>Everest Region</h6>
+                              <ul>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Gokyo Chola Pass Kalapatthar Trekking
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest View Trek
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest Basecamp Trek
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                          <div class="col-md-6 col-lg-4">
+                            <div class="tclb-item">
+                              <h6>Everest Region</h6>
+                              <ul>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Gokyo Chola Pass Kalapatthar Trekking
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest View Trek
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest Basecamp Trek
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                          <div class="col-md-6 col-lg-4">
+                            <div class="tclb-item">
+                              <h6>Everest Region</h6>
+                              <ul>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Gokyo Chola Pass Kalapatthar Trekking
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest View Trek
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest Basecamp Trek
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                          <div class="col-md-6 col-lg-4">
+                            <div class="tclb-item">
+                              <h6>Everest Region</h6>
+                              <ul>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Gokyo Chola Pass Kalapatthar Trekking
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest View Trek
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest Basecamp Trek
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="inner-tab-content" id="itc5">
+                        <div class="row">
+                          <div class="col-md-6 col-lg-4">
+                            <div class="tclb-item">
+                              <h6>Everest Region 5</h6>
+                              <ul>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Gokyo Chola Pass Kalapatthar Trekking
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest View Trek
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest Basecamp Trek
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                          <div class="col-md-6 col-lg-4">
+                            <div class="tclb-item">
+                              <h6>Everest Region</h6>
+                              <ul>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Gokyo Chola Pass Kalapatthar Trekking
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest View Trek
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest Basecamp Trek
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                          <div class="col-md-6 col-lg-4">
+                            <div class="tclb-item">
+                              <h6>Everest Region</h6>
+                              <ul>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Gokyo Chola Pass Kalapatthar Trekking
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest View Trek
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest Basecamp Trek
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                          <div class="col-md-6 col-lg-4">
+                            <div class="tclb-item">
+                              <h6>Everest Region</h6>
+                              <ul>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Gokyo Chola Pass Kalapatthar Trekking
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest View Trek
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest Basecamp Trek
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                          <div class="col-md-6 col-lg-4">
+                            <div class="tclb-item">
+                              <h6>Everest Region</h6>
+                              <ul>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Gokyo Chola Pass Kalapatthar Trekking
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest View Trek
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest Basecamp Trek
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                          <div class="col-md-6 col-lg-4">
+                            <div class="tclb-item">
+                              <h6>Everest Region</h6>
+                              <ul>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Gokyo Chola Pass Kalapatthar Trekking
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest View Trek
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest Basecamp Trek
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="inner-tab-content" id="itc6">
+                        <div class="row">
+                          <div class="col-md-6 col-lg-4">
+                            <div class="tclb-item">
+                              <h6>Everest Region 6</h6>
+                              <ul>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Gokyo Chola Pass Kalapatthar Trekking
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest View Trek
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest Basecamp Trek
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                          <div class="col-md-6 col-lg-4">
+                            <div class="tclb-item">
+                              <h6>Everest Region</h6>
+                              <ul>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Gokyo Chola Pass Kalapatthar Trekking
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest View Trek
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest Basecamp Trek
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                          <div class="col-md-6 col-lg-4">
+                            <div class="tclb-item">
+                              <h6>Everest Region</h6>
+                              <ul>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Gokyo Chola Pass Kalapatthar Trekking
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest View Trek
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest Basecamp Trek
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                          <div class="col-md-6 col-lg-4">
+                            <div class="tclb-item">
+                              <h6>Everest Region</h6>
+                              <ul>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Gokyo Chola Pass Kalapatthar Trekking
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest View Trek
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest Basecamp Trek
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                          <div class="col-md-6 col-lg-4">
+                            <div class="tclb-item">
+                              <h6>Everest Region</h6>
+                              <ul>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Gokyo Chola Pass Kalapatthar Trekking
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest View Trek
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest Basecamp Trek
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                          <div class="col-md-6 col-lg-4">
+                            <div class="tclb-item">
+                              <h6>Everest Region</h6>
+                              <ul>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Gokyo Chola Pass Kalapatthar Trekking
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest View Trek
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest Basecamp Trek
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="text-center">
+                      <a href="#" class="bh-btn bh-btn-filled-dark">View Trekking in Detail</a>
+                    </div>
+                  </div>
+                  <div class="tab-content" id="dubai">
+                    <div class="tc-header d-flex justify-content-between align-items-center">
+                      <div class="dropdown-menu-item d-flex justify-content-start align-items-center">
+                        <img src="<?php echo get_parent_theme_file_uri()?>/assets/images/destinaton-05.png" alt=""
+                          class="img-fluid">
+                        <h4 class="d-inline-block">Dubai</h4>
+                      </div>
+                      <a href="#" class="bh-btn bh-btn-filled-dark">View Nepal in Detail</a>
+                    </div>
+                    <ul class="inner-tab d-flex justify-content-center align-items-center">
+                      <li class="active"><a href="#itc1">Trekking/Hiking</a></li>
+                      <li><a href="#itc2">Hunting</a></li>
+                      <li><a href="#itc3">Water Sports</a></li>
+                      <li><a href="#itc4">Spritual Religious</a></li>
+                      <li><a href="#itc5">Wildlife & Nature</a></li>
+                      <li><a href="#itc6">Tours & Sightseen</a></li>
+                    </ul>
+                    <div class="tc-list-box">
+                      <div class="inner-tab-content active" id="itc1">
+                        <div class="row">
+                          <div class="col-md-6 col-lg-4">
+                            <div class="tclb-item">
+                              <h6>Everest Region</h6>
+                              <ul>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Gokyo Chola Pass Kalapatthar Trekking
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest View Trek
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest Basecamp Trek
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                          <div class="col-md-6 col-lg-4">
+                            <div class="tclb-item">
+                              <h6>Everest Region</h6>
+                              <ul>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Gokyo Chola Pass Kalapatthar Trekking
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest View Trek
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest Basecamp Trek
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                          <div class="col-md-6 col-lg-4">
+                            <div class="tclb-item">
+                              <h6>Everest Region</h6>
+                              <ul>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Gokyo Chola Pass Kalapatthar Trekking
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest View Trek
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest Basecamp Trek
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                          <div class="col-md-6 col-lg-4">
+                            <div class="tclb-item">
+                              <h6>Everest Region</h6>
+                              <ul>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Gokyo Chola Pass Kalapatthar Trekking
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest View Trek
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest Basecamp Trek
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                          <div class="col-md-6 col-lg-4">
+                            <div class="tclb-item">
+                              <h6>Everest Region</h6>
+                              <ul>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Gokyo Chola Pass Kalapatthar Trekking
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest View Trek
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest Basecamp Trek
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                          <div class="col-md-6 col-lg-4">
+                            <div class="tclb-item">
+                              <h6>Everest Region</h6>
+                              <ul>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Gokyo Chola Pass Kalapatthar Trekking
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest View Trek
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest Basecamp Trek
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="inner-tab-content" id="itc2">
+                        <div class="row">
+                          <div class="col-md-6 col-lg-4">
+                            <div class="tclb-item">
+                              <h6>Everest Region 2</h6>
+                              <ul>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Gokyo Chola Pass Kalapatthar Trekking
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest View Trek
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest Basecamp Trek
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                          <div class="col-md-6 col-lg-4">
+                            <div class="tclb-item">
+                              <h6>Everest Region</h6>
+                              <ul>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Gokyo Chola Pass Kalapatthar Trekking
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest View Trek
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest Basecamp Trek
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                          <div class="col-md-6 col-lg-4">
+                            <div class="tclb-item">
+                              <h6>Everest Region</h6>
+                              <ul>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Gokyo Chola Pass Kalapatthar Trekking
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest View Trek
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest Basecamp Trek
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                          <div class="col-md-6 col-lg-4">
+                            <div class="tclb-item">
+                              <h6>Everest Region</h6>
+                              <ul>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Gokyo Chola Pass Kalapatthar Trekking
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest View Trek
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest Basecamp Trek
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                          <div class="col-md-6 col-lg-4">
+                            <div class="tclb-item">
+                              <h6>Everest Region</h6>
+                              <ul>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Gokyo Chola Pass Kalapatthar Trekking
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest View Trek
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest Basecamp Trek
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                          <div class="col-md-6 col-lg-4">
+                            <div class="tclb-item">
+                              <h6>Everest Region</h6>
+                              <ul>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Gokyo Chola Pass Kalapatthar Trekking
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest View Trek
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest Basecamp Trek
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="inner-tab-content" id="itc3">
+                        <div class="row">
+                          <div class="col-md-6 col-lg-4">
+                            <div class="tclb-item">
+                              <h6>Everest Region 3</h6>
+                              <ul>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Gokyo Chola Pass Kalapatthar Trekking
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest View Trek
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest Basecamp Trek
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                          <div class="col-md-6 col-lg-4">
+                            <div class="tclb-item">
+                              <h6>Everest Region</h6>
+                              <ul>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Gokyo Chola Pass Kalapatthar Trekking
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest View Trek
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest Basecamp Trek
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                          <div class="col-md-6 col-lg-4">
+                            <div class="tclb-item">
+                              <h6>Everest Region</h6>
+                              <ul>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Gokyo Chola Pass Kalapatthar Trekking
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest View Trek
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest Basecamp Trek
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                          <div class="col-md-6 col-lg-4">
+                            <div class="tclb-item">
+                              <h6>Everest Region</h6>
+                              <ul>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Gokyo Chola Pass Kalapatthar Trekking
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest View Trek
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest Basecamp Trek
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                          <div class="col-md-6 col-lg-4">
+                            <div class="tclb-item">
+                              <h6>Everest Region</h6>
+                              <ul>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Gokyo Chola Pass Kalapatthar Trekking
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest View Trek
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest Basecamp Trek
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                          <div class="col-md-6 col-lg-4">
+                            <div class="tclb-item">
+                              <h6>Everest Region</h6>
+                              <ul>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Gokyo Chola Pass Kalapatthar Trekking
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest View Trek
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest Basecamp Trek
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="inner-tab-content" id="itc4">
+                        <div class="row">
+                          <div class="col-md-6 col-lg-4">
+                            <div class="tclb-item">
+                              <h6>Everest Region 4</h6>
+                              <ul>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Gokyo Chola Pass Kalapatthar Trekking
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest View Trek
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest Basecamp Trek
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                          <div class="col-md-6 col-lg-4">
+                            <div class="tclb-item">
+                              <h6>Everest Region</h6>
+                              <ul>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Gokyo Chola Pass Kalapatthar Trekking
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest View Trek
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest Basecamp Trek
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                          <div class="col-md-6 col-lg-4">
+                            <div class="tclb-item">
+                              <h6>Everest Region</h6>
+                              <ul>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Gokyo Chola Pass Kalapatthar Trekking
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest View Trek
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest Basecamp Trek
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                          <div class="col-md-6 col-lg-4">
+                            <div class="tclb-item">
+                              <h6>Everest Region</h6>
+                              <ul>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Gokyo Chola Pass Kalapatthar Trekking
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest View Trek
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest Basecamp Trek
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                          <div class="col-md-6 col-lg-4">
+                            <div class="tclb-item">
+                              <h6>Everest Region</h6>
+                              <ul>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Gokyo Chola Pass Kalapatthar Trekking
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest View Trek
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest Basecamp Trek
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                          <div class="col-md-6 col-lg-4">
+                            <div class="tclb-item">
+                              <h6>Everest Region</h6>
+                              <ul>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Gokyo Chola Pass Kalapatthar Trekking
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest View Trek
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest Basecamp Trek
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="inner-tab-content" id="itc5">
+                        <div class="row">
+                          <div class="col-md-6 col-lg-4">
+                            <div class="tclb-item">
+                              <h6>Everest Region 5</h6>
+                              <ul>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Gokyo Chola Pass Kalapatthar Trekking
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest View Trek
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest Basecamp Trek
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                          <div class="col-md-6 col-lg-4">
+                            <div class="tclb-item">
+                              <h6>Everest Region</h6>
+                              <ul>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Gokyo Chola Pass Kalapatthar Trekking
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest View Trek
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest Basecamp Trek
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                          <div class="col-md-6 col-lg-4">
+                            <div class="tclb-item">
+                              <h6>Everest Region</h6>
+                              <ul>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Gokyo Chola Pass Kalapatthar Trekking
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest View Trek
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest Basecamp Trek
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                          <div class="col-md-6 col-lg-4">
+                            <div class="tclb-item">
+                              <h6>Everest Region</h6>
+                              <ul>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Gokyo Chola Pass Kalapatthar Trekking
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest View Trek
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest Basecamp Trek
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                          <div class="col-md-6 col-lg-4">
+                            <div class="tclb-item">
+                              <h6>Everest Region</h6>
+                              <ul>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Gokyo Chola Pass Kalapatthar Trekking
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest View Trek
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest Basecamp Trek
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                          <div class="col-md-6 col-lg-4">
+                            <div class="tclb-item">
+                              <h6>Everest Region</h6>
+                              <ul>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Gokyo Chola Pass Kalapatthar Trekking
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest View Trek
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest Basecamp Trek
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="inner-tab-content" id="itc6">
+                        <div class="row">
+                          <div class="col-md-6 col-lg-4">
+                            <div class="tclb-item">
+                              <h6>Everest Region 6</h6>
+                              <ul>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Gokyo Chola Pass Kalapatthar Trekking
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest View Trek
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest Basecamp Trek
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                          <div class="col-md-6 col-lg-4">
+                            <div class="tclb-item">
+                              <h6>Everest Region</h6>
+                              <ul>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Gokyo Chola Pass Kalapatthar Trekking
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest View Trek
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest Basecamp Trek
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                          <div class="col-md-6 col-lg-4">
+                            <div class="tclb-item">
+                              <h6>Everest Region</h6>
+                              <ul>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Gokyo Chola Pass Kalapatthar Trekking
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest View Trek
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest Basecamp Trek
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                          <div class="col-md-6 col-lg-4">
+                            <div class="tclb-item">
+                              <h6>Everest Region</h6>
+                              <ul>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Gokyo Chola Pass Kalapatthar Trekking
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest View Trek
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest Basecamp Trek
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                          <div class="col-md-6 col-lg-4">
+                            <div class="tclb-item">
+                              <h6>Everest Region</h6>
+                              <ul>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Gokyo Chola Pass Kalapatthar Trekking
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest View Trek
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest Basecamp Trek
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                          <div class="col-md-6 col-lg-4">
+                            <div class="tclb-item">
+                              <h6>Everest Region</h6>
+                              <ul>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Gokyo Chola Pass Kalapatthar Trekking
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest View Trek
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest Basecamp Trek
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="text-center">
+                      <a href="#" class="bh-btn bh-btn-filled-dark">View Trekking in Detail</a>
+                    </div>
+                  </div>
+                  <div class="tab-content" id="thailand">
+                    <div class="tc-header d-flex justify-content-between align-items-center">
+                      <div class="dropdown-menu-item d-flex justify-content-start align-items-center">
+                        <img src="<?php echo get_parent_theme_file_uri()?>/assets/images/destinaton-06.png" alt=""
+                          class="img-fluid">
+                        <h4 class="d-inline-block">Thailand</h4>
+                      </div>
+                      <a href="#" class="bh-btn bh-btn-filled-dark">View Nepal in Detail</a>
+                    </div>
+                    <ul class="inner-tab d-flex justify-content-center align-items-center">
+                      <li class="active"><a href="#itc1">Trekking/Hiking</a></li>
+                      <li><a href="#itc2">Hunting</a></li>
+                      <li><a href="#itc3">Water Sports</a></li>
+                      <li><a href="#itc4">Spritual Religious</a></li>
+                      <li><a href="#itc5">Wildlife & Nature</a></li>
+                      <li><a href="#itc6">Tours & Sightseen</a></li>
+                    </ul>
+                    <div class="tc-list-box">
+                      <div class="inner-tab-content active" id="itc1">
+                        <div class="row">
+                          <div class="col-md-6 col-lg-4">
+                            <div class="tclb-item">
+                              <h6>Everest Region</h6>
+                              <ul>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Gokyo Chola Pass Kalapatthar Trekking
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest View Trek
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest Basecamp Trek
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                          <div class="col-md-6 col-lg-4">
+                            <div class="tclb-item">
+                              <h6>Everest Region</h6>
+                              <ul>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Gokyo Chola Pass Kalapatthar Trekking
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest View Trek
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest Basecamp Trek
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                          <div class="col-md-6 col-lg-4">
+                            <div class="tclb-item">
+                              <h6>Everest Region</h6>
+                              <ul>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Gokyo Chola Pass Kalapatthar Trekking
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest View Trek
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest Basecamp Trek
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                          <div class="col-md-6 col-lg-4">
+                            <div class="tclb-item">
+                              <h6>Everest Region</h6>
+                              <ul>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Gokyo Chola Pass Kalapatthar Trekking
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest View Trek
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest Basecamp Trek
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                          <div class="col-md-6 col-lg-4">
+                            <div class="tclb-item">
+                              <h6>Everest Region</h6>
+                              <ul>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Gokyo Chola Pass Kalapatthar Trekking
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest View Trek
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest Basecamp Trek
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                          <div class="col-md-6 col-lg-4">
+                            <div class="tclb-item">
+                              <h6>Everest Region</h6>
+                              <ul>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Gokyo Chola Pass Kalapatthar Trekking
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest View Trek
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest Basecamp Trek
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="inner-tab-content" id="itc2">
+                        <div class="row">
+                          <div class="col-md-6 col-lg-4">
+                            <div class="tclb-item">
+                              <h6>Everest Region 2</h6>
+                              <ul>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Gokyo Chola Pass Kalapatthar Trekking
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest View Trek
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest Basecamp Trek
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                          <div class="col-md-6 col-lg-4">
+                            <div class="tclb-item">
+                              <h6>Everest Region</h6>
+                              <ul>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Gokyo Chola Pass Kalapatthar Trekking
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest View Trek
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest Basecamp Trek
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                          <div class="col-md-6 col-lg-4">
+                            <div class="tclb-item">
+                              <h6>Everest Region</h6>
+                              <ul>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Gokyo Chola Pass Kalapatthar Trekking
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest View Trek
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest Basecamp Trek
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                          <div class="col-md-6 col-lg-4">
+                            <div class="tclb-item">
+                              <h6>Everest Region</h6>
+                              <ul>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Gokyo Chola Pass Kalapatthar Trekking
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest View Trek
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest Basecamp Trek
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                          <div class="col-md-6 col-lg-4">
+                            <div class="tclb-item">
+                              <h6>Everest Region</h6>
+                              <ul>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Gokyo Chola Pass Kalapatthar Trekking
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest View Trek
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest Basecamp Trek
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                          <div class="col-md-6 col-lg-4">
+                            <div class="tclb-item">
+                              <h6>Everest Region</h6>
+                              <ul>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Gokyo Chola Pass Kalapatthar Trekking
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest View Trek
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest Basecamp Trek
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="inner-tab-content" id="itc3">
+                        <div class="row">
+                          <div class="col-md-6 col-lg-4">
+                            <div class="tclb-item">
+                              <h6>Everest Region 3</h6>
+                              <ul>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Gokyo Chola Pass Kalapatthar Trekking
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest View Trek
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest Basecamp Trek
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                          <div class="col-md-6 col-lg-4">
+                            <div class="tclb-item">
+                              <h6>Everest Region</h6>
+                              <ul>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Gokyo Chola Pass Kalapatthar Trekking
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest View Trek
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest Basecamp Trek
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                          <div class="col-md-6 col-lg-4">
+                            <div class="tclb-item">
+                              <h6>Everest Region</h6>
+                              <ul>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Gokyo Chola Pass Kalapatthar Trekking
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest View Trek
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest Basecamp Trek
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                          <div class="col-md-6 col-lg-4">
+                            <div class="tclb-item">
+                              <h6>Everest Region</h6>
+                              <ul>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Gokyo Chola Pass Kalapatthar Trekking
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest View Trek
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest Basecamp Trek
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                          <div class="col-md-6 col-lg-4">
+                            <div class="tclb-item">
+                              <h6>Everest Region</h6>
+                              <ul>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Gokyo Chola Pass Kalapatthar Trekking
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest View Trek
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest Basecamp Trek
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                          <div class="col-md-6 col-lg-4">
+                            <div class="tclb-item">
+                              <h6>Everest Region</h6>
+                              <ul>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Gokyo Chola Pass Kalapatthar Trekking
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest View Trek
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest Basecamp Trek
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="inner-tab-content" id="itc4">
+                        <div class="row">
+                          <div class="col-md-6 col-lg-4">
+                            <div class="tclb-item">
+                              <h6>Everest Region 4</h6>
+                              <ul>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Gokyo Chola Pass Kalapatthar Trekking
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest View Trek
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest Basecamp Trek
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                          <div class="col-md-6 col-lg-4">
+                            <div class="tclb-item">
+                              <h6>Everest Region</h6>
+                              <ul>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Gokyo Chola Pass Kalapatthar Trekking
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest View Trek
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest Basecamp Trek
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                          <div class="col-md-6 col-lg-4">
+                            <div class="tclb-item">
+                              <h6>Everest Region</h6>
+                              <ul>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Gokyo Chola Pass Kalapatthar Trekking
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest View Trek
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest Basecamp Trek
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                          <div class="col-md-6 col-lg-4">
+                            <div class="tclb-item">
+                              <h6>Everest Region</h6>
+                              <ul>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Gokyo Chola Pass Kalapatthar Trekking
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest View Trek
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest Basecamp Trek
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                          <div class="col-md-6 col-lg-4">
+                            <div class="tclb-item">
+                              <h6>Everest Region</h6>
+                              <ul>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Gokyo Chola Pass Kalapatthar Trekking
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest View Trek
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest Basecamp Trek
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                          <div class="col-md-6 col-lg-4">
+                            <div class="tclb-item">
+                              <h6>Everest Region</h6>
+                              <ul>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Gokyo Chola Pass Kalapatthar Trekking
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest View Trek
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest Basecamp Trek
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="inner-tab-content" id="itc5">
+                        <div class="row">
+                          <div class="col-md-6 col-lg-4">
+                            <div class="tclb-item">
+                              <h6>Everest Region 5</h6>
+                              <ul>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Gokyo Chola Pass Kalapatthar Trekking
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest View Trek
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest Basecamp Trek
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                          <div class="col-md-6 col-lg-4">
+                            <div class="tclb-item">
+                              <h6>Everest Region</h6>
+                              <ul>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Gokyo Chola Pass Kalapatthar Trekking
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest View Trek
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest Basecamp Trek
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                          <div class="col-md-6 col-lg-4">
+                            <div class="tclb-item">
+                              <h6>Everest Region</h6>
+                              <ul>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Gokyo Chola Pass Kalapatthar Trekking
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest View Trek
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest Basecamp Trek
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                          <div class="col-md-6 col-lg-4">
+                            <div class="tclb-item">
+                              <h6>Everest Region</h6>
+                              <ul>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Gokyo Chola Pass Kalapatthar Trekking
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest View Trek
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest Basecamp Trek
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                          <div class="col-md-6 col-lg-4">
+                            <div class="tclb-item">
+                              <h6>Everest Region</h6>
+                              <ul>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Gokyo Chola Pass Kalapatthar Trekking
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest View Trek
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest Basecamp Trek
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                          <div class="col-md-6 col-lg-4">
+                            <div class="tclb-item">
+                              <h6>Everest Region</h6>
+                              <ul>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Gokyo Chola Pass Kalapatthar Trekking
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest View Trek
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest Basecamp Trek
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="inner-tab-content" id="itc6">
+                        <div class="row">
+                          <div class="col-md-6 col-lg-4">
+                            <div class="tclb-item">
+                              <h6>Everest Region 6</h6>
+                              <ul>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Gokyo Chola Pass Kalapatthar Trekking
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest View Trek
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest Basecamp Trek
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                          <div class="col-md-6 col-lg-4">
+                            <div class="tclb-item">
+                              <h6>Everest Region</h6>
+                              <ul>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Gokyo Chola Pass Kalapatthar Trekking
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest View Trek
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest Basecamp Trek
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                          <div class="col-md-6 col-lg-4">
+                            <div class="tclb-item">
+                              <h6>Everest Region</h6>
+                              <ul>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Gokyo Chola Pass Kalapatthar Trekking
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest View Trek
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest Basecamp Trek
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                          <div class="col-md-6 col-lg-4">
+                            <div class="tclb-item">
+                              <h6>Everest Region</h6>
+                              <ul>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Gokyo Chola Pass Kalapatthar Trekking
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest View Trek
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest Basecamp Trek
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                          <div class="col-md-6 col-lg-4">
+                            <div class="tclb-item">
+                              <h6>Everest Region</h6>
+                              <ul>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Gokyo Chola Pass Kalapatthar Trekking
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest View Trek
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest Basecamp Trek
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                          <div class="col-md-6 col-lg-4">
+                            <div class="tclb-item">
+                              <h6>Everest Region</h6>
+                              <ul>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Gokyo Chola Pass Kalapatthar Trekking
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest View Trek
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest Basecamp Trek
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="text-center">
+                      <a href="#" class="bh-btn bh-btn-filled-dark">View Trekking in Detail</a>
+                    </div>
+                  </div>
+                  <div class="tab-content" id="europe">
+                    <div class="tc-header d-flex justify-content-between align-items-center">
+                      <div class="dropdown-menu-item d-flex justify-content-start align-items-center">
+                        <img src="<?php echo get_parent_theme_file_uri()?>/assets/images/destinaton-07.png" alt=""
+                          class="img-fluid">
+                        <h4 class="d-inline-block">Europe</h4>
+                      </div>
+                      <a href="#" class="bh-btn bh-btn-filled-dark">View Nepal in Detail</a>
+                    </div>
+                    <ul class="inner-tab d-flex justify-content-center align-items-center">
+                      <li class="active"><a href="#itc1">Trekking/Hiking</a></li>
+                      <li><a href="#itc2">Hunting</a></li>
+                      <li><a href="#itc3">Water Sports</a></li>
+                      <li><a href="#itc4">Spritual Religious</a></li>
+                      <li><a href="#itc5">Wildlife & Nature</a></li>
+                      <li><a href="#itc6">Tours & Sightseen</a></li>
+                    </ul>
+                    <div class="tc-list-box">
+                      <div class="inner-tab-content active" id="itc1">
+                        <div class="row">
+                          <div class="col-md-6 col-lg-4">
+                            <div class="tclb-item">
+                              <h6>Everest Region</h6>
+                              <ul>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Gokyo Chola Pass Kalapatthar Trekking
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest View Trek
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest Basecamp Trek
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                          <div class="col-md-6 col-lg-4">
+                            <div class="tclb-item">
+                              <h6>Everest Region</h6>
+                              <ul>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Gokyo Chola Pass Kalapatthar Trekking
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest View Trek
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest Basecamp Trek
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                          <div class="col-md-6 col-lg-4">
+                            <div class="tclb-item">
+                              <h6>Everest Region</h6>
+                              <ul>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Gokyo Chola Pass Kalapatthar Trekking
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest View Trek
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest Basecamp Trek
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                          <div class="col-md-6 col-lg-4">
+                            <div class="tclb-item">
+                              <h6>Everest Region</h6>
+                              <ul>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Gokyo Chola Pass Kalapatthar Trekking
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest View Trek
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest Basecamp Trek
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                          <div class="col-md-6 col-lg-4">
+                            <div class="tclb-item">
+                              <h6>Everest Region</h6>
+                              <ul>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Gokyo Chola Pass Kalapatthar Trekking
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest View Trek
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest Basecamp Trek
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                          <div class="col-md-6 col-lg-4">
+                            <div class="tclb-item">
+                              <h6>Everest Region</h6>
+                              <ul>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Gokyo Chola Pass Kalapatthar Trekking
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest View Trek
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest Basecamp Trek
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="inner-tab-content" id="itc2">
+                        <div class="row">
+                          <div class="col-md-6 col-lg-4">
+                            <div class="tclb-item">
+                              <h6>Everest Region 2</h6>
+                              <ul>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Gokyo Chola Pass Kalapatthar Trekking
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest View Trek
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest Basecamp Trek
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                          <div class="col-md-6 col-lg-4">
+                            <div class="tclb-item">
+                              <h6>Everest Region</h6>
+                              <ul>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Gokyo Chola Pass Kalapatthar Trekking
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest View Trek
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest Basecamp Trek
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                          <div class="col-md-6 col-lg-4">
+                            <div class="tclb-item">
+                              <h6>Everest Region</h6>
+                              <ul>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Gokyo Chola Pass Kalapatthar Trekking
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest View Trek
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest Basecamp Trek
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                          <div class="col-md-6 col-lg-4">
+                            <div class="tclb-item">
+                              <h6>Everest Region</h6>
+                              <ul>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Gokyo Chola Pass Kalapatthar Trekking
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest View Trek
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest Basecamp Trek
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                          <div class="col-md-6 col-lg-4">
+                            <div class="tclb-item">
+                              <h6>Everest Region</h6>
+                              <ul>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Gokyo Chola Pass Kalapatthar Trekking
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest View Trek
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest Basecamp Trek
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                          <div class="col-md-6 col-lg-4">
+                            <div class="tclb-item">
+                              <h6>Everest Region</h6>
+                              <ul>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Gokyo Chola Pass Kalapatthar Trekking
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest View Trek
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest Basecamp Trek
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="inner-tab-content" id="itc3">
+                        <div class="row">
+                          <div class="col-md-6 col-lg-4">
+                            <div class="tclb-item">
+                              <h6>Everest Region 3</h6>
+                              <ul>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Gokyo Chola Pass Kalapatthar Trekking
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest View Trek
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest Basecamp Trek
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                          <div class="col-md-6 col-lg-4">
+                            <div class="tclb-item">
+                              <h6>Everest Region</h6>
+                              <ul>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Gokyo Chola Pass Kalapatthar Trekking
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest View Trek
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest Basecamp Trek
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                          <div class="col-md-6 col-lg-4">
+                            <div class="tclb-item">
+                              <h6>Everest Region</h6>
+                              <ul>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Gokyo Chola Pass Kalapatthar Trekking
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest View Trek
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest Basecamp Trek
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                          <div class="col-md-6 col-lg-4">
+                            <div class="tclb-item">
+                              <h6>Everest Region</h6>
+                              <ul>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Gokyo Chola Pass Kalapatthar Trekking
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest View Trek
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest Basecamp Trek
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                          <div class="col-md-6 col-lg-4">
+                            <div class="tclb-item">
+                              <h6>Everest Region</h6>
+                              <ul>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Gokyo Chola Pass Kalapatthar Trekking
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest View Trek
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest Basecamp Trek
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                          <div class="col-md-6 col-lg-4">
+                            <div class="tclb-item">
+                              <h6>Everest Region</h6>
+                              <ul>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Gokyo Chola Pass Kalapatthar Trekking
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest View Trek
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest Basecamp Trek
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="inner-tab-content" id="itc4">
+                        <div class="row">
+                          <div class="col-md-6 col-lg-4">
+                            <div class="tclb-item">
+                              <h6>Everest Region 4</h6>
+                              <ul>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Gokyo Chola Pass Kalapatthar Trekking
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest View Trek
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest Basecamp Trek
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                          <div class="col-md-6 col-lg-4">
+                            <div class="tclb-item">
+                              <h6>Everest Region</h6>
+                              <ul>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Gokyo Chola Pass Kalapatthar Trekking
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest View Trek
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest Basecamp Trek
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                          <div class="col-md-6 col-lg-4">
+                            <div class="tclb-item">
+                              <h6>Everest Region</h6>
+                              <ul>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Gokyo Chola Pass Kalapatthar Trekking
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest View Trek
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest Basecamp Trek
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                          <div class="col-md-6 col-lg-4">
+                            <div class="tclb-item">
+                              <h6>Everest Region</h6>
+                              <ul>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Gokyo Chola Pass Kalapatthar Trekking
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest View Trek
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest Basecamp Trek
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                          <div class="col-md-6 col-lg-4">
+                            <div class="tclb-item">
+                              <h6>Everest Region</h6>
+                              <ul>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Gokyo Chola Pass Kalapatthar Trekking
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest View Trek
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest Basecamp Trek
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                          <div class="col-md-6 col-lg-4">
+                            <div class="tclb-item">
+                              <h6>Everest Region</h6>
+                              <ul>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Gokyo Chola Pass Kalapatthar Trekking
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest View Trek
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest Basecamp Trek
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="inner-tab-content" id="itc5">
+                        <div class="row">
+                          <div class="col-md-6 col-lg-4">
+                            <div class="tclb-item">
+                              <h6>Everest Region 5</h6>
+                              <ul>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Gokyo Chola Pass Kalapatthar Trekking
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest View Trek
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest Basecamp Trek
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                          <div class="col-md-6 col-lg-4">
+                            <div class="tclb-item">
+                              <h6>Everest Region</h6>
+                              <ul>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Gokyo Chola Pass Kalapatthar Trekking
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest View Trek
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest Basecamp Trek
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                          <div class="col-md-6 col-lg-4">
+                            <div class="tclb-item">
+                              <h6>Everest Region</h6>
+                              <ul>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Gokyo Chola Pass Kalapatthar Trekking
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest View Trek
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest Basecamp Trek
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                          <div class="col-md-6 col-lg-4">
+                            <div class="tclb-item">
+                              <h6>Everest Region</h6>
+                              <ul>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Gokyo Chola Pass Kalapatthar Trekking
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest View Trek
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest Basecamp Trek
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                          <div class="col-md-6 col-lg-4">
+                            <div class="tclb-item">
+                              <h6>Everest Region</h6>
+                              <ul>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Gokyo Chola Pass Kalapatthar Trekking
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest View Trek
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest Basecamp Trek
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                          <div class="col-md-6 col-lg-4">
+                            <div class="tclb-item">
+                              <h6>Everest Region</h6>
+                              <ul>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Gokyo Chola Pass Kalapatthar Trekking
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest View Trek
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest Basecamp Trek
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="inner-tab-content" id="itc6">
+                        <div class="row">
+                          <div class="col-md-6 col-lg-4">
+                            <div class="tclb-item">
+                              <h6>Everest Region 6</h6>
+                              <ul>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Gokyo Chola Pass Kalapatthar Trekking
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest View Trek
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest Basecamp Trek
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                          <div class="col-md-6 col-lg-4">
+                            <div class="tclb-item">
+                              <h6>Everest Region</h6>
+                              <ul>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Gokyo Chola Pass Kalapatthar Trekking
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest View Trek
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest Basecamp Trek
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                          <div class="col-md-6 col-lg-4">
+                            <div class="tclb-item">
+                              <h6>Everest Region</h6>
+                              <ul>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Gokyo Chola Pass Kalapatthar Trekking
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest View Trek
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest Basecamp Trek
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                          <div class="col-md-6 col-lg-4">
+                            <div class="tclb-item">
+                              <h6>Everest Region</h6>
+                              <ul>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Gokyo Chola Pass Kalapatthar Trekking
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest View Trek
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest Basecamp Trek
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                          <div class="col-md-6 col-lg-4">
+                            <div class="tclb-item">
+                              <h6>Everest Region</h6>
+                              <ul>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Gokyo Chola Pass Kalapatthar Trekking
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest View Trek
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest Basecamp Trek
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                          <div class="col-md-6 col-lg-4">
+                            <div class="tclb-item">
+                              <h6>Everest Region</h6>
+                              <ul>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Gokyo Chola Pass Kalapatthar Trekking
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest View Trek
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest Basecamp Trek
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="text-center">
+                      <a href="#" class="bh-btn bh-btn-filled-dark">View Trekking in Detail</a>
+                    </div>
+                  </div>
+                  <div class="tab-content" id="fiji">
+                    <div class="tc-header d-flex justify-content-between align-items-center">
+                      <div class="dropdown-menu-item d-flex justify-content-start align-items-center">
+                        <img src="<?php echo get_parent_theme_file_uri()?>/assets/images/destinaton-08.png" alt=""
+                          class="img-fluid">
+                        <h4 class="d-inline-block">Fiji</h4>
+                      </div>
+                      <a href="#" class="bh-btn bh-btn-filled-dark">View Nepal in Detail</a>
+                    </div>
+                    <ul class="inner-tab d-flex justify-content-center align-items-center">
+                      <li class="active"><a href="#itc1">Trekking/Hiking</a></li>
+                      <li><a href="#itc2">Hunting</a></li>
+                      <li><a href="#itc3">Water Sports</a></li>
+                      <li><a href="#itc4">Spritual Religious</a></li>
+                      <li><a href="#itc5">Wildlife & Nature</a></li>
+                      <li><a href="#itc6">Tours & Sightseen</a></li>
+                    </ul>
+                    <div class="tc-list-box">
+                      <div class="inner-tab-content active" id="itc1">
+                        <div class="row">
+                          <div class="col-md-6 col-lg-4">
+                            <div class="tclb-item">
+                              <h6>Everest Region</h6>
+                              <ul>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Gokyo Chola Pass Kalapatthar Trekking
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest View Trek
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest Basecamp Trek
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                          <div class="col-md-6 col-lg-4">
+                            <div class="tclb-item">
+                              <h6>Everest Region</h6>
+                              <ul>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Gokyo Chola Pass Kalapatthar Trekking
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest View Trek
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest Basecamp Trek
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                          <div class="col-md-6 col-lg-4">
+                            <div class="tclb-item">
+                              <h6>Everest Region</h6>
+                              <ul>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Gokyo Chola Pass Kalapatthar Trekking
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest View Trek
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest Basecamp Trek
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                          <div class="col-md-6 col-lg-4">
+                            <div class="tclb-item">
+                              <h6>Everest Region</h6>
+                              <ul>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Gokyo Chola Pass Kalapatthar Trekking
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest View Trek
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest Basecamp Trek
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                          <div class="col-md-6 col-lg-4">
+                            <div class="tclb-item">
+                              <h6>Everest Region</h6>
+                              <ul>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Gokyo Chola Pass Kalapatthar Trekking
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest View Trek
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest Basecamp Trek
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                          <div class="col-md-6 col-lg-4">
+                            <div class="tclb-item">
+                              <h6>Everest Region</h6>
+                              <ul>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Gokyo Chola Pass Kalapatthar Trekking
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest View Trek
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest Basecamp Trek
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="inner-tab-content" id="itc2">
+                        <div class="row">
+                          <div class="col-md-6 col-lg-4">
+                            <div class="tclb-item">
+                              <h6>Everest Region 2</h6>
+                              <ul>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Gokyo Chola Pass Kalapatthar Trekking
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest View Trek
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest Basecamp Trek
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                          <div class="col-md-6 col-lg-4">
+                            <div class="tclb-item">
+                              <h6>Everest Region</h6>
+                              <ul>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Gokyo Chola Pass Kalapatthar Trekking
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest View Trek
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest Basecamp Trek
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                          <div class="col-md-6 col-lg-4">
+                            <div class="tclb-item">
+                              <h6>Everest Region</h6>
+                              <ul>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Gokyo Chola Pass Kalapatthar Trekking
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest View Trek
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest Basecamp Trek
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                          <div class="col-md-6 col-lg-4">
+                            <div class="tclb-item">
+                              <h6>Everest Region</h6>
+                              <ul>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Gokyo Chola Pass Kalapatthar Trekking
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest View Trek
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest Basecamp Trek
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                          <div class="col-md-6 col-lg-4">
+                            <div class="tclb-item">
+                              <h6>Everest Region</h6>
+                              <ul>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Gokyo Chola Pass Kalapatthar Trekking
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest View Trek
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest Basecamp Trek
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                          <div class="col-md-6 col-lg-4">
+                            <div class="tclb-item">
+                              <h6>Everest Region</h6>
+                              <ul>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Gokyo Chola Pass Kalapatthar Trekking
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest View Trek
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest Basecamp Trek
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="inner-tab-content" id="itc3">
+                        <div class="row">
+                          <div class="col-md-6 col-lg-4">
+                            <div class="tclb-item">
+                              <h6>Everest Region 3</h6>
+                              <ul>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Gokyo Chola Pass Kalapatthar Trekking
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest View Trek
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest Basecamp Trek
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                          <div class="col-md-6 col-lg-4">
+                            <div class="tclb-item">
+                              <h6>Everest Region</h6>
+                              <ul>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Gokyo Chola Pass Kalapatthar Trekking
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest View Trek
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest Basecamp Trek
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                          <div class="col-md-6 col-lg-4">
+                            <div class="tclb-item">
+                              <h6>Everest Region</h6>
+                              <ul>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Gokyo Chola Pass Kalapatthar Trekking
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest View Trek
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest Basecamp Trek
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                          <div class="col-md-6 col-lg-4">
+                            <div class="tclb-item">
+                              <h6>Everest Region</h6>
+                              <ul>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Gokyo Chola Pass Kalapatthar Trekking
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest View Trek
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest Basecamp Trek
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                          <div class="col-md-6 col-lg-4">
+                            <div class="tclb-item">
+                              <h6>Everest Region</h6>
+                              <ul>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Gokyo Chola Pass Kalapatthar Trekking
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest View Trek
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest Basecamp Trek
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                          <div class="col-md-6 col-lg-4">
+                            <div class="tclb-item">
+                              <h6>Everest Region</h6>
+                              <ul>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Gokyo Chola Pass Kalapatthar Trekking
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest View Trek
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest Basecamp Trek
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="inner-tab-content" id="itc4">
+                        <div class="row">
+                          <div class="col-md-6 col-lg-4">
+                            <div class="tclb-item">
+                              <h6>Everest Region 4</h6>
+                              <ul>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Gokyo Chola Pass Kalapatthar Trekking
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest View Trek
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest Basecamp Trek
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                          <div class="col-md-6 col-lg-4">
+                            <div class="tclb-item">
+                              <h6>Everest Region</h6>
+                              <ul>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Gokyo Chola Pass Kalapatthar Trekking
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest View Trek
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest Basecamp Trek
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                          <div class="col-md-6 col-lg-4">
+                            <div class="tclb-item">
+                              <h6>Everest Region</h6>
+                              <ul>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Gokyo Chola Pass Kalapatthar Trekking
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest View Trek
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest Basecamp Trek
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                          <div class="col-md-6 col-lg-4">
+                            <div class="tclb-item">
+                              <h6>Everest Region</h6>
+                              <ul>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Gokyo Chola Pass Kalapatthar Trekking
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest View Trek
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest Basecamp Trek
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                          <div class="col-md-6 col-lg-4">
+                            <div class="tclb-item">
+                              <h6>Everest Region</h6>
+                              <ul>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Gokyo Chola Pass Kalapatthar Trekking
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest View Trek
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest Basecamp Trek
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                          <div class="col-md-6 col-lg-4">
+                            <div class="tclb-item">
+                              <h6>Everest Region</h6>
+                              <ul>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Gokyo Chola Pass Kalapatthar Trekking
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest View Trek
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest Basecamp Trek
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="inner-tab-content" id="itc5">
+                        <div class="row">
+                          <div class="col-md-6 col-lg-4">
+                            <div class="tclb-item">
+                              <h6>Everest Region 5</h6>
+                              <ul>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Gokyo Chola Pass Kalapatthar Trekking
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest View Trek
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest Basecamp Trek
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                          <div class="col-md-6 col-lg-4">
+                            <div class="tclb-item">
+                              <h6>Everest Region</h6>
+                              <ul>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Gokyo Chola Pass Kalapatthar Trekking
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest View Trek
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest Basecamp Trek
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                          <div class="col-md-6 col-lg-4">
+                            <div class="tclb-item">
+                              <h6>Everest Region</h6>
+                              <ul>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Gokyo Chola Pass Kalapatthar Trekking
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest View Trek
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest Basecamp Trek
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                          <div class="col-md-6 col-lg-4">
+                            <div class="tclb-item">
+                              <h6>Everest Region</h6>
+                              <ul>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Gokyo Chola Pass Kalapatthar Trekking
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest View Trek
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest Basecamp Trek
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                          <div class="col-md-6 col-lg-4">
+                            <div class="tclb-item">
+                              <h6>Everest Region</h6>
+                              <ul>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Gokyo Chola Pass Kalapatthar Trekking
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest View Trek
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest Basecamp Trek
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                          <div class="col-md-6 col-lg-4">
+                            <div class="tclb-item">
+                              <h6>Everest Region</h6>
+                              <ul>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Gokyo Chola Pass Kalapatthar Trekking
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest View Trek
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest Basecamp Trek
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="inner-tab-content" id="itc6">
+                        <div class="row">
+                          <div class="col-md-6 col-lg-4">
+                            <div class="tclb-item">
+                              <h6>Everest Region 6</h6>
+                              <ul>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Gokyo Chola Pass Kalapatthar Trekking
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest View Trek
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest Basecamp Trek
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                          <div class="col-md-6 col-lg-4">
+                            <div class="tclb-item">
+                              <h6>Everest Region</h6>
+                              <ul>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Gokyo Chola Pass Kalapatthar Trekking
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest View Trek
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest Basecamp Trek
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                          <div class="col-md-6 col-lg-4">
+                            <div class="tclb-item">
+                              <h6>Everest Region</h6>
+                              <ul>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Gokyo Chola Pass Kalapatthar Trekking
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest View Trek
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest Basecamp Trek
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                          <div class="col-md-6 col-lg-4">
+                            <div class="tclb-item">
+                              <h6>Everest Region</h6>
+                              <ul>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Gokyo Chola Pass Kalapatthar Trekking
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest View Trek
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest Basecamp Trek
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                          <div class="col-md-6 col-lg-4">
+                            <div class="tclb-item">
+                              <h6>Everest Region</h6>
+                              <ul>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Gokyo Chola Pass Kalapatthar Trekking
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest View Trek
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest Basecamp Trek
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                          <div class="col-md-6 col-lg-4">
+                            <div class="tclb-item">
+                              <h6>Everest Region</h6>
+                              <ul>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Gokyo Chola Pass Kalapatthar Trekking
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest View Trek
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest Basecamp Trek
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="text-center">
+                      <a href="#" class="bh-btn bh-btn-filled-dark">View Trekking in Detail</a>
+                    </div>
+                  </div>
+                  <div class="tab-content" id="srilanka">
+                    <div class="tc-header d-flex justify-content-between align-items-center">
+                      <div class="dropdown-menu-item d-flex justify-content-start align-items-center">
+                        <img src="<?php echo get_parent_theme_file_uri()?>/assets/images/destinaton-09.png" alt=""
+                          class="img-fluid">
+                        <h4 class="d-inline-block">Srilanka</h4>
+                      </div>
+                      <a href="#" class="bh-btn bh-btn-filled-dark">View Nepal in Detail</a>
+                    </div>
+                    <ul class="inner-tab d-flex justify-content-center align-items-center">
+                      <li class="active"><a href="#itc1">Trekking/Hiking</a></li>
+                      <li><a href="#itc2">Hunting</a></li>
+                      <li><a href="#itc3">Water Sports</a></li>
+                      <li><a href="#itc4">Spritual Religious</a></li>
+                      <li><a href="#itc5">Wildlife & Nature</a></li>
+                      <li><a href="#itc6">Tours & Sightseen</a></li>
+                    </ul>
+                    <div class="tc-list-box">
+                      <div class="inner-tab-content active" id="itc1">
+                        <div class="row">
+                          <div class="col-md-6 col-lg-4">
+                            <div class="tclb-item">
+                              <h6>Everest Region</h6>
+                              <ul>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Gokyo Chola Pass Kalapatthar Trekking
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest View Trek
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest Basecamp Trek
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                          <div class="col-md-6 col-lg-4">
+                            <div class="tclb-item">
+                              <h6>Everest Region</h6>
+                              <ul>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Gokyo Chola Pass Kalapatthar Trekking
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest View Trek
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest Basecamp Trek
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                          <div class="col-md-6 col-lg-4">
+                            <div class="tclb-item">
+                              <h6>Everest Region</h6>
+                              <ul>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Gokyo Chola Pass Kalapatthar Trekking
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest View Trek
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest Basecamp Trek
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                          <div class="col-md-6 col-lg-4">
+                            <div class="tclb-item">
+                              <h6>Everest Region</h6>
+                              <ul>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Gokyo Chola Pass Kalapatthar Trekking
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest View Trek
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest Basecamp Trek
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                          <div class="col-md-6 col-lg-4">
+                            <div class="tclb-item">
+                              <h6>Everest Region</h6>
+                              <ul>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Gokyo Chola Pass Kalapatthar Trekking
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest View Trek
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest Basecamp Trek
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                          <div class="col-md-6 col-lg-4">
+                            <div class="tclb-item">
+                              <h6>Everest Region</h6>
+                              <ul>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Gokyo Chola Pass Kalapatthar Trekking
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest View Trek
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest Basecamp Trek
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="inner-tab-content" id="itc2">
+                        <div class="row">
+                          <div class="col-md-6 col-lg-4">
+                            <div class="tclb-item">
+                              <h6>Everest Region 2</h6>
+                              <ul>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Gokyo Chola Pass Kalapatthar Trekking
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest View Trek
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest Basecamp Trek
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                          <div class="col-md-6 col-lg-4">
+                            <div class="tclb-item">
+                              <h6>Everest Region</h6>
+                              <ul>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Gokyo Chola Pass Kalapatthar Trekking
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest View Trek
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest Basecamp Trek
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                          <div class="col-md-6 col-lg-4">
+                            <div class="tclb-item">
+                              <h6>Everest Region</h6>
+                              <ul>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Gokyo Chola Pass Kalapatthar Trekking
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest View Trek
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest Basecamp Trek
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                          <div class="col-md-6 col-lg-4">
+                            <div class="tclb-item">
+                              <h6>Everest Region</h6>
+                              <ul>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Gokyo Chola Pass Kalapatthar Trekking
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest View Trek
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest Basecamp Trek
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                          <div class="col-md-6 col-lg-4">
+                            <div class="tclb-item">
+                              <h6>Everest Region</h6>
+                              <ul>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Gokyo Chola Pass Kalapatthar Trekking
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest View Trek
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest Basecamp Trek
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                          <div class="col-md-6 col-lg-4">
+                            <div class="tclb-item">
+                              <h6>Everest Region</h6>
+                              <ul>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Gokyo Chola Pass Kalapatthar Trekking
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest View Trek
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest Basecamp Trek
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="inner-tab-content" id="itc3">
+                        <div class="row">
+                          <div class="col-md-6 col-lg-4">
+                            <div class="tclb-item">
+                              <h6>Everest Region 3</h6>
+                              <ul>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Gokyo Chola Pass Kalapatthar Trekking
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest View Trek
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest Basecamp Trek
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                          <div class="col-md-6 col-lg-4">
+                            <div class="tclb-item">
+                              <h6>Everest Region</h6>
+                              <ul>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Gokyo Chola Pass Kalapatthar Trekking
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest View Trek
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest Basecamp Trek
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                          <div class="col-md-6 col-lg-4">
+                            <div class="tclb-item">
+                              <h6>Everest Region</h6>
+                              <ul>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Gokyo Chola Pass Kalapatthar Trekking
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest View Trek
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest Basecamp Trek
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                          <div class="col-md-6 col-lg-4">
+                            <div class="tclb-item">
+                              <h6>Everest Region</h6>
+                              <ul>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Gokyo Chola Pass Kalapatthar Trekking
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest View Trek
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest Basecamp Trek
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                          <div class="col-md-6 col-lg-4">
+                            <div class="tclb-item">
+                              <h6>Everest Region</h6>
+                              <ul>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Gokyo Chola Pass Kalapatthar Trekking
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest View Trek
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest Basecamp Trek
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                          <div class="col-md-6 col-lg-4">
+                            <div class="tclb-item">
+                              <h6>Everest Region</h6>
+                              <ul>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Gokyo Chola Pass Kalapatthar Trekking
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest View Trek
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest Basecamp Trek
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="inner-tab-content" id="itc4">
+                        <div class="row">
+                          <div class="col-md-6 col-lg-4">
+                            <div class="tclb-item">
+                              <h6>Everest Region 4</h6>
+                              <ul>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Gokyo Chola Pass Kalapatthar Trekking
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest View Trek
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest Basecamp Trek
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                          <div class="col-md-6 col-lg-4">
+                            <div class="tclb-item">
+                              <h6>Everest Region</h6>
+                              <ul>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Gokyo Chola Pass Kalapatthar Trekking
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest View Trek
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest Basecamp Trek
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                          <div class="col-md-6 col-lg-4">
+                            <div class="tclb-item">
+                              <h6>Everest Region</h6>
+                              <ul>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Gokyo Chola Pass Kalapatthar Trekking
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest View Trek
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest Basecamp Trek
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                          <div class="col-md-6 col-lg-4">
+                            <div class="tclb-item">
+                              <h6>Everest Region</h6>
+                              <ul>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Gokyo Chola Pass Kalapatthar Trekking
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest View Trek
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest Basecamp Trek
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                          <div class="col-md-6 col-lg-4">
+                            <div class="tclb-item">
+                              <h6>Everest Region</h6>
+                              <ul>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Gokyo Chola Pass Kalapatthar Trekking
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest View Trek
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest Basecamp Trek
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                          <div class="col-md-6 col-lg-4">
+                            <div class="tclb-item">
+                              <h6>Everest Region</h6>
+                              <ul>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Gokyo Chola Pass Kalapatthar Trekking
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest View Trek
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest Basecamp Trek
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="inner-tab-content" id="itc5">
+                        <div class="row">
+                          <div class="col-md-6 col-lg-4">
+                            <div class="tclb-item">
+                              <h6>Everest Region 5</h6>
+                              <ul>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Gokyo Chola Pass Kalapatthar Trekking
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest View Trek
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest Basecamp Trek
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                          <div class="col-md-6 col-lg-4">
+                            <div class="tclb-item">
+                              <h6>Everest Region</h6>
+                              <ul>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Gokyo Chola Pass Kalapatthar Trekking
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest View Trek
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest Basecamp Trek
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                          <div class="col-md-6 col-lg-4">
+                            <div class="tclb-item">
+                              <h6>Everest Region</h6>
+                              <ul>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Gokyo Chola Pass Kalapatthar Trekking
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest View Trek
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest Basecamp Trek
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                          <div class="col-md-6 col-lg-4">
+                            <div class="tclb-item">
+                              <h6>Everest Region</h6>
+                              <ul>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Gokyo Chola Pass Kalapatthar Trekking
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest View Trek
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest Basecamp Trek
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                          <div class="col-md-6 col-lg-4">
+                            <div class="tclb-item">
+                              <h6>Everest Region</h6>
+                              <ul>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Gokyo Chola Pass Kalapatthar Trekking
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest View Trek
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest Basecamp Trek
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                          <div class="col-md-6 col-lg-4">
+                            <div class="tclb-item">
+                              <h6>Everest Region</h6>
+                              <ul>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Gokyo Chola Pass Kalapatthar Trekking
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest View Trek
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest Basecamp Trek
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="inner-tab-content" id="itc6">
+                        <div class="row">
+                          <div class="col-md-6 col-lg-4">
+                            <div class="tclb-item">
+                              <h6>Everest Region 6</h6>
+                              <ul>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Gokyo Chola Pass Kalapatthar Trekking
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest View Trek
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest Basecamp Trek
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                          <div class="col-md-6 col-lg-4">
+                            <div class="tclb-item">
+                              <h6>Everest Region</h6>
+                              <ul>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Gokyo Chola Pass Kalapatthar Trekking
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest View Trek
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest Basecamp Trek
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                          <div class="col-md-6 col-lg-4">
+                            <div class="tclb-item">
+                              <h6>Everest Region</h6>
+                              <ul>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Gokyo Chola Pass Kalapatthar Trekking
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest View Trek
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest Basecamp Trek
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                          <div class="col-md-6 col-lg-4">
+                            <div class="tclb-item">
+                              <h6>Everest Region</h6>
+                              <ul>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Gokyo Chola Pass Kalapatthar Trekking
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest View Trek
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest Basecamp Trek
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                          <div class="col-md-6 col-lg-4">
+                            <div class="tclb-item">
+                              <h6>Everest Region</h6>
+                              <ul>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Gokyo Chola Pass Kalapatthar Trekking
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest View Trek
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest Basecamp Trek
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                          <div class="col-md-6 col-lg-4">
+                            <div class="tclb-item">
+                              <h6>Everest Region</h6>
+                              <ul>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Gokyo Chola Pass Kalapatthar Trekking
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest View Trek
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest Basecamp Trek
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="text-center">
+                      <a href="#" class="bh-btn bh-btn-filled-dark">View Trekking in Detail</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>

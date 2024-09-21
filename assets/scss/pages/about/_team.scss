@@ -1,0 +1,47 @@
+.team {
+	.team-member {
+		.tm-profile {
+			border-radius: 200px 200px 0px 0px;
+			border: 1px solid rgba(60, 60, 60, 0.3);
+			box-shadow: 2px 2px 8px 0px rgba(0, 0, 0, 0.2);
+			overflow: hidden;
+			margin-bottom: 16px;
+		}
+
+		.tm-content {
+			h4 {
+				margin-bottom: 4px;
+				transition: all 0.3s ease-in-out;
+			}
+			p {
+				margin-bottom: 8px;
+			}
+			.bh-btn {
+				opacity: 0;
+				visibility: hidden;
+			}
+		}
+
+		&:hover {
+			.bh-btn {
+				opacity: 1;
+				visibility: visible;
+			}
+			h4 {
+				color: $lightGreen;
+			}
+		}
+	}
+
+	.row {
+		--bs-gutter-y: 32px;
+	}
+}
+
+@media (min-width: 1200px) {
+	.team {
+		.row {
+			--bs-gutter-y: 56px;
+		}
+	}
+}
