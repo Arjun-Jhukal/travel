@@ -1,47 +1,71 @@
 </main>
 <footer class="footer ">
-  <div class="footer-animate">
-    <div class="fa-content-wrapper">
-      <h2 class="text-center">
-        <span>Bold</span>
-        Himalaya
-      </h2>
-    </div>
-    <div class="animating-section">
-      <div class="as-main">
-        <img src="<?php echo get_parent_theme_file_uri()?>/assets/images/footer-animate.svg" alt="">
+  <?php
+  $parallax_animation = get_field('parallax_animation', 'option');
+  $enable_parallax = $parallax_animation['enable_parallax'];
+  $animated_title = $parallax_animation['animated_title'];
+  $animated_img = $parallax_animation['animated_img'];
+  if ($enable_parallax):
+    ?>
+    <div class="footer-animate">
+      <div class="fa-content-wrapper">
+        <h2 class="text-center">
+          <?php echo $animated_title; ?>
+        </h2>
       </div>
-    </div>
-  </div>
-  <div class="footer-subscription">
-    <div class="container">
-      <div class="fs-content">
-        <h4>Subscribe to our Newsletter</h4>
-        <p class="sm-text">Explore our collection of articles and insights to gain in-depth travel knowledge, expert
-          advice, and stay updated on the latest trends and tips.</p>
-
-        <div class="news-letter">
-          <div class="input-field">
-            <input type="email" placeholder="Enter your email address" required>
-          </div>
-          <input type="submit" value="Subscribe">
+      <div class="animating-section">
+        <div class="as-main">
+          <?php
+          $bg_art = $animated_img ?: esc_url(get_home_url()) . '/wp-content/uploads/2024/09/footer-animate.svg';
+          $image_id = attachment_url_to_postid($bg_art);
+          $bg_art_alt_text = get_post_meta($image_id, '_wp_attachment_image_alt', true);
+          if (!$bg_art_alt_text) {
+            $bg_art_alt_text = 'Bold Himalaya';
+          } ?>
+          <img src="<?php echo $bg_art; ?>" alt="<?php echo esc_attr($bg_art_alt_text); ?>">
         </div>
       </div>
     </div>
-  </div>
+  <?php endif;
+  $news_subs = get_field('news_subs', 'option');
+  $enable_news_subs = $news_subs['enable_news_subs'];
+  $news_subs_title = $news_subs['news_subs_title'];
+  $news_subs_desc = $news_subs['news_subs_desc'];
+  if ($enable_news_subs):
+    ?>
+    <div class="footer-subscription">
+      <div class="container">
+        <div class="fs-content">
+          <h4><?php echo $news_subs_title;?></h4>
+          <p class="sm-text"><?php echo $news_subs_desc; ?></p>
+          <div class="news-letter">
+            <?php echo do_shortcode('[contact-form-7 id="3dd198e" title="Subscribe Form"]'); ?>
+          </div>
+        </div>
+      </div>
+    </div>
+  <?php endif; ?>
   <div class="footer-menus">
     <div class="container">
       <div class="row justify-content-between">
         <div class="col-lg-3">
           <div class="footer-info">
             <div class="footer-logo">
-              <a href="#">
-                <img src="<?php echo get_parent_theme_file_uri()?>/assets/images/logo.svg" alt="" class="img-fluid">
+              <a href="<?php echo esc_url(home_url('/')); ?>"><?php
+                 $footer_logo = get_field('footer_logo', 'option');
+                 $copyright_consent = get_field('copyright_consent', 'option');
+
+                 $third_logo = $footer_logo ?: esc_url(get_home_url()) . '/wp-content/uploads/2024/09/logo.svg';
+                 $image_id_third_logo = attachment_url_to_postid($third_logo);
+                 $third_logo_alt_text = get_post_meta($image_id_third_logo, '_wp_attachment_image_alt', true);
+                 if (!$third_logo_alt_text) {
+                   $third_logo_alt_text = 'Bold Himalaya Logo Footer';
+                 } ?>
+                <img src="<?php echo $third_logo; ?>" class="img-fluid" alt="<?php echo esc_attr($third_logo_alt_text); ?>">
               </a>
             </div>
-
             <div class="footer-content">
-              <p class="copyright sm-text">Copyright ©2024. All Rights Reserved.</p>
+              <p class="copyright sm-text">©<?php echo date('Y'); ?> <?php echo $copyright_consent; ?></p>
               <ul class="socials d-flex justify-content-start ">
                 <li>
                   <a href="#">
@@ -244,7 +268,7 @@
       <div class="fs-content d-md-flex justify-content-between align-item-center">
         <p class="sm-text">
           Made with love ❤️ by
-          <img src="<?php echo get_parent_theme_file_uri()?>/assets/images/brand.svg" alt="">
+          <img src="<?php echo get_parent_theme_file_uri() ?>/assets/images/brand.svg" alt="">
         </p>
         <ul class="policies d-flex justify-content-center align-items-center">
           <li><a href="#" class="sm-text">Privacy Policy</a></li>
@@ -262,19 +286,19 @@
             <ul class="d-flex justify-content-start align-items-center">
               <li>
                 <a href="#">
-                  <img src="<?php echo get_parent_theme_file_uri()?>/assets/images/client-01.png" alt=""
+                  <img src="<?php echo get_parent_theme_file_uri() ?>/assets/images/client-01.png" alt=""
                     class="img-fluid">
                 </a>
               </li>
               <li>
                 <a href="#">
-                  <img src="<?php echo get_parent_theme_file_uri()?>/assets/images/client-02.png" alt=""
+                  <img src="<?php echo get_parent_theme_file_uri() ?>/assets/images/client-02.png" alt=""
                     class="img-fluid">
                 </a>
               </li>
               <li>
                 <a href="#">
-                  <img src="<?php echo get_parent_theme_file_uri()?>/assets/images/client-03.png" alt=""
+                  <img src="<?php echo get_parent_theme_file_uri() ?>/assets/images/client-03.png" alt=""
                     class="img-fluid">
                 </a>
               </li>
@@ -287,19 +311,19 @@
             <ul class="d-flex justify-content-start align-items-center">
               <li>
                 <a href="#">
-                  <img src="<?php echo get_parent_theme_file_uri()?>/assets/images/client-04.png" alt=""
+                  <img src="<?php echo get_parent_theme_file_uri() ?>/assets/images/client-04.png" alt=""
                     class="img-fluid">
                 </a>
               </li>
               <li>
                 <a href="#">
-                  <img src="<?php echo get_parent_theme_file_uri()?>/assets/images/client-05.png" alt=""
+                  <img src="<?php echo get_parent_theme_file_uri() ?>/assets/images/client-05.png" alt=""
                     class="img-fluid">
                 </a>
               </li>
               <li>
                 <a href="#">
-                  <img src="<?php echo get_parent_theme_file_uri()?>/assets/images/client-01.png" alt=""
+                  <img src="<?php echo get_parent_theme_file_uri() ?>/assets/images/client-01.png" alt=""
                     class="img-fluid">
                 </a>
               </li>
@@ -312,19 +336,19 @@
             <ul class="d-flex justify-content-start align-items-center">
               <li>
                 <a href="#">
-                  <img src="<?php echo get_parent_theme_file_uri()?>/assets/images/client-02.png" alt=""
+                  <img src="<?php echo get_parent_theme_file_uri() ?>/assets/images/client-02.png" alt=""
                     class="img-fluid">
                 </a>
               </li>
               <li>
                 <a href="#">
-                  <img src="<?php echo get_parent_theme_file_uri()?>/assets/images/client-03.png" alt=""
+                  <img src="<?php echo get_parent_theme_file_uri() ?>/assets/images/client-03.png" alt=""
                     class="img-fluid">
                 </a>
               </li>
               <li>
                 <a href="#">
-                  <img src="<?php echo get_parent_theme_file_uri()?>/assets/images/client-04.png" alt=""
+                  <img src="<?php echo get_parent_theme_file_uri() ?>/assets/images/client-04.png" alt=""
                     class="img-fluid">
                 </a>
               </li>
@@ -337,19 +361,19 @@
             <ul class="d-flex justify-content-start align-items-center">
               <li>
                 <a href="#">
-                  <img src="<?php echo get_parent_theme_file_uri()?>/assets/images/client-01.png" alt=""
+                  <img src="<?php echo get_parent_theme_file_uri() ?>/assets/images/client-01.png" alt=""
                     class="img-fluid">
                 </a>
               </li>
               <li>
                 <a href="#">
-                  <img src="<?php echo get_parent_theme_file_uri()?>/assets/images/client-02.png" alt=""
+                  <img src="<?php echo get_parent_theme_file_uri() ?>/assets/images/client-02.png" alt=""
                     class="img-fluid">
                 </a>
               </li>
               <li>
                 <a href="#">
-                  <img src="<?php echo get_parent_theme_file_uri()?>/assets/images/client-03.png" alt=""
+                  <img src="<?php echo get_parent_theme_file_uri() ?>/assets/images/client-03.png" alt=""
                     class="img-fluid">
                 </a>
               </li>
@@ -364,7 +388,7 @@
       <div class="fs-content d-md-flex justify-content-between align-item-center">
         <p class="sm-text text-center">
           Made with love ❤️ by
-          <img src="<?php echo get_parent_theme_file_uri()?>/assets/images/brand.svg" alt="">
+          <img src="<?php echo get_parent_theme_file_uri() ?>/assets/images/brand.svg" alt="">
         </p>
         <ul class="policies d-flex justify-content-center align-items-center">
           <li><a href="#" class="sm-text">Privacy Policy</a></li>
