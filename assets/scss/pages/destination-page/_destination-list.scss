@@ -1,0 +1,30 @@
+.destination-list {
+	.dl-items {
+		.row {
+			> div {
+				&:not(:last-child) {
+					.destination-item {
+						margin-bottom: 32px;
+					}
+				}
+			}
+		}
+	}
+}
+
+@media (min-width: 768px) {
+	.destination-list {
+		.dl-items {
+			.row {
+				--bs-gutter-y: 32px;
+				> div {
+					&:not(:last-child) {
+						.destination-item {
+							margin-bottom: 0;
+						}
+					}
+				}
+			}
+		}
+	}
+}
