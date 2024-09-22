@@ -1,0 +1,33 @@
+.breadcrumb {
+	background-color: $white;
+	padding: 16px 0;
+	margin-bottom: 0;
+	.breadcrumb-content {
+		ul {
+			gap: 20px;
+			li {
+				a,
+				span {
+					color: $black;
+				}
+				&:not(:last-child) {
+					position: relative;
+
+					&::before {
+						content: "";
+						width: 5px;
+						height: 7px;
+						background-image: url(../images/icons/triangle-green.svg);
+						background-repeat: no-repeat;
+						background-size: contain;
+						background-position: center;
+						position: absolute;
+						top: 50%;
+						transform: translateY(-50%);
+						right: -12px;
+					}
+				}
+			}
+		}
+	}
+}

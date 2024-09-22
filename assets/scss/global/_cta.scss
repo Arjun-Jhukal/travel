@@ -1,0 +1,39 @@
+.global-cta {
+	.gcta-content {
+		background-image: url(../images/cta-bg-03.png);
+		background-position: center;
+		background-repeat: no-repeat;
+		background-size: cover;
+		padding: 32px;
+		border-radius: 8px;
+
+		.gcta-content-box {
+			max-width: 728px;
+
+			h4,
+			p {
+				color: #fff;
+			}
+			h4 {
+				margin-bottom: 8px;
+			}
+			p {
+				margin-bottom: 24px;
+			}
+		}
+	}
+
+	&.global-cta-v2 {
+		.gcta-content {
+			background-image: url(../images/cta-bg-02.png);
+
+			.gcta-content-box {
+				margin: 0 auto;
+				text-align: center;
+				h4 {
+					margin-bottom: 24px;
+				}
+			}
+		}
+	}
+}
