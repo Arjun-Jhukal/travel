@@ -92,93 +92,107 @@
             <div class="row">
               <div class="col-md-6 col-lg-3">
                 <div class="footer-menu-list">
-                  <strong class="sm-text">Navigation</strong>
+                  <strong class="sm-text"><?php
+                  $menu_location = 'navigation';
+                  $menu = wp_get_nav_menu_object(get_nav_menu_locations()[$menu_location]);
+                  if ($menu && isset($menu->name)) {
+                    $menu_title = esc_html($menu->name);
+                  } else {
+                    $menu_title = 'Navigation';
+                  }
+                  echo $menu_title;
+                  ?></strong>
                   <ul>
-                    <li>
-                      <a href="#">Home</a>
-                    </li>
-                    <li>
-                      <a href="#">Plan a trip</a>
-                    </li>
-                    <li>
-                      <a href="#">Destinations</a>
-                    </li>
-                    <li>
-                      <a href="#">Travel Styles</a>
-                    </li>
-                    <li>
-                      <a href="#">Contact</a>
-                    </li>
-                    <li>
-                      <a href="#">About</a>
-                    </li>
+                    <?php
+                    wp_nav_menu(
+                      array(
+                        'theme_location' => 'navigation',
+                        'container' => 'li',
+                        'menu_class' => '',
+                      ),
+                    );
+                    ?>
                   </ul>
                 </div>
               </div>
               <div class="col-md-6 col-lg-3">
                 <div class="footer-menu-list">
-                  <strong class="sm-text">Destinations</strong>
+                  <strong class="sm-text"><?php
+                  $menu_location = 'destination';
+                  $menu = wp_get_nav_menu_object(get_nav_menu_locations()[$menu_location]);
+                  if ($menu && isset($menu->name)) {
+                    $menu_title = esc_html($menu->name);
+                  } else {
+                    $menu_title = 'Destination';
+                  }
+                  echo $menu_title;
+                  ?></strong>
                   <ul>
-                    <li>
-                      <a href="#">Nepal</a>
-                    </li>
-                    <li>
-                      <a href="#">Bhutan</a>
-                    </li>
-                    <li>
-                      <a href="#">Indonesia</a>
-                    </li>
-                    <li>
-                      <a href="#">Bhutan</a>
-                    </li>
-                    <li>
-                      <a href="#">India</a>
-                    </li>
+                    <?php
+                    wp_nav_menu(
+                      array(
+                        'theme_location' => 'destination',
+                        'container' => 'li',
+                        'menu_class' => '',
+                      ),
+                    );
+                    ?>
                   </ul>
                 </div>
               </div>
               <div class="col-md-6 col-lg-3">
                 <div class="footer-menu-list">
-                  <strong class="sm-text">Activities</strong>
+                  <strong class="sm-text">
+                    <?php
+                    $menu_location = 'activities';
+                    $menu = wp_get_nav_menu_object(get_nav_menu_locations()[$menu_location]);
+                    if ($menu && isset($menu->name)) {
+                      $menu_title = esc_html($menu->name);
+                    } else {
+                      $menu_title = 'Activities';
+                    }
+                    echo $menu_title;
+                    ?>
+                  </strong>
                   <ul>
-                    <li>
-                      <a href="#">Trekking/Hiking</a>
-                    </li>
-                    <li>
-                      <a href="#">Wildlife & Nature</a>
-                    </li>
-                    <li>
-                      <a href="#">Tours & Sighteen</a>
-                    </li>
-                    <li>
-                      <a href="#">Water Spots</a>
-                    </li>
-                    <li>
-                      <a href="#">Hunting</a>
-                    </li>
-
+                    <?php
+                    wp_nav_menu(
+                      array(
+                        'theme_location' => 'activities',
+                        'container' => 'li',
+                        'menu_class' => '',
+                      ),
+                    );
+                    ?>
                   </ul>
                 </div>
               </div>
-              <div class="col-md-6 col-lg-3">
-                <div class="footer-menu-list footer-contact">
-                  <strong class="sm-text">Contact</strong>
-                  <div class="contact-options">
-                    <div class="co-item">
-                      <span class="sm-text">Call Us</span>
-                      <a href="tel:+977984-9615880">+977 984-9615880</a>
-                    </div>
-                    <div class="co-item">
-                      <span class="sm-text">Mail us</span>
-                      <a href="mailto:info@boldhimalaya.com">info@boldhimalaya.com</a>
-                    </div>
-                    <div class="co-item">
-                      <span class="sm-text">Visit us</span>
-                      <p>Kuleswor-13, Kathmandu, Nepal</p>
+              <?php
+              $contacts = get_field('contacts', 'option');
+              $enable_contacts = $contacts['enable_contacts'];
+              $contacts_items = $contacts['contacts_items'];
+              if ($enable_contacts && $contacts_items):
+                ?>
+                <div class="col-md-6 col-lg-3">
+                  <div class="footer-menu-list footer-contact">
+                    <strong class="sm-text">Contact</strong>
+                    <div class="contact-options">
+                      <?php foreach ($contacts_items as $conit):
+                        $ci_title = $conit['ci_title'];
+                        $ci_info = $conit['ci_info'];
+                        if ($ci_info):
+                          $ci_info_url = $ci_info['url'];
+                          $ci_info_title = $ci_info['title'];
+                          ?>
+                          <div class="co-item">
+                            <span class="sm-text"><?php echo $ci_title; ?></span>
+                            <a href="<?php echo esc_url($ci_info_url); ?>"><?php echo $ci_info_title; ?></a>
+                          </div>
+                        <?php endif; endforeach; ?>
                     </div>
                   </div>
                 </div>
-              </div>
+              <?php endif; ?>
             </div>
           </div>
         </div>
@@ -188,130 +202,71 @@
   <div class="footer-signature d-none d-lg-block">
     <div class="container">
       <div class="fs-content d-md-flex justify-content-between align-item-center">
-        <p class="sm-text">
+        <a href="https://makuracreations.com/" class="sm-text" target="_blank">
           Made with love ❤️ by
           <img src="<?php echo get_parent_theme_file_uri() ?>/assets/images/brand.svg" alt="">
-        </p>
+        </a>
         <ul class="policies d-flex justify-content-center align-items-center">
-          <li><a href="#" class="sm-text">Privacy Policy</a></li>
-          <li><a href="#" class="sm-text">Terms of services</a></li>
+          <?php
+          function display_privacy_policy_menu()
+          {
+            $footer_menu_items = wp_get_nav_menu_items('privacy-policy');
+            if ($footer_menu_items) {
+              foreach ($footer_menu_items as $item) {
+                echo '<li id="menu-item-' . esc_attr($item->ID) . '" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-' . esc_attr($item->ID) . ' sm-text">';
+                echo '<a href="' . esc_url($item->url) . '">' . esc_html($item->title) . '</a>';
+                echo '</li>';
+              }
+            }
+          }
+          display_privacy_policy_menu();
+          ?>
         </ul>
       </div>
     </div>
   </div>
-  <div class="footer-clients">
-    <div class="container">
-      <div class="row">
-        <div class="col-md-6 col-lg-3">
-          <div class="fc-item">
-            <small>Supported by:</small>
-            <ul class="d-flex justify-content-start align-items-center">
-              <li>
-                <a href="#">
-                  <img src="<?php echo get_parent_theme_file_uri() ?>/assets/images/client-01.png" alt=""
-                    class="img-fluid">
-                </a>
-              </li>
-              <li>
-                <a href="#">
-                  <img src="<?php echo get_parent_theme_file_uri() ?>/assets/images/client-02.png" alt=""
-                    class="img-fluid">
-                </a>
-              </li>
-              <li>
-                <a href="#">
-                  <img src="<?php echo get_parent_theme_file_uri() ?>/assets/images/client-03.png" alt=""
-                    class="img-fluid">
-                </a>
-              </li>
-            </ul>
-          </div>
-        </div>
-        <div class="col-md-6 col-lg-3">
-          <div class="fc-item">
-            <small>Associated with:</small>
-            <ul class="d-flex justify-content-start align-items-center">
-              <li>
-                <a href="#">
-                  <img src="<?php echo get_parent_theme_file_uri() ?>/assets/images/client-04.png" alt=""
-                    class="img-fluid">
-                </a>
-              </li>
-              <li>
-                <a href="#">
-                  <img src="<?php echo get_parent_theme_file_uri() ?>/assets/images/client-05.png" alt=""
-                    class="img-fluid">
-                </a>
-              </li>
-              <li>
-                <a href="#">
-                  <img src="<?php echo get_parent_theme_file_uri() ?>/assets/images/client-01.png" alt=""
-                    class="img-fluid">
-                </a>
-              </li>
-            </ul>
-          </div>
-        </div>
-        <div class="col-md-6 col-lg-3">
-          <div class="fc-item">
-            <small>Featured on:</small>
-            <ul class="d-flex justify-content-start align-items-center">
-              <li>
-                <a href="#">
-                  <img src="<?php echo get_parent_theme_file_uri() ?>/assets/images/client-02.png" alt=""
-                    class="img-fluid">
-                </a>
-              </li>
-              <li>
-                <a href="#">
-                  <img src="<?php echo get_parent_theme_file_uri() ?>/assets/images/client-03.png" alt=""
-                    class="img-fluid">
-                </a>
-              </li>
-              <li>
-                <a href="#">
-                  <img src="<?php echo get_parent_theme_file_uri() ?>/assets/images/client-04.png" alt=""
-                    class="img-fluid">
-                </a>
-              </li>
-            </ul>
-          </div>
-        </div>
-        <div class="col-md-6 col-lg-3">
-          <div class="fc-item">
-            <small>We Accept:</small>
-            <ul class="d-flex justify-content-start align-items-center">
-              <li>
-                <a href="#">
-                  <img src="<?php echo get_parent_theme_file_uri() ?>/assets/images/client-01.png" alt=""
-                    class="img-fluid">
-                </a>
-              </li>
-              <li>
-                <a href="#">
-                  <img src="<?php echo get_parent_theme_file_uri() ?>/assets/images/client-02.png" alt=""
-                    class="img-fluid">
-                </a>
-              </li>
-              <li>
-                <a href="#">
-                  <img src="<?php echo get_parent_theme_file_uri() ?>/assets/images/client-03.png" alt=""
-                    class="img-fluid">
-                </a>
-              </li>
-            </ul>
-          </div>
+  <?php
+  $supported = get_field('supported', 'option');
+  $enable_supported = $supported['enable_supported'];
+  $supported_item = $supported['supported_item'];
+  if ($enable_supported && $supported_item):
+    ?>
+    <div class="footer-clients">
+      <div class="container">
+        <div class="row">
+          <?php foreach ($supported_item as $supi):
+            $supported_title = $supi['supported_title'];
+            $supported_logo_items = $supi['supported_logo_items'];
+            ?>
+            <div class="col-md-6 col-lg-3">
+              <div class="fc-item">
+                <small><?php echo $supported_title; ?></small>
+                <ul class="d-flex justify-content-start align-items-center">
+                  <?php foreach ($supported_logo_items as $logooo): 
+                    $supported_logos = $logooo['supported_logos'];
+                    ?>
+                    <li>
+                      <a href="javascript:void(0)">
+                      <img src="<?php echo esc_url($supported_logos) ?>" alt=""
+                        class="img-fluid">
+                      </a>
+                    </li>
+                  <?php endforeach; ?>
+                </ul>
+              </div>
+            </div>
+          <?php endforeach; ?>
         </div>
       </div>
     </div>
-  </div>
+  <?php endif; ?>
   <div class="footer-signature d-lg-none">
     <div class="container">
       <div class="fs-content d-md-flex justify-content-between align-item-center">
-        <p class="sm-text text-center">
+        <a href="https://makuracreations.com/" class="sm-text text-center" target="_blank">
           Made with love ❤️ by
           <img src="<?php echo get_parent_theme_file_uri() ?>/assets/images/brand.svg" alt="">
-        </p>
+        </a>
         <ul class="policies d-flex justify-content-center align-items-center">
           <li><a href="#" class="sm-text">Privacy Policy</a></li>
           <li><a href="#" class="sm-text">Terms of services</a></li>

@@ -12,14 +12,7 @@ function boldhimalaya_theme_support()
 add_action('after_setup_theme', 'boldhimalaya_theme_support');
 add_action('after_setup_theme', 'register_boldhimalaya_menu');
 add_post_type_support('posts', 'excerpt');
-function register_boldhimalaya_menu()
-{
-    register_nav_menu('primary-menu', __('Primary Menu'));
-    register_nav_menu('quick-links', __('Quick Links'));
-    register_nav_menu('popular-tours', __('Popular Tours'));
-    register_nav_menu('international', __('International'));
-    register_nav_menu('nepal', __('Nepal'));
-}
+
 // industry report pagination
 function add_custom_rewrite_rule()
 {
