@@ -1,0 +1,40 @@
+.commitment-message {
+	.cm-content {
+		h4 {
+			margin-bottom: 32px;
+		}
+
+		.para-wrapper {
+			p {
+				color: $secondary;
+				font-size: 14px;
+				line-height: 140%;
+				letter-spacing: -0.035px;
+
+				&:not(:last-child) {
+					margin-bottom: 16px;
+				}
+			}
+		}
+	}
+}
+@media (min-width: 768px) {
+	.commitment-message {
+		.cm-content {
+			margin-bottom: 40px;
+
+			.para-wrapper {
+				column-count: 2;
+			}
+		}
+	}
+}
+@media (min-width: 768px) {
+	.commitment-message {
+		.cm-content {
+			.para-wrapper {
+				column-gap: 60px;
+			}
+		}
+	}
+}
