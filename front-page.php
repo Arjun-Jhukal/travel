@@ -8,6 +8,7 @@ get_template_part('template-parts/landing-page/key-feature',null);
 get_template_part('template-parts/landing-page/popular-package',null);
 get_template_part('template-parts/landing-page/activities',null);
 get_template_part('template-parts/landing-page/testimonial',null);
+get_template_part('template-parts/landing-page/main-cta',null);
 get_template_part('template-parts/landing-page/blog-list',null);
 ?>
 

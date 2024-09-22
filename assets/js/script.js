@@ -1,4 +1,70 @@
 jQuery(document).ready(function ($) {
+	/* Menu */
+	$(function () {
+		$(".overlay").on("click", function (e) {
+			e.preventDefault();
+			$("body").removeClass("overflow-hidden");
+			$(".mega-menu-wrapper").removeClass("show");
+			$(this).removeClass("show");
+			$(".primary-menu li").removeClass("active");
+		});
+	});
+	$(function () {
+		/* Show and Hide Mega Menu */
+		$(".mega-menu a").on("click", function (e) {
+			e.preventDefault();
+			$(this).parent("li").addClass("active").siblings().removeClass("active");
+			$(".overlay").addClass("show");
+			$("body").addClass("overflow-hidden");
+
+			if ($(this).parent("li").hasClass("mega-destinations")) {
+				$(".mega-menu-wrapper#mega-destinations")
+					.addClass("show")
+					.siblings()
+					.removeClass("show");
+			} else if ($(this).parent("li").hasClass("mega-activities")) {
+				$(".mega-menu-wrapper#mega-activities")
+					.addClass("show")
+					.siblings()
+					.removeClass("show");
+			} else {
+				return;
+			}
+		});
+		/* Main Tab in Mega Menu */
+		$(".mm-controller li a").on("click", function (e) {
+			e.preventDefault();
+			var currentValue = $(this).attr("href");
+			$(this).parent("li").addClass("active").siblings().removeClass("active");
+
+			$(".tab-content-wrapper .tab-content" + currentValue)
+				.addClass("active")
+				.siblings()
+				.removeClass("active");
+		});
+
+		/* Inner Tab in Mega Menu */
+		$(".inner-tab li a").on("click", function (e) {
+			e.preventDefault();
+			var currentValue = $(this).attr("href");
+
+			$(this).parent("li").addClass("active").siblings().removeClass("active");
+
+			$(".inner-tab-content" + currentValue)
+				.addClass("active")
+				.siblings()
+				.removeClass("active");
+		});
+
+		/* Dropdown Menu */
+		$(".menu-has-children a").on("click", function () {
+			$(this).parent("li").addClass("active").siblings().removeClass("active");
+			$(".mega-menu-wrapper").removeClass("show");
+
+			$(this).closest(".dropdown-items").addClass("active");
+		});
+	});
+
 	/* Destination Slider */
 	$(".destinations-slider").slick({
 		slidesToShow: 4, // Default slides to show
@@ -99,59 +165,8 @@ jQuery(document).ready(function ($) {
 		}
 	});
 
-	/* Menu */
-
-	$(function () {
-		/* Show and Hide Mega Menu */
-		$(".mega-menu a").on("click", function (e) {
-			e.preventDefault();
-			$(this).parent("li").addClass("active").siblings().removeClass("active");
-
-			if ($(this).parent("li").hasClass("mega-destinations")) {
-				$(".mega-menu-wrapper#mega-destinations")
-					.addClass("show")
-					.siblings()
-					.removeClass("show");
-			} else if ($(this).parent("li").hasClass("mega-activities")) {
-				$(".mega-menu-wrapper#mega-activities")
-					.addClass("show")
-					.siblings()
-					.removeClass("show");
-			} else {
-				return;
-			}
-		});
-		/* Main Tab in Mega Menu */
-		$(".mm-controller li a").on("click", function (e) {
-			e.preventDefault();
-			var currentValue = $(this).attr("href");
-			$(this).parent("li").addClass("active").siblings().removeClass("active");
-
-			$(".tab-content-wrapper .tab-content" + currentValue)
-				.addClass("active")
-				.siblings()
-				.removeClass("active");
-		});
-
-		/* Inner Tab in Mega Menu */
-		$(".inner-tab li a").on("click", function (e) {
-			e.preventDefault();
-			var currentValue = $(this).attr("href");
-
-			$(this).parent("li").addClass("active").siblings().removeClass("active");
-
-			$(".inner-tab-content" + currentValue)
-				.addClass("active")
-				.siblings()
-				.removeClass("active");
-		});
-
-		/* Dropdown Menu */
-		$(".menu-has-children a").on("click", function () {
-			$(this).parent("li").addClass("active").siblings().removeClass("active");
-			$(".mega-menu-wrapper").removeClass("show");
-
-			$(this).closest(".dropdown-items").addClass("active");
-		});
+	/* Light Gallery */
+	$(".light-gallery").lightGallery({
+		selector: ".cli-image a",
 	});
 });

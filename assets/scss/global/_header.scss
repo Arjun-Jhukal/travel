@@ -1,5 +1,7 @@
 .header {
 	padding: 24px 0;
+	position: relative;
+	z-index: 2;
 	&:not(.front-page-header) {
 		background-color: #fff;
 
