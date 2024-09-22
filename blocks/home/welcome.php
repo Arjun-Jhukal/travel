@@ -32,7 +32,21 @@ if ($enable_hero):
         <?php endif; ?>
         <?php if ($show_tripad_review): ?>
           <div class="pb-reviews d-flex justify-content-center align-items-center">
-            <span>5.0</span>
+            <?php
+            $reviews = get_field('reviews', 'option');
+            if (isset($reviews[1]) && is_array($reviews[1]['review_items'])) {
+              $total_rating = 0;
+              $total_reviewers = count($reviews[1]['review_items']);
+              foreach ($reviews[1]['review_items'] as $item) {
+                if (isset($item['ri_rating'])) {
+                  $total_rating += (float) $item['ri_rating'];
+                }
+              }
+              $average_rating = $total_reviewers > 0 ? $total_rating / $total_reviewers : 0;
+              $average_rating = number_format($average_rating, 1);
+            } ?>
+
+            <span><?php echo esc_html($average_rating); ?></span>
             <ul class="stars">
               <li>
                 <img src="<?php echo get_parent_theme_file_uri() ?>/assets/images/icons/filled-star-sm.svg" alt="">
@@ -50,7 +64,7 @@ if ($enable_hero):
                 <img src="<?php echo get_parent_theme_file_uri() ?>/assets/images/icons/filled-star-sm.svg" alt="">
               </li>
             </ul>
-            <p><span>672</span><span> TripAdvisor reviews</span></p>
+            <p><span><?php echo esc_html($total_reviewers); ?></span><span> TripAdvisor reviews</span></p>
           </div>
         <?php endif; ?>
       </div>

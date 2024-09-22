@@ -37,10 +37,10 @@ if ($enable_most_pop_packs):
               }
               $fallback_tour_featured_image = get_field('fallback_tour_featured_image', 'option');
               if (has_post_thumbnail($post_id)) {
-                $post_thumbnail = get_the_post_thumbnail($post_id, 'full', array('class' => 'post-thumbnail'));
+                $post_thumbnail = get_the_post_thumbnail($post_id, 'full', array('class' => 'img-fluid'));
               } else {
                 $fallback_image_url = $fallback_tour_featured_image ?: esc_url(get_template_directory_uri() . '<?php echo get_parent_theme_file_uri() ?>/assets/images/placeholder-06.png');
-                $post_thumbnail = '<img src="' . $fallback_image_url . '" alt="' . esc_attr($post_title) . '" class="post-thumbnail">';
+                $post_thumbnail = '<img src="' . $fallback_image_url . '" alt="' . esc_attr($post_title) . '" class="img-fluid">';
               }
               $tour_dur_day = get_field('tour_dur_day', $post_id);
               $tour_price_curr = get_field('tour_price_curr', $post_id);
@@ -70,10 +70,13 @@ if ($enable_most_pop_packs):
                 foreach ($tour_badge as $badge) {
                   $parts = explode(':', $badge);
                   $value = trim($parts[0]);
-                  if ($value === 'hot') {
-                    $badge_class = 'hottest-tour';
+                  if ($value === 'trending') {
+                    $badge_class = 'trending';
                   }
-                  if ($value === 'most') {
+                  if ($value === 'most-selling') {
+                    $badge_class = $badge_class ? $badge_class . ' most-selling' : 'most-selling';
+                  }
+                  if ($value === 'most-popular') {
                     $badge_class = $badge_class ? $badge_class . ' most-popular' : 'most-popular';
                   }
                 }
@@ -83,7 +86,7 @@ if ($enable_most_pop_packs):
                 <div class="package-item">
                   <div class="pi-image">
                     <?php echo $post_thumbnail;
-                    if ($tour_price && $tour_sale ): ?>
+                    if ($tour_price && $tour_sale): ?>
                       <span class="discount"><?php $numeric_tour_sale = (int) preg_replace('/[^0-9]/', '', $tour_sale);
                       $percentage_saved = $numeric_tour_sale > 0 ? round((($numeric_tour_sale - $tour_price) / $numeric_tour_sale) * 100) : 0;
                       echo '<p>Save ' . $percentage_saved . '%</p>';
@@ -128,6 +131,16 @@ if ($enable_most_pop_packs):
                       </div>
                     <?php endif; ?>
                   </div>
+                  <?php if ($badge_class): ?>
+                    <div class="tag <?php echo esc_attr($badge_class); ?>">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none">
+                        <path
+                          d="M13.2621 6.94616C13.1445 6.66242 12.8689 6.47597 12.5608 6.47597H10.2667L12.496 1.46605C12.6014 1.23096 12.5771 0.959384 12.4392 0.744558C12.2974 0.529731 12.0582 0.400024 11.8029 0.400024H5.72286C5.39454 0.400024 5.10676 0.610798 5.00137 0.918851L2.71934 7.76088C2.64233 7.99192 2.67881 8.24728 2.82473 8.44589C2.9666 8.6445 3.19764 8.76205 3.44084 8.76205H6.05524L4.23529 14.6151C4.1299 14.9474 4.26772 15.3122 4.56766 15.4906C4.68926 15.5635 4.82708 15.6 4.96084 15.6C5.1554 15.6 5.35401 15.523 5.49993 15.3771L13.0999 7.77709C13.3148 7.55416 13.3796 7.22989 13.2621 6.94616Z"
+                          fill="white" />
+                      </svg>
+                      <small>Most Selling Tour</small>
+                    </div>
+                  <?php endif; ?>
                   <div class="wishlist">
                     <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32" fill="none">
                       <g filter="url(#filter0_b_379_9366)">

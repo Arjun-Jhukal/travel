@@ -28,20 +28,22 @@
         <div class="tcta-content-wrapper">
           <span class="sm-text"><?php echo $cta_desc; ?></span>
           <?php if ($cta_contact):
-            foreach ($cta_contact as $cc):
-              $wa_icon = $cc['wa_icon'];
-              $wa_btn = $cc['wa_btn'];
-              if ($wa_btn):
-                ?>
-                <div class="tcta-btn-group d-flex justify-content-center align-items-center flex-wrap">
+            ?>
+            <div class="tcta-btn-group d-flex justify-content-center align-items-center flex-wrap">
+              <?php
+              foreach ($cta_contact as $cc):
+                $wa_icon = $cc['wa_icon'];
+                $wa_btn = $cc['wa_btn'];
+                if ($wa_btn):
+                  ?>
                   <a href="<?php echo esc_url($wa_btn['url']); ?>" class="bh-btn bh-btn-outlined">
-                    <img
-                      src="<?php echo esc_url($wa_icon) ?: get_parent_theme_file_uri() ?>/assets/images/icons/whatsapp-icon.svg"
-                      alt="">
+                    <img src="<?php echo esc_url($wa_icon ?: get_parent_theme_file_uri() . '/assets/images/icons/whatsapp-icon.svg'); ?>" alt="WhatsApp Icon">
                     <span><?php echo $wa_btn['title']; ?></span>
                   </a>
-                </div>
-              <?php endif; endforeach; endif; ?>
+                <?php endif; endforeach; ?>
+            </div>
+          <?php endif; ?>
+
           <?php if ($cta_mail_id):
             $mail_url = $cta_mail_id['url'];
             $mail = $cta_mail_id['title'];
