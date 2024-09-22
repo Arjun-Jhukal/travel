@@ -581,6 +581,7 @@ input {
 	}
 }
 
-.breadcrumb + section {
+.breadcrumb + section:not(.inner-banner),
+.section-padding-y {
 	padding: 60px 0;
 }

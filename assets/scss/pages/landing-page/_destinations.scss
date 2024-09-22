@@ -3,19 +3,19 @@
 	border-radius: 8px;
 	overflow: hidden;
 
-	&::before {
-		content: "";
-		position: absolute;
-		inset: 0;
-		background: linear-gradient(
-			180deg,
-			rgba(0, 0, 0, 0) 60%,
-			rgba(0, 0, 0, 0.6) 90%
-		);
-	}
-
 	> a {
 		display: block;
+
+		&::before {
+			content: "";
+			position: absolute;
+			inset: 0;
+			background: linear-gradient(
+				180deg,
+				rgba(0, 0, 0, 0) 60%,
+				rgba(0, 0, 0, 0.6) 90%
+			);
+		}
 	}
 
 	.dsi-content {
