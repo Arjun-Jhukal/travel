@@ -169,4 +169,11 @@ jQuery(document).ready(function ($) {
 	$(".light-gallery").lightGallery({
 		selector: ".cli-image a",
 	});
+
+	/* Dynamic Faqs */
+	$(".faq-title").on("click", function () {
+		$(this).parent().hasClass("expand")
+			? $(this).parent().removeClass("expand")
+			: $(this).parent().addClass("expand");
+	});
 });

@@ -28,7 +28,7 @@
               the adventure and</small>
 
             <div class="pl-key-indicator d-flex justify-content-between align-items-center">
-              <div class=" indicator-item location multiple">
+              <div class=" indicator-item location">
                 <img src="<?php echo get_parent_theme_file_uri()?>/assets/images/icons/location.svg" alt="">
                 <small>Indonesia</small>
               </div>
@@ -161,7 +161,7 @@
               the adventure and</small>
 
             <div class="pl-key-indicator d-flex justify-content-between align-items-center">
-              <div class=" indicator-item location multiple">
+              <div class=" indicator-item location">
                 <img src="<?php echo get_parent_theme_file_uri()?>/assets/images/icons/location.svg" alt="">
                 <small>Indonesia</small>
               </div>
@@ -229,7 +229,7 @@
               the adventure and</small>
 
             <div class="pl-key-indicator d-flex justify-content-between align-items-center">
-              <div class=" indicator-item location multiple">
+              <div class=" indicator-item location">
                 <img src="<?php echo get_parent_theme_file_uri()?>/assets/images/icons/location.svg" alt="">
                 <small>Indonesia</small>
               </div>
@@ -290,7 +290,7 @@
               the adventure and</small>
 
             <div class="pl-key-indicator d-flex justify-content-between align-items-center">
-              <div class=" indicator-item location multiple">
+              <div class=" indicator-item location">
                 <img src="<?php echo get_parent_theme_file_uri()?>/assets/images/icons/location.svg" alt="">
                 <small>Indonesia</small>
               </div>
@@ -351,7 +351,7 @@
               the adventure and</small>
 
             <div class="pl-key-indicator d-flex justify-content-between align-items-center">
-              <div class=" indicator-item location multiple">
+              <div class=" indicator-item location">
                 <img src="<?php echo get_parent_theme_file_uri()?>/assets/images/icons/location.svg" alt="">
                 <small>Indonesia</small>
               </div>
@@ -412,7 +412,7 @@
               the adventure and</small>
 
             <div class="pl-key-indicator d-flex justify-content-between align-items-center">
-              <div class=" indicator-item location multiple">
+              <div class=" indicator-item location">
                 <img src="<?php echo get_parent_theme_file_uri()?>/assets/images/icons/location.svg" alt="">
                 <small>Indonesia</small>
               </div>
@@ -470,7 +470,7 @@
               the adventure and</small>
 
             <div class="pl-key-indicator d-flex justify-content-between align-items-center">
-              <div class=" indicator-item location multiple">
+              <div class=" indicator-item location">
                 <img src="<?php echo get_parent_theme_file_uri()?>/assets/images/icons/location.svg" alt="">
                 <small>Indonesia</small>
               </div>
