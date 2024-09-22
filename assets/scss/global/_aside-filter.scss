@@ -1,0 +1,48 @@
+.filter-options {
+	border-radius: 8px;
+	border: 1px solid rgba(0, 0, 0, 0.2);
+	background: $white;
+	padding: 16px 24px;
+
+	.fo-option {
+		> label {
+			margin-bottom: 6px;
+		}
+
+		input {
+			border-radius: 4px;
+			padding: 12px;
+			&[type="radio"] {
+				width: auto;
+				display: inline-block;
+				accent-color: $darkGreen;
+				margin-right: 4px;
+			}
+		}
+
+		&:not(:last-child) {
+			border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+		}
+
+		ul {
+			padding-left: 16px;
+		}
+
+		.faq-title {
+			padding: 16px 0;
+			&::before {
+				right: 0;
+			}
+		}
+		.faq-content {
+			ul,
+			p,
+			a,
+			label {
+				&:last-child {
+					margin-bottom: 14px;
+				}
+			}
+		}
+	}
+}
