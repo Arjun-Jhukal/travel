@@ -242,13 +242,20 @@
               <div class="fc-item">
                 <small><?php echo $supported_title; ?></small>
                 <ul class="d-flex justify-content-start align-items-center">
-                  <?php foreach ($supported_logo_items as $logooo): 
+                  <?php foreach ($supported_logo_items as $logooo):
                     $supported_logos = $logooo['supported_logos'];
                     ?>
                     <li>
                       <a href="javascript:void(0)">
-                      <img src="<?php echo esc_url($supported_logos) ?>" alt=""
-                        class="img-fluid">
+                        <?php
+                        $supported_logo_new = $supported_logos ?: esc_url(get_home_url()) . '/wp-content/uploads/2024/09/client-02.png';
+                        $image_id_supported_logo_new = attachment_url_to_postid($supported_logo_new);
+                        $supported_logo_new_alt_text = get_post_meta($image_id_supported_logo_new, '_wp_attachment_image_alt', true);
+                        if (!$supported_logo_new_alt_text) {
+                          $supported_logo_new_alt_text = 'Bold Himalaya Supported By';
+                        } ?>
+                        <img src="<?php echo $supported_logo_new; ?>"
+                          alt="<?php echo esc_attr($supported_logo_new_alt_text); ?>" class="img-fluid">
                       </a>
                     </li>
                   <?php endforeach; ?>
