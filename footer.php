@@ -275,8 +275,7 @@
           <img src="<?php echo get_parent_theme_file_uri() ?>/assets/images/brand.svg" alt="">
         </a>
         <ul class="policies d-flex justify-content-center align-items-center">
-          <li><a href="#" class="sm-text">Privacy Policy</a></li>
-          <li><a href="#" class="sm-text">Terms of services</a></li>
+         <?php display_privacy_policy_menu();?>
         </ul>
       </div>
     </div>
