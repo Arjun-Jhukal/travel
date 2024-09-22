@@ -615,7 +615,7 @@ label {
 	}
 }
 
-.breadcrumb + section:not(.inner-banner),
+.breadcrumb + section,
 .section-padding-y {
 	padding: 60px 0;
 }
@@ -668,7 +668,8 @@ label {
 		gap: 12px;
 
 		li {
-			a {
+			a,
+			button {
 				font-size: 18px;
 				font-weight: 600;
 				line-height: 130%;
@@ -681,9 +682,26 @@ label {
 			}
 			&.active,
 			&:hover {
-				a {
+				a,
+				button {
 					background-color: $darkGreen;
 					color: $white;
+
+					svg {
+						path {
+							stroke: $white;
+						}
+					}
+				}
+			}
+
+			button {
+				transition: all 0.3s ease-in-out;
+				&.page-next-btn {
+					transform: rotate(90deg);
+				}
+				&.page-prev-btn {
+					transform: rotate(-90deg);
 				}
 			}
 		}

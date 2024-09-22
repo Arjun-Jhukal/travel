@@ -1,0 +1,50 @@
+.sticky-tab {
+	background: #fff;
+	box-shadow: 0px 0px 12px 0px rgba(0, 0, 0, 0.1);
+	position: sticky;
+	top: 100px;
+	z-index: 3;
+
+	.st-content {
+		ul {
+			li {
+				a {
+					font-weight: 600;
+					padding: 18px 0;
+					position: relative;
+					&::before {
+						content: "";
+						position: absolute;
+						bottom: 0;
+						left: 0;
+						height: 4px;
+						width: 100%;
+						background-color: $lightGreen;
+						transform-origin: bottom right;
+						transition: transform 0.3s ease-out;
+						transform: scaleX(0);
+					}
+				}
+
+				&.active,
+				&:hover {
+					a {
+						&::before {
+							transform: scaleX(1);
+							transform-origin: bottom left;
+						}
+					}
+				}
+			}
+		}
+	}
+}
+@media (min-width: 768px) {
+	.sticky-tab {
+		.st-content {
+			ul {
+				gap: 52px;
+			}
+		}
+	}
+}
