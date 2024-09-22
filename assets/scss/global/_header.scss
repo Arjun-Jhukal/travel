@@ -2,7 +2,9 @@
 	padding: 24px 0;
 	position: relative;
 	z-index: 2;
-	&:not(.front-page-header) {
+
+	&:not(.front-page-header),
+	&.sticky {
 		background-color: #fff;
 
 		.bh-btn {
@@ -17,7 +19,16 @@
 		}
 	}
 
-	&.front-page-header {
+	&.sticky {
+		background-color: #fff;
+		position: fixed !important;
+		top: 0;
+		left: 0;
+		right: 0;
+		animation: FadeIn 0.3s ease-in-out forwards;
+	}
+
+	&.front-page-header:not(.sticky) {
 		position: absolute;
 		top: 0;
 		left: 0;
@@ -229,6 +240,11 @@
 	opacity: 0;
 	visibility: hidden;
 	transition: all 0.3s ease-in-out;
+
+	&.dark {
+		background: #292929;
+		z-index: 3;
+	}
 
 	&.show {
 		opacity: 1;
@@ -446,5 +462,24 @@
 
 @media (min-width: 992px) {
 	.header {
+	}
+}
+
+@keyframes FadeIn {
+	from {
+		opacity: 0;
+		transform: translateY(-100px);
+	}
+	to {
+		transform: translateY(0);
+		opacity: 1;
+	}
+}
+@keyframes FadeOut {
+	from {
+		opacity: 1;
+	}
+	to {
+		opacity: 0;
 	}
 }
