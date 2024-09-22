@@ -26,7 +26,7 @@
         </div>
 
         <div class="tcta-content-wrapper">
-          <span class="sm-text"><?php echo $cta_desc; ?></span>
+          <p class="sm-text"><?php echo $cta_desc; ?></p>
           <?php if ($cta_contact):
             ?>
             <div class="tcta-btn-group d-flex justify-content-center align-items-center flex-wrap">

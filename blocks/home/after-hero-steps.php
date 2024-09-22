@@ -9,7 +9,7 @@ if ($enable_steps):
     <div class="container">
       <div class="section-title">
         <h2 class="text-center"><?php echo $steps_title; ?></h2>
-        <?php echo "<span class='text-center'>{$step_desc}</span>"; ?>
+        <p class="text-center"><?php echo $step_desc; ?></p>
       </div>
       <?php if ($steps_item): ?>
         <div class="steps-content-wrapper">
@@ -32,8 +32,8 @@ if ($enable_steps):
                       class="img-fluid" />
                   </div>
                   <div class="step-content">
-                    <p><?php echo $steps_title;?></p>
-                    <small><?php echo "{$step_desc}"; ?></small>
+                    <p><?php echo $steps_title; ?></p>
+                    <small><?php echo $steps_desc; ?></small>
                   </div>
                 </div>
               </div>

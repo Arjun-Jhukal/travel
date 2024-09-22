@@ -69,10 +69,11 @@ if ($enable_activities):
           endif;
           ?>
         </div>
-        <span class="text-center section-cta"><?php echo '<span class="text-center section-cta">' . $activities_desc . '</span>';
-        if ($activities_btn): ?>
+        <p class="text-center section-cta"><?php echo $activities_desc; ?>
+          <?php if ($activities_btn): ?>
             <a href="<?php echo esc_url($activities_btn['url']); ?>"
-              class="bh-btn bh-btn-underlined"><?php echo $activities_btn['title']; ?></a><?php endif; ?></span>
+              class="bh-btn bh-btn-underlined"><?php echo $activities_btn['title']; ?></a><?php endif; ?>
+        </p>
       </div>
     </section>
   <?php endif; endif; ?>

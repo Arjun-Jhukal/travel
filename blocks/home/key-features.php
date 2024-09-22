@@ -32,12 +32,13 @@ if ($enable_key_features):
                 </div>
                 <div class="kfi-content">
                   <p class="title"><?php echo $kfi_title; ?></p>
-                  <?php echo "<span class='sm-text'>{$kfi_desc}</span>"; ?>
-                  <?php if ($key_features_btn): 
+                  <p class="sm-text"><?php echo $kfi_desc; ?></p>
+                  <?php if ($key_features_btn):
                     $kfi_btn_link = $key_features_btn['url'];
                     $kfi_btn_title = $key_features_btn['title'];
                     ?>
-                    <a href="<?php echo esc_url($kfi_btn_link);?>" class="bh-btn bh-btn-underlined"><?php echo $kfi_btn_title; ?></a><?php endif; ?>
+                    <a href="<?php echo esc_url($kfi_btn_link); ?>"
+                      class="bh-btn bh-btn-underlined"><?php echo $kfi_btn_title; ?></a><?php endif; ?>
                 </div>
               </div>
             </div>

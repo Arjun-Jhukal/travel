@@ -13,7 +13,7 @@ if ($enable_most_pop_packs):
         <div class="section-title d-flex justify-content-between align-items-start flex-wrap">
           <h2><?php echo $most_pop_title; ?></h2>
           <div class="st-brief">
-            <span><?php echo "{$most_pop_desc}"; ?></span>
+            <p><?php echo "{$most_pop_desc}"; ?></p>
             <?php if ($most_pop_btn):
               $mpb_link = $most_pop_btn['url'];
               $mpb_title = $most_pop_btn['title'];
@@ -21,6 +21,7 @@ if ($enable_most_pop_packs):
               <a href="<?php echo esc_url($mpb_link); ?>"
                 class="bh-btn bh-btn-underlined"><?php echo $mpb_link; ?></a><?php endif; ?>
           </div>
+
         </div>
         <div class="row">
           <?php foreach ($most_pop_pack_item as $ftour) {
@@ -31,9 +32,9 @@ if ($enable_most_pop_packs):
               $post_excerpt = get_the_excerpt($post_id);
               if (empty($post_excerpt)) {
                 $post_content = apply_filters('the_content', $ftour->post_content);
-                $post_excerpt = wp_trim_words($post_content, 85, '...'); // Trims to 85 words
+                $post_excerpt = wp_trim_words($post_content, 11, '...');
               } else {
-                $post_excerpt = wp_trim_words($post_excerpt, 85, '...');
+                $post_excerpt = wp_trim_words($post_excerpt, 11, '...');
               }
               $fallback_tour_featured_image = get_field('fallback_tour_featured_image', 'option');
               if (has_post_thumbnail($post_id)) {

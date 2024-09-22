@@ -14,7 +14,8 @@ if ($enable_blogs && $blogs_blog):
           <div class="section-title d-md-flex justify-content-between align-items-start flex-wrap d-xl-block">
             <h2 class="text-center text-md-start"><?php echo $blogs_title; ?></h2>
             <div class="st-brief text-center text-md-start mx-auto mx-md-0">
-              <?php echo $blogs_desc;
+             <p><?php echo $blogs_desc;?></p>
+             <?php
               if ($blogs_btn):
                 $blogs_btn_url = $blogs_btn['url'];
                 $blogs_btn_title = $blogs_btn['title'];
@@ -22,8 +23,7 @@ if ($enable_blogs && $blogs_blog):
                 <a href="<?php echo esc_url($blogs_btn_url); ?>"
                   class="bh-btn bh-btn-underlined"><?php echo $blogs_btn_title; ?></a><?php endif; ?>
             </div>
-
-            <div class="slider-btns d-none d-xl-flex">
+                        <div class="slider-btns d-none d-xl-flex">
               <button class="blog-prev">
                 <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
                   <rect x="-1" y="1" width="38" height="38" rx="19" transform="matrix(-1 0 0 1 38 0)" stroke="#7FB51F"
