@@ -695,6 +695,7 @@ label {
 		height: 20px;
 		background: url(../images/icons/angle-up-dark.svg) no-repeat center/contain;
 		transform: translateY(-50%) rotate(180deg);
+		transition: all 0.3s ease-in-out;
 	}
 }
 
@@ -714,6 +715,11 @@ label {
 		.faq-content-wrapper {
 			grid-template-rows: 1fr;
 			overflow: auto;
+		}
+		.faq-title {
+			&::before {
+				transform: translateY(-50%) rotate(0);
+			}
 		}
 	}
 }

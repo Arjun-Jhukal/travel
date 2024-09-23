@@ -65,7 +65,8 @@
 	}
 
 	.do-image {
-		clip-path: polygon(50% 0%, 100% 100%, 0% 100%);
+		max-width: 462px;
+		margin-left: auto;
 	}
 }
 
