@@ -36,7 +36,7 @@
 
             <div class="fo-option">
               <div class="faq-wrapper">
-                <div class="faq-title">
+                <div class=" fo-title ">
                   <label>
                     <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none">
                       <g clip-path="url(#clip0_582_13432)">
@@ -78,7 +78,7 @@
             </div>
             <div class="fo-option">
               <div class="faq-wrapper">
-                <div class="faq-title">
+                <div class=" fo-title">
                   <label>
                     <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none">
                       <g clip-path="url(#clip0_582_13458)">
@@ -114,7 +114,7 @@
             </div>
             <div class="fo-option">
               <div class="faq-wrapper">
-                <div class="faq-title">
+                <div class=" fo-title">
                   <label>
                     <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none">
                       <path
@@ -146,7 +146,7 @@
             </div>
             <div class="fo-option">
               <div class="faq-wrapper">
-                <div class="faq-title">
+                <div class=" fo-title">
                   <label>
                     <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none">
                       <path
@@ -169,7 +169,7 @@
             </div>
             <div class="fo-option">
               <div class="faq-wrapper">
-                <div class="faq-title">
+                <div class=" fo-title">
                   <label>
                     <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none">
                       <g clip-path="url(#clip0_582_13491)">
@@ -208,7 +208,7 @@
             </div>
             <div class="fo-option">
               <div class="faq-wrapper">
-                <div class="faq-title">
+                <div class=" fo-title">
                   <label>
                     <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none">
                       <path

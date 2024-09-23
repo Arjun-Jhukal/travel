@@ -186,10 +186,16 @@ jQuery(document).ready(function ($) {
 	});
 
 	/* Dynamic Faqs */
-	$(".faq-title").on("click", function () {
+	$(".filter-options .fo-title").on("click", function () {
 		$(this).parent().hasClass("expand")
 			? $(this).parent().removeClass("expand")
 			: $(this).parent().addClass("expand");
+	});
+
+	$(".faq-title").on("click", function () {
+		const $parent = $(this).parent();
+		$(".faq-wrapper").not($parent).removeClass("expand");
+		$parent.toggleClass("expand");
 	});
 
 	/* Dark Popup */

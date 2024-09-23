@@ -676,7 +676,8 @@ label {
 	padding: 60px 0;
 }
 
-.faq-title {
+.faq-title,
+.fo-title {
 	position: relative;
 	cursor: pointer;
 
@@ -716,7 +717,8 @@ label {
 			grid-template-rows: 1fr;
 			overflow: auto;
 		}
-		.faq-title {
+		.faq-title,
+		.fo-title {
 			&::before {
 				transform: translateY(-50%) rotate(0);
 			}

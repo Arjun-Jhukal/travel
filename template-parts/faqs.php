@@ -17,7 +17,7 @@
       <div class="col-lg-8">
         <div class="faq-items">
           <div class="faq-item">
-            <div class="faq-wrapper">
+            <div class="faq-wrapper expand">
               <div class="faq-title">
                 <strong>Is it safe to visit Nepal?</strong>
               </div>

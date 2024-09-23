@@ -1,5 +1,26 @@
 .faqs {
 	background-color: $darkGreen;
+	position: relative;
+	overflow: hidden;
+
+	&::before,
+	&::after {
+		content: "";
+		position: absolute;
+		top: 0;
+		bottom: 0;
+		width: 276px;
+	}
+
+	&::before {
+		left: -40px;
+		background: url(../images/faq-shape.png) no-repeat center/contain;
+	}
+	&::after {
+		right: -40px;
+		background: url(../images/faq-shape.png) no-repeat center/contain;
+		transform: rotateY(180deg);
+	}
 	h2,
 	p,
 	strong {
