@@ -1,3 +1,4 @@
+<!-- The section is further used in another page so class name should be conditional as below -->
 <section class="activities section-gap<?php is_front_page()?'':' bg-white section-padding-y';?>" id="things-to-do">
   <div class="container">
     <div class="section-title text-center">

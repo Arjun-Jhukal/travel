@@ -1,0 +1,92 @@
+.contact-info {
+	.ci-content {
+		.contact-options {
+			max-width: 310px;
+			.co-item {
+				gap: 12px;
+
+				.co-icon {
+					min-width: 13px;
+				}
+
+				.co-info {
+					span {
+						display: block;
+						opacity: 0.6;
+						display: inline-block;
+						margin-bottom: 4px;
+					}
+					a,
+					strong {
+						color: $black;
+						font-size: 18px;
+						font-weight: 600;
+						line-height: 130%;
+						display: block;
+					}
+					p {
+						font-weight: 600;
+					}
+					a {
+						&:hover {
+							color: $lightGreen;
+						}
+					}
+				}
+
+				&:not(:last-child) {
+					padding-bottom: 16px;
+					margin-bottom: 16px;
+					border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+				}
+			}
+		}
+	}
+
+	.contact-form {
+		border-radius: 8px;
+		border: 1px solid rgba(0, 0, 0, 0.1);
+		background: $white;
+		padding: 16px;
+	}
+}
+
+@media (min-width: 768px) {
+	.contact-info {
+		.contact-form {
+			padding: 32px;
+
+			.cf-header {
+				margin-bottom: 32px;
+
+				h4 {
+					margin-bottom: 4px;
+				}
+			}
+
+			.input-field {
+				label {
+					margin-bottom: 8px;
+				}
+				input:not([type="submit"]),
+				textarea {
+					background-color: #f9f9f9;
+				}
+
+				input {
+					&[type="submit"] {
+						background-color: $darkGreen;
+
+						&:hover {
+							background-color: $lightGreen;
+						}
+					}
+				}
+
+				&:not(:last-child) {
+					margin-bottom: 24px;
+				}
+			}
+		}
+	}
+}

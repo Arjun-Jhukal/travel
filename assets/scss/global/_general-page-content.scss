@@ -1,0 +1,64 @@
+.general-page-info {
+	.page-title {
+		margin-bottom: 64px;
+
+		h2 {
+			color: $black;
+			font-size: 48px;
+			font-weight: 700;
+			line-height: 130%;
+			margin-bottom: 12px;
+		}
+		strong {
+			color: $black;
+		}
+	}
+	.content {
+		max-width: 792px;
+		margin: 0 auto;
+
+		strong,
+		em {
+			font-style: italic;
+			font-weight: 600;
+			line-height: 130%;
+			display: inline-block;
+			margin-top: 44px;
+		}
+
+		h1,
+		h2,
+		h3,
+		h4,
+		h5 {
+			color: $black;
+			font-size: 24px;
+			font-weight: 600;
+			line-height: 130%;
+			margin: 56px 0 16px;
+		}
+		p,
+		li {
+			&:not(:last-child) {
+				margin-bottom: 12px;
+			}
+		}
+		ul {
+			li {
+				position: relative;
+				padding-left: 24px;
+
+				&::before {
+					content: "";
+					width: 12px;
+					height: 10px;
+					position: absolute;
+					top: 6px;
+					left: 0;
+					background: url(../images/icons/triangle-green.svg) no-repeat center /
+						contain;
+				}
+			}
+		}
+	}
+}
