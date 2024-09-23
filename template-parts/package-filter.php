@@ -1,4 +1,6 @@
-<section class="package-filter">
+<!-- No bg-white if the page is search page -->
+
+<section class="package-filter <?php if (!is_page('search')) echo ' bg-white'; ?>" id="trips-and-tours">
   <div class="container">
     <div class="section-title d-flex justify-content-between align-items-end flex-wrap">
       <h2>
@@ -778,6 +780,14 @@
         </div>
         <div class="pagination justify-content-center">
           <ul class="d-flex justify-content-center align-items-center">
+            <li>
+              <button class="page-prev-btn">
+                <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M5.5 12L10 8L14.5 12" stroke="#1E201F" stroke-width="1.5" stroke-linecap="round" />
+                </svg>
+
+              </button>
+            </li>
             <li class="active">
               <a href="#">1</a>
             </li>
@@ -786,6 +796,13 @@
             </li>
             <li>
               <a href="#">3</a>
+            </li>
+            <li>
+              <button class="page-next-btn">
+                <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M5.5 12L10 8L14.5 12" stroke="#1E201F" stroke-width="1.5" stroke-linecap="round" />
+                </svg>
+              </button>
             </li>
           </ul>
         </div>

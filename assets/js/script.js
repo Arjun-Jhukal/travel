@@ -1,4 +1,15 @@
 jQuery(document).ready(function ($) {
+	/* Sticky Header */
+	$(window).on("scroll", function () {
+		var scrollPosition = $(window).scrollTop();
+
+		if (scrollPosition >= 150) {
+			$(".header").addClass("sticky");
+		} else {
+			$("header").removeClass("sticky");
+		}
+	});
+
 	/* Menu */
 	$(function () {
 		$(".overlay").on("click", function (e) {
@@ -6,9 +17,12 @@ jQuery(document).ready(function ($) {
 			$("body").removeClass("overflow-hidden");
 			$(".mega-menu-wrapper").removeClass("show");
 			$(this).removeClass("show");
+			$(this).removeClass("dark");
 			$(".primary-menu li").removeClass("active");
+			$(".team-popup").removeClass("show");
 		});
 	});
+
 	$(function () {
 		/* Show and Hide Mega Menu */
 		$(".mega-menu a").on("click", function (e) {
@@ -57,7 +71,8 @@ jQuery(document).ready(function ($) {
 		});
 
 		/* Dropdown Menu */
-		$(".menu-has-children a").on("click", function () {
+		$(".menu-has-children a").on("click", function (e) {
+			e.preventDefault();
 			$(this).parent("li").addClass("active").siblings().removeClass("active");
 			$(".mega-menu-wrapper").removeClass("show");
 
@@ -175,5 +190,49 @@ jQuery(document).ready(function ($) {
 		$(this).parent().hasClass("expand")
 			? $(this).parent().removeClass("expand")
 			: $(this).parent().addClass("expand");
+	});
+
+	/* Dark Popup */
+	$(".team-member .bh-btn-underlined").on("click", function (e) {
+		e.preventDefault();
+		$(".team-popup").addClass("show");
+		$(".overlay").addClass("show");
+		$(".overlay").addClass("dark");
+		$("body").addClass("overflow-hidden");
+
+		$(".close-team-popup").on("click", function () {
+			$(".team-popup").removeClass("show");
+			$(".overlay").removeClass("show");
+			$(".overlay").removeClass("dark");
+			$("body").removeClass("overflow-hidden");
+		});
+	});
+
+	/* client Load More Functionality */
+	$(function () {
+		var maxInitialHeight = 144;
+		var content = $(".text-wrapper .text-read-more");
+		var contentHeight = content[0].scrollHeight;
+
+		console.log({
+			maxInitialHeight,
+			contentHeight,
+		});
+
+		if (contentHeight <= maxInitialHeight) {
+			$(".handle-client-read-more").addClass("d-none");
+		}
+
+		$(".handle-client-read-more").on("click", function (e) {
+			e.preventDefault();
+			$(this).addClass("d-none");
+			$(this).siblings(".text-wrapper").removeClass("text-expandable");
+		});
+	});
+
+	/* Single Destination Sticky Tab */
+	$(".sticky-tab li a").on("click", function (e) {
+		e.preventDefault();
+		$(this).parent("li").addClass("active").siblings().removeClass("active");
 	});
 });

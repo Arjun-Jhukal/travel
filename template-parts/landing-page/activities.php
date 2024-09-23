@@ -1,9 +1,11 @@
-<section class="activities section-gap">
+<section class="activities section-gap bg-white section-padding-y" id="#things-to-do">
   <div class="container">
-    <div class="section-title">
-      <h2 class="text-center">Experience Our Diverse
+    <div class="section-title text-center">
+      <h2>Experience Our Diverse
         <span>Activities and Experiences</span>
       </h2>
+      <p>Uncover a wide range of travel options tailored to your interests, from adventurous treks to cultural
+        explorations </p>
     </div>
     <div class="activities-grid">
       <div class="activity-item featured">
@@ -78,7 +80,6 @@
           </div>
         </a>
       </div>
-
     </div>
 
     <p class="text-center section-cta">Couldn’t find the Activities you are looking for? <a href="#"
