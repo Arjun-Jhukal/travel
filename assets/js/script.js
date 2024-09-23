@@ -234,5 +234,78 @@ jQuery(document).ready(function ($) {
 	$(".sticky-tab li a").on("click", function (e) {
 		e.preventDefault();
 		$(this).parent("li").addClass("active").siblings().removeClass("active");
+
+		var currentActive = $(this).attr("href");
+		var targetOffset = $(currentActive).offset().top - 180;
+
+		$("html, body").animate(
+			{
+				scrollTop: targetOffset,
+			},
+			300,
+		);
+	});
+
+	const destinationInfoObserver = new IntersectionObserver((entries) => {
+		entries.forEach((entry) => {
+			if (entry.isIntersecting) {
+				const currentInView = entry.target.id;
+				console.log(currentInView);
+
+				$(".sticky-tab li a")
+					.filter(`[href="#${currentInView}"]`)
+					.parent("li")
+					.addClass("active")
+					.siblings()
+					.removeClass("active");
+			}
+		});
+	});
+
+	$(".sticky-tab")
+		.siblings("section")
+		.each(function () {
+			destinationInfoObserver.observe(this);
+		});
+
+	/* Places to visit Tab */
+
+	$(".ptv-tab li a").on("click", function (e) {
+		e.preventDefault();
+		$(this).parent("li").addClass("active").siblings().removeClass("active");
+		var currentActive = $(this).attr("href");
+
+		var targetOffset = $(currentActive).offset().top - 180;
+
+		$("html, body").animate(
+			{
+				scrollTop: targetOffset,
+			},
+			300,
+		);
+	});
+
+	const options = {
+		threshold: 0.2,
+	};
+
+	const placeToVisitObserver = new IntersectionObserver((entries) => {
+		entries.forEach((entry) => {
+			if (entry.isIntersecting) {
+				const currentInView = entry.target.id;
+
+				$(".ptv-tab li a")
+					.filter(`[href="#${currentInView}"]`)
+					.parent("li")
+					.addClass("active")
+					.siblings()
+					.removeClass("active");
+			}
+		});
+	}, options);
+
+	// Observe each section
+	$(".ptv-tab-content").each(function () {
+		placeToVisitObserver.observe(this);
 	});
 });
