@@ -148,6 +148,47 @@ jQuery(document).ready(function ($) {
 		],
 	});
 
+	/* Blog Slider */
+	$(".testimonial-slider").slick({
+		slidesToShow: 4,
+		slidesToScroll: 1,
+		infinite: true,
+		dots: true,
+		arrows: true,
+		appendDots: $(".testimonial-slider-dots"),
+		nextArrow: $(".testimonial-next"),
+		prevArrow: $(".testimonial-prev"),
+		responsive: [
+			{
+				breakpoint: 992,
+				settings: {
+					slidesToShow: 3,
+				},
+			},
+			{
+				breakpoint: 768,
+				settings: {
+					slidesToShow: 2,
+				},
+			},
+			{
+				breakpoint: 576,
+				settings: {
+					slidesToShow: 1.2,
+					infinite: false,
+					arrows: false,
+				},
+			},
+		],
+	});
+
+	/* Testimonial slider Tab */
+	$(".testimonial-tab li a ").on("click", function (e) {
+		e.preventDefault();
+
+		$(this).parent().addClass("active").siblings().removeClass("active");
+	});
+
 	/* Footer Animation */
 	$(function () {
 		gsap.registerPlugin(ScrollTrigger);
@@ -313,5 +354,31 @@ jQuery(document).ready(function ($) {
 	// Observe each section
 	$(".ptv-tab-content").each(function () {
 		placeToVisitObserver.observe(this);
+	});
+
+	/* Dynamic Rating */
+	$(".review-rating").each(function () {
+		var currentRating = $(this).attr("data-rating");
+		var ratingValue = parseFloat(currentRating);
+		var ratingBeforeDecimal = Math.floor(ratingValue);
+		var ratingAfterDecimal = ratingValue - ratingBeforeDecimal;
+
+		var widthPercentage = ratingAfterDecimal * 100;
+
+		if (ratingAfterDecimal >= 0) {
+			$(this)
+				.find("li")
+				.eq(ratingBeforeDecimal)
+				.find(".filled-star")
+				.css("width", widthPercentage + "%");
+		}
+
+		$(this)
+			.find("li")
+			.each(function (index) {
+				if (index > ratingBeforeDecimal) {
+					$(this).find(".filled-star").css("width", "0%");
+				}
+			});
 	});
 });

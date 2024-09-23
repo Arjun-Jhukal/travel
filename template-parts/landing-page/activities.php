@@ -1,4 +1,4 @@
-<section class="activities section-gap bg-white section-padding-y" id="things-to-do">
+<section class="activities section-gap<?php is_front_page()?'':' bg-white section-padding-y';?>" id="things-to-do">
   <div class="container">
     <div class="section-title text-center">
       <h2>Experience Our Diverse
