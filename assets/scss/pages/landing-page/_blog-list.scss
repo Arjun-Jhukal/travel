@@ -11,9 +11,11 @@
 		.blog-slider {
 			border-radius: 16px;
 			overflow: hidden;
+			margin: 0 -8px;
 
 			.blog-item {
 				padding: 0 8px;
+
 				.bi-image {
 					max-height: 393px;
 				}
