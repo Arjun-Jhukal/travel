@@ -24,6 +24,9 @@
 						transition: transform 0.3s ease-out;
 						transform: scaleX(0);
 					}
+					svg {
+						margin-right: 8px;
+					}
 				}
 
 				&.active,
