@@ -1,0 +1,52 @@
+.not-found {
+	background: linear-gradient(to bottom, #f9f9f9 0%, #f7efca 77.35%);
+	position: relative;
+	height: calc(100vh - 100px);
+	display: grid;
+	place-items: center;
+
+	&::before {
+		content: "";
+		position: absolute;
+		left: 0;
+		right: 0;
+		bottom: 0;
+		height: 212px;
+		background: url(../images/404-bg.png) no-repeat center/cover;
+	}
+
+	.not-found-content {
+		max-width: 518px;
+		margin: 0 auto;
+		position: relative;
+		z-index: 2;
+		text-align: center;
+
+		.nf-image {
+			margin-bottom: 12px;
+		}
+
+		h1 {
+			font-size: 32px;
+			line-height: 100%;
+			color: $black;
+			font-weight: 700;
+			margin-bottom: 32px;
+		}
+		p {
+			margin-bottom: 20px;
+		}
+	}
+}
+
+@media (min-width: 768px) {
+	.not-found {
+		.not-found-content {
+			h1 {
+				font-size: 48px;
+				line-height: 130%;
+				margin-bottom: 64px;
+			}
+		}
+	}
+}

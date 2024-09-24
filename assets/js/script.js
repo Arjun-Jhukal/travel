@@ -1,4 +1,10 @@
 jQuery(document).ready(function ($) {
+	var scrollPosition = $(window).scrollTop();
+	if (scrollPosition >= 150) {
+		$(".header").addClass("sticky");
+	} else {
+		$(".header").removeClass("sticky");
+	}
 	/* Sticky Header */
 	$(window).on("scroll", function () {
 		var scrollPosition = $(window).scrollTop();

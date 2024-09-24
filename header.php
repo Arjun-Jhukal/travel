@@ -18,7 +18,7 @@
   <a href="#" class="overlay"></a>
 
   <?php
-  $isAuthenticated=true;
+  $isAuthenticated=false;
   ?>
   <header class="header <?php if(is_front_page()) echo 'front-page-header'; ?>">
     <div class="container">
