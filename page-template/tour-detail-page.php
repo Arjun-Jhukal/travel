@@ -1,7 +1,7 @@
 <?php
 
 /**
- * Template Name: Award and Achievement Template
+ * Template Name: Trip Detail Page Template
  * 
  */
 
@@ -11,6 +11,8 @@
 <?php
 
 get_template_part("/template-parts/breadcrumb",null);
+get_template_part("/template-parts/tour-detail-page/gallery-banner",null);
+get_template_part("/template-parts/tour-detail-page/trip-content-box",null);
 
 ?>
 
