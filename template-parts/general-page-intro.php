@@ -1,3 +1,5 @@
+<!-- Add Class blog-detail-featured if rendered in blog single page -->
+
 <section class="general-page-intro">
   <div class="container">
     <div class="section-title text-center">

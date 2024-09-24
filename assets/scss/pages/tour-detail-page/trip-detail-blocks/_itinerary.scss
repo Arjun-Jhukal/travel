@@ -1,0 +1,31 @@
+@media (min-width: 768px) {
+	.itinerary {
+		.itinerary-wrapper {
+			position: relative;
+
+			&::before {
+				position: absolute;
+				content: "";
+				top: 30px;
+				bottom: 30px;
+				border: 1px dashed $lightGreen;
+				left: -22px;
+			}
+
+			.accordion-item {
+				position: relative;
+
+				&::before {
+					content: "";
+					width: 12px;
+					height: 12px;
+					position: absolute;
+					top: 30px;
+					left: -28px;
+					background: url(../images/icons/checked-radio.svg) no-repeat
+						center/contain;
+				}
+			}
+		}
+	}
+}
