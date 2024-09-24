@@ -1,7 +1,21 @@
 .contact-info {
+	position: relative;
+
+	&::before {
+		content: "";
+		position: absolute;
+		left: -75px;
+		bottom: 0;
+		background: url(../images/icons/company-shape.svg) no-repeat center/contain;
+		width: 446px;
+		height: 415px;
+	}
 	.ci-content {
+		margin-bottom: 32px;
+
 		.contact-options {
 			max-width: 310px;
+
 			.co-item {
 				gap: 12px;
 
@@ -40,6 +54,10 @@
 					border-bottom: 1px solid rgba(0, 0, 0, 0.1);
 				}
 			}
+		}
+
+		.socials {
+			margin-top: 16px;
 		}
 	}
 
@@ -86,6 +104,17 @@
 				&:not(:last-child) {
 					margin-bottom: 24px;
 				}
+			}
+		}
+	}
+}
+
+@media (min-width: 991px) {
+	.contact-info {
+		.ci-content {
+			margin-bottom: 0;
+			.contact-options {
+				margin-bottom: 52px;
 			}
 		}
 	}

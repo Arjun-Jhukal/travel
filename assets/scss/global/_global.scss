@@ -629,6 +629,7 @@ label {
 				width: 100%;
 				height: 100%;
 				object-fit: cover;
+				transition: all 0.3s ease-in-out;
 			}
 		}
 	}
@@ -642,6 +643,19 @@ label {
 			color: $black;
 			font-weight: 600;
 			line-height: 120%;
+		}
+	}
+
+	&:hover {
+		.bi-image {
+			img {
+				transform: scale(1.05);
+			}
+		}
+		.bi-content {
+			a {
+				color: $lightGreen;
+			}
 		}
 	}
 }
@@ -794,5 +808,64 @@ label {
 				object-fit: cover;
 			}
 		}
+	}
+}
+
+.socials {
+	gap: 12px;
+
+	li {
+		a {
+			&:hover {
+				svg {
+					fill: $lightGreen;
+				}
+				rect {
+					stroke: $lightGreen;
+				}
+				path {
+					fill: $white;
+				}
+			}
+		}
+	}
+}
+
+.aside-item {
+	border-radius: 8px;
+	border: 1px solid #e5e5e5;
+	background: #f9f9f9;
+	padding: 24px;
+
+	h4 {
+		margin-bottom: 24px;
+	}
+
+	ul {
+		li {
+			a {
+				display: block;
+				width: 100%;
+				padding-bottom: 6px;
+				border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+			}
+
+			&:not(:first-child) {
+				padding-top: 24px;
+			}
+
+			&.active,
+			&:hover {
+				a {
+					font-weight: 600;
+					color: $lightGreen;
+					border-color: $lightGreen;
+				}
+			}
+		}
+	}
+
+	&:not(:last-child) {
+		margin-bottom: 16px;
 	}
 }

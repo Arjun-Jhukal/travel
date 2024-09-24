@@ -259,12 +259,7 @@ jQuery(document).ready(function ($) {
 	$(function () {
 		var maxInitialHeight = 144;
 		var content = $(".text-wrapper .text-read-more");
-		var contentHeight = content[0].scrollHeight;
-
-		console.log({
-			maxInitialHeight,
-			contentHeight,
-		});
+		var contentHeight = content.length > 0 && content[0].scrollHeight;
 
 		if (contentHeight <= maxInitialHeight) {
 			$(".handle-client-read-more").addClass("d-none");

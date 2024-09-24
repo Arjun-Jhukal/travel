@@ -1,7 +1,7 @@
 <section class="contact-info section-padding-y">
   <div class="container">
     <div class="row justify-content-between">
-      <div class="col-lg-5">
+      <div class="col-lg-6 col-xl-5">
         <div class="ci-content">
           <div class="section-title">
             <h2>Get in Touch with us
@@ -46,9 +46,31 @@
               </div>
             </div>
           </div>
+
+          <div class="socials">
+            <h5>Follow us on Socials:</h5>
+
+            <ul class="socials d-flex justify-content-start ">
+              <?php
+                $socials = get_field('socials', 'option');
+                $enable_soc = $socials['enable_soc'];
+                $soc_items = $socials['soc_items'];
+                if ($enable_soc && $soc_items):
+                  foreach ($soc_items as $sm):
+                    $soc_title = $sm['soc_title'];
+                    $soc_url = $sm['soc_url'];
+                    ?>
+              <li>
+                <a href="<?php echo esc_url($soc_url); ?>" target="_blank">
+                  <?php echo $soc_title; ?>
+                </a>
+              </li>
+              <?php endforeach; endif; ?>
+            </ul>
+          </div>
         </div>
       </div>
-      <div class="col-lg-5">
+      <div class="col-lg-6 col-xl-5">
         <div class="contact-form">
           <div class="cf-header">
             <h4>Fill out the Form</h4>

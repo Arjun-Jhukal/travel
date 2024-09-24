@@ -94,25 +94,6 @@
 			p {
 				margin-bottom: 24px;
 			}
-			.socials {
-				gap: 12px;
-
-				li {
-					a {
-						&:hover {
-							svg {
-								fill: $lightGreen;
-							}
-							rect {
-								stroke: $lightGreen;
-							}
-							path {
-								fill: $white;
-							}
-						}
-					}
-				}
-			}
 		}
 	}
 
