@@ -1,0 +1,54 @@
+.trip-detail-block {
+	&.inclusion-exclusion {
+		strong {
+			display: inline-block;
+			margin-bottom: 12px;
+		}
+		.includes {
+			margin-bottom: 32px;
+			ul {
+				li {
+					&::before {
+						background: url(../images/icons/inclusion.svg) no-repeat
+							center/contain;
+					}
+				}
+			}
+		}
+		.excludes {
+			margin-bottom: 32px;
+			ul {
+				li {
+					&::before {
+						background: url(../images/icons/exclusion.svg) no-repeat
+							center/contain;
+						width: 14px;
+						height: 14px;
+						top: 4px;
+					}
+				}
+			}
+		}
+		ul {
+			li {
+				padding-left: 24px;
+				position: relative;
+				line-height: 148%;
+				letter-spacing: -0.08px;
+
+				&::before {
+					content: "";
+					position: absolute;
+					left: 0;
+					top: 0;
+					width: 20px;
+					height: 20px;
+				}
+
+				&:not(:last-child) {
+					margin-bottom: 12px;
+				}
+			}
+		}
+	}
+}

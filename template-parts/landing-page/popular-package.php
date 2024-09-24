@@ -1,4 +1,6 @@
-<section class="package-listing section-gap bg-white">
+<!-- Remove bg-white and section-gap if the section is in tour single page -->
+
+<section class="package-listing section-gap bg-white section-padding-y">
   <div class="container">
     <div class="section-title d-flex justify-content-between align-items-start flex-wrap">
       <h2>Experience Our

@@ -238,10 +238,6 @@ jQuery(document).ready(function ($) {
 		selector: ".gb-item a",
 	});
 
-	// $(".gb-item a").on("click", function () {
-	// 	$(".gb-items").addClass("show-all");
-	// });
-
 	/* Dynamic Faqs */
 	$(".filter-options .fo-title").on("click", function () {
 		$(this).parent().hasClass("expand")
@@ -400,5 +396,57 @@ jQuery(document).ready(function ($) {
 	$(".download-pdf").on("click", function (e) {
 		e.preventDefault();
 		window.print();
+	});
+
+	/* Load More Item Or FAQ Client side */
+	$(document).ready(function () {
+		$(".load-more-block").each(function () {
+			var initialItemsToShow = parseInt($(this).attr("data-initial"), 10);
+			var itemToShowPerClick = 2;
+
+			var itemList = $(this).find(".item-list").children();
+			var loadMoreButton = $(this).find(".load-more-accordion .load-more");
+
+			itemList.each(function (index) {
+				if (index >= initialItemsToShow) {
+					$(this).css("display", "none");
+				}
+			});
+
+			if (itemList.length > initialItemsToShow) {
+				loadMoreButton.parent().addClass("visible");
+			}
+
+			loadMoreButton.on("click", function (e) {
+				e.preventDefault();
+				var visibleItems = itemList.filter(":visible").length;
+
+				if (visibleItems < itemList.length) {
+					itemList.each(function (index) {
+						if (
+							index >= visibleItems &&
+							index < visibleItems + itemToShowPerClick
+						) {
+							$(this).slideDown();
+						}
+					});
+
+					if (itemList.filter(":visible").length >= itemList.length) {
+						loadMoreButton.find("span").text("Show Less");
+						loadMoreButton.addClass("nothing-to-show");
+					}
+				} else {
+					itemList.each(function (index) {
+						if (index >= initialItemsToShow) {
+							$(this).slideUp();
+						}
+					});
+
+					// Reset button to "Load More" state
+					loadMoreButton.find("span").text("Load More");
+					loadMoreButton.removeClass("nothing-to-show");
+				}
+			});
+		});
 	});
 });

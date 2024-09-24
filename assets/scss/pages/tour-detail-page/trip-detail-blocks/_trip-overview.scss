@@ -115,6 +115,51 @@
 			}
 		}
 	}
+
+	.load-more-accordion {
+		margin-top: 24px;
+	}
+
+	.block-title-wrapper {
+		margin-bottom: 24px;
+		.rating-wrapper,
+		.block-title-right {
+			gap: 12px;
+		}
+
+		.block-title {
+			margin-bottom: 0;
+		}
+
+		.block-title-right {
+			a {
+				text-wrap: nowrap;
+			}
+			select {
+				padding: 8px 20px;
+				border-radius: 4px;
+				background: rgba(54, 58, 56, 0.1);
+				font-weight: 600;
+				color: $black;
+			}
+		}
+	}
+
+	.load-more-accordion {
+		display: none;
+
+		&.visible {
+			display: block;
+		}
+
+		a {
+			&.nothing-to-show {
+				svg {
+					transform: rotate(180deg);
+				}
+			}
+		}
+	}
 }
 
 .trip-overview {

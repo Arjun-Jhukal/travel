@@ -15,6 +15,35 @@
         </svg>
 
       </button>
+
+      <div class="group-discount-table">
+        <table class="table">
+          <thead class="thead">
+            <tr>
+              <th>PAX</th>
+              <th>COST PER PERSON</th>
+            </tr>
+          </thead>
+          <tbody class="tbody">
+            <tr>
+              <td>1</td>
+              <td>$1,460</td>
+            </tr>
+            <tr>
+              <td>2-4</td>
+              <td>$1,350</td>
+            </tr>
+            <tr>
+              <td>5-8</td>
+              <td>$1,250</td>
+            </tr>
+            <tr>
+              <td>Above 8</td>
+              <td>$1,2000</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
     </div>
     <div class="pac-info">
       <ul>
@@ -43,32 +72,5 @@
     </div>
   </div>
 
-  <div class="group-discount-table">
-    <table class="table">
-      <thead class="thead">
-        <tr>
-          <th>PAX</th>
-          <th>COST PER PERSON</th>
-        </tr>
-      </thead>
-      <tbody class="tbody">
-        <tr>
-          <td>1</td>
-          <td>$1,460</td>
-        </tr>
-        <tr>
-          <td>2-4</td>
-          <td>$1,350</td>
-        </tr>
-        <tr>
-          <td>5-8</td>
-          <td>$1,250</td>
-        </tr>
-        <tr>
-          <td>Above 8</td>
-          <td>$1,2000</td>
-        </tr>
-      </tbody>
-    </table>
-  </div>
+
 </aside>
