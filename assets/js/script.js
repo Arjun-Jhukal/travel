@@ -246,9 +246,13 @@ jQuery(document).ready(function ($) {
 	});
 
 	$(".faq-title").on("click", function () {
-		const $parent = $(this).parent();
-		$(".faq-wrapper").not($parent).removeClass("expand");
-		$parent.toggleClass("expand");
+		$(this)
+			.parent()
+			.toggleClass("expand")
+			.parent()
+			.siblings()
+			.find(".faq-wrapper")
+			.removeClass("expand");
 	});
 
 	/* Dark Popup */
@@ -442,7 +446,6 @@ jQuery(document).ready(function ($) {
 						}
 					});
 
-					// Reset button to "Load More" state
 					loadMoreButton.find("span").text("Load More");
 					loadMoreButton.removeClass("nothing-to-show");
 				}
