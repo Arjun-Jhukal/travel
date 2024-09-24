@@ -1,0 +1,150 @@
+.package-aside {
+	border-radius: 8px;
+	border: 1px solid #e5e5e5;
+	background: $white;
+	padding: 24px;
+	position: relative;
+
+	del {
+		color: $red;
+		font-size: 14px;
+		font-weight: 700;
+		line-height: 170%;
+	}
+
+	.pac-head {
+		padding-bottom: 16px;
+		margin-bottom: 16px;
+		border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+
+		h3 {
+			color: $darkGreen;
+		}
+	}
+
+	.pac-info {
+		margin-bottom: 24px;
+
+		ul {
+			li {
+				font-size: 14px;
+				font-weight: 400;
+				line-height: 140%;
+				letter-spacing: -0.035px;
+				padding-left: 18px;
+				position: relative;
+
+				&::before {
+					content: "";
+					width: 12px;
+					height: 10px;
+					position: absolute;
+					left: 0;
+					top: 4px;
+					background: url(../images/icons/triangle-green.svg) no-repeat
+						center/contain;
+				}
+
+				&:not(:last-child) {
+					margin-bottom: 8px;
+				}
+			}
+		}
+	}
+
+	.aside-btn-group {
+		a {
+			font-weight: 600;
+			padding: 12px !important;
+
+			&.bh-btn-outlined {
+				border-color: $darkGreen;
+				color: $darkGreen;
+				margin-top: 8px;
+				&:hover {
+					background-color: $darkGreen;
+					color: $white;
+				}
+			}
+		}
+	}
+
+	.aside-response {
+		gap: 8px;
+		margin-top: 32px;
+
+		img {
+			min-width: 32px;
+		}
+
+		.ar-info {
+			strong {
+				display: block;
+				margin-bottom: 4px;
+			}
+			a {
+				color: $lightGreen;
+				font-size: 18px;
+				font-weight: 600;
+				line-height: 130%;
+				text-decoration-line: underline;
+			}
+		}
+	}
+
+	.group-discount-table {
+		border-radius: 8px;
+		border: 1px solid #e5e5e5;
+		background: $white;
+		box-shadow: 0px 0px 44px 0px rgba(0, 0, 0, 0.1);
+		max-width: 236px;
+		padding: 4px 0 8px;
+		position: absolute;
+		top: 82px;
+		right: 24px;
+		opacity: 0;
+		visibility: hidden;
+		transform: scaleY(0);
+		transition: all 0.3s linear;
+		transform-origin: 0% 0%;
+
+		&.active {
+			opacity: 1;
+			visibility: visible;
+			transform: scaleY(1);
+		}
+
+		.table {
+			margin-bottom: 0;
+		}
+
+		th,
+		td {
+			color: $black;
+			font-size: 12px;
+			font-weight: 600;
+			line-height: 130%;
+		}
+
+		tr {
+			th,
+			td {
+				padding: 12px 0;
+				padding-left: 24px;
+				&:last-child {
+					padding-right: 24px;
+				}
+			}
+		}
+		.tbody {
+			tr {
+				&:last-child {
+					th,
+					td {
+						border-bottom: none;
+					}
+				}
+			}
+		}
+	}
+}

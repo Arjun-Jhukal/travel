@@ -125,6 +125,10 @@ button {
 	border: none;
 }
 
+strong {
+	font-weight: 600;
+}
+
 input,
 textarea,
 select {
@@ -311,6 +315,31 @@ label {
 	font-weight: 600;
 	line-height: 130%;
 	padding: 4px 6px;
+}
+
+.group-discount-btn {
+	color: $black;
+	border-radius: 28px;
+	border: 1px solid rgba(0, 0, 0, 0.1);
+	background: #f9f9f9;
+	font-size: 14px;
+	line-height: 140%;
+	letter-spacing: -0.035px;
+	padding: 8px 12px;
+	font-weight: 600;
+
+	&:not(.download-pdf) {
+		font-size: 12px;
+		line-height: 130%;
+		svg {
+			transform: rotate(180deg);
+		}
+	}
+	&.active {
+		svg {
+			transform: rotate(0deg);
+		}
+	}
 }
 
 .stars {
@@ -680,6 +709,14 @@ label {
 		a {
 			font-weight: 600;
 		}
+		span {
+			font-size: 12px;
+			line-height: 130%;
+
+			strong {
+				color: $black;
+			}
+		}
 	}
 
 	&:hover {
@@ -867,5 +904,33 @@ label {
 
 	&:not(:last-child) {
 		margin-bottom: 16px;
+	}
+}
+
+.text-wrapper {
+	position: relative;
+	margin-bottom: 8px;
+
+	.text-read-more {
+		p {
+			&:not(:last-child) {
+				margin-bottom: 16px;
+			}
+		}
+	}
+
+	&.text-expandable {
+		max-height: 144px;
+		overflow: hidden;
+
+		&::before {
+			content: "";
+			position: absolute;
+			left: 0;
+			right: 0;
+			bottom: 0;
+			height: 70px;
+			background: linear-gradient(to top, #f9f9f9, transparent);
+		}
 	}
 }

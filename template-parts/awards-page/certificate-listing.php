@@ -8,7 +8,7 @@
         transparency, trust, and adherence to all regulatory standards.</p>
     </div>
 
-    <div class="row light-gallery">
+    <div class="row certificate-light-gallery">
       <div class="col-md-6 col-lg-3">
         <div class="cl-item">
           <div class="cli-image">

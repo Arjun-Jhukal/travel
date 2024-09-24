@@ -1,0 +1,35 @@
+.trip-detail-page-title {
+	padding-bottom: 24px;
+	margin-bottom: 36px;
+	border-bottom: 1px solid #e5e5e5;
+
+	.review-rating {
+		ul {
+			gap: 4px;
+			li {
+				img {
+					min-width: 20px;
+				}
+				.filled-start {
+					img {
+						min-width: 20px;
+					}
+				}
+			}
+		}
+	}
+	.title-info {
+		p {
+			margin-top: 2px;
+		}
+	}
+	.page-title-button {
+		li {
+			a {
+				&:not(:last-child) {
+					margin-left: 4px;
+				}
+			}
+		}
+	}
+}

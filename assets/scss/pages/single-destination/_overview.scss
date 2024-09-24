@@ -1,33 +1,5 @@
 .destination-overview {
 	.inner-content {
-		.text-wrapper {
-			position: relative;
-			margin-bottom: 8px;
-
-			.text-read-more {
-				p {
-					&:not(:last-child) {
-						margin-bottom: 16px;
-					}
-				}
-			}
-
-			&.text-expandable {
-				max-height: 144px;
-				overflow: hidden;
-
-				&::before {
-					content: "";
-					position: absolute;
-					left: 0;
-					right: 0;
-					bottom: 0;
-					height: 70px;
-					background: linear-gradient(to top, #f9f9f9, transparent);
-				}
-			}
-		}
-
 		.highlights {
 			margin-top: 3px;
 			h5 {

@@ -1,0 +1,138 @@
+.trip-detail-block {
+	&:not(:last-child) {
+		margin-bottom: 32px;
+		padding-bottom: 32px;
+		border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+	}
+
+	.text-wrapper {
+		p {
+			color: $black;
+		}
+
+		&.text-expandable {
+			&::before {
+				background: linear-gradient(to top, #fff, transparent);
+			}
+		}
+	}
+
+	.block-title {
+		display: flex;
+		align-items: center;
+		justify-content: flex-start;
+		gap: 12px;
+		margin-bottom: 24px;
+
+		h5 {
+			margin-bottom: 4px;
+		}
+		p {
+			font-size: 14px;
+			line-height: 140%;
+			letter-spacing: -0.035px;
+		}
+	}
+
+	.kf-item {
+		gap: 12px;
+
+		span {
+			display: block;
+			margin-bottom: 2px;
+		}
+		strong {
+			color: $black;
+		}
+	}
+
+	.faq-wrapper {
+		padding: 16px 20px;
+		border-radius: 4px;
+		border: 1px solid #e5e5e5;
+		background: #f9f9f9;
+
+		.faq-title {
+			small {
+				color: $lightGreen;
+				display: block;
+				margin-bottom: 4px;
+				font-weight: 600;
+			}
+		}
+
+		.faq-content {
+			> *:first-child {
+				margin-top: 16px;
+			}
+			> p {
+				&:not(:last-child) {
+					margin-bottom: 16px;
+				}
+			}
+
+			.features {
+				margin-bottom: 16px;
+			}
+
+			h6 {
+				font-size: 14px;
+				font-weight: 600;
+				line-height: 140%;
+				letter-spacing: -0.035px;
+				margin-bottom: 8px;
+			}
+
+			.features + .available-expansion,
+			p + .available-expansion {
+				margin-top: 32px;
+			}
+
+			ul {
+				li {
+					color: $black;
+					font-weight: 600;
+					position: relative;
+					padding-left: 20px;
+
+					&::before {
+						content: "";
+						width: 10px;
+						height: 8px;
+						background-image: url(../images/icons/triangle-green.svg);
+						background-repeat: no-repeat;
+						background-size: contain;
+						background-position: center;
+						position: absolute;
+						top: 4px;
+						left: 0;
+					}
+
+					&:not(:last-child) {
+						margin-bottom: 8px;
+					}
+				}
+			}
+		}
+	}
+}
+
+.trip-overview {
+	.row {
+		--bs-gutter-y: 16px;
+	}
+}
+@media (min-width: 992px) {
+	.trip-detail-block {
+		&:not(:last-child) {
+			margin-bottom: 56px;
+			padding-bottom: 56px;
+		}
+	}
+
+	.trip-overview {
+		.row {
+			--bs-gutter-y: 32px;
+		}
+	}
+}
