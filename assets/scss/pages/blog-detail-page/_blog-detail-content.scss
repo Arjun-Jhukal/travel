@@ -1,0 +1,407 @@
+.detail-content-wrapper {
+	.detail-content {
+		margin-bottom: 60px;
+
+		> p {
+			margin-bottom: 16px;
+			line-height: 148%;
+			letter-spacing: -0.08px;
+		}
+
+		> figure img,
+		> img {
+			width: 100%;
+			height: auto;
+		}
+
+		figure {
+			figcaption,
+			small {
+				font-size: 12px;
+				font-style: italic;
+				line-height: 130%;
+			}
+		}
+
+		> h1,
+		> h2,
+		> h3,
+		> h4,
+		> h5,
+		> h6 {
+			color: $black;
+			font-size: 20px;
+			font-weight: 600;
+			line-height: 130%;
+			margin: 32px 0 16px;
+		}
+
+		> ul,
+		> ol {
+			padding-left: 24px;
+
+			li {
+				line-height: 148%;
+				letter-spacing: -0.08px;
+
+				&:not(:last-child) {
+					margin-bottom: 8px;
+				}
+
+				> h1,
+				> h2,
+				> h3,
+				> h4,
+				> h5,
+				> h6 {
+					font-size: 18px;
+					color: $black;
+					font-weight: 600;
+					line-height: 130%;
+					margin: 24px 0 12px;
+				}
+				p {
+					margin-bottom: 16px;
+				}
+
+				img {
+					max-width: 490px;
+					margin-bottom: 16px;
+				}
+			}
+		}
+
+		ul {
+			li {
+				padding-left: 16px;
+				position: relative;
+
+				&::before {
+					content: "";
+					position: absolute;
+					width: 8px;
+					height: 7px;
+					left: 0;
+					top: 8px;
+					background: url(../images/icons/triangle-green.svg) no-repeat
+						center/contain;
+				}
+			}
+		}
+
+		> ol {
+			> * {
+				padding-left: 8px;
+			}
+
+			> li {
+				list-style-type: decimal;
+
+				&::marker {
+					color: $black;
+					font-size: 18px;
+					font-weight: 600;
+					line-height: 130%;
+				}
+			}
+		}
+		.quote {
+			padding: 24px 32px;
+			border-radius: 8px;
+			background: rgba(127, 181, 31, 0.1);
+			border-left: 8px solid $lightGreen;
+			margin: 32px 0 48px;
+			position: relative;
+
+			&::before {
+				content: "";
+				width: 48px;
+				height: 48px;
+				position: absolute;
+				right: 8px;
+				bottom: 8px;
+				background: url(../images/icons/quote.svg) no-repeat center/contain;
+			}
+
+			h5 {
+				font-style: italic;
+				margin-bottom: 16px;
+			}
+			strong {
+				color: $lightGreen;
+				font-size: 14px;
+				font-weight: 600;
+				line-height: 140%;
+				letter-spacing: -0.035px;
+			}
+		}
+
+		table {
+			thead {
+				tr {
+					th {
+						background-color: $lightGreen;
+						color: $white;
+						font-size: 14px;
+						font-weight: 600;
+						line-height: 140%;
+						letter-spacing: -0.035px;
+
+						&:first-child {
+							border-radius: 4px 0 0 0;
+						}
+						&:last-child {
+							border-radius: 0 4px 0 0;
+						}
+					}
+				}
+			}
+			tr {
+				th,
+				td {
+					padding: 12px 24px;
+					border-bottom: none;
+					border-left: 1px solid #e5e5e5;
+					min-width: 169px;
+
+					&:last-child {
+						border-right: 1px solid #e5e5e5;
+					}
+				}
+				&:nth-child(even) {
+					td {
+						background-color: #fff;
+					}
+				}
+				&:nth-child(odd) {
+					td {
+						background-color: #f9f9f9;
+					}
+				}
+				&:last-child {
+					td {
+						border-bottom: 1px solid #e5e5e5;
+
+						&:first-child {
+							border-radius: 0 0 0 4px;
+						}
+						&:last-child {
+							border-radius: 0 0 4px 0;
+						}
+					}
+				}
+			}
+		}
+	}
+
+	.tags {
+		gap: 12px;
+		ul {
+			gap: 8px;
+			li {
+				a {
+					font-size: 14px;
+					font-weight: 600;
+					line-height: 140%;
+					letter-spacing: -0.035px;
+					padding: 4px 16px;
+					border-radius: 4px;
+					border: 1px solid;
+				}
+				&:first-child {
+					border-color: #b51f1f;
+					background: rgba(181, 31, 31, 0.1);
+					a {
+						color: #b51f1f;
+					}
+				}
+				&:nth-child(2) {
+					border-color: #1fb536;
+					background: rgba(31, 181, 54, 0.1);
+					a {
+						color: #1fb536;
+					}
+				}
+				&:nth-child(3) {
+					border-color: #1f3db5;
+					background: rgba(31, 61, 181, 0.1);
+					a {
+						color: #1f3db5;
+					}
+				}
+				&:nth-child(4) {
+					border-color: #a31fb5;
+					background: rgba(163, 31, 181, 0.1);
+					a {
+						color: #a31fb5;
+					}
+				}
+				&:last-child {
+					border: #1fb5b5;
+					background: rgba(31, 181, 181, 0.1);
+					a {
+						color: #1fb5b5;
+					}
+				}
+			}
+		}
+	}
+
+	.share {
+		gap: 12px;
+		padding: 12px 0;
+		margin-top: 24px;
+		border-top: 1px solid #e5e5e5;
+		border-bottom: 1px solid #e5e5e5;
+
+		.socials {
+			gap: 8px;
+		}
+	}
+
+	.comments {
+		margin-top: 44px;
+
+		.title {
+			margin-bottom: 16px;
+		}
+
+		.comment-list {
+			.comment-item {
+				border-radius: 8px;
+				border: 1px solid #e5e5e5;
+				background: #f9f9f9;
+				padding: 24px;
+
+				p {
+					line-height: 148%;
+					letter-spacing: -0.08px;
+					margin-bottom: 16px;
+				}
+
+				.comment-by {
+					gap: 8px;
+
+					.cb-profile {
+						width: 32px;
+						height: 32px;
+						border-radius: 50%;
+						background-color: $lightGreen;
+						color: $white;
+						line-height: 32px;
+						text-align: center;
+
+						span {
+							font-weight: 600;
+							line-height: 130%;
+						}
+					}
+
+					.cb-info {
+						strong {
+							color: $black;
+							font-size: 18px;
+							line-height: 130%;
+							display: block;
+						}
+					}
+				}
+			}
+		}
+	}
+
+	.reaction-wrapper {
+		gap: 24px;
+		padding-top: 16px;
+		margin-top: 16px;
+		border-top: 1px solid rgba(0, 0, 0, 0.1);
+
+		a {
+			color: $black;
+			font-size: 12px;
+			font-weight: 600;
+			line-height: 130%;
+			display: flex;
+			align-items: center;
+			gap: 4px;
+
+			&:first-child {
+				span {
+					margin-top: 4px;
+				}
+			}
+		}
+	}
+
+	.comments {
+		.bh-btn-outlined {
+			margin-top: 24px;
+			color: $lightGreen;
+			border-color: $lightGreen;
+
+			&:hover {
+				background-color: $darkGreen;
+				color: #fff;
+				border-color: $darkGreen;
+				svg {
+					path {
+						fill: #fff;
+						stroke: #fff;
+					}
+				}
+			}
+		}
+	}
+
+	aside {
+		position: sticky;
+		top: 100px;
+	}
+}
+
+.table-of-content {
+	padding: 24px;
+	border-radius: 8px;
+	border: 1px solid #e5e5e5;
+	background: #f9f9f9;
+
+	h4 {
+		margin-bottom: 24px;
+	}
+
+	li {
+		a {
+			line-height: 148%;
+			letter-spacing: -0.08px;
+			padding-bottom: 4px;
+			border-bottom: 1px solid #e5e5e5;
+			width: 100%;
+		}
+		&:not(:first-child) {
+			padding-top: 20px;
+		}
+		&:hover,
+		&.active {
+			a {
+				font-weight: 600;
+				color: $lightGreen;
+				border-color: $lightGreen;
+			}
+		}
+	}
+}
+
+@media (min-width: 992px) {
+	.detail-content-wrapper {
+		.detail-content {
+			> h1,
+			> h2,
+			> h3,
+			> h4,
+			> h5,
+			> h6 {
+				margin: 48px 0 16px;
+			}
+		}
+	}
+}
