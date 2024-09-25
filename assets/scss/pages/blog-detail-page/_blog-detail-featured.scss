@@ -28,6 +28,12 @@
 				li {
 					position: relative;
 
+					img {
+						width: 16px;
+						height: 16px;
+						object-fit: contain;
+					}
+
 					&:not(:last-child) {
 						&::before {
 							content: "";

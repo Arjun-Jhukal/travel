@@ -7,25 +7,25 @@
   $animated_img = $parallax_animation['animated_img'];
   if ($enable_parallax):
     ?>
-    <div class="footer-animate">
-      <div class="fa-content-wrapper">
-        <h2 class="text-center">
-          <?php echo $animated_title; ?>
-        </h2>
-      </div>
-      <div class="animating-section">
-        <div class="as-main">
-          <?php
+  <div class="footer-animate">
+    <div class="fa-content-wrapper">
+      <h2 class="text-center">
+        <?php echo $animated_title; ?>
+      </h2>
+    </div>
+    <div class="animating-section">
+      <div class="as-main">
+        <?php
           $bg_art = $animated_img ?: esc_url(get_home_url()) . '/wp-content/uploads/2024/09/footer-animate.svg';
           $image_id = attachment_url_to_postid($bg_art);
           $bg_art_alt_text = get_post_meta($image_id, '_wp_attachment_image_alt', true);
           if (!$bg_art_alt_text) {
             $bg_art_alt_text = 'Bold Himalaya';
           } ?>
-          <img src="<?php echo $bg_art; ?>" alt="<?php echo esc_attr($bg_art_alt_text); ?>">
-        </div>
+        <img src="<?php echo $bg_art; ?>" alt="<?php echo esc_attr($bg_art_alt_text); ?>">
       </div>
     </div>
+  </div>
   <?php endif;
   $news_subs = get_field('news_subs', 'option');
   $enable_news_subs = $news_subs['enable_news_subs'];
@@ -33,17 +33,17 @@
   $news_subs_desc = $news_subs['news_subs_desc'];
   if ($enable_news_subs):
     ?>
-    <div class="footer-subscription">
-      <div class="container">
-        <div class="fs-content">
-          <h4><?php echo $news_subs_title; ?></h4>
-          <p class="sm-text"><?php echo $news_subs_desc; ?></p>
-          <div class="news-letter">
-            <?php echo do_shortcode('[contact-form-7 id="3dd198e" title="Subscribe Form"]'); ?>
-          </div>
+  <div class="footer-subscription">
+    <div class="container">
+      <div class="fs-content">
+        <h4><?php echo $news_subs_title; ?></h4>
+        <p class="sm-text"><?php echo $news_subs_desc; ?></p>
+        <div class="news-letter">
+          <?php echo do_shortcode('[contact-form-7 id="3dd198e" title="Subscribe Form"]'); ?>
         </div>
       </div>
     </div>
+  </div>
   <?php endif; ?>
   <div class="footer-menus">
     <div class="container">
@@ -77,12 +77,12 @@
                     $soc_title = $sm['soc_title'];
                     $soc_url = $sm['soc_url'];
                     ?>
-                    <li>
-                      <a href="<?php echo esc_url($soc_url); ?>" target="_blank">
-                        <?php echo $soc_title; ?>
-                      </a>
-                    </li>
-                  <?php endforeach; endif; ?>
+                <li>
+                  <a href="<?php echo esc_url($soc_url); ?>" target="_blank">
+                    <?php echo $soc_title; ?>
+                  </a>
+                </li>
+                <?php endforeach; endif; ?>
               </ul>
             </div>
           </div>
@@ -173,25 +173,25 @@
               $contacts_items = $contacts['contacts_items'];
               if ($enable_contacts && $contacts_items):
                 ?>
-                <div class="col-md-6 col-lg-3">
-                  <div class="footer-menu-list footer-contact">
-                    <strong class="sm-text">Contact</strong>
-                    <div class="contact-options">
-                      <?php foreach ($contacts_items as $conit):
+              <div class="col-md-6 col-lg-3">
+                <div class="footer-menu-list footer-contact">
+                  <strong class="sm-text">Contact</strong>
+                  <div class="contact-options">
+                    <?php foreach ($contacts_items as $conit):
                         $ci_title = $conit['ci_title'];
                         $ci_info = $conit['ci_info'];
                         if ($ci_info):
                           $ci_info_url = $ci_info['url'];
                           $ci_info_title = $ci_info['title'];
                           ?>
-                          <div class="co-item">
-                            <span class="sm-text"><?php echo $ci_title; ?></span>
-                            <a href="<?php echo esc_url($ci_info_url); ?>"><?php echo $ci_info_title; ?></a>
-                          </div>
-                        <?php endif; endforeach; ?>
+                    <div class="co-item">
+                      <span class="sm-text"><?php echo $ci_title; ?></span>
+                      <a href="<?php echo esc_url($ci_info_url); ?>"><?php echo $ci_info_title; ?></a>
                     </div>
+                    <?php endif; endforeach; ?>
                   </div>
                 </div>
+              </div>
               <?php endif; ?>
             </div>
           </div>
@@ -231,41 +231,41 @@
   $supported_item = $supported['supported_item'];
   if ($enable_supported && $supported_item):
     ?>
-    <div class="footer-clients">
-      <div class="container">
-        <div class="row">
-          <?php foreach ($supported_item as $supi):
+  <div class="footer-clients">
+    <div class="container">
+      <div class="row">
+        <?php foreach ($supported_item as $supi):
             $supported_title = $supi['supported_title'];
             $supported_logo_items = $supi['supported_logo_items'];
             ?>
-            <div class="col-md-6 col-lg-3">
-              <div class="fc-item">
-                <small><?php echo $supported_title; ?></small>
-                <ul class="d-flex justify-content-start align-items-center">
-                  <?php foreach ($supported_logo_items as $logooo):
+        <div class="col-md-6 col-lg-3">
+          <div class="fc-item">
+            <small><?php echo $supported_title; ?></small>
+            <ul class="d-flex justify-content-start align-items-center">
+              <?php foreach ($supported_logo_items as $logooo):
                     $supported_logos = $logooo['supported_logos'];
                     ?>
-                    <li>
-                      <a href="javascript:void(0)">
-                        <?php
+              <li>
+                <a href="javascript:void(0)">
+                  <?php
                         $supported_logo_new = $supported_logos ?: esc_url(get_home_url()) . '/wp-content/uploads/2024/09/client-02.png';
                         $image_id_supported_logo_new = attachment_url_to_postid($supported_logo_new);
                         $supported_logo_new_alt_text = get_post_meta($image_id_supported_logo_new, '_wp_attachment_image_alt', true);
                         if (!$supported_logo_new_alt_text) {
                           $supported_logo_new_alt_text = 'Bold Himalaya Supported By';
                         } ?>
-                        <img src="<?php echo $supported_logo_new; ?>"
-                          alt="<?php echo esc_attr($supported_logo_new_alt_text); ?>" class="img-fluid">
-                      </a>
-                    </li>
-                  <?php endforeach; ?>
-                </ul>
-              </div>
-            </div>
-          <?php endforeach; ?>
+                  <img src="<?php echo $supported_logo_new; ?>"
+                    alt="<?php echo esc_attr($supported_logo_new_alt_text); ?>" class="img-fluid">
+                </a>
+              </li>
+              <?php endforeach; ?>
+            </ul>
+          </div>
         </div>
+        <?php endforeach; ?>
       </div>
     </div>
+  </div>
   <?php endif; ?>
   <div class="footer-signature d-lg-none">
     <div class="container">
@@ -275,12 +275,84 @@
           <img src="<?php echo get_parent_theme_file_uri() ?>/assets/images/brand.svg" alt="">
         </a>
         <ul class="policies d-flex justify-content-center align-items-center">
-         <?php display_privacy_policy_menu();?>
+          <?php display_privacy_policy_menu();?>
         </ul>
       </div>
     </div>
   </div>
 </footer>
+
+
+<!-- Show This Only at tour detail page -->
+<div class="review-form">
+  <div class="rf-content">
+    <div class="rf-header">
+      <h4>Add Review</h4>
+      <strong>Reviewing for Everest Base Camp Trek</strong>
+    </div>
+
+    <form action="">
+      <div class="rf-rating form-item">
+        <div class="d-flex">
+          <img src="<?php echo get_parent_theme_file_uri()?>/assets/images/icons/liked-star.svg" alt="">
+          <strong>Rating</strong>
+        </div>
+        <div class="review-rating" data-rating="1">
+          <ul class="d-flex stars justify-content-start">
+            <li>
+              <img src="<?php echo get_parent_theme_file_uri()?>/assets/images/icons/outlined-star.svg" alt="">
+              <div class="filled-star">
+                <img src="<?php echo get_parent_theme_file_uri()?>/assets/images/icons/filled-star.svg" alt="">
+              </div>
+            </li>
+            <li>
+              <img src="<?php echo get_parent_theme_file_uri()?>/assets/images/icons/outlined-star.svg" alt="">
+              <div class="filled-star">
+                <img src="<?php echo get_parent_theme_file_uri()?>/assets/images/icons/filled-star.svg" alt="">
+              </div>
+            </li>
+            <li>
+              <img src="<?php echo get_parent_theme_file_uri()?>/assets/images/icons/outlined-star.svg" alt="">
+              <div class="filled-star">
+                <img src="<?php echo get_parent_theme_file_uri()?>/assets/images/icons/filled-star.svg" alt="">
+              </div>
+            </li>
+            <li>
+              <img src="<?php echo get_parent_theme_file_uri()?>/assets/images/icons/outlined-star.svg" alt="">
+              <div class="filled-star">
+                <img src="<?php echo get_parent_theme_file_uri()?>/assets/images/icons/filled-star.svg" alt="">
+              </div>
+            </li>
+            <li>
+              <img src="<?php echo get_parent_theme_file_uri()?>/assets/images/icons/outlined-star.svg" alt="">
+              <div class="filled-star">
+                <img src="<?php echo get_parent_theme_file_uri()?>/assets/images/icons/filled-star.svg" alt="">
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="rf-review-message form-item">
+        <div class="d-flex">
+          <img src="<?php echo get_parent_theme_file_uri()?>/assets/images/icons/message-box.svg" alt="">
+          <strong>Your Review</strong>
+        </div>
+        <div class="input-field">
+          <textarea name="" id="" placeholder="Provide your review about the tour" rows="3"></textarea>
+        </div>
+      </div>
+
+      <div class="form-item">
+        <input type="submit" value="Submit Review" class="bh-btn bh-btn-filled-dark">
+      </div>
+    </form>
+
+    <button type="button" class="close-review-form">
+      <img src="<?php echo get_parent_theme_file_uri()?>/assets/images/icons/close-dark.svg" alt="">
+    </button>
+  </div>
+</div>
 <?php wp_footer(); ?>
 </body>
 

@@ -141,6 +141,7 @@ select {
 	border-radius: 56px;
 	border: 1px solid rgba(0, 0, 0, 0.1);
 	padding: 14px 24px;
+	background-color: #f7f7f7;
 
 	&:focus {
 		outline-color: $lightGreen;
@@ -160,6 +161,11 @@ input {
 		letter-spacing: -0.28px;
 		text-transform: uppercase;
 		padding: 8px 24px;
+
+		&.bh-btn-filled-dark {
+			background-color: $darkGreen;
+			padding: 12px 24px;
+		}
 	}
 }
 
@@ -513,6 +519,11 @@ label {
 		}
 
 		.indicator-item {
+			img {
+				width: 14px;
+				height: 14px;
+				object-fit: contain;
+			}
 			&.multiple {
 				small {
 					text-decoration: underline;

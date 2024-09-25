@@ -28,6 +28,7 @@ jQuery(document).ready(function ($) {
 			$(this).removeClass("dark");
 			$(".primary-menu li").removeClass("active");
 			$(".team-popup").removeClass("show");
+			$(".review-form").removeClass("show");
 		});
 	});
 
@@ -206,7 +207,7 @@ jQuery(document).ready(function ($) {
 				trigger: ".footer-animate",
 				start: "-150px center",
 				end: "bottom center",
-				scrub: 1, // Corrected scrub property
+				scrub: 1,
 				// markers: {
 				// 	startColor: "blue",
 				// 	endColor: "red",
@@ -220,6 +221,12 @@ jQuery(document).ready(function ($) {
 				{ y: "-100px", opacity: 0, visibility: "hidden" },
 				{ y: "0px", opacity: 0.2, visibility: "visible" },
 				0,
+			);
+			t1.fromTo(
+				".fa-content-wrapper h2 span",
+				{ fontWeight: 200 },
+				{ fontWeight: 700 },
+				0.2,
 			);
 			t1.fromTo(
 				".animating-section",
@@ -482,4 +489,18 @@ jQuery(document).ready(function ($) {
 			document.querySelector("#_otp").innerText = _finalKey;
 		}
 	}
+
+	/* Review Form Show and Hide */
+	$(".review-block .bh-btn-filled-dark").on("click", function (e) {
+		e.preventDefault();
+		$("body").addClass("overflow-hidden");
+		$(".overlay").addClass("show");
+		$(".review-form").addClass("show");
+
+		$(".close-review-form").on("click", function () {
+			$("body").removeClass("overflow-hidden");
+			$(".overlay").removeClass("show");
+			$(".review-form").removeClass("show");
+		});
+	});
 });

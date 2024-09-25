@@ -1,0 +1,24 @@
+.our-values {
+	.ov-content {
+		ul {
+			li {
+				position: relative;
+				padding-left: 28px;
+
+				&::before {
+					content: "";
+					width: 12px;
+					height: 12px;
+					position: absolute;
+					left: 0;
+					top: 4px;
+					background: url(../images/icons/triangle-green.svg) no-repeat
+						center/contain;
+				}
+				&:not(:last-child) {
+					margin-bottom: 12px;
+				}
+			}
+		}
+	}
+}
