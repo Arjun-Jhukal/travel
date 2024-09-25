@@ -374,6 +374,7 @@ label {
 		border-radius: 50%;
 		background-color: $secondary;
 		opacity: 0.2;
+		cursor: pointer;
 
 		&.slick-active {
 			background-color: $lightGreen;

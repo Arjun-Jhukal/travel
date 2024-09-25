@@ -6,6 +6,8 @@
 	position: absolute;
 	right: 0;
 	top: 70px;
+	opacity: 0;
+	visibility: hidden;
 
 	.auth-content {
 		position: relative;
