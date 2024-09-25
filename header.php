@@ -22,7 +22,7 @@
   ?>
   <header class="header <?php if(is_front_page()) echo 'front-page-header'; ?>">
     <div class="container">
-      <div class="header-content-box">
+      <div class="header-content-box position-relative">
         <!-- Primary Header For Desktop -->
         <div class="header-content-wrapper d-flex justify-content-between align-items-center">
           <div class="header-logo">
@@ -128,10 +128,209 @@
 
           </div>
         </div>
-      </div>
-    </div>
 
-    <div class="container">
+        <!-- Auth modules -->
+        <div class="auth-module-wrapper">
+          <div class="auth-content">
+            <button type="button" class="close-auth-module">
+              <img src="<?php echo get_parent_theme_file_uri()?>/assets/images/icons/close-dark.svg" alt="">
+            </button>
+
+            <div class="auth-module login-module" id="login-module">
+              <div class="am-header">
+                <h5>Welcome Back!</h5>
+                <p>Sign in and start exploring through personalized experiences.</p>
+              </div>
+
+              <form action="" class="login-form">
+                <div class="input-field">
+                  <label for="email">
+                    <img src="<?php echo get_parent_theme_file_uri()?>/assets/images/icons/email.svg" alt="">
+                    Email Address</label>
+                  <input type="email" name="email" placeholder="Enter your Email Address">
+                </div>
+                <div class="input-field">
+                  <label for="password">
+                    <img src="<?php echo get_parent_theme_file_uri()?>/assets/images/icons/lock.svg" alt="">
+                    Password</label>
+                  <div class="password-field">
+                    <input type="password" name="password" placeholder="Enter Password">
+
+                    <button type="button" class="show-hide-password">
+                      <img src="<?php echo get_parent_theme_file_uri()?>/assets/images/icons/eye.svg" alt="">
+                    </button>
+                  </div>
+                </div>
+
+                <div class="action-options d-flex justify-content-between align-items-center">
+                  <label for="remember"><input type="checkbox" name="remember">Remember Me</label>
+                  <a href="#forgot-password-module" class="bh-btn bh-btn-underlined">Frogot Password</a>
+                </div>
+                <button type="submit" class="bh-btn bh-btn-filled-dark d-block w-100 text-center">Login</button>
+
+                <p class="redirect-option text-center">Don’t have an account? <a href="#register-module"
+                    class="bh-btn bh-btn-underlined">Register Now</a>
+                </p>
+              </form>
+            </div>
+            <div class="auth-module register-module" id="register-module">
+              <div class="am-header">
+                <h5>Register Account</h5>
+                <p>Register and start exploring through personalized experiences.</p>
+              </div>
+
+              <form action="" class="register-form">
+                <div class="input-field">
+                  <label for="first-name">
+                    <img src="<?php echo get_parent_theme_file_uri()?>/assets/images/icons/user.svg" alt="">
+                    First Name</label>
+                  <input type="text" name="first-name" placeholder="Enter your First Name">
+                </div>
+                <div class="input-field">
+                  <label for="last-name">
+                    <img src="<?php echo get_parent_theme_file_uri()?>/assets/images/icons/user.svg" alt="">
+                    Last Name</label>
+                  <input type="text" name="last-name" placeholder="Enter your Last Name">
+                </div>
+                <div class="input-field">
+                  <label for="email">
+                    <img src="<?php echo get_parent_theme_file_uri()?>/assets/images/icons/email.svg" alt="">
+                    Email Address</label>
+                  <input type="email" name="email" placeholder="Enter your Email Address">
+                </div>
+                <div class="input-field">
+                  <label for="password">
+                    <img src="<?php echo get_parent_theme_file_uri()?>/assets/images/icons/lock.svg" alt="">
+                    Password</label>
+                  <div class="password-field">
+                    <input type="password" name="password" placeholder="Enter Password">
+
+                    <button type="button" class="show-hide-password">
+                      <img src="<?php echo get_parent_theme_file_uri()?>/assets/images/icons/eye.svg" alt="">
+                    </button>
+                  </div>
+                </div>
+
+
+                <button type="submit" class="bh-btn bh-btn-filled-dark d-block w-100 text-center">Register and
+                  Login</button>
+
+                <small>By Registering, I agree to the terms and conditions of Bold Himalaya</small>
+              </form>
+
+              <div class="back-btn-wrapper text-center">
+                <button type="button" class="back-btn" id="login-module">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
+                    <path
+                      d="M16.0742 10.9766H4.43359C3.89414 10.9766 3.45703 10.5395 3.45703 10C3.45703 9.46055 3.89414 9.02344 4.43359 9.02344H16.0742C16.6137 9.02344 17.0508 9.46055 17.0508 10C17.0508 10.5395 16.6137 10.9766 16.0742 10.9766Z"
+                      fill="#1E201F" />
+                    <path
+                      d="M8.90588 15.5957C8.66838 15.5957 8.4301 15.5094 8.24221 15.3352L3.26174 10.716C3.06096 10.5297 2.94729 10.2676 2.94924 9.99338C2.9512 9.71955 3.06799 9.45861 3.27151 9.27502L8.3887 4.65588C8.78909 4.29455 9.40666 4.32619 9.76799 4.72658C10.1293 5.12697 10.0977 5.74455 9.69729 6.10588L5.37229 10.0098L9.57034 13.9031C9.96565 14.2699 9.98909 14.8879 9.62229 15.2832C9.42971 15.4906 9.16838 15.5957 8.90588 15.5957Z"
+                      fill="#1E201F" />
+                  </svg>
+                  Back to Login</button>
+              </div>
+            </div>
+            <div class="auth-module forget-password-module" id="forgot-password-module">
+              <div class="am-header">
+                <h5>Forgot Password</h5>
+                <p>Register and start exploring through personalized experiences.</p>
+              </div>
+              <form action="" class="register-form">
+                <div class="input-field">
+                  <label for="email">
+                    <img src="<?php echo get_parent_theme_file_uri()?>/assets/images/icons/email.svg" alt="">
+                    Email Address</label>
+                  <input type="email" name="email" placeholder="Enter your Email Address">
+                </div>
+                <button type="submit" class="bh-btn bh-btn-filled-dark d-block w-100 text-center">Send Code</button>
+              </form>
+
+              <div class="back-btn-wrapper text-center">
+                <button type="button" class="back-btn" id="login-module">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
+                    <path
+                      d="M16.0742 10.9766H4.43359C3.89414 10.9766 3.45703 10.5395 3.45703 10C3.45703 9.46055 3.89414 9.02344 4.43359 9.02344H16.0742C16.6137 9.02344 17.0508 9.46055 17.0508 10C17.0508 10.5395 16.6137 10.9766 16.0742 10.9766Z"
+                      fill="#1E201F" />
+                    <path
+                      d="M8.90588 15.5957C8.66838 15.5957 8.4301 15.5094 8.24221 15.3352L3.26174 10.716C3.06096 10.5297 2.94729 10.2676 2.94924 9.99338C2.9512 9.71955 3.06799 9.45861 3.27151 9.27502L8.3887 4.65588C8.78909 4.29455 9.40666 4.32619 9.76799 4.72658C10.1293 5.12697 10.0977 5.74455 9.69729 6.10588L5.37229 10.0098L9.57034 13.9031C9.96565 14.2699 9.98909 14.8879 9.62229 15.2832C9.42971 15.4906 9.16838 15.5957 8.90588 15.5957Z"
+                      fill="#1E201F" />
+                  </svg>
+                  Back to Login</button>
+              </div>
+            </div>
+            <div class="auth-module password-reset-module" id="password-reset-module">
+              <div class="am-header">
+                <h5>Forgot Password</h5>
+                <p>Register and start exploring through personalized experiences.</p>
+              </div>
+              <div class="otp-input-fields d-flex justify-content-center align-items-center">
+                <input type="number" class="otp__digit otp__field__1">
+                <input type="number" class="otp__digit otp__field__2">
+                <input type="number" class="otp__digit otp__field__3">
+                <input type="number" class="otp__digit otp__field__4">
+                <input type="number" class="otp__digit otp__field__5">
+                <input type="number" class="otp__digit otp__field__6">
+              </div>
+
+              <button type="submit" class="bh-btn bh-btn-filled-dark d-block w-100 text-center">Continue</button>
+
+              <p class="redirect-option text-center">Didn’t receive the email? <a href="#register-module"
+                  class="bh-btn bh-btn-underlined">Click to resend</a>
+              </p>
+
+              <div class="back-btn-wrapper text-center">
+                <button type="button" class="back-btn" id="login-module">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
+                    <path
+                      d="M16.0742 10.9766H4.43359C3.89414 10.9766 3.45703 10.5395 3.45703 10C3.45703 9.46055 3.89414 9.02344 4.43359 9.02344H16.0742C16.6137 9.02344 17.0508 9.46055 17.0508 10C17.0508 10.5395 16.6137 10.9766 16.0742 10.9766Z"
+                      fill="#1E201F" />
+                    <path
+                      d="M8.90588 15.5957C8.66838 15.5957 8.4301 15.5094 8.24221 15.3352L3.26174 10.716C3.06096 10.5297 2.94729 10.2676 2.94924 9.99338C2.9512 9.71955 3.06799 9.45861 3.27151 9.27502L8.3887 4.65588C8.78909 4.29455 9.40666 4.32619 9.76799 4.72658C10.1293 5.12697 10.0977 5.74455 9.69729 6.10588L5.37229 10.0098L9.57034 13.9031C9.96565 14.2699 9.98909 14.8879 9.62229 15.2832C9.42971 15.4906 9.16838 15.5957 8.90588 15.5957Z"
+                      fill="#1E201F" />
+                  </svg>
+                  Back to Login</button>
+              </div>
+            </div>
+            <div class="auth-module new-password-module" id="new-password-module">
+              <div class="am-header">
+                <h5>Forgot Password</h5>
+                <p>Register and start exploring through personalized experiences.</p>
+              </div>
+              <form action="" class="register-form">
+                <div class="input-field">
+                  <label for="new-password">
+                    <img src="<?php echo get_parent_theme_file_uri()?>/assets/images/icons/lock.svg" alt="">
+                    New Password</label>
+                  <input type="password" name="new-password" placeholder="Enter new password again">
+                </div>
+                <div class="input-field">
+                  <label for="confirm-password">
+                    <img src="<?php echo get_parent_theme_file_uri()?>/assets/images/icons/lock.svg" alt="">
+                    Confirm Password</label>
+                  <input type="password" name="confirm-password" placeholder="Confirm Password">
+                </div>
+                <button type="submit" class="bh-btn bh-btn-filled-dark d-block w-100 text-center">Reset
+                  Password</button>
+              </form>
+
+              <div class="back-btn-wrapper text-center">
+                <button type="button" class="back-btn" id="login-module">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
+                    <path
+                      d="M16.0742 10.9766H4.43359C3.89414 10.9766 3.45703 10.5395 3.45703 10C3.45703 9.46055 3.89414 9.02344 4.43359 9.02344H16.0742C16.6137 9.02344 17.0508 9.46055 17.0508 10C17.0508 10.5395 16.6137 10.9766 16.0742 10.9766Z"
+                      fill="#1E201F" />
+                    <path
+                      d="M8.90588 15.5957C8.66838 15.5957 8.4301 15.5094 8.24221 15.3352L3.26174 10.716C3.06096 10.5297 2.94729 10.2676 2.94924 9.99338C2.9512 9.71955 3.06799 9.45861 3.27151 9.27502L8.3887 4.65588C8.78909 4.29455 9.40666 4.32619 9.76799 4.72658C10.1293 5.12697 10.0977 5.74455 9.69729 6.10588L5.37229 10.0098L9.57034 13.9031C9.96565 14.2699 9.98909 14.8879 9.62229 15.2832C9.42971 15.4906 9.16838 15.5957 8.90588 15.5957Z"
+                      fill="#1E201F" />
+                  </svg>
+                  Back to Login</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
       <div class="mega-menu-box">
         <div class="mega-menu-wrapper " id="mega-destinations">
           <div class="mm-container">
@@ -17394,7 +17593,8 @@
           </div>
         </div>
       </div>
+
+
     </div>
   </header>
-
   <main>

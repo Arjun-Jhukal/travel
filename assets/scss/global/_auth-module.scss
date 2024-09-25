@@ -1,0 +1,135 @@
+.auth-module-wrapper {
+	border-radius: 8px;
+	background: $white;
+	box-shadow: 4px 4px 28px 0px rgba(0, 0, 0, 0.2);
+	max-width: 390px;
+	position: absolute;
+	right: 0;
+	top: 70px;
+
+	.auth-content {
+		position: relative;
+		padding: 24px;
+		max-height: calc(100vh - 200px);
+		overflow: auto;
+
+		.close-auth-module {
+			position: absolute;
+			top: 12px;
+			right: 12px;
+		}
+
+		.am-header {
+			margin-bottom: 32px;
+
+			p {
+				font-size: 14px;
+				line-height: 140%;
+				letter-spacing: -0.035px;
+			}
+		}
+
+		label {
+			font-size: 14px;
+			font-weight: 600;
+			line-height: 140%;
+			letter-spacing: -0.035px;
+			color: $black;
+			display: flex;
+			justify-content: flex-start;
+			align-items: center;
+			gap: 6px;
+		}
+
+		.input-field {
+			margin-bottom: 24px;
+			label {
+				margin-bottom: 8px;
+
+				img {
+					width: 16px;
+					height: 16px;
+					object-fit: contain;
+				}
+			}
+
+			.password-field {
+				position: relative;
+
+				.show-hide-password {
+					position: absolute;
+					top: 50%;
+					transform: translateY(-50%);
+					right: 12px;
+				}
+			}
+		}
+
+		.action-options {
+			input[type="checkbox"] {
+				accent-color: $darkGreen;
+				width: auto;
+				display: inline-block;
+				width: 16px;
+				height: 16px;
+				cursor: pointer;
+			}
+			label {
+				gap: 12px;
+			}
+		}
+
+		.bh-btn-filled-dark {
+			margin-top: 24px;
+		}
+		.redirect-option {
+			margin-top: 16px;
+		}
+		small {
+			display: block;
+			color: $black;
+			text-align: center;
+			// font-size: 10px;
+			line-height: 130%;
+			margin-top: 8px;
+		}
+
+		.otp-input-fields {
+			gap: 12px;
+			margin-bottom: 24px;
+			input {
+				border-radius: 6px;
+				border: 1px solid $black;
+				padding: 12px 16px;
+			}
+		}
+
+		.back-btn-wrapper {
+			margin-top: 28px;
+			.back-btn {
+				color: $black;
+				font-size: 12px;
+				font-weight: 600;
+				line-height: 130%;
+				text-decoration-line: underline;
+				transition: all 0.3s ease-in-out;
+
+				&:hover {
+					color: $darkGreen;
+
+					svg {
+						path {
+							fill: $darkGreen;
+						}
+					}
+				}
+			}
+		}
+	}
+}
+
+@media (min-width: 768px) {
+	.auth-module-wrapper {
+		min-width: 390px;
+	}
+}
