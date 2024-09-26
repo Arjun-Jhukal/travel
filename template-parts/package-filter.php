@@ -168,8 +168,8 @@
                       </div>
                       <div class="price-range"></div>
 
-                      <input type="hidden" class="price-min" name="price-min" />
-                      <input type="hidden" class="price-max" name="price-max" />
+                      <input type="hidden" class="price-min" name="price-min" min="1" />
+                      <input type="hidden" class="price-max" name="price-max" max="15" />
                     </div>
                   </div>
                 </div>
@@ -212,8 +212,8 @@
                       </div>
                       <div class="price-range"></div>
 
-                      <input type="hidden" class="price-min" name="price-min" />
-                      <input type="hidden" class="price-max" name="price-max" />
+                      <input type="hidden" class="price-min" name="price-min" min="100" />
+                      <input type="hidden" class="price-max" name="price-max" max="10000" />
                     </div>
                   </div>
                 </div>
