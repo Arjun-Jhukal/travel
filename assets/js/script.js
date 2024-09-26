@@ -509,57 +509,37 @@ jQuery(document).ready(function ($) {
 	$(".fo-option.range-value-slider").each(function () {
 		var $container = $(this);
 
-		var $durationSlider = $container.find(".price-range").first();
-		if ($durationSlider.length) {
-			$durationSlider.slider({
+		// Find the range slider container
+		var $sliderContainer = $container.find(".range-slider-container");
+
+		if ($sliderContainer.length) {
+			// Retrieve initial min and max values from the input fields
+			var initialMin = parseInt($sliderContainer.find(".price-min").val()) || 1; // Default to 1 if not set
+			var initialMax =
+				parseInt($sliderContainer.find(".price-max").val()) || 15; // Default to 15 if not set
+
+			// Initialize the slider
+			$sliderContainer.find(".price-range").slider({
 				range: true,
-				min: 1, // Set min value for duration
-				max: 15, // Set max value for duration
-				values: [2, 10], // Set initial values for duration
+				min: parseInt($sliderContainer.find(".price-min").attr("min")) || 1, // Set min value from the min attribute
+				max: parseInt($sliderContainer.find(".price-max").attr("max")) || 15, // Set max value from the max attribute
+				values: [initialMin, initialMax], // Set initial values from the input fields
 				slide: function (event, ui) {
+					// Update the labels and hidden inputs on slide
 					$container.find(".price-min-label span").text(ui.values[0]);
 					$container.find(".price-max-label span").text(ui.values[1]);
-					$container.find(".price-min").val(ui.values[0]);
-					$container.find(".price-max").val(ui.values[1]);
+					$sliderContainer.find(".price-min").val(ui.values[0]);
+					$sliderContainer.find(".price-max").val(ui.values[1]);
 				},
 			});
 
 			// Set initial values on load
 			$container
 				.find(".price-min-label span")
-				.text($durationSlider.slider("values", 0));
+				.text($sliderContainer.find(".price-range").slider("values", 0));
 			$container
 				.find(".price-max-label span")
-				.text($durationSlider.slider("values", 1));
-			$container.find(".price-min").val($durationSlider.slider("values", 0));
-			$container.find(".price-max").val($durationSlider.slider("values", 1));
-		}
-
-		// For the Price Range slider (assuming the second slider is for Price Range)
-		var $priceRangeSlider = $container.find(".price-range").last();
-		if ($priceRangeSlider.length) {
-			$priceRangeSlider.slider({
-				range: true,
-				min: 1000, // Set min value for price range
-				max: 10000, // Set max value for price range
-				values: [3000, 8000], // Set initial values for price range
-				slide: function (event, ui) {
-					$container.find(".price-min-label span").text(ui.values[0]);
-					$container.find(".price-max-label span").text(ui.values[1]);
-					$container.find(".price-min").val(ui.values[0]);
-					$container.find(".price-max").val(ui.values[1]);
-				},
-			});
-
-			// Set initial values on load
-			$container
-				.find(".price-min-label span")
-				.text($priceRangeSlider.slider("values", 0));
-			$container
-				.find(".price-max-label span")
-				.text($priceRangeSlider.slider("values", 1));
-			$container.find(".price-min").val($priceRangeSlider.slider("values", 0));
-			$container.find(".price-max").val($priceRangeSlider.slider("values", 1));
+				.text($sliderContainer.find(".price-range").slider("values", 1));
 		}
 	});
 });
