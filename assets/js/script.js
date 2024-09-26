@@ -18,6 +18,22 @@ jQuery(document).ready(function ($) {
 		}
 	});
 
+	/* Mobile Menu */
+
+	$(function () {
+		$(".hamburger-icon").on("click", function () {
+			$(".primary-menu").addClass("active");
+			$(".overlay").addClass("show");
+			$("body").addClass("overflow-hidden");
+
+			$(".close-ham-menu").on("click", function () {
+				$(".primary-menu").removeClass("active");
+				$(".overlay").removeClass("show");
+				$("body").removeClass("overflow-hidden");
+			});
+		});
+	});
+
 	/* Menu */
 	$(function () {
 		$(".overlay").on("click", function (e) {
@@ -29,6 +45,16 @@ jQuery(document).ready(function ($) {
 			$(".primary-menu li").removeClass("active");
 			$(".team-popup").removeClass("show");
 			$(".popup-form").removeClass("show");
+			$(".primary-menu").removeClass("active");
+			$(".mm-controller").removeClass("activate-fixed-menu");
+			$(".tab-content-wrapper").removeClass("show-tab-content");
+		});
+
+		$(".back-to-mobile-menu").on("click", function (e) {
+			$(".mm-controller").removeClass("activate-fixed-menu");
+			$(".mega-menu-wrapper").removeClass("show");
+			$(".primary-menu").addClass("active");
+			$(".mega-menu").removeClass("active");
 		});
 	});
 
@@ -40,6 +66,11 @@ jQuery(document).ready(function ($) {
 			$(".overlay").addClass("show");
 			$("body").addClass("overflow-hidden");
 
+			/* For Mobile */
+			$(".mm-controller").addClass("activate-fixed-menu");
+			$(".primary-menu").removeClass("active");
+
+			/* For Desktop */
 			if ($(this).parent("li").hasClass("mega-destinations")) {
 				$(".mega-menu-wrapper#mega-destinations")
 					.addClass("show")
@@ -60,6 +91,11 @@ jQuery(document).ready(function ($) {
 			var currentValue = $(this).attr("href");
 			$(this).parent("li").addClass("active").siblings().removeClass("active");
 
+			/* For Mobile*/
+			$(".tab-content-wrapper").addClass("show-tab-content");
+			$(".mm-controller").removeClass("activate-fixed-menu");
+
+			/* For Desktop */
 			$(".tab-content-wrapper .tab-content" + currentValue)
 				.addClass("active")
 				.siblings()
@@ -77,6 +113,13 @@ jQuery(document).ready(function ($) {
 				.addClass("active")
 				.siblings()
 				.removeClass("active");
+		});
+
+		/* Mobile Tab Back */
+		$(".tc-header .dropdown-menu-item").on("click", function () {
+			console.log("clicked");
+			$(".tab-content-wrapper").removeClass("show-tab-content");
+			$(".mm-controller").addClass("activate-fixed-menu");
 		});
 
 		/* Dropdown Menu */

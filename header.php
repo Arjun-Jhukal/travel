@@ -25,8 +25,11 @@
       <div class="header-content-box position-relative">
         <!-- Primary Header For Desktop -->
         <div class="header-content-wrapper d-flex justify-content-between align-items-center">
-          <div class="header-logo">
-            <a href="<?php echo get_home_url()?>">
+          <div class="header-logo d-md-flex">
+            <button class="hamburger-icon">
+              <img src="<?php echo get_parent_theme_file_uri()?>/assets/images/icons/ham.svg" alt="">
+            </button>
+            <a href="<?php echo get_home_url()?>" class="d-none d-md-block">
               <img src="<?php echo get_parent_theme_file_uri()?>/assets/images/logo.svg" alt="" class="img-fluid ">
               <img src="<?php echo get_parent_theme_file_uri()?>/assets/images/logo-light.svg" alt="" class="img-fluid">
             </a>
@@ -36,7 +39,6 @@
               <div class="header-logo">
                 <a href="<?php echo get_home_url()?>">
                   <img src="<?php echo get_parent_theme_file_uri()?>/assets/images/logo.svg" alt="" class="img-fluid">
-
                 </a>
               </div>
 
@@ -106,7 +108,7 @@
               </svg>
               <sup>2</sup>
             </a>
-            <div class="plan-trip">
+            <div class="plan-trip d-none d-md-block">
               <button class="bh-btn bh-btn-plan">Plan a Trip</button>
             </div>
             <?php if($isAuthenticated): ?>
@@ -349,13 +351,25 @@
       </div>
 
       <div class="mega-menu-box">
-        <div class="mega-menu-wrapper " id="mega-destinations">
+        <div class="mega-menu-wrapper" id="mega-destinations">
           <div class="mm-container">
             <div class="row">
-              <div class="col-lg-3">
+              <div class="col-xl-3">
                 <ul class="mm-controller">
+
+                  <li class="d-xl-none">
+                    <button type="button" class="back-to-mobile-menu bh-btn bh-btn-filled-dark">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
+                        <g opacity="0.8">
+                          <path d="M7.5 3.75L13.75 10L7.5 16.25" stroke="#363A38" stroke-width="2"
+                            stroke-linecap="round" stroke-linejoin="round" />
+                        </g>
+                      </svg>
+                      Back
+                    </button>
+                  </li>
                   <li class="dropdown-menu-item active">
-                    <a href="#nepal">
+                    <a href="#nepal_01">
                       <p>
                         <img src="<?php echo get_parent_theme_file_uri()?>/assets/images/destinaton-01.png" alt=""
                           class="img-fluid">
@@ -364,7 +378,7 @@
                     </a>
                   </li>
                   <li class="dropdown-menu-item">
-                    <a href="#india">
+                    <a href="#india_02">
                       <p>
                         <img src="<?php echo get_parent_theme_file_uri()?>/assets/images/destinaton-02.png" alt=""
                           class="img-fluid">
@@ -373,7 +387,7 @@
                     </a>
                   </li>
                   <li class="dropdown-menu-item ">
-                    <a href="#vietnam">
+                    <a href="#vietnam_03">
                       <p>
                         <img src="<?php echo get_parent_theme_file_uri()?>/assets/images/destinaton-03.png" alt=""
                           class="img-fluid">
@@ -382,7 +396,7 @@
                     </a>
                   </li>
                   <li class="dropdown-menu-item ">
-                    <a href="#new_zealand">
+                    <a href="#new_zealand_04">
                       <p>
                         <img src="<?php echo get_parent_theme_file_uri()?>/assets/images/destinaton-04.png" alt=""
                           class="img-fluid">
@@ -391,7 +405,7 @@
                     </a>
                   </li>
                   <li class="dropdown-menu-item ">
-                    <a href="#dubai">
+                    <a href="#dubai_05">
                       <p>
                         <img src="<?php echo get_parent_theme_file_uri()?>/assets/images/destinaton-05.png" alt=""
                           class="img-fluid">
@@ -400,7 +414,7 @@
                     </a>
                   </li>
                   <li class="dropdown-menu-item ">
-                    <a href="#thailand">
+                    <a href="#thailand_06">
                       <p>
                         <img src="<?php echo get_parent_theme_file_uri()?>/assets/images/destinaton-06.png" alt=""
                           class="img-fluid">
@@ -409,7 +423,7 @@
                     </a>
                   </li>
                   <li class="dropdown-menu-item ">
-                    <a href="#europe">
+                    <a href="#europe_07">
                       <p>
                         <img src="<?php echo get_parent_theme_file_uri()?>/assets/images/destinaton-07.png" alt=""
                           class="img-fluid">
@@ -418,7 +432,7 @@
                     </a>
                   </li>
                   <li class="dropdown-menu-item ">
-                    <a href="#fizi">
+                    <a href="#fizi_08">
                       <p>
                         <img src="<?php echo get_parent_theme_file_uri()?>/assets/images/destinaton-08.png" alt=""
                           class="img-fluid">
@@ -427,7 +441,7 @@
                     </a>
                   </li>
                   <li class="dropdown-menu-item ">
-                    <a href=" #srilanka">
+                    <a href=" #srilanka_09">
                       <p>
                         <img src="<?php echo get_parent_theme_file_uri()?>/assets/images/destinaton-09.png" alt=""
                           class="img-fluid">
@@ -437,18 +451,19 @@
                   </li>
                 </ul>
               </div>
-              <div class="col-lg-9">
+              <div class="col-xl-9">
                 <div class="tab-content-wrapper">
-                  <div class="tab-content active" id="nepal">
-                    <div class="tc-header d-flex justify-content-between align-items-center">
+                  <div class="tab-content active" id="nepal_01">
+                    <div class="tc-header d-flex justify-content-between align-items-center flex-wrap">
                       <div class="dropdown-menu-item d-flex justify-content-start align-items-center">
+
                         <img src="<?php echo get_parent_theme_file_uri()?>/assets/images/destinaton-01.png" alt=""
                           class="img-fluid">
-                        <h4 class="d-inline-block">Nepal</h4>
+                        <h4 class="d-inline-block">Activity In Nepal</h4>
                       </div>
                       <a href="#" class="bh-btn bh-btn-filled-dark">View Nepal in Detail</a>
                     </div>
-                    <ul class="inner-tab d-flex justify-content-center align-items-center">
+                    <ul class="inner-tab d-flex justify-content-xl-center align-items-center">
                       <li class="active"><a href="#itc1">Trekking/Hiking</a></li>
                       <li><a href="#itc2">Hunting</a></li>
                       <li><a href="#itc3">Water Sports</a></li>
@@ -486,104 +501,11 @@
                           </div>
                           <div class="col-md-6 col-lg-4">
                             <div class="tclb-item">
-                              <h6>Annapurna Region</h6>
+                              <h6>Everest Region</h6>
                               <ul>
                                 <li>
                                   <a href="#" data-toggle="tooltip" data-placement="right"
-                                    title="Everest Basecamp Trek">
-                                    Everest Basecamp Trek
-                                  </a>
-                                </li>
-                                <li>
-                                  <a href="#" data-toggle="tooltip" data-placement="right"
-                                    title="Annapurna Circuit Trek">
-                                    Annapurna Circuit Trek
-                                  </a>
-                                </li>
-                                <li>
-                                  <a href="#" data-toggle="tooltip" data-placement="right"
-                                    title=" Annapurna Basecamp Trek">
-                                    Annapurna Basecamp Trek
-                                  </a>
-                                </li>
-                                <li>
-                                  <a href="#" data-toggle="tooltip" data-placement="right"
-                                    title="Annapurna Circuit Trek">
-                                    Annapurna Circuit Trek
-                                  </a>
-                                </li>
-                              </ul>
-                            </div>
-                          </div>
-                          <div class="col-md-6 col-lg-4">
-                            <div class="tclb-item">
-                              <h6>Manaslu Region</h6>
-                              <ul>
-                                <li>
-                                  <a href="#" data-toggle="tooltip" data-placement="right"
-                                    title="Everest Basecamp Trek">
-                                    Everest Basecamp Trek
-                                  </a>
-                                </li>
-                                <li>
-                                  <a href="#" data-toggle="tooltip" data-placement="right"
-                                    title="Annapurna Circuit Trek">
-                                    Annapurna Circuit Trek
-                                  </a>
-                                </li>
-                                <li>
-                                  <a href="#" data-toggle="tooltip" data-placement="right"
-                                    title=" Annapurna Basecamp Trek">
-                                    Annapurna Basecamp Trek
-                                  </a>
-                                </li>
-                                <li>
-                                  <a href="#" data-toggle="tooltip" data-placement="right"
-                                    title="Annapurna Circuit Trek">
-                                    Annapurna Circuit Trek
-                                  </a>
-                                </li>
-                              </ul>
-                            </div>
-                          </div>
-                          <div class="col-md-6 col-lg-4">
-                            <div class="tclb-item">
-                              <h6>Langtang Region</h6>
-                              <ul>
-                                <li>
-                                  <a href="#" data-toggle="tooltip" data-placement="right"
-                                    title="Everest Basecamp Trek">
-                                    Everest Basecamp Trek
-                                  </a>
-                                </li>
-                                <li>
-                                  <a href="#" data-toggle="tooltip" data-placement="right"
-                                    title="Annapurna Circuit Trek">
-                                    Annapurna Circuit Trek
-                                  </a>
-                                </li>
-                                <li>
-                                  <a href="#" data-toggle="tooltip" data-placement="right"
-                                    title=" Annapurna Basecamp Trek">
-                                    Annapurna Basecamp Trek
-                                  </a>
-                                </li>
-                                <li>
-                                  <a href="#" data-toggle="tooltip" data-placement="right"
-                                    title="Annapurna Circuit Trek">
-                                    Annapurna Circuit Trek
-                                  </a>
-                                </li>
-                              </ul>
-                            </div>
-                          </div>
-                          <div class="col-md-6 col-lg-4">
-                            <div class="tclb-item">
-                              <h6>Kanchanjunga Region</h6>
-                              <ul>
-                                <li>
-                                  <a href="#" data-toggle="tooltip" data-placement="right"
-                                    title="Gokyo Chola Pass Kalapatthar Trekking">
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
                                     Gokyo Chola Pass Kalapatthar Trekking
                                   </a>
                                 </li>
@@ -604,30 +526,99 @@
                           </div>
                           <div class="col-md-6 col-lg-4">
                             <div class="tclb-item">
-                              <h6>Dhaulagiri Region</h6>
+                              <h6>Everest Region</h6>
                               <ul>
                                 <li>
                                   <a href="#" data-toggle="tooltip" data-placement="right"
-                                    title="Everest Basecamp Trek">
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Gokyo Chola Pass Kalapatthar Trekking
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest View Trek
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
                                     Everest Basecamp Trek
                                   </a>
                                 </li>
+                              </ul>
+                            </div>
+                          </div>
+                          <div class="col-md-6 col-lg-4">
+                            <div class="tclb-item">
+                              <h6>Everest Region</h6>
+                              <ul>
                                 <li>
                                   <a href="#" data-toggle="tooltip" data-placement="right"
-                                    title="Annapurna Circuit Trek">
-                                    Annapurna Circuit Trek
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Gokyo Chola Pass Kalapatthar Trekking
                                   </a>
                                 </li>
                                 <li>
                                   <a href="#" data-toggle="tooltip" data-placement="right"
-                                    title=" Annapurna Basecamp Trek">
-                                    Annapurna Basecamp Trek
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest View Trek
                                   </a>
                                 </li>
                                 <li>
                                   <a href="#" data-toggle="tooltip" data-placement="right"
-                                    title="Annapurna Circuit Trek">
-                                    Annapurna Circuit Trek
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest Basecamp Trek
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                          <div class="col-md-6 col-lg-4">
+                            <div class="tclb-item">
+                              <h6>Everest Region</h6>
+                              <ul>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Gokyo Chola Pass Kalapatthar Trekking
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest View Trek
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest Basecamp Trek
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                          <div class="col-md-6 col-lg-4">
+                            <div class="tclb-item">
+                              <h6>Everest Region</h6>
+                              <ul>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Gokyo Chola Pass Kalapatthar Trekking
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest View Trek
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#" data-toggle="tooltip" data-placement="right"
+                                    title=" Gokyo Chola Pass Kalapatthar Trekking">
+                                    Everest Basecamp Trek
                                   </a>
                                 </li>
                               </ul>
@@ -1410,8 +1401,8 @@
                       <a href="#" class="bh-btn bh-btn-filled-dark">View Trekking in Detail</a>
                     </div>
                   </div>
-                  <div class="tab-content" id="india">
-                    <div class="tc-header d-flex justify-content-between align-items-center">
+                  <div class="tab-content" id="india_02">
+                    <div class="tc-header d-flex justify-content-between align-items-center flex-wrap">
                       <div class="dropdown-menu-item d-flex justify-content-start align-items-center">
                         <img src="<?php echo get_parent_theme_file_uri()?>/assets/images/destinaton-02.png" alt=""
                           class="img-fluid">
@@ -1419,7 +1410,7 @@
                       </div>
                       <a href="#" class="bh-btn bh-btn-filled-dark">View Nepal in Detail</a>
                     </div>
-                    <ul class="inner-tab d-flex justify-content-center align-items-center">
+                    <ul class="inner-tab d-flex justify-content-xl-center align-items-center">
                       <li class="active"><a href="#itc1">Trekking/Hiking</a></li>
                       <li><a href="#itc2">Hunting</a></li>
                       <li><a href="#itc3">Water Sports</a></li>
@@ -2357,8 +2348,8 @@
                       <a href="#" class="bh-btn bh-btn-filled-dark">View Trekking in Detail</a>
                     </div>
                   </div>
-                  <div class="tab-content" id="vietnam">
-                    <div class="tc-header d-flex justify-content-between align-items-center">
+                  <div class="tab-content" id="vietnam_03">
+                    <div class="tc-header d-flex justify-content-between align-items-center flex-wrap">
                       <div class="dropdown-menu-item d-flex justify-content-start align-items-center">
                         <img src="<?php echo get_parent_theme_file_uri()?>/assets/images/destinaton-03.png" alt=""
                           class="img-fluid">
@@ -2366,7 +2357,7 @@
                       </div>
                       <a href="#" class="bh-btn bh-btn-filled-dark">View Nepal in Detail</a>
                     </div>
-                    <ul class="inner-tab d-flex justify-content-center align-items-center">
+                    <ul class="inner-tab d-flex justify-content-xl-center align-items-center">
                       <li class="active"><a href="#itc1">Trekking/Hiking</a></li>
                       <li><a href="#itc2">Hunting</a></li>
                       <li><a href="#itc3">Water Sports</a></li>
@@ -3304,8 +3295,8 @@
                       <a href="#" class="bh-btn bh-btn-filled-dark">View Trekking in Detail</a>
                     </div>
                   </div>
-                  <div class="tab-content" id="new_zealand">
-                    <div class="tc-header d-flex justify-content-between align-items-center">
+                  <div class="tab-content" id="new_zealand_04">
+                    <div class="tc-header d-flex justify-content-between align-items-center flex-wrap">
                       <div class="dropdown-menu-item d-flex justify-content-start align-items-center">
                         <img src="<?php echo get_parent_theme_file_uri()?>/assets/images/destinaton-04.png" alt=""
                           class="img-fluid">
@@ -3313,7 +3304,7 @@
                       </div>
                       <a href="#" class="bh-btn bh-btn-filled-dark">View Nepal in Detail</a>
                     </div>
-                    <ul class="inner-tab d-flex justify-content-center align-items-center">
+                    <ul class="inner-tab d-flex justify-content-xl-center align-items-center">
                       <li class="active"><a href="#itc1">Trekking/Hiking</a></li>
                       <li><a href="#itc2">Hunting</a></li>
                       <li><a href="#itc3">Water Sports</a></li>
@@ -4251,8 +4242,8 @@
                       <a href="#" class="bh-btn bh-btn-filled-dark">View Trekking in Detail</a>
                     </div>
                   </div>
-                  <div class="tab-content" id="dubai">
-                    <div class="tc-header d-flex justify-content-between align-items-center">
+                  <div class="tab-content" id="dubai_05">
+                    <div class="tc-header d-flex justify-content-between align-items-center flex-wrap">
                       <div class="dropdown-menu-item d-flex justify-content-start align-items-center">
                         <img src="<?php echo get_parent_theme_file_uri()?>/assets/images/destinaton-05.png" alt=""
                           class="img-fluid">
@@ -4260,7 +4251,7 @@
                       </div>
                       <a href="#" class="bh-btn bh-btn-filled-dark">View Nepal in Detail</a>
                     </div>
-                    <ul class="inner-tab d-flex justify-content-center align-items-center">
+                    <ul class="inner-tab d-flex justify-content-xl-center align-items-center">
                       <li class="active"><a href="#itc1">Trekking/Hiking</a></li>
                       <li><a href="#itc2">Hunting</a></li>
                       <li><a href="#itc3">Water Sports</a></li>
@@ -5198,8 +5189,8 @@
                       <a href="#" class="bh-btn bh-btn-filled-dark">View Trekking in Detail</a>
                     </div>
                   </div>
-                  <div class="tab-content" id="thailand">
-                    <div class="tc-header d-flex justify-content-between align-items-center">
+                  <div class="tab-content" id="thailand_06">
+                    <div class="tc-header d-flex justify-content-between align-items-center flex-wrap">
                       <div class="dropdown-menu-item d-flex justify-content-start align-items-center">
                         <img src="<?php echo get_parent_theme_file_uri()?>/assets/images/destinaton-06.png" alt=""
                           class="img-fluid">
@@ -5207,7 +5198,7 @@
                       </div>
                       <a href="#" class="bh-btn bh-btn-filled-dark">View Nepal in Detail</a>
                     </div>
-                    <ul class="inner-tab d-flex justify-content-center align-items-center">
+                    <ul class="inner-tab d-flex justify-content-xl-center align-items-center">
                       <li class="active"><a href="#itc1">Trekking/Hiking</a></li>
                       <li><a href="#itc2">Hunting</a></li>
                       <li><a href="#itc3">Water Sports</a></li>
@@ -6145,8 +6136,8 @@
                       <a href="#" class="bh-btn bh-btn-filled-dark">View Trekking in Detail</a>
                     </div>
                   </div>
-                  <div class="tab-content" id="europe">
-                    <div class="tc-header d-flex justify-content-between align-items-center">
+                  <div class="tab-content" id="europe_07">
+                    <div class="tc-header d-flex justify-content-between align-items-center flex-wrap">
                       <div class="dropdown-menu-item d-flex justify-content-start align-items-center">
                         <img src="<?php echo get_parent_theme_file_uri()?>/assets/images/destinaton-07.png" alt=""
                           class="img-fluid">
@@ -6154,7 +6145,7 @@
                       </div>
                       <a href="#" class="bh-btn bh-btn-filled-dark">View Nepal in Detail</a>
                     </div>
-                    <ul class="inner-tab d-flex justify-content-center align-items-center">
+                    <ul class="inner-tab d-flex justify-content-xl-center align-items-center">
                       <li class="active"><a href="#itc1">Trekking/Hiking</a></li>
                       <li><a href="#itc2">Hunting</a></li>
                       <li><a href="#itc3">Water Sports</a></li>
@@ -7092,8 +7083,8 @@
                       <a href="#" class="bh-btn bh-btn-filled-dark">View Trekking in Detail</a>
                     </div>
                   </div>
-                  <div class="tab-content" id="fiji">
-                    <div class="tc-header d-flex justify-content-between align-items-center">
+                  <div class="tab-content" id="fiji_08">
+                    <div class="tc-header d-flex justify-content-between align-items-center flex-wrap">
                       <div class="dropdown-menu-item d-flex justify-content-start align-items-center">
                         <img src="<?php echo get_parent_theme_file_uri()?>/assets/images/destinaton-08.png" alt=""
                           class="img-fluid">
@@ -7101,7 +7092,7 @@
                       </div>
                       <a href="#" class="bh-btn bh-btn-filled-dark">View Nepal in Detail</a>
                     </div>
-                    <ul class="inner-tab d-flex justify-content-center align-items-center">
+                    <ul class="inner-tab d-flex justify-content-xl-center align-items-center">
                       <li class="active"><a href="#itc1">Trekking/Hiking</a></li>
                       <li><a href="#itc2">Hunting</a></li>
                       <li><a href="#itc3">Water Sports</a></li>
@@ -8039,8 +8030,8 @@
                       <a href="#" class="bh-btn bh-btn-filled-dark">View Trekking in Detail</a>
                     </div>
                   </div>
-                  <div class="tab-content" id="srilanka">
-                    <div class="tc-header d-flex justify-content-between align-items-center">
+                  <div class="tab-content" id="srilanka_09">
+                    <div class="tc-header d-flex justify-content-between align-items-center flex-wrap">
                       <div class="dropdown-menu-item d-flex justify-content-start align-items-center">
                         <img src="<?php echo get_parent_theme_file_uri()?>/assets/images/destinaton-09.png" alt=""
                           class="img-fluid">
@@ -8048,7 +8039,7 @@
                       </div>
                       <a href="#" class="bh-btn bh-btn-filled-dark">View Nepal in Detail</a>
                     </div>
-                    <ul class="inner-tab d-flex justify-content-center align-items-center">
+                    <ul class="inner-tab d-flex justify-content-xl-center align-items-center">
                       <li class="active"><a href="#itc1">Trekking/Hiking</a></li>
                       <li><a href="#itc2">Hunting</a></li>
                       <li><a href="#itc3">Water Sports</a></li>
@@ -8994,8 +8985,20 @@
         <div class="mega-menu-wrapper" id="mega-activities">
           <div class="mm-container">
             <div class="row">
-              <div class="col-lg-3">
+              <div class="col-xl-3">
                 <ul class="mm-controller">
+
+                  <li class="d-xl-none">
+                    <button type="button" class="back-to-mobile-menu bh-btn bh-btn-filled-dark">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
+                        <g opacity="0.8">
+                          <path d="M7.5 3.75L13.75 10L7.5 16.25" stroke="#363A38" stroke-width="2"
+                            stroke-linecap="round" stroke-linejoin="round" />
+                        </g>
+                      </svg>
+                      Back
+                    </button>
+                  </li>
                   <li class="dropdown-menu-item active">
                     <a href="#nepal">
                       <p>
@@ -9079,10 +9082,10 @@
                   </li>
                 </ul>
               </div>
-              <div class="col-lg-9">
+              <div class="col-xl-9">
                 <div class="tab-content-wrapper">
                   <div class="tab-content active" id="nepal">
-                    <div class="tc-header d-flex justify-content-between align-items-center">
+                    <div class="tc-header d-flex justify-content-between align-items-center flex-wrap">
                       <div class="dropdown-menu-item d-flex justify-content-start align-items-center">
                         <img src="<?php echo get_parent_theme_file_uri()?>/assets/images/destinaton-01.png" alt=""
                           class="img-fluid">
@@ -9090,7 +9093,7 @@
                       </div>
                       <a href="#" class="bh-btn bh-btn-filled-dark">View Nepal in Detail</a>
                     </div>
-                    <ul class="inner-tab d-flex justify-content-center align-items-center">
+                    <ul class="inner-tab d-flex justify-content-xl-center align-items-center">
                       <li class="active"><a href="#itc1">Trekking/Hiking</a></li>
                       <li><a href="#itc2">Hunting</a></li>
                       <li><a href="#itc3">Water Sports</a></li>
@@ -10029,7 +10032,7 @@
                     </div>
                   </div>
                   <div class="tab-content" id="india">
-                    <div class="tc-header d-flex justify-content-between align-items-center">
+                    <div class="tc-header d-flex justify-content-between align-items-center flex-wrap">
                       <div class="dropdown-menu-item d-flex justify-content-start align-items-center">
                         <img src="<?php echo get_parent_theme_file_uri()?>/assets/images/destinaton-02.png" alt=""
                           class="img-fluid">
@@ -10037,7 +10040,7 @@
                       </div>
                       <a href="#" class="bh-btn bh-btn-filled-dark">View Nepal in Detail</a>
                     </div>
-                    <ul class="inner-tab d-flex justify-content-center align-items-center">
+                    <ul class="inner-tab d-flex justify-content-xl-center align-items-center">
                       <li class="active"><a href="#itc1">Trekking/Hiking</a></li>
                       <li><a href="#itc2">Hunting</a></li>
                       <li><a href="#itc3">Water Sports</a></li>
@@ -10976,7 +10979,7 @@
                     </div>
                   </div>
                   <div class="tab-content" id="vietnam">
-                    <div class="tc-header d-flex justify-content-between align-items-center">
+                    <div class="tc-header d-flex justify-content-between align-items-center flex-wrap">
                       <div class="dropdown-menu-item d-flex justify-content-start align-items-center">
                         <img src="<?php echo get_parent_theme_file_uri()?>/assets/images/destinaton-03.png" alt=""
                           class="img-fluid">
@@ -10984,7 +10987,7 @@
                       </div>
                       <a href="#" class="bh-btn bh-btn-filled-dark">View Nepal in Detail</a>
                     </div>
-                    <ul class="inner-tab d-flex justify-content-center align-items-center">
+                    <ul class="inner-tab d-flex justify-content-xl-center align-items-center">
                       <li class="active"><a href="#itc1">Trekking/Hiking</a></li>
                       <li><a href="#itc2">Hunting</a></li>
                       <li><a href="#itc3">Water Sports</a></li>
@@ -11923,7 +11926,7 @@
                     </div>
                   </div>
                   <div class="tab-content" id="new_zealand">
-                    <div class="tc-header d-flex justify-content-between align-items-center">
+                    <div class="tc-header d-flex justify-content-between align-items-center flex-wrap">
                       <div class="dropdown-menu-item d-flex justify-content-start align-items-center">
                         <img src="<?php echo get_parent_theme_file_uri()?>/assets/images/destinaton-04.png" alt=""
                           class="img-fluid">
@@ -11931,7 +11934,7 @@
                       </div>
                       <a href="#" class="bh-btn bh-btn-filled-dark">View Nepal in Detail</a>
                     </div>
-                    <ul class="inner-tab d-flex justify-content-center align-items-center">
+                    <ul class="inner-tab d-flex justify-content-xl-center align-items-center">
                       <li class="active"><a href="#itc1">Trekking/Hiking</a></li>
                       <li><a href="#itc2">Hunting</a></li>
                       <li><a href="#itc3">Water Sports</a></li>
@@ -12870,7 +12873,7 @@
                     </div>
                   </div>
                   <div class="tab-content" id="dubai">
-                    <div class="tc-header d-flex justify-content-between align-items-center">
+                    <div class="tc-header d-flex justify-content-between align-items-center flex-wrap">
                       <div class="dropdown-menu-item d-flex justify-content-start align-items-center">
                         <img src="<?php echo get_parent_theme_file_uri()?>/assets/images/destinaton-05.png" alt=""
                           class="img-fluid">
@@ -12878,7 +12881,7 @@
                       </div>
                       <a href="#" class="bh-btn bh-btn-filled-dark">View Nepal in Detail</a>
                     </div>
-                    <ul class="inner-tab d-flex justify-content-center align-items-center">
+                    <ul class="inner-tab d-flex justify-content-xl-center align-items-center">
                       <li class="active"><a href="#itc1">Trekking/Hiking</a></li>
                       <li><a href="#itc2">Hunting</a></li>
                       <li><a href="#itc3">Water Sports</a></li>
@@ -13817,7 +13820,7 @@
                     </div>
                   </div>
                   <div class="tab-content" id="thailand">
-                    <div class="tc-header d-flex justify-content-between align-items-center">
+                    <div class="tc-header d-flex justify-content-between align-items-center flex-wrap">
                       <div class="dropdown-menu-item d-flex justify-content-start align-items-center">
                         <img src="<?php echo get_parent_theme_file_uri()?>/assets/images/destinaton-06.png" alt=""
                           class="img-fluid">
@@ -13825,7 +13828,7 @@
                       </div>
                       <a href="#" class="bh-btn bh-btn-filled-dark">View Nepal in Detail</a>
                     </div>
-                    <ul class="inner-tab d-flex justify-content-center align-items-center">
+                    <ul class="inner-tab d-flex justify-content-xl-center align-items-center">
                       <li class="active"><a href="#itc1">Trekking/Hiking</a></li>
                       <li><a href="#itc2">Hunting</a></li>
                       <li><a href="#itc3">Water Sports</a></li>
@@ -14764,7 +14767,7 @@
                     </div>
                   </div>
                   <div class="tab-content" id="europe">
-                    <div class="tc-header d-flex justify-content-between align-items-center">
+                    <div class="tc-header d-flex justify-content-between align-items-center flex-wrap">
                       <div class="dropdown-menu-item d-flex justify-content-start align-items-center">
                         <img src="<?php echo get_parent_theme_file_uri()?>/assets/images/destinaton-07.png" alt=""
                           class="img-fluid">
@@ -14772,7 +14775,7 @@
                       </div>
                       <a href="#" class="bh-btn bh-btn-filled-dark">View Nepal in Detail</a>
                     </div>
-                    <ul class="inner-tab d-flex justify-content-center align-items-center">
+                    <ul class="inner-tab d-flex justify-content-xl-center align-items-center">
                       <li class="active"><a href="#itc1">Trekking/Hiking</a></li>
                       <li><a href="#itc2">Hunting</a></li>
                       <li><a href="#itc3">Water Sports</a></li>
@@ -15711,7 +15714,7 @@
                     </div>
                   </div>
                   <div class="tab-content" id="fiji">
-                    <div class="tc-header d-flex justify-content-between align-items-center">
+                    <div class="tc-header d-flex justify-content-between align-items-center flex-wrap">
                       <div class="dropdown-menu-item d-flex justify-content-start align-items-center">
                         <img src="<?php echo get_parent_theme_file_uri()?>/assets/images/destinaton-08.png" alt=""
                           class="img-fluid">
@@ -15719,7 +15722,7 @@
                       </div>
                       <a href="#" class="bh-btn bh-btn-filled-dark">View Nepal in Detail</a>
                     </div>
-                    <ul class="inner-tab d-flex justify-content-center align-items-center">
+                    <ul class="inner-tab d-flex justify-content-xl-center align-items-center">
                       <li class="active"><a href="#itc1">Trekking/Hiking</a></li>
                       <li><a href="#itc2">Hunting</a></li>
                       <li><a href="#itc3">Water Sports</a></li>
@@ -16658,7 +16661,7 @@
                     </div>
                   </div>
                   <div class="tab-content" id="srilanka">
-                    <div class="tc-header d-flex justify-content-between align-items-center">
+                    <div class="tc-header d-flex justify-content-between align-items-center flex-wrap">
                       <div class="dropdown-menu-item d-flex justify-content-start align-items-center">
                         <img src="<?php echo get_parent_theme_file_uri()?>/assets/images/destinaton-09.png" alt=""
                           class="img-fluid">
@@ -16666,7 +16669,7 @@
                       </div>
                       <a href="#" class="bh-btn bh-btn-filled-dark">View Nepal in Detail</a>
                     </div>
-                    <ul class="inner-tab d-flex justify-content-center align-items-center">
+                    <ul class="inner-tab d-flex justify-content-xl-center align-items-center">
                       <li class="active"><a href="#itc1">Trekking/Hiking</a></li>
                       <li><a href="#itc2">Hunting</a></li>
                       <li><a href="#itc3">Water Sports</a></li>
@@ -17610,8 +17613,6 @@
           </div>
         </div>
       </div>
-
-
     </div>
   </header>
   <main>
