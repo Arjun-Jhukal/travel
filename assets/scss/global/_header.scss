@@ -199,6 +199,11 @@
 
 		ul {
 			overflow: hidden;
+			li {
+				&:last-child {
+					margin-bottom: 24px;
+				}
+			}
 		}
 
 		&.show-dropdown {
@@ -571,6 +576,14 @@
 
 			&.show-dropdown {
 				grid-template-rows: 1fr;
+			}
+
+			ul {
+				li {
+					&:last-child {
+						margin-bottom: 0;
+					}
+				}
 			}
 		}
 
