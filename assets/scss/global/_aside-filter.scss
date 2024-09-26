@@ -12,16 +12,27 @@
 		input {
 			border-radius: 4px;
 			padding: 12px;
+			background-color: $white;
+
 			&[type="radio"] {
 				width: auto;
 				display: inline-block;
 				accent-color: $darkGreen;
 				margin-right: 4px;
+				cursor: pointer;
+			}
+
+			&[type="range"] {
+				accent-color: $darkGreen;
 			}
 		}
 
 		&:not(:last-child) {
 			border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+		}
+
+		&:first-child {
+			padding-bottom: 14px;
 		}
 
 		ul {
@@ -45,5 +56,54 @@
 				}
 			}
 		}
+	}
+}
+
+.range-slider-container {
+	margin-bottom: 14px;
+	.price-labels {
+		margin-bottom: 16px;
+		padding-left: 4px;
+
+		> span {
+			font-size: 14px;
+			font-weight: 600;
+			line-height: 130%;
+			cursor: pointer;
+
+			&:not(:last-child) {
+				margin-right: 8px;
+			}
+		}
+	}
+
+	.ui-slider-handle {
+		border-radius: 50%;
+		background-color: $darkGreen;
+		top: 50%;
+		transform: translateY(-50%);
+		width: 14px;
+		height: 14px;
+		border: 1px solid #fff;
+
+		&.ui-state-active,
+		&.ui-state-focus {
+			border-color: $lightGreen;
+			outline: none;
+			background-color: $lightGreen;
+		}
+	}
+	.ui-slider-horizontal {
+		border: none;
+		background-color: #e5e5e5;
+	}
+	.ui-slider-range {
+		background-color: $darkGreen;
+	}
+
+	.ui-slider-horizontal,
+	.ui-slider-range {
+		height: 12px;
+		border-radius: 4px;
 	}
 }

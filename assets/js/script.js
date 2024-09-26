@@ -503,4 +503,63 @@ jQuery(document).ready(function ($) {
 			$(".review-form").removeClass("show");
 		});
 	});
+
+	/* Range Input Slider */
+
+	$(".fo-option.range-value-slider").each(function () {
+		var $container = $(this);
+
+		// For the Duration slider
+		var $durationSlider = $container.find(".price-range").first();
+		if ($durationSlider.length) {
+			$durationSlider.slider({
+				range: true,
+				min: 0,
+				max: 10, // Set min/max for duration
+				values: [0, 3], // Default values for duration
+				slide: function (event, ui) {
+					$container.find(".price-min-label span").text(ui.values[0]);
+					$container.find(".price-max-label span").text(ui.values[1]);
+					$container.find(".price-min").val(ui.values[0]);
+					$container.find(".price-max").val(ui.values[1]);
+				},
+			});
+
+			// Set initial values on load
+			$container
+				.find(".price-min-label span")
+				.text($durationSlider.slider("values", 0));
+			$container
+				.find(".price-max-label span")
+				.text($durationSlider.slider("values", 1));
+			$container.find(".price-min").val($durationSlider.slider("values", 0));
+			$container.find(".price-max").val($durationSlider.slider("values", 1));
+		}
+
+		// For the Price Range slider
+		var $priceRangeSlider = $container.find(".price-range").last();
+		if ($priceRangeSlider.length) {
+			$priceRangeSlider.slider({
+				range: true,
+				min: 100,
+				max: 10000, // Set min/max for price range
+				values: [0, 3], // Default values for price range
+				slide: function (event, ui) {
+					$container.find(".price-min-label span").text(ui.values[0]);
+					$container.find(".price-max-label span").text(ui.values[1]);
+					$container.find(".price-min").val(ui.values[0]);
+					$container.find(".price-max").val(ui.values[1]);
+				},
+			});
+
+			$container
+				.find(".price-min-label span")
+				.text($priceRangeSlider.slider("values", 0));
+			$container
+				.find(".price-max-label span")
+				.text($priceRangeSlider.slider("values", 1));
+			$container.find(".price-min").val($priceRangeSlider.slider("values", 0));
+			$container.find(".price-max").val($priceRangeSlider.slider("values", 1));
+		}
+	});
 });

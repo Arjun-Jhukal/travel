@@ -26,6 +26,7 @@
 		left: 0;
 		right: 0;
 		animation: FadeIn 0.3s ease-in-out forwards;
+		z-index: 3;
 	}
 
 	&.front-page-header:not(.sticky) {
@@ -173,7 +174,7 @@
 		border: 1px solid #e5e5e5;
 		background: #fff;
 		box-shadow: 0px 0px 12px 0px rgba(0, 0, 0, 0.1);
-		top: 100%;
+		top: 60px;
 		left: 0;
 		padding: 16px 8px 16px 20px;
 		min-width: 232px;

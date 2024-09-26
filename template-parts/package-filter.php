@@ -67,10 +67,10 @@
                 <div class="faq-content-wrapper">
                   <div class="faq-content">
                     <ul>
-                      <li><label><input type="radio" name="difficulty" id="">Easy</label></li>
-                      <li><label><input type="radio" name="difficulty" id="">Medium</label></li>
-                      <li><label><input type="radio" name="difficulty" id="">Hard</label></li>
-                      <li><label><input type="radio" name="difficulty" id="">Challenging</label></li>
+                      <li><label><input type="radio" id="">Easy</label></li>
+                      <li><label><input type="radio" id="">Medium</label></li>
+                      <li><label><input type="radio" id="">Hard</label></li>
+                      <li><label><input type="radio" id="">Challenging</label></li>
                     </ul>
                   </div>
                 </div>
@@ -103,10 +103,11 @@
                 <div class="faq-content-wrapper">
                   <div class="faq-content">
                     <ul>
-                      <li><label><input type="radio" name="region" id="">Annapurna</label></li>
-                      <li><label><input type="radio" name="region" id="">Manaslu</label></li>
-                      <li><label><input type="radio" name="region" id="">Kanchanjunga</label></li>
-                      <li><label><input type="radio" name="region" id="">Everest</label></li>
+                      <li><label><input type="radio" id="">Everest</label></li>
+                      <li><label><input type="radio" id="">Annapurna</label></li>
+                      <li><label><input type="radio" id="">Manaslu</label></li>
+                      <li><label><input type="radio" id="">Langtang</label></li>
+                      <li><label><input type="radio" id="">Mustang</label></li>
                     </ul>
                   </div>
                 </div>
@@ -135,17 +136,19 @@
                 <div class="faq-content-wrapper">
                   <div class="faq-content">
                     <ul>
-                      <li><label><input type="radio" name="region" id="">Annapurna</label></li>
-                      <li><label><input type="radio" name="region" id="">Manaslu</label></li>
-                      <li><label><input type="radio" name="region" id="">Kanchanjunga</label></li>
-                      <li><label><input type="radio" name="region" id="">Everest</label></li>
+                      <li><label><input type="radio" id="">Trekking</label></li>
+                      <li><label><input type="radio" id="">Hiking</label></li>
+                      <li><label><input type="radio" id="">Adventure</label></li>
+                      <li><label><input type="radio" id="">Sports</label></li>
+                      <li><label><input type="radio" id="">Cultural</label></li>
+                      <li><label><input type="radio" id="">Expedition</label></li>
                     </ul>
                   </div>
                 </div>
               </div>
             </div>
-            <div class="fo-option">
-              <div class="faq-wrapper">
+            <div class="fo-option range-value-slider">
+              <div class="faq-wrapper expand">
                 <div class=" fo-title">
                   <label>
                     <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none">
@@ -157,18 +160,23 @@
                 </div>
                 <div class="faq-content-wrapper">
                   <div class="faq-content">
-                    <ul>
-                      <li><label><input type="radio" name="region" id="">Annapurna</label></li>
-                      <li><label><input type="radio" name="region" id="">Manaslu</label></li>
-                      <li><label><input type="radio" name="region" id="">Kanchanjunga</label></li>
-                      <li><label><input type="radio" name="region" id="">Everest</label></li>
-                    </ul>
+                    <div class="range-slider-container">
+                      <div class="price-labels">
+                        <span class="price-min-label"><span>0</span> Days</span>
+                        <span>-</span>
+                        <span class="price-max-label"><span>3</span> Days</span>
+                      </div>
+                      <div class="price-range"></div>
+
+                      <input type="hidden" class="price-min" name="price-min" />
+                      <input type="hidden" class="price-max" name="price-max" />
+                    </div>
                   </div>
                 </div>
               </div>
             </div>
-            <div class="fo-option">
-              <div class="faq-wrapper">
+            <div class="fo-option range-value-slider">
+              <div class="faq-wrapper expand">
                 <div class=" fo-title">
                   <label>
                     <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none">
@@ -196,12 +204,17 @@
                 </div>
                 <div class="faq-content-wrapper">
                   <div class="faq-content">
-                    <ul>
-                      <li><label><input type="radio" name="region" id="">Annapurna</label></li>
-                      <li><label><input type="radio" name="region" id="">Manaslu</label></li>
-                      <li><label><input type="radio" name="region" id="">Kanchanjunga</label></li>
-                      <li><label><input type="radio" name="region" id="">Everest</label></li>
-                    </ul>
+                    <div class="range-slider-container">
+                      <div class="price-labels">
+                        <span class="price-min-label">$ <span>0</span></span>
+                        <span>-</span>
+                        <span class="price-max-label">$ <span>3</span></span>
+                      </div>
+                      <div class="price-range"></div>
+
+                      <input type="hidden" class="price-min" name="price-min" />
+                      <input type="hidden" class="price-max" name="price-max" />
+                    </div>
                   </div>
                 </div>
               </div>
@@ -226,10 +239,11 @@
                 <div class="faq-content-wrapper">
                   <div class="faq-content">
                     <ul>
-                      <li><label><input type="radio" name="region" id="">Annapurna</label></li>
-                      <li><label><input type="radio" name="region" id="">Manaslu</label></li>
-                      <li><label><input type="radio" name="region" id="">Kanchanjunga</label></li>
-                      <li><label><input type="radio" name="region" id="">Everest</label></li>
+                      <li><label><input type="radio" id="">Solo</label></li>
+                      <li><label><input type="radio" id="">Couple</label></li>
+                      <li><label><input type="radio" id="">Luxury</label></li>
+                      <li><label><input type="radio" id="">Family</label></li>
+                      <li><label><input type="radio" id="">Group</label></li>
                     </ul>
                   </div>
                 </div>
