@@ -49,44 +49,48 @@
               <li class="mega-menu mega-activities"><a href="#">Activities</a></li>
               <li class="menu-has-children">
                 <a href="#">Travel Styles</a>
-                <ul class="dropdown-items">
-                  <li class="dropdown-menu-item">
-                    <a href="#">
-                      <span class="sm-text">Trekking/Hiking</span>
-                    </a>
-                  </li>
-                  <li class="dropdown-menu-item">
-                    <a href="#">
-                      <span class="sm-text">Water Sports</span>
-                    </a>
-                  </li>
-                  <li class="dropdown-menu-item">
-                    <a href="#">
-                      <span class="sm-text">Site Seeing</span>
-                    </a>
-                  </li>
-                </ul>
+                <div class="dropdown-items">
+                  <ul>
+                    <li class="dropdown-menu-item">
+                      <a href="#">
+                        <span class="sm-text">Trekking/Hiking</span>
+                      </a>
+                    </li>
+                    <li class="dropdown-menu-item">
+                      <a href="#">
+                        <span class="sm-text">Water Sports</span>
+                      </a>
+                    </li>
+                    <li class="dropdown-menu-item">
+                      <a href="#">
+                        <span class="sm-text">Site Seeing</span>
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+
               </li>
               <li class="menu-has-children">
                 <a href="#">Company</a>
-                <ul class="dropdown-items">
-                  <li class="dropdown-menu-item">
-                    <a href="#">
-                      <span class="sm-text">About</span>
-                    </a>
-                  </li>
-                  <li class="dropdown-menu-item">
-                    <a href="#">
-                      <span class="sm-text">Achievements</span>
-                    </a>
-                  </li>
-                  <li class="dropdown-menu-item">
-                    <a href="#">
-                      <span class="sm-text">Commitments</span>
-                    </a>
-                  </li>
-                </ul>
-
+                <div class="dropdown-items">
+                  <ul>
+                    <li class="dropdown-menu-item">
+                      <a href="#">
+                        <span class="sm-text">About</span>
+                      </a>
+                    </li>
+                    <li class="dropdown-menu-item">
+                      <a href="#">
+                        <span class="sm-text">Achievements</span>
+                      </a>
+                    </li>
+                    <li class="dropdown-menu-item">
+                      <a href="#">
+                        <span class="sm-text">Commitments</span>
+                      </a>
+                    </li>
+                  </ul>
+                </div>
               </li>
               <li><a href="#">Contact</a></li>
             </ul>

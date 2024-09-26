@@ -82,10 +82,13 @@
 			}
 
 			> ul {
+				padding: 0 24px 24px 24px;
 				> li {
 					> a {
 						line-height: 148%;
 						letter-spacing: -0.08px;
+						padding: 12px 0;
+						width: 100%;
 
 						&:hover {
 							color: $lightGreen;
@@ -109,7 +112,7 @@
 	.menu-has-children,
 	.mega-menu {
 		> a {
-			padding-right: 12px;
+			// padding-right: 12px;
 			position: relative;
 
 			&::after {
@@ -142,9 +145,7 @@
 		&:hover,
 		&.active {
 			.dropdown-items {
-				opacity: 1;
-				visibility: visible;
-				transform: translateY(0);
+				grid-template-rows: 1fr;
 
 				li {
 					&:hover {
@@ -191,19 +192,14 @@
 	}
 
 	.dropdown-items {
-		position: absolute;
-		border-radius: 8px;
-		border: 1px solid #e5e5e5;
-		background: #fff;
-		box-shadow: 0px 0px 12px 0px rgba(0, 0, 0, 0.1);
-		top: 60px;
-		left: 0;
-		padding: 16px 8px 16px 20px;
-		min-width: 232px;
-		opacity: 0;
-		visibility: hidden;
-		transform: translateY(15px);
-		transition: all 0.2s ease-in-out;
+		display: grid;
+		grid-template-rows: 0fr;
+		transition: all 0.3s ease-in-out;
+		overflow: hidden;
+
+		ul {
+			overflow: hidden;
+		}
 
 		&.show-dropdown {
 			opacity: 1;
@@ -496,8 +492,12 @@
 			.primary-menu {
 				min-width: 600px;
 
+				.mobile-menu-header {
+					padding: 40px;
+				}
 				> ul {
 					gap: 24px;
+					padding: 0 40px 40px;
 				}
 			}
 		}
@@ -514,6 +514,22 @@
 				transform: translateX(0);
 				min-width: unset;
 				min-height: unset;
+
+				> ul {
+					padding: 0;
+					> li {
+						> a {
+							padding: 0;
+							width: auto;
+						}
+						&.menu-has-children,
+						&.mega-menu {
+							> a {
+								padding-right: 12px;
+							}
+						}
+					}
+				}
 			}
 		}
 		&.front-page-header:not(.sticky) {
@@ -533,6 +549,37 @@
 					&::after {
 						background-image: url(../images/icons/triangle-down.svg);
 					}
+				}
+			}
+		}
+
+		.dropdown-items {
+			position: absolute;
+			border-radius: 8px;
+			border: 1px solid #e5e5e5;
+			background: #fff;
+			box-shadow: 0px 0px 12px 0px rgba(0, 0, 0, 0.1);
+			top: 60px;
+			left: 0;
+			padding: 16px 8px 16px 20px;
+			min-width: 232px;
+			opacity: 0;
+			visibility: hidden;
+			transform: translateY(15px);
+			transition: all 0.2s ease-in-out;
+			display: block;
+
+			&.show-dropdown {
+				grid-template-rows: 1fr;
+			}
+		}
+
+		.menu-has-children {
+			&.active {
+				.dropdown-items {
+					opacity: 1;
+					visibility: visible;
+					transform: translateY(0);
 				}
 			}
 		}
