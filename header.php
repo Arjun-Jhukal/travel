@@ -27,11 +27,24 @@
         <div class="header-content-wrapper d-flex justify-content-between align-items-center">
           <div class="header-logo">
             <a href="<?php echo get_home_url()?>">
-              <img src="<?php echo get_parent_theme_file_uri()?>/assets/images/logo.svg" alt="" class="img-fluid">
+              <img src="<?php echo get_parent_theme_file_uri()?>/assets/images/logo.svg" alt="" class="img-fluid ">
+              <img src="<?php echo get_parent_theme_file_uri()?>/assets/images/logo-light.svg" alt="" class="img-fluid">
             </a>
           </div>
           <div class="primary-menu">
-            <ul class="d-lg-flex justify-content-center align-items-center">
+            <div class="mobile-menu-header d-xl-none d-flex justify-content-between align-items-center">
+              <div class="header-logo">
+                <a href="<?php echo get_home_url()?>">
+                  <img src="<?php echo get_parent_theme_file_uri()?>/assets/images/logo.svg" alt="" class="img-fluid">
+
+                </a>
+              </div>
+
+              <button type="button" class="close-ham-menu">
+                <img src="<?php echo get_parent_theme_file_uri()?>/assets/images/icons/close-dark.svg" alt="">
+              </button>
+            </div>
+            <ul class="d-xl-flex justify-content-center align-items-center">
               <li class="mega-menu mega-destinations "><a href="#">Destinations</a></li>
               <li class="mega-menu mega-activities"><a href="#">Activities</a></li>
               <li class="menu-has-children">
