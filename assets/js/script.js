@@ -28,7 +28,7 @@ jQuery(document).ready(function ($) {
 			$(this).removeClass("dark");
 			$(".primary-menu li").removeClass("active");
 			$(".team-popup").removeClass("show");
-			$(".review-form").removeClass("show");
+			$(".popup-form").removeClass("show");
 		});
 	});
 
@@ -504,8 +504,22 @@ jQuery(document).ready(function ($) {
 		});
 	});
 
-	/* Range Input Slider */
+	/* Comment Form */
 
+	$(".write-comment").on("click", function (e) {
+		e.preventDefault();
+		$("body").addClass("overflow-hidden");
+		$(".overlay").addClass("show");
+		$(".comment-form").addClass("show");
+
+		$(".close-review-form").on("click", function () {
+			$("body").removeClass("overflow-hidden");
+			$(".overlay").removeClass("show");
+			$(".comment-form").removeClass("show");
+		});
+	});
+
+	/* Range Input Slider */
 	$(".fo-option.range-value-slider").each(function () {
 		var $container = $(this);
 

@@ -154,7 +154,7 @@
                     <img src="<?php echo get_parent_theme_file_uri()?>/assets/images/icons/lock.svg" alt="">
                     Password</label>
                   <div class="password-field">
-                    <input type="password" name="password" placeholder="Enter Password">
+                    <input type="password" autocomplete name="password" autocomplete placeholder="Enter Password">
 
                     <button type="button" class="show-hide-password">
                       <img src="<?php echo get_parent_theme_file_uri()?>/assets/images/icons/eye.svg" alt="">
@@ -203,7 +203,7 @@
                     <img src="<?php echo get_parent_theme_file_uri()?>/assets/images/icons/lock.svg" alt="">
                     Password</label>
                   <div class="password-field">
-                    <input type="password" name="password" placeholder="Enter Password">
+                    <input type="password" autocomplete autocomplete name="password" placeholder="Enter Password">
 
                     <button type="button" class="show-hide-password">
                       <img src="<?php echo get_parent_theme_file_uri()?>/assets/images/icons/eye.svg" alt="">
@@ -302,13 +302,13 @@
                   <label for="new-password">
                     <img src="<?php echo get_parent_theme_file_uri()?>/assets/images/icons/lock.svg" alt="">
                     New Password</label>
-                  <input type="password" name="new-password" placeholder="Enter new password again">
+                  <input type="password" autocomplete name="new-password" placeholder="Enter new password again">
                 </div>
                 <div class="input-field">
                   <label for="confirm-password">
                     <img src="<?php echo get_parent_theme_file_uri()?>/assets/images/icons/lock.svg" alt="">
                     Confirm Password</label>
-                  <input type="password" name="confirm-password" placeholder="Confirm Password">
+                  <input type="password" autocomplete name="confirm-password" placeholder="Confirm Password">
                 </div>
                 <button type="submit" class="bh-btn bh-btn-filled-dark d-block w-100 text-center">Reset
                   Password</button>

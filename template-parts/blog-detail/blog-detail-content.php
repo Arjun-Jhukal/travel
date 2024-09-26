@@ -386,7 +386,7 @@
         <div class="comments" data-initial="2">
           <div class="title d-flex justify-content-between align-items-center">
             <h4>Comments (3)</h4>
-            <a href="#" class="bh-btn bh-btn-filled-dark">Write a comment</a>
+            <a href="#" class="bh-btn bh-btn-filled-dark write-comment">Write a comment</a>
           </div>
           <div class="comment-list ">
             <div class="row">

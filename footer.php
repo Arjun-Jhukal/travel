@@ -284,9 +284,9 @@
 
 
 <!-- Show This Only at tour detail page -->
-<div class="review-form">
-  <div class="rf-content">
-    <div class="rf-header">
+<div class="review-form popup-form">
+  <div class="pf-content">
+    <div class="pf-header">
       <h4>Add Review</h4>
       <strong>Reviewing for Everest Base Camp Trek</strong>
     </div>
@@ -339,7 +339,7 @@
           <strong>Your Review</strong>
         </div>
         <div class="input-field">
-          <textarea name="" id="" placeholder="Provide your review about the tour" rows="3"></textarea>
+          <textarea placeholder="Provide your review about the tour" rows="3"></textarea>
         </div>
       </div>
 
@@ -354,6 +354,42 @@
   </div>
 </div>
 
+<!-- Show this only at Blog Detail page -->
+<div class="comment-form  popup-form">
+  <div class="pf-content">
+    <div class="pf-header">
+      <h4>Add Review</h4>
+      <strong>Reviewing for Everest Base Camp Trek</strong>
+    </div>
+
+    <form action="">
+      <div class="form-item">
+        <div class="input-field">
+          <label for="first-name">
+            <img src="<?php echo get_parent_theme_file_uri()?>/assets/images/icons/user.svg" alt="">
+            First Name</label>
+          <input type="text" name="first-name" placeholder="Enter your First Name">
+        </div>
+      </div>
+      <div class="pf-message form-item">
+        <div class="d-flex">
+          <img src="<?php echo get_parent_theme_file_uri()?>/assets/images/icons/message-box.svg" alt="">
+          <strong>Your Review</strong>
+        </div>
+        <div class="input-field">
+          <textarea name="" id="" placeholder="Provide your review about the tour" rows="3"></textarea>
+        </div>
+      </div>
+      <div class="form-item">
+        <input type="submit" value="Submit Review" class="bh-btn bh-btn-filled-dark">
+      </div>
+    </form>
+
+    <button type="button" class="close-review-form">
+      <img src="<?php echo get_parent_theme_file_uri()?>/assets/images/icons/close-dark.svg" alt="">
+    </button>
+  </div>
+</div>
 
 
 <?php wp_footer(); ?>
