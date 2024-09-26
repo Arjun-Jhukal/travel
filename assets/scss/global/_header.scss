@@ -627,9 +627,9 @@
 				opacity: 1;
 				visibility: visible;
 				transform: translateX(0);
-				min-width: unset;
-				min-height: unset;
-				overflow: hidden;
+				min-width: auto;
+				min-height: auto;
+				overflow: visible;
 
 				> ul {
 					padding: 0;

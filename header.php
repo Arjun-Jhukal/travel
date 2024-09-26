@@ -26,7 +26,7 @@
         <!-- Primary Header For Desktop -->
         <div class="header-content-wrapper d-flex justify-content-between align-items-center">
           <div class="header-logo d-md-flex">
-            <button class="hamburger-icon">
+            <button class="hamburger-icon d-xl-none">
               <img src="<?php echo get_parent_theme_file_uri()?>/assets/images/icons/ham.svg" alt="">
             </button>
             <a href="<?php echo get_home_url()?>" class="d-none d-md-block">
