@@ -92,6 +92,13 @@
 					line-height: 140%;
 					letter-spacing: -0.035px;
 				}
+
+				img,
+				svg {
+					width: 20px;
+					height: 20px;
+					margin-right: 8px;
+				}
 			}
 		}
 
@@ -209,6 +216,7 @@
 		background-color: rgb(1, 86, 55, 0.05);
 		padding: 24px 24px 32px;
 		border-radius: 8px;
+		margin-bottom: 16px;
 
 		.ppi-image {
 			border-radius: 4px;
@@ -247,6 +255,54 @@
 						}
 					}
 				}
+			}
+		}
+	}
+
+	.payment-info {
+		max-width: 316px;
+		text-align: center;
+		margin: 0 auto;
+		small {
+			margin-bottom: 16px;
+		}
+		ul {
+			gap: 4px;
+			li {
+				border-radius: 2px;
+
+				img {
+					width: 60px;
+					height: 24px;
+					object-fit: contain;
+				}
+			}
+		}
+	}
+
+	.guest-info {
+		border-radius: 12px;
+		background: #f9f9f9;
+		padding: 24px;
+		margin-bottom: 24px;
+
+		.row {
+			> div {
+				&:last-child {
+					.input-field {
+						margin-bottom: 0;
+					}
+				}
+			}
+		}
+	}
+
+	.add-more-group {
+		margin-bottom: 32px;
+		a {
+			color: $black;
+			&:hover {
+				color: $lightGreen;
 			}
 		}
 	}
