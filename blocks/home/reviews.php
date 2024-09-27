@@ -56,6 +56,7 @@ if ($enable_reviews && $reviews):
             $revw_total_review = $customer_reviews['revw_total_review'];
             $revw_p_logo = $customer_reviews['revw_p_logo'];
             $revw_status = $customer_reviews['revw_status'];
+            $reviews_link = $customer_reviews['reviews_link'];
             ?>
             <div class="platform-info d-flex justify-content-lg-end align-items-center" id="bold-item<?php echo $index; ?>">
               <div class="pi-icon">
@@ -128,7 +129,6 @@ if ($enable_reviews && $reviews):
                 $ri_name_copy = $ritems['ri_name_copy'];
                 $ri_rating = $ritems['ri_rating'];
                 $ri_review_desc = $ritems['ri_review_desc'];
-                $reviews_link = $ritems['reviews_link'];
                 ?>
                 <div class="testimonial-item">
                   <div class="tsi-header d-flex justify-content-between align-items-center">

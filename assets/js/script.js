@@ -603,8 +603,7 @@ jQuery(document).ready(function ($) {
 jQuery(document).ready(function($) {
     $('.wishlist').click(function() {
         var packageId = $(this).data('id');
-        var icon = $(this).find('svg');
-
+        var icon = $(this);
         $.ajax({
 					url: my_ajax_object.ajax_url,
 					type: "POST",
