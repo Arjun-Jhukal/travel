@@ -138,7 +138,7 @@ select {
 	letter-spacing: -0.035px;
 	width: 100%;
 	display: block;
-	border-radius: 56px;
+
 	border: 1px solid rgba(0, 0, 0, 0.1);
 	padding: 14px 24px;
 	background-color: #f7f7f7;
@@ -149,6 +149,20 @@ select {
 	&::placeholder {
 		opacity: 0.5;
 	}
+}
+
+input,
+select {
+	border-radius: 56px;
+}
+
+textarea {
+	border-radius: 12px;
+}
+
+select {
+	appearance: none;
+	-webkit-appearance: none;
 }
 
 input {
