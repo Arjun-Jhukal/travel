@@ -600,3 +600,23 @@ jQuery(document).ready(function ($) {
 		}
 	});
 });
+jQuery(document).ready(function($) {
+    $('.wishlist').click(function() {
+        var packageId = $(this).data('id');
+        var icon = $(this).find('svg');
+
+        $.ajax({
+					url: my_ajax_object.ajax_url,
+					type: "POST",
+					data: {
+						action: "toggle_wishlist",
+						package_id: packageId,
+					},
+					success: function (response) {
+						if (response.success) {
+							icon.toggleClass("added");
+						}
+					},
+				});
+    });
+});

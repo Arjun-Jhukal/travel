@@ -128,6 +128,7 @@ if ($enable_reviews && $reviews):
                 $ri_name_copy = $ritems['ri_name_copy'];
                 $ri_rating = $ritems['ri_rating'];
                 $ri_review_desc = $ritems['ri_review_desc'];
+                $reviews_link = $ritems['reviews_link'];
                 ?>
                 <div class="testimonial-item">
                   <div class="tsi-header d-flex justify-content-between align-items-center">
@@ -170,13 +171,15 @@ if ($enable_reviews && $reviews):
                   <div class="message">
                     <?php echo $ri_review_desc; ?>
                   </div>
-                  <a href="#" class="bh-btn bh-btn-underlined" target="_blank">Read More
+                  <?php if($reviews_link):?>
+                  <a href="<?php echo esc_url($reviews_link);?>" class="bh-btn bh-btn-underlined" target="_blank">Read More
                     <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none">
                       <path
                         d="M5.35165 11.6539C5.38572 11.6293 5.41758 11.6018 5.44687 11.5718L10.5004 6.51824L10.4415 6.67968C10.3847 6.83837 10.3561 7.00575 10.3569 7.17427L10.3569 10.0085C10.3484 10.3734 10.6037 10.6913 10.9617 10.762C11.3573 10.8231 11.7276 10.552 11.7887 10.1564C11.7937 10.1244 11.7965 10.0921 11.7971 10.0598L11.7971 4.93453C11.7973 4.53421 11.473 4.20953 11.0727 4.2093C11.0724 4.2093 11.0721 4.2093 11.0719 4.2093L5.9466 4.2093C5.5463 4.20986 5.22224 4.53482 5.22278 4.93514C5.22283 4.96664 5.22493 4.99811 5.22906 5.02935C5.29969 5.38735 5.61767 5.6426 5.98248 5.63413L8.81675 5.63925C8.96723 5.63933 9.1168 5.616 9.26009 5.57006L9.48304 5.48549L4.45002 10.5185C4.17848 10.7706 4.13166 11.1832 4.33983 11.4898C4.57392 11.8145 5.02692 11.8879 5.35165 11.6539Z"
                         fill="#7FB51F" />
                     </svg>
                   </a>
+                  <?php endif;?>
                 </div>
               <?php endforeach; ?>
             </div>
