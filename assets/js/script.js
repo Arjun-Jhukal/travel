@@ -48,6 +48,7 @@ jQuery(document).ready(function ($) {
 			$(".primary-menu").removeClass("active");
 			$(".mm-controller").removeClass("activate-fixed-menu");
 			$(".tab-content-wrapper").removeClass("show-tab-content");
+			$(".booking-confirm").removeClass("show");
 		});
 
 		$(".back-to-mobile-menu").on("click", function (e) {

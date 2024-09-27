@@ -1,0 +1,51 @@
+.booking-confirm {
+	border-radius: 12px;
+	background: #fff;
+	position: fixed;
+	top: 50%;
+	transform: translateY(-50%);
+	opacity: 0;
+	visibility: hidden;
+	transition: all 0.3s ease-in-out;
+	z-index: 9;
+
+	&.show {
+		opacity: 1;
+		visibility: visible;
+	}
+
+	.bc-content-wrapper {
+		text-align: center;
+		position: relative;
+		padding: 24px 16px;
+
+		.close-booking-form {
+			position: absolute;
+			top: 16px;
+			right: 16px;
+		}
+		h4 {
+			margin-bottom: 12px;
+		}
+		p {
+			margin-bottom: 24px;
+		}
+	}
+
+	.bc-image {
+		max-width: 255px;
+		margin: 0 auto 24px;
+	}
+}
+
+@media (min-width: 992px) {
+	.booking-confirm {
+		left: 50%;
+		transform: translate(-50%, -50%);
+
+		.bc-content-wrapper {
+			min-width: 724px;
+			padding: 36px 102px;
+		}
+	}
+}
