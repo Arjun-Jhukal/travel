@@ -1,49 +1,59 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="<?php language_attributes(); ?>">
 
 <head>
-  <meta charset="UTF-8" />
+  <meta charset="<?php bloginfo('charset'); ?>" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0,maximum-scale:1.0" />
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link
     href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Kolker+Brush&display=swap"
     rel="stylesheet">
-
-  <title>Bold Himalaya - Tour and Travel Manager Nepal</title>
+  <link rel="shortcut icon" href="<?php echo esc_url(get_site_icon_url()); ?>">
   <?php wp_head(); ?>
 </head>
 
 <body>
   <a href="#" class="overlay"></a>
-
-  <?php
-  $isAuthenticated=false;
-  ?>
-  <header class="header <?php if(is_front_page()) echo 'front-page-header'; ?>">
+  <header class="header <?php echo is_front_page() ? 'front-page-header' : ''; ?>">
     <div class="container">
       <div class="header-content-box position-relative">
         <!-- Primary Header For Desktop -->
         <div class="header-content-wrapper d-flex justify-content-between align-items-center">
           <div class="header-logo d-md-flex">
             <button class="hamburger-icon d-xl-none">
-              <img src="<?php echo get_parent_theme_file_uri()?>/assets/images/icons/ham.svg" alt="">
+              <img src="<?php echo get_parent_theme_file_uri() ?>/assets/images/icons/ham.svg" alt="">
             </button>
-            <a href="<?php echo get_home_url()?>" class="d-none d-md-block">
-              <img src="<?php echo get_parent_theme_file_uri()?>/assets/images/logo.svg" alt="" class="img-fluid ">
-              <img src="<?php echo get_parent_theme_file_uri()?>/assets/images/logo-light.svg" alt="" class="img-fluid">
+            <a href="<?php echo esc_url(get_home_url()); ?>" class="d-none d-md-block">
+              <?php
+              $custom_logo_id = get_theme_mod('custom_logo');
+              $logo_url = wp_get_attachment_image_url($custom_logo_id, 'full');
+              $sticky_logo = get_field('sticky_logo', 'option');
+              if ($sticky_logo) {
+                echo '<img src="' . esc_url($sticky_logo) . '" alt="' . esc_attr(get_bloginfo('name')) . '" class="img-fluid">';
+              }
+              if ($logo_url) {
+                echo '<img src="' . esc_url($logo_url) . '" class="img-fluid" alt="' . esc_attr(get_bloginfo('name')) . '">';
+              }
+              ?>
             </a>
           </div>
           <div class="primary-menu">
             <div class="mobile-menu-header d-xl-none d-flex justify-content-between align-items-center">
               <div class="header-logo">
-                <a href="<?php echo get_home_url()?>">
-                  <img src="<?php echo get_parent_theme_file_uri()?>/assets/images/logo.svg" alt="" class="img-fluid">
+                <a href="<?php echo esc_url(get_home_url()); ?>">
+                  <?php
+                  $custom_logo_id = get_theme_mod('custom_logo');
+                  $logo_url = wp_get_attachment_image_url($custom_logo_id, 'full');
+                  if ($logo_url) {
+                    echo '<img src="' . esc_url($logo_url) . '" class="img-fluid" alt="' . esc_attr(get_bloginfo('name')) . '">';
+                  }
+                  ?>
                 </a>
               </div>
 
               <button type="button" class="close-ham-menu">
-                <img src="<?php echo get_parent_theme_file_uri()?>/assets/images/icons/close-dark.svg" alt="">
+                <img src="<?php echo get_parent_theme_file_uri() ?>/assets/images/icons/close-dark.svg" alt="">
               </button>
             </div>
             <ul class="d-xl-flex justify-content-center align-items-center">
@@ -99,30 +109,39 @@
           </div>
 
           <div class="header-right d-flex justify-content-end align-items-center">
-            <a href="#" class="wishlist filled">
+          <?php 
+          $header_wishlist= get_field('header_wishlist', 'option');
+          $enable_header_wishlist = $header_wishlist['enable_header_wishlist'];
+          $wishlist_page_url = $header_wishlist['wishlist_page_url'];
+          if($enable_header_wishlist):
+          ?>  
+          <a href="<?php echo esc_url(get_home_url().$wishlist_page_url);?>" class="wishlist filled">
               <svg xmlns="http://www.w3.org/2000/svg" width="18" height="16" viewBox="0 0 18 16" fill="none"
                 stroke="#fff">
                 <path
                   d="M8.30415 15.7388C8.49669 15.9072 8.74374 16 9 16C9.25612 16 9.50331 15.9072 9.69571 15.739C10.4245 15.1023 11.1267 14.5043 11.7463 13.9769L11.7466 13.9767C13.5596 12.4329 15.1253 11.0997 16.2149 9.78616C17.4328 8.31791 18 6.92567 18 5.40473C18 3.92701 17.493 2.56372 16.5722 1.56581C15.6404 0.556101 14.3617 0 12.9717 0C11.9327 0 10.9811 0.3282 10.1435 0.975406C9.7207 1.3021 9.33769 1.70192 9 2.16828C8.66245 1.70192 8.2793 1.3021 7.8566 0.975406C7.01903 0.3282 6.06747 0 5.02844 0C3.63826 0 2.35973 0.556101 1.42795 1.56581C0.507156 2.56372 0 3.92701 0 5.40473C0 6.92567 0.567307 8.31791 1.78528 9.7863C2.87485 11.0998 4.44081 12.4332 6.25424 13.9772L6.2574 13.9799C6.87593 14.5065 7.577 15.1035 8.30415 15.7388Z"
                   fill="" />
               </svg>
-              <sup>2</sup>
+              <?php if (is_user_logged_in()): ?>
+                <sup
+                  class="wishlist-count"><?php echo count(get_user_meta(get_current_user_id(), 'wishlist', true)) ?: '0'; ?></sup>
+              <?php endif; ?>
             </a>
+            <?php endif;?>
             <div class="plan-trip d-none d-md-block">
               <button class="bh-btn bh-btn-plan">Plan a Trip</button>
             </div>
-            <?php if($isAuthenticated): ?>
             <div class="profile menu-has-children">
               <div class="profile-image menu-has-children">
                 <a href="#">
-                  <img src="<?php echo get_parent_theme_file_uri()?>/assets/images/profile.png" alt=""
+                  <img src="<?php echo get_parent_theme_file_uri() ?>/assets/images/profile.png" alt=""
                     class="img-fluid">
                 </a>
               </div>
               <ul class="dropdown-items">
                 <li class="dropdown-menu-item">
                   <a href="#">
-                    <p> <img src="<?php echo get_parent_theme_file_uri()?>/assets/images/profile.png" alt=""
+                    <p> <img src="<?php echo get_parent_theme_file_uri() ?>/assets/images/profile.png" alt=""
                         class="img-fluid">
                       <span class="sm-text">Go to Dashboard</span>
                     </p>
@@ -130,7 +149,7 @@
                 </li>
                 <li class="dropdown-menu-item">
                   <a href="#">
-                    <p> <img src="<?php echo get_parent_theme_file_uri()?>/assets/images/icons/logout.svg" alt=""
+                    <p> <img src="<?php echo get_parent_theme_file_uri() ?>/assets/images/icons/logout.svg" alt=""
                         class="img-fluid">
                       <span class="sm-text">Logout</span>
                     </p>
@@ -138,11 +157,9 @@
                 </li>
               </ul>
             </div>
-            <?php else: ?>
             <div class="login">
               <a href="#" class="bh-btn bh-btn-filled-light">Login</a>
             </div>
-            <?php endif; ?>
 
 
           </div>
@@ -152,7 +169,7 @@
         <div class="auth-module-wrapper">
           <div class="auth-content">
             <button type="button" class="close-auth-module">
-              <img src="<?php echo get_parent_theme_file_uri()?>/assets/images/icons/close-dark.svg" alt="">
+              <img src="<?php echo get_parent_theme_file_uri() ?>/assets/images/icons/close-dark.svg" alt="">
             </button>
 
             <div class="auth-module login-module" id="login-module">
@@ -164,19 +181,19 @@
               <form action="" class="login-form">
                 <div class="input-field">
                   <label for="email">
-                    <img src="<?php echo get_parent_theme_file_uri()?>/assets/images/icons/email.svg" alt="">
+                    <img src="<?php echo get_parent_theme_file_uri() ?>/assets/images/icons/email.svg" alt="">
                     Email Address</label>
                   <input type="email" name="email" placeholder="Enter your Email Address">
                 </div>
                 <div class="input-field">
                   <label for="password">
-                    <img src="<?php echo get_parent_theme_file_uri()?>/assets/images/icons/lock.svg" alt="">
+                    <img src="<?php echo get_parent_theme_file_uri() ?>/assets/images/icons/lock.svg" alt="">
                     Password</label>
                   <div class="password-field">
                     <input type="password" autocomplete name="password" autocomplete placeholder="Enter Password">
 
                     <button type="button" class="show-hide-password">
-                      <img src="<?php echo get_parent_theme_file_uri()?>/assets/images/icons/eye.svg" alt="">
+                      <img src="<?php echo get_parent_theme_file_uri() ?>/assets/images/icons/eye.svg" alt="">
                     </button>
                   </div>
                 </div>
@@ -201,31 +218,31 @@
               <form action="" class="register-form">
                 <div class="input-field">
                   <label for="first-name">
-                    <img src="<?php echo get_parent_theme_file_uri()?>/assets/images/icons/user.svg" alt="">
+                    <img src="<?php echo get_parent_theme_file_uri() ?>/assets/images/icons/user.svg" alt="">
                     First Name</label>
                   <input type="text" name="first-name" placeholder="Enter your First Name">
                 </div>
                 <div class="input-field">
                   <label for="last-name">
-                    <img src="<?php echo get_parent_theme_file_uri()?>/assets/images/icons/user.svg" alt="">
+                    <img src="<?php echo get_parent_theme_file_uri() ?>/assets/images/icons/user.svg" alt="">
                     Last Name</label>
                   <input type="text" name="last-name" placeholder="Enter your Last Name">
                 </div>
                 <div class="input-field">
                   <label for="email">
-                    <img src="<?php echo get_parent_theme_file_uri()?>/assets/images/icons/email.svg" alt="">
+                    <img src="<?php echo get_parent_theme_file_uri() ?>/assets/images/icons/email.svg" alt="">
                     Email Address</label>
                   <input type="email" name="email" placeholder="Enter your Email Address">
                 </div>
                 <div class="input-field">
                   <label for="password">
-                    <img src="<?php echo get_parent_theme_file_uri()?>/assets/images/icons/lock.svg" alt="">
+                    <img src="<?php echo get_parent_theme_file_uri() ?>/assets/images/icons/lock.svg" alt="">
                     Password</label>
                   <div class="password-field">
                     <input type="password" autocomplete autocomplete name="password" placeholder="Enter Password">
 
                     <button type="button" class="show-hide-password">
-                      <img src="<?php echo get_parent_theme_file_uri()?>/assets/images/icons/eye.svg" alt="">
+                      <img src="<?php echo get_parent_theme_file_uri() ?>/assets/images/icons/eye.svg" alt="">
                     </button>
                   </div>
                 </div>
@@ -258,7 +275,7 @@
               <form action="" class="register-form">
                 <div class="input-field">
                   <label for="email">
-                    <img src="<?php echo get_parent_theme_file_uri()?>/assets/images/icons/email.svg" alt="">
+                    <img src="<?php echo get_parent_theme_file_uri() ?>/assets/images/icons/email.svg" alt="">
                     Email Address</label>
                   <input type="email" name="email" placeholder="Enter your Email Address">
                 </div>
@@ -319,13 +336,13 @@
               <form action="" class="register-form">
                 <div class="input-field">
                   <label for="new-password">
-                    <img src="<?php echo get_parent_theme_file_uri()?>/assets/images/icons/lock.svg" alt="">
+                    <img src="<?php echo get_parent_theme_file_uri() ?>/assets/images/icons/lock.svg" alt="">
                     New Password</label>
                   <input type="password" autocomplete name="new-password" placeholder="Enter new password again">
                 </div>
                 <div class="input-field">
                   <label for="confirm-password">
-                    <img src="<?php echo get_parent_theme_file_uri()?>/assets/images/icons/lock.svg" alt="">
+                    <img src="<?php echo get_parent_theme_file_uri() ?>/assets/images/icons/lock.svg" alt="">
                     Confirm Password</label>
                   <input type="password" autocomplete name="confirm-password" placeholder="Confirm Password">
                 </div>
@@ -371,7 +388,7 @@
                   <li class="dropdown-menu-item active">
                     <a href="#nepal_01">
                       <p>
-                        <img src="<?php echo get_parent_theme_file_uri()?>/assets/images/destinaton-01.png" alt=""
+                        <img src="<?php echo get_parent_theme_file_uri() ?>/assets/images/destinaton-01.png" alt=""
                           class="img-fluid">
                         <span>Nepal</span>
                       </p>
@@ -380,7 +397,7 @@
                   <li class="dropdown-menu-item">
                     <a href="#india_02">
                       <p>
-                        <img src="<?php echo get_parent_theme_file_uri()?>/assets/images/destinaton-02.png" alt=""
+                        <img src="<?php echo get_parent_theme_file_uri() ?>/assets/images/destinaton-02.png" alt=""
                           class="img-fluid">
                         <span>India</span>
                       </p>
@@ -389,7 +406,7 @@
                   <li class="dropdown-menu-item ">
                     <a href="#vietnam_03">
                       <p>
-                        <img src="<?php echo get_parent_theme_file_uri()?>/assets/images/destinaton-03.png" alt=""
+                        <img src="<?php echo get_parent_theme_file_uri() ?>/assets/images/destinaton-03.png" alt=""
                           class="img-fluid">
                         <span>Vietnam</span>
                       </p>
@@ -398,7 +415,7 @@
                   <li class="dropdown-menu-item ">
                     <a href="#new_zealand_04">
                       <p>
-                        <img src="<?php echo get_parent_theme_file_uri()?>/assets/images/destinaton-04.png" alt=""
+                        <img src="<?php echo get_parent_theme_file_uri() ?>/assets/images/destinaton-04.png" alt=""
                           class="img-fluid">
                         <span>New Zealand</span>
                       </p>
@@ -407,7 +424,7 @@
                   <li class="dropdown-menu-item ">
                     <a href="#dubai_05">
                       <p>
-                        <img src="<?php echo get_parent_theme_file_uri()?>/assets/images/destinaton-05.png" alt=""
+                        <img src="<?php echo get_parent_theme_file_uri() ?>/assets/images/destinaton-05.png" alt=""
                           class="img-fluid">
                         <span>Dubai</span>
                       </p>
@@ -416,7 +433,7 @@
                   <li class="dropdown-menu-item ">
                     <a href="#thailand_06">
                       <p>
-                        <img src="<?php echo get_parent_theme_file_uri()?>/assets/images/destinaton-06.png" alt=""
+                        <img src="<?php echo get_parent_theme_file_uri() ?>/assets/images/destinaton-06.png" alt=""
                           class="img-fluid">
                         <span>Thailand</span>
                       </p>
@@ -425,7 +442,7 @@
                   <li class="dropdown-menu-item ">
                     <a href="#europe_07">
                       <p>
-                        <img src="<?php echo get_parent_theme_file_uri()?>/assets/images/destinaton-07.png" alt=""
+                        <img src="<?php echo get_parent_theme_file_uri() ?>/assets/images/destinaton-07.png" alt=""
                           class="img-fluid">
                         <span>Europe</span>
                       </p>
@@ -434,7 +451,7 @@
                   <li class="dropdown-menu-item ">
                     <a href="#fizi_08">
                       <p>
-                        <img src="<?php echo get_parent_theme_file_uri()?>/assets/images/destinaton-08.png" alt=""
+                        <img src="<?php echo get_parent_theme_file_uri() ?>/assets/images/destinaton-08.png" alt=""
                           class="img-fluid">
                         <span>Fiji</span>
                       </p>
@@ -443,7 +460,7 @@
                   <li class="dropdown-menu-item ">
                     <a href=" #srilanka_09">
                       <p>
-                        <img src="<?php echo get_parent_theme_file_uri()?>/assets/images/destinaton-09.png" alt=""
+                        <img src="<?php echo get_parent_theme_file_uri() ?>/assets/images/destinaton-09.png" alt=""
                           class="img-fluid">
                         <span>Srilanka</span>
                       </p>
@@ -457,7 +474,7 @@
                     <div class="tc-header d-flex justify-content-between align-items-center flex-wrap">
                       <div class="dropdown-menu-item d-flex justify-content-start align-items-center">
 
-                        <img src="<?php echo get_parent_theme_file_uri()?>/assets/images/destinaton-01.png" alt=""
+                        <img src="<?php echo get_parent_theme_file_uri() ?>/assets/images/destinaton-01.png" alt=""
                           class="img-fluid">
                         <h4 class="d-inline-block">Activity In Nepal</h4>
                       </div>
@@ -1404,7 +1421,7 @@
                   <div class="tab-content" id="india_02">
                     <div class="tc-header d-flex justify-content-between align-items-center flex-wrap">
                       <div class="dropdown-menu-item d-flex justify-content-start align-items-center">
-                        <img src="<?php echo get_parent_theme_file_uri()?>/assets/images/destinaton-02.png" alt=""
+                        <img src="<?php echo get_parent_theme_file_uri() ?>/assets/images/destinaton-02.png" alt=""
                           class="img-fluid">
                         <h4 class="d-inline-block">India</h4>
                       </div>
@@ -2351,7 +2368,7 @@
                   <div class="tab-content" id="vietnam_03">
                     <div class="tc-header d-flex justify-content-between align-items-center flex-wrap">
                       <div class="dropdown-menu-item d-flex justify-content-start align-items-center">
-                        <img src="<?php echo get_parent_theme_file_uri()?>/assets/images/destinaton-03.png" alt=""
+                        <img src="<?php echo get_parent_theme_file_uri() ?>/assets/images/destinaton-03.png" alt=""
                           class="img-fluid">
                         <h4 class="d-inline-block">Vietnam</h4>
                       </div>
@@ -3298,7 +3315,7 @@
                   <div class="tab-content" id="new_zealand_04">
                     <div class="tc-header d-flex justify-content-between align-items-center flex-wrap">
                       <div class="dropdown-menu-item d-flex justify-content-start align-items-center">
-                        <img src="<?php echo get_parent_theme_file_uri()?>/assets/images/destinaton-04.png" alt=""
+                        <img src="<?php echo get_parent_theme_file_uri() ?>/assets/images/destinaton-04.png" alt=""
                           class="img-fluid">
                         <h4 class="d-inline-block">New Zealand</h4>
                       </div>
@@ -4245,7 +4262,7 @@
                   <div class="tab-content" id="dubai_05">
                     <div class="tc-header d-flex justify-content-between align-items-center flex-wrap">
                       <div class="dropdown-menu-item d-flex justify-content-start align-items-center">
-                        <img src="<?php echo get_parent_theme_file_uri()?>/assets/images/destinaton-05.png" alt=""
+                        <img src="<?php echo get_parent_theme_file_uri() ?>/assets/images/destinaton-05.png" alt=""
                           class="img-fluid">
                         <h4 class="d-inline-block">Dubai</h4>
                       </div>
@@ -5192,7 +5209,7 @@
                   <div class="tab-content" id="thailand_06">
                     <div class="tc-header d-flex justify-content-between align-items-center flex-wrap">
                       <div class="dropdown-menu-item d-flex justify-content-start align-items-center">
-                        <img src="<?php echo get_parent_theme_file_uri()?>/assets/images/destinaton-06.png" alt=""
+                        <img src="<?php echo get_parent_theme_file_uri() ?>/assets/images/destinaton-06.png" alt=""
                           class="img-fluid">
                         <h4 class="d-inline-block">Thailand</h4>
                       </div>
@@ -6139,7 +6156,7 @@
                   <div class="tab-content" id="europe_07">
                     <div class="tc-header d-flex justify-content-between align-items-center flex-wrap">
                       <div class="dropdown-menu-item d-flex justify-content-start align-items-center">
-                        <img src="<?php echo get_parent_theme_file_uri()?>/assets/images/destinaton-07.png" alt=""
+                        <img src="<?php echo get_parent_theme_file_uri() ?>/assets/images/destinaton-07.png" alt=""
                           class="img-fluid">
                         <h4 class="d-inline-block">Europe</h4>
                       </div>
@@ -7086,7 +7103,7 @@
                   <div class="tab-content" id="fiji_08">
                     <div class="tc-header d-flex justify-content-between align-items-center flex-wrap">
                       <div class="dropdown-menu-item d-flex justify-content-start align-items-center">
-                        <img src="<?php echo get_parent_theme_file_uri()?>/assets/images/destinaton-08.png" alt=""
+                        <img src="<?php echo get_parent_theme_file_uri() ?>/assets/images/destinaton-08.png" alt=""
                           class="img-fluid">
                         <h4 class="d-inline-block">Fiji</h4>
                       </div>
@@ -8033,7 +8050,7 @@
                   <div class="tab-content" id="srilanka_09">
                     <div class="tc-header d-flex justify-content-between align-items-center flex-wrap">
                       <div class="dropdown-menu-item d-flex justify-content-start align-items-center">
-                        <img src="<?php echo get_parent_theme_file_uri()?>/assets/images/destinaton-09.png" alt=""
+                        <img src="<?php echo get_parent_theme_file_uri() ?>/assets/images/destinaton-09.png" alt=""
                           class="img-fluid">
                         <h4 class="d-inline-block">Srilanka</h4>
                       </div>
@@ -9002,7 +9019,7 @@
                   <li class="dropdown-menu-item active">
                     <a href="#nepal">
                       <p>
-                        <img src="<?php echo get_parent_theme_file_uri()?>/assets/images/destinaton-01.png" alt=""
+                        <img src="<?php echo get_parent_theme_file_uri() ?>/assets/images/destinaton-01.png" alt=""
                           class="img-fluid">
                         <span>Nepal</span>
                       </p>
@@ -9011,7 +9028,7 @@
                   <li class="dropdown-menu-item">
                     <a href="#india">
                       <p>
-                        <img src="<?php echo get_parent_theme_file_uri()?>/assets/images/destinaton-02.png" alt=""
+                        <img src="<?php echo get_parent_theme_file_uri() ?>/assets/images/destinaton-02.png" alt=""
                           class="img-fluid">
                         <span>India</span>
                       </p>
@@ -9020,7 +9037,7 @@
                   <li class="dropdown-menu-item ">
                     <a href="#vietnam">
                       <p>
-                        <img src="<?php echo get_parent_theme_file_uri()?>/assets/images/destinaton-03.png" alt=""
+                        <img src="<?php echo get_parent_theme_file_uri() ?>/assets/images/destinaton-03.png" alt=""
                           class="img-fluid">
                         <span>Vietnam</span>
                       </p>
@@ -9029,7 +9046,7 @@
                   <li class="dropdown-menu-item ">
                     <a href="#new_zealand">
                       <p>
-                        <img src="<?php echo get_parent_theme_file_uri()?>/assets/images/destinaton-04.png" alt=""
+                        <img src="<?php echo get_parent_theme_file_uri() ?>/assets/images/destinaton-04.png" alt=""
                           class="img-fluid">
                         <span>New Zealand</span>
                       </p>
@@ -9038,7 +9055,7 @@
                   <li class="dropdown-menu-item ">
                     <a href="#dubai">
                       <p>
-                        <img src="<?php echo get_parent_theme_file_uri()?>/assets/images/destinaton-05.png" alt=""
+                        <img src="<?php echo get_parent_theme_file_uri() ?>/assets/images/destinaton-05.png" alt=""
                           class="img-fluid">
                         <span>Dubai</span>
                       </p>
@@ -9047,7 +9064,7 @@
                   <li class="dropdown-menu-item ">
                     <a href="#thailand">
                       <p>
-                        <img src="<?php echo get_parent_theme_file_uri()?>/assets/images/destinaton-06.png" alt=""
+                        <img src="<?php echo get_parent_theme_file_uri() ?>/assets/images/destinaton-06.png" alt=""
                           class="img-fluid">
                         <span>Thailand</span>
                       </p>
@@ -9056,7 +9073,7 @@
                   <li class="dropdown-menu-item ">
                     <a href="#europe">
                       <p>
-                        <img src="<?php echo get_parent_theme_file_uri()?>/assets/images/destinaton-07.png" alt=""
+                        <img src="<?php echo get_parent_theme_file_uri() ?>/assets/images/destinaton-07.png" alt=""
                           class="img-fluid">
                         <span>Europe</span>
                       </p>
@@ -9065,7 +9082,7 @@
                   <li class="dropdown-menu-item ">
                     <a href="#fizi">
                       <p>
-                        <img src="<?php echo get_parent_theme_file_uri()?>/assets/images/destinaton-08.png" alt=""
+                        <img src="<?php echo get_parent_theme_file_uri() ?>/assets/images/destinaton-08.png" alt=""
                           class="img-fluid">
                         <span>Fiji</span>
                       </p>
@@ -9074,7 +9091,7 @@
                   <li class="dropdown-menu-item ">
                     <a href=" #srilanka">
                       <p>
-                        <img src="<?php echo get_parent_theme_file_uri()?>/assets/images/destinaton-09.png" alt=""
+                        <img src="<?php echo get_parent_theme_file_uri() ?>/assets/images/destinaton-09.png" alt=""
                           class="img-fluid">
                         <span>Srilanka</span>
                       </p>
@@ -9087,7 +9104,7 @@
                   <div class="tab-content active" id="nepal">
                     <div class="tc-header d-flex justify-content-between align-items-center flex-wrap">
                       <div class="dropdown-menu-item d-flex justify-content-start align-items-center">
-                        <img src="<?php echo get_parent_theme_file_uri()?>/assets/images/destinaton-01.png" alt=""
+                        <img src="<?php echo get_parent_theme_file_uri() ?>/assets/images/destinaton-01.png" alt=""
                           class="img-fluid">
                         <h4 class="d-inline-block">Activity In Nepal</h4>
                       </div>
@@ -10034,7 +10051,7 @@
                   <div class="tab-content" id="india">
                     <div class="tc-header d-flex justify-content-between align-items-center flex-wrap">
                       <div class="dropdown-menu-item d-flex justify-content-start align-items-center">
-                        <img src="<?php echo get_parent_theme_file_uri()?>/assets/images/destinaton-02.png" alt=""
+                        <img src="<?php echo get_parent_theme_file_uri() ?>/assets/images/destinaton-02.png" alt=""
                           class="img-fluid">
                         <h4 class="d-inline-block">India</h4>
                       </div>
@@ -10981,7 +10998,7 @@
                   <div class="tab-content" id="vietnam">
                     <div class="tc-header d-flex justify-content-between align-items-center flex-wrap">
                       <div class="dropdown-menu-item d-flex justify-content-start align-items-center">
-                        <img src="<?php echo get_parent_theme_file_uri()?>/assets/images/destinaton-03.png" alt=""
+                        <img src="<?php echo get_parent_theme_file_uri() ?>/assets/images/destinaton-03.png" alt=""
                           class="img-fluid">
                         <h4 class="d-inline-block">Vietnam</h4>
                       </div>
@@ -11928,7 +11945,7 @@
                   <div class="tab-content" id="new_zealand">
                     <div class="tc-header d-flex justify-content-between align-items-center flex-wrap">
                       <div class="dropdown-menu-item d-flex justify-content-start align-items-center">
-                        <img src="<?php echo get_parent_theme_file_uri()?>/assets/images/destinaton-04.png" alt=""
+                        <img src="<?php echo get_parent_theme_file_uri() ?>/assets/images/destinaton-04.png" alt=""
                           class="img-fluid">
                         <h4 class="d-inline-block">New Zealand</h4>
                       </div>
@@ -12875,7 +12892,7 @@
                   <div class="tab-content" id="dubai">
                     <div class="tc-header d-flex justify-content-between align-items-center flex-wrap">
                       <div class="dropdown-menu-item d-flex justify-content-start align-items-center">
-                        <img src="<?php echo get_parent_theme_file_uri()?>/assets/images/destinaton-05.png" alt=""
+                        <img src="<?php echo get_parent_theme_file_uri() ?>/assets/images/destinaton-05.png" alt=""
                           class="img-fluid">
                         <h4 class="d-inline-block">Dubai</h4>
                       </div>
@@ -13822,7 +13839,7 @@
                   <div class="tab-content" id="thailand">
                     <div class="tc-header d-flex justify-content-between align-items-center flex-wrap">
                       <div class="dropdown-menu-item d-flex justify-content-start align-items-center">
-                        <img src="<?php echo get_parent_theme_file_uri()?>/assets/images/destinaton-06.png" alt=""
+                        <img src="<?php echo get_parent_theme_file_uri() ?>/assets/images/destinaton-06.png" alt=""
                           class="img-fluid">
                         <h4 class="d-inline-block">Thailand</h4>
                       </div>
@@ -14769,7 +14786,7 @@
                   <div class="tab-content" id="europe">
                     <div class="tc-header d-flex justify-content-between align-items-center flex-wrap">
                       <div class="dropdown-menu-item d-flex justify-content-start align-items-center">
-                        <img src="<?php echo get_parent_theme_file_uri()?>/assets/images/destinaton-07.png" alt=""
+                        <img src="<?php echo get_parent_theme_file_uri() ?>/assets/images/destinaton-07.png" alt=""
                           class="img-fluid">
                         <h4 class="d-inline-block">Europe</h4>
                       </div>
@@ -15716,7 +15733,7 @@
                   <div class="tab-content" id="fiji">
                     <div class="tc-header d-flex justify-content-between align-items-center flex-wrap">
                       <div class="dropdown-menu-item d-flex justify-content-start align-items-center">
-                        <img src="<?php echo get_parent_theme_file_uri()?>/assets/images/destinaton-08.png" alt=""
+                        <img src="<?php echo get_parent_theme_file_uri() ?>/assets/images/destinaton-08.png" alt=""
                           class="img-fluid">
                         <h4 class="d-inline-block">Fiji</h4>
                       </div>
@@ -16663,7 +16680,7 @@
                   <div class="tab-content" id="srilanka">
                     <div class="tc-header d-flex justify-content-between align-items-center flex-wrap">
                       <div class="dropdown-menu-item d-flex justify-content-start align-items-center">
-                        <img src="<?php echo get_parent_theme_file_uri()?>/assets/images/destinaton-09.png" alt=""
+                        <img src="<?php echo get_parent_theme_file_uri() ?>/assets/images/destinaton-09.png" alt=""
                           class="img-fluid">
                         <h4 class="d-inline-block">Srilanka</h4>
                       </div>

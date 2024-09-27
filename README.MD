@@ -84,3 +84,8 @@ This theme is licensed under the [GNU General Public License v2 or later](http:/
 **2. cd assets/scss**
 **3. npm install**
 **4. npm run dev**
+
+# Wishlist
+Registered on /inc/wishlist-register.php
+JS is on js/script.js
+Php Function is on utils.php
