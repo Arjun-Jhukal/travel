@@ -336,8 +336,6 @@
 }
 
 .mega-menu-wrapper {
-	background-color: $white;
-	padding: 40px 20px 40px 40px;
 	border-radius: 8px;
 	box-shadow: 0px 4px 112px 8px rgba(0, 0, 0, 0.1);
 	max-width: 1200px;
@@ -748,6 +746,8 @@
 		}
 
 		.mega-menu-wrapper {
+			background-color: $white;
+			padding: 40px 20px 40px 40px;
 			.mm-controller,
 			.tab-content-wrapper {
 				max-height: calc(100vh - 100px);
