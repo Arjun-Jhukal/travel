@@ -48,6 +48,12 @@ jQuery(document).ready(function ($) {
 		let newValue = currentValue > 0 ? currentValue - 1 : 0;
 
 		$input.val(newValue);
+
+		if (newValue > 0) {
+			$(this).closest(".extension-item").addClass("active");
+		} else {
+			$(this).closest(".extension-item").removeClass("active");
+		}
 	});
 
 	$(".number-controller button.increase").on("click", function (e) {
@@ -57,6 +63,12 @@ jQuery(document).ready(function ($) {
 
 		let currentValue = parseInt($input.val()) || 0;
 		let newValue = currentValue + 1;
+
+		if (newValue > 0) {
+			$(this).closest(".extension-item").addClass("active");
+		} else {
+			$(this).closest(".extension-item").removeClass("active");
+		}
 
 		$input.val(newValue);
 	});
@@ -194,6 +206,28 @@ jQuery(document).ready(function ($) {
         </div>
       </div>
     `);
+	});
+
+	/* Extension From */
+	$(".view-detail-btn").on("click", function (e) {
+		e.preventDefault();
+		$(this).closest(".extension-item").find(".ei-content").addClass("active");
+		$(this).hide();
+
+		$(".view-less-btn").on("click", function (e) {
+			e.preventDefault();
+
+			$(this)
+				.closest(".extension-item")
+				.find(".ei-content")
+				.removeClass("active");
+		});
+	});
+
+	/* Payment Options */
+	$(".po-item input").on("click", function () {
+		$(".po-item").removeClass("active");
+		$(this).closest(".po-item").toggleClass("active");
 	});
 
 	/* OTP Form */

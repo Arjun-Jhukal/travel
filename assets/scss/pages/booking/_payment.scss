@@ -1,0 +1,143 @@
+.payment-block {
+	.payment-options {
+		border-radius: 8px;
+		border: 1px solid #e5e5e5;
+		background: #f9f9f9;
+		padding: 24px;
+		margin-bottom: 24px;
+
+		.po-item {
+			position: relative;
+			padding-left: 32px;
+
+			.radio-btn {
+				position: absolute;
+				top: 0;
+				left: 0;
+				width: 24px;
+				height: 24px;
+
+				input {
+					width: 24px;
+					height: 24px;
+					position: relative;
+					z-index: 3;
+					opacity: 0;
+					cursor: pointer;
+				}
+
+				&::after {
+					content: "";
+					position: absolute;
+					top: 4px;
+					left: 4px;
+					border: 1px solid #e5e5e5;
+					border-radius: 50%;
+					width: 16px;
+					height: 16px;
+				}
+			}
+
+			&.active {
+				.radio-btn {
+					&::after {
+						transform: scale(1.5);
+						background: url(../images/icons/dark-checked-radio.svg) no-repeat
+							center/cover;
+						border: none;
+					}
+				}
+			}
+			p {
+				padding: 12px 0 4px;
+			}
+			&:not(:last-child) {
+				margin-bottom: 24px;
+			}
+		}
+	}
+	.payment-methods {
+		margin-bottom: 24px;
+		p {
+			margin-bottom: 8px;
+		}
+		ul {
+			gap: 10px;
+
+			li {
+				max-width: 80px;
+				position: relative;
+				cursor: pointer;
+
+				&:not(:last-child) {
+					&::before {
+						content: "";
+						position: absolute;
+						width: 1px;
+						background-color: #e5e5e5;
+						top: 6px;
+						bottom: 6px;
+						right: -4px;
+					}
+				}
+
+				img {
+					width: 100%;
+					max-height: 32px;
+					object-fit: contain;
+				}
+			}
+		}
+	}
+}
+.payment-form {
+	padding-bottom: 40px;
+	margin-bottom: 24px;
+	border-bottom: 1px solid #e5e5e5;
+}
+
+.cancellation-policy {
+	border-radius: 8px;
+	border: 1px solid #f0bd7a;
+	background: #fef9f3;
+	padding: 24px;
+
+	h1,
+	h2,
+	h3,
+	h4,
+	h5 {
+		font-size: 20px;
+		font-weight: 600;
+		line-height: 130%;
+		margin-bottom: 8px;
+	}
+
+	ol,
+	ul {
+		padding-left: 16px;
+
+		li {
+			list-style-type: decimal;
+
+			strong {
+				margin-bottom: 8px;
+				display: inline-block;
+			}
+			p {
+				margin-bottom: 24px;
+				margin-left: -16px;
+			}
+
+			&::marker {
+				font-weight: 600;
+			}
+		}
+	}
+
+	p {
+		&:not(:last-child) {
+			margin-bottom: 24px;
+		}
+	}
+}

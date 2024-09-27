@@ -109,6 +109,10 @@
 			border-color: $darkGreen;
 			opacity: 0.3;
 			color: $darkGreen;
+
+			&:hover {
+				opacity: 1;
+			}
 		}
 
 		.individual-cards {
@@ -317,3 +321,12 @@
 		}
 	}
 }
+
+// @media (min-width: 992px) {
+// 	.booking-module {
+// 		aside {
+// 			position: sticky;
+// 			top: 100px;
+// 		}
+// 	}
+// }

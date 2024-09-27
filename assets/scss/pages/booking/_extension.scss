@@ -1,0 +1,95 @@
+.extension-items {
+	margin-bottom: 32px;
+	.extension-item {
+		padding: 0 20px;
+		border-radius: 8px;
+		border: 1px solid #e5e5e5;
+		background: #f9f9f9;
+		p,
+		strong,
+		a {
+			color: $black;
+		}
+
+		a {
+			font-size: 12px;
+			font-style: normal;
+			font-weight: 600;
+			line-height: 130%;
+			text-decoration-line: underline;
+
+			&:hover {
+				color: $lightGreen;
+			}
+		}
+
+		.extension-title {
+			padding: 16px 0;
+
+			.ei-detail {
+				gap: 12px;
+
+				.ei-info {
+					> strong {
+						display: inline-block;
+						margin-bottom: 4px;
+					}
+					> p {
+						margin-bottom: 8px;
+
+						small {
+							font-size: 10px;
+							line-height: 130%;
+						}
+					}
+				}
+			}
+			.ei-image {
+				max-width: 94px;
+			}
+
+			.number-controller {
+				button {
+					background-color: transparent;
+				}
+			}
+		}
+
+		.ei-content {
+			display: grid;
+			grid-template-rows: 0fr;
+			overflow: hidden;
+			transition: all 0.3s ease-in-out;
+
+			.ei-text {
+				overflow: hidden;
+			}
+
+			&.active {
+				grid-template-rows: 1fr;
+			}
+
+			p {
+				font-size: 14px;
+				line-height: 140%;
+				letter-spacing: -0.035px;
+
+				&:not(:last-child) {
+					margin-bottom: 8px;
+				}
+			}
+			a {
+				margin-bottom: 16px;
+			}
+		}
+
+		&.active {
+			border-color: rgba(1, 86, 55, 0.4);
+			background: #f2f8e9;
+		}
+
+		&:not(:last-child) {
+			margin-bottom: 8px;
+		}
+	}
+}

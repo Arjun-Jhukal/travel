@@ -24,7 +24,7 @@ get_template_part("/template-parts/breadcrumb",null);
       <div class="col-md-7 col-lg-5">
         <div class="bm-content">
           <div class="bm-title">
-            <h4>General</h4>
+            <h4>Lead Traveler Information</h4>
             <p class="sm-text">Explore the recognitions we've earned and the legal foundations we've built.</p>
           </div>
 
