@@ -109,13 +109,13 @@
           </div>
 
           <div class="header-right d-flex justify-content-end align-items-center">
-          <?php 
+            <?php 
           $header_wishlist= get_field('header_wishlist', 'option');
           $enable_header_wishlist = $header_wishlist['enable_header_wishlist'];
           $wishlist_page_url = $header_wishlist['wishlist_page_url'];
           if($enable_header_wishlist):
-          ?>  
-          <a href="<?php echo esc_url(get_home_url().$wishlist_page_url);?>" class="wishlist filled">
+          ?>
+            <a href="<?php echo esc_url(get_home_url().$wishlist_page_url);?>" class="wishlist filled">
               <svg xmlns="http://www.w3.org/2000/svg" width="18" height="16" viewBox="0 0 18 16" fill="none"
                 stroke="#fff">
                 <path
@@ -123,8 +123,8 @@
                   fill="" />
               </svg>
               <?php if (is_user_logged_in()): ?>
-                <sup
-                  class="wishlist-count"><?php echo count(get_user_meta(get_current_user_id(), 'wishlist', true)) ?: '0'; ?></sup>
+              <sup
+                class="wishlist-count"><?php echo count(get_user_meta(get_current_user_id(), 'wishlist', true)) ?: '0'; ?></sup>
               <?php endif; ?>
             </a>
             <?php endif;?>

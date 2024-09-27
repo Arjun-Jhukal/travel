@@ -230,6 +230,20 @@ jQuery(document).ready(function ($) {
 		$(this).closest(".po-item").toggleClass("active");
 	});
 
+	/* Success Form */
+	$(".handle-success").on("click", function (e) {
+		e.preventDefault();
+		$(".overlay").addClass("show");
+		$(".booking-confirm").addClass("show");
+		$("body").addClass("overflow-hidden");
+
+		$(".close-booking-form").on("click", function () {
+			$(".overlay").removeClass("show");
+			$(".booking-confirm").removeClass("show");
+			$("body").removeClass("overflow-hidden");
+		});
+	});
+
 	/* OTP Form */
 	var otp_inputs = document.querySelectorAll(".otp__digit");
 	var mykey = "0123456789".split("");

@@ -391,6 +391,26 @@
   </div>
 </div>
 
+<!-- Booking Success Form -->
+<div class="booking-confirm">
+  <div class="bc-content-wrapper">
+    <button type="button" class="close-booking-form">
+      <img src="<?php echo get_parent_theme_file_uri()?>/assets/images/icons/close-dark.svg" alt="">
+    </button>
+
+    <div class="bc-image">
+      <img src="<?php echo get_parent_theme_file_uri()?>/assets/images/booking-confirm.png" alt="" class="img-fluid">
+    </div>
+    <div class="bc-content">
+      <h4>Booking Confirmed!</h4>
+      <p>Your tour has been successfully booked. Get ready for an unforgettable adventure! Check your itinerary or
+        explore more travel options.</p>
+
+      <a href="<?php echo home_url()?>" class="bh-btn bh-btn-filled-dark">Go to Dashboard</a>
+    </div>
+  </div>
+</div>
+
 
 <?php wp_footer(); ?>
 </body>

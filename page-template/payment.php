@@ -75,7 +75,8 @@ get_template_part("/template-parts/breadcrumb",null);
               <button type="button" class="bh-btn bh-btn-outlined d-block w-100 text-center">Previous</button>
             </div>
             <div class="col-lg-6">
-              <button type="submit" class="bh-btn bh-btn-filled-dark d-block w-100 text-center">Next</button>
+              <button type="submit"
+                class="bh-btn bh-btn-filled-dark d-block w-100 text-center handle-success">Next</button>
             </div>
           </div>
         </div>
