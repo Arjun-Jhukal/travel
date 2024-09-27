@@ -310,29 +310,6 @@
 		}
 	}
 
-	.reaction-wrapper {
-		gap: 24px;
-		padding-top: 16px;
-		margin-top: 16px;
-		border-top: 1px solid rgba(0, 0, 0, 0.1);
-
-		a {
-			color: $black;
-			font-size: 12px;
-			font-weight: 600;
-			line-height: 130%;
-			display: flex;
-			align-items: center;
-			gap: 4px;
-
-			&:first-child {
-				span {
-					margin-top: 4px;
-				}
-			}
-		}
-	}
-
 	.comments {
 		.bh-btn-outlined {
 			margin-top: 24px;

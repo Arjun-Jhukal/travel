@@ -53,26 +53,6 @@
 				}
 			}
 
-			.reaction-wrapper {
-				gap: 24px;
-
-				a {
-					color: $black;
-					font-size: 12px;
-					font-weight: 600;
-					line-height: 130%;
-					display: flex;
-					align-items: center;
-					gap: 4px;
-
-					&:first-child {
-						span {
-							margin-top: 4px;
-						}
-					}
-				}
-			}
-
 			&:not(:last-child) {
 				margin-bottom: 16px;
 			}
