@@ -580,22 +580,22 @@ jQuery(document).ready(function ($) {
 			: $(this).addClass("active").siblings().removeClass("active");
 	});
 });
-jQuery(document).ready(function($) {
-    $('.wishlist').click(function() {
-        var packageId = $(this).data('id');
-        var icon = $(this);
-        $.ajax({
-					url: my_ajax_object.ajax_url,
-					type: "POST",
-					data: {
-						action: "toggle_wishlist",
-						package_id: packageId,
-					},
-					success: function (response) {
-						if (response.success) {
-							icon.toggleClass("added");
-						}
-					},
-				});
-    });
+jQuery(document).ready(function ($) {
+	$(".wishlist").click(function () {
+		var packageId = $(this).data("id");
+		var icon = $(this);
+		$.ajax({
+			url: my_ajax_object.ajax_url,
+			type: "POST",
+			data: {
+				action: "toggle_wishlist",
+				package_id: packageId,
+			},
+			success: function (response) {
+				if (response.success) {
+					icon.toggleClass("added");
+				}
+			},
+		});
+	});
 });
