@@ -600,22 +600,56 @@ jQuery(document).ready(function ($) {
 		}
 	});
 });
-jQuery(document).ready(function($) {
-    $('.wishlist').click(function() {
-        var packageId = $(this).data('id');
-        var icon = $(this);
-        $.ajax({
-					url: my_ajax_object.ajax_url,
-					type: "POST",
-					data: {
-						action: "toggle_wishlist",
-						package_id: packageId,
-					},
-					success: function (response) {
-						if (response.success) {
-							icon.toggleClass("added");
-						}
-					},
-				});
-    });
+
+jQuery(document).ready(function ($) {
+	$(".wishlist").click(async function () {
+		var packageId = $(this).data("id");
+		var icon = $(this);
+		var countElement = $(".wishlist-count");
+
+		try {
+			const response = await $.ajax({
+				url: my_ajax_object.ajax_url,
+				type: "POST",
+				data: {
+					action: "toggle_wishlist",
+					package_id: packageId,
+				},
+			});
+
+			if (response.success) {
+				icon.toggleClass("added");
+				countElement.text(response.data.count);
+			} else {
+				console.error("AJAX Error:", response.data);
+			}
+		} catch (jqXHR) {
+			console.error("AJAX Error:", jqXHR.statusText);
+		}
+	});
+	$(".remove-from-wishlist").click(async function (e) {
+		e.preventDefault();
+		var packageId = $(this).data("id");
+		var countElement = $(".wishlist-count");
+
+		try {
+			const response = await $.ajax({
+				url: my_ajax_object.ajax_url,
+				type: "POST",
+				data: {
+					action: "toggle_wishlist",
+					package_id: packageId,
+				},
+			});
+
+			if (response.success) {
+				$(this).closest(".wl-item").remove(); // Adjust selector as needed
+				countElement.text(response.data.count);
+			} else {
+				console.error("AJAX Error:", response.data);
+			}
+		} catch (jqXHR) {
+			console.error("AJAX Error:", jqXHR.statusText);
+		}
+	});
 });
