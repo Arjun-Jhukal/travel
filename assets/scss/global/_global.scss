@@ -407,6 +407,7 @@ label {
 
 .wishlist {
 	position: relative;
+	cursor: pointer;
 
 	&.filled {
 		svg {
@@ -501,6 +502,7 @@ label {
 		position: absolute;
 		top: 8px;
 		right: 8px;
+		cursor: pointer;
 	}
 
 	.pi-content {
@@ -1031,5 +1033,47 @@ label {
 		right: 16px;
 		z-index: 1;
 		transform: translateY(-50%) rotate(180deg);
+	}
+}
+
+.bh-toast {
+	position: fixed;
+	left: 60px;
+	bottom: 60px;
+	background-color: $white;
+	border-left: 6px solid;
+	border-radius: 12px;
+	box-shadow: 8px 8px 32px 8px rgba(0, 0, 0, 0.2);
+	opacity: 0;
+	visibility: hidden;
+
+	&.active {
+		opacity: 1;
+		visibility: visible;
+	}
+
+	.toast-content {
+		position: relative;
+		padding: 16px 64px 16px 12px;
+		gap: 8px;
+
+		.toast-close-btn {
+			position: absolute;
+			top: 0;
+			right: 0;
+		}
+	}
+
+	&.success {
+		border-color: #17a40b;
+	}
+	&.error {
+		border-color: $red;
+	}
+	&.warning {
+		border-color: #ffa800;
+	}
+	&.info {
+		border-color: #1884d2;
 	}
 }

@@ -591,6 +591,27 @@ jQuery(document).ready(function ($) {
 			? $(this).removeClass("active")
 			: $(this).addClass("active").siblings().removeClass("active");
 	});
+
+	let toastTimeout; // Declare a variable to store the timeout ID
+
+	/* Temporary for wishlist */
+	$(".package-item .wishlist").on("click", function () {
+		$(this).toggleClass("added");
+
+		$(".bh-toast.success").addClass("active");
+
+		clearTimeout(toastTimeout);
+
+		toastTimeout = setTimeout(() => {
+			$(".bh-toast.success").removeClass("active");
+		}, 3000);
+	});
+
+	// Close button functionality
+	$(".toast-close-btn").on("click", function () {
+		clearTimeout(toastTimeout);
+		$(".bh-toast").removeClass("active");
+	});
 });
 
 jQuery(document).ready(function ($) {

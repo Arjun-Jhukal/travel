@@ -266,6 +266,10 @@ jQuery(document).ready(function ($) {
 		$(this).toggleClass("selected");
 	});
 
+	$(".pat-activities .pata-item").on("click", function () {
+		$(this).toggleClass("selected");
+	});
+
 	$(".pat-menu li a ").on("click", (e) => {
 		e.preventDefault();
 	});
