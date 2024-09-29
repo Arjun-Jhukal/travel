@@ -9,175 +9,58 @@ if ($team_members):
   <section class="team section-gap">
     <div class="container">
       <div class="section-title text-center">
-        <h2><?php echo $aot_title;?>
+        <h2><?php echo $aot_title; ?>
         </h2>
         <p><?php echo $aot_desc; ?></p>
       </div>
-
       <div class="row row-cols-xl-5">
-        <div class="col col-6 col-md-4 col-lg-3">
-          <div class="team-member">
-            <div class="tm-profile">
-              <img src="<?php echo get_parent_theme_file_uri() ?>/assets/images/team-01.png" alt="" class="img-fluid">
+        <?php foreach ($team_members as $member):
+          if ($member instanceof WP_Post) {
+            $post_id = $member->ID;
+            $post_title = $member->post_title;
+            $post_excerpt = $member->post_excerpt;
+            $post_content = $member->post_content;
+            $post_url = get_permalink($post_id);
+            $fallback_team_featured_image = get_field('fallback_team_featured_image', 'option');
+            if (has_post_thumbnail($post_id)) {
+              $post_thumbnail = get_the_post_thumbnail($post_id, 'full', array('class' => 'img-fluid'));
+            } else {
+              $fallback_image_url = $fallback_team_featured_image ?: esc_url(get_template_directory_uri() . '/path/to/default-image.jpg');
+              $post_thumbnail = '<img src="' . $fallback_image_url . '" alt="' . esc_attr($post_title) . '" class="img-fluid">';
+            }
+            ?>
+            <div class="col col-6 col-md-4 col-lg-3">
+              <div class="team-member">
+                <div class="tm-profile">
+                  <?php echo $post_thumbnail; ?>
+                </div>
+                <div class="tm-content">
+                  <a href="#">
+                    <h4><?php echo $post_title; ?></h4>
+                    <p class="sm-text"><?php echo $post_excerpt; ?></p>
+                    <a href="#" class="bh-btn bh-btn-underlined">View Detail</a>
+                  </a>
+                </div>
+              </div>
             </div>
-            <div class="tm-content">
-              <a href="#">
-                <h4>Sobit Bhandari</h4>
-                <p class="sm-text">Founder/Director</p>
-                <a href="#" class="bh-btn bh-btn-underlined">View Detail</a>
-              </a>
-            </div>
-          </div>
-        </div>
-        <div class="col col-6 col-md-4 col-lg-3">
-          <div class="team-member">
-            <div class="tm-profile">
-              <img src="<?php echo get_parent_theme_file_uri() ?>/assets/images/team-02.png" alt="" class="img-fluid">
-            </div>
-            <div class="tm-content">
-              <a href="#">
-                <h4>Sobit Bhandari</h4>
-                <p class="sm-text">Founder/Director</p>
-                <a href="#" class="bh-btn bh-btn-underlined">View Detail</a>
-              </a>
-            </div>
-          </div>
-        </div>
-        <div class="col col-6 col-md-4 col-lg-3">
-          <div class="team-member">
-            <div class="tm-profile">
-              <img src="<?php echo get_parent_theme_file_uri() ?>/assets/images/team-03.png" alt="" class="img-fluid">
-            </div>
-            <div class="tm-content">
-              <a href="#">
-                <h4>Sobit Bhandari</h4>
-                <p class="sm-text">Founder/Director</p>
-                <a href="#" class="bh-btn bh-btn-underlined">View Detail</a>
-              </a>
-            </div>
-          </div>
-        </div>
-        <div class="col col-6 col-md-4 col-lg-3">
-          <div class="team-member">
-            <div class="tm-profile">
-              <img src="<?php echo get_parent_theme_file_uri() ?>/assets/images/team-04.png" alt="" class="img-fluid">
-            </div>
-            <div class="tm-content">
-              <a href="#">
-                <h4>Sobit Bhandari</h4>
-                <p class="sm-text">Founder/Director</p>
-                <a href="#" class="bh-btn bh-btn-underlined">View Detail</a>
-              </a>
-            </div>
-          </div>
-        </div>
-        <div class="col col-6 col-md-4 col-lg-3">
-          <div class="team-member">
-            <div class="tm-profile">
-              <img src="<?php echo get_parent_theme_file_uri() ?>/assets/images/team-05.png" alt="" class="img-fluid">
-            </div>
-            <div class="tm-content">
-              <a href="#">
-                <h4>Sobit Bhandari</h4>
-                <p class="sm-text">Founder/Director</p>
-                <a href="#" class="bh-btn bh-btn-underlined">View Detail</a>
-              </a>
-            </div>
-          </div>
-        </div>
-        <div class="col col-6 col-md-4 col-lg-3">
-          <div class="team-member">
-            <div class="tm-profile">
-              <img src="<?php echo get_parent_theme_file_uri() ?>/assets/images/team-06.png" alt="" class="img-fluid">
-            </div>
-            <div class="tm-content">
-              <a href="#">
-                <h4>Sobit Bhandari</h4>
-                <p class="sm-text">Founder/Director</p>
-                <a href="#" class="bh-btn bh-btn-underlined">View Detail</a>
-              </a>
-            </div>
-          </div>
-        </div>
-        <div class="col col-6 col-md-4 col-lg-3">
-          <div class="team-member">
-            <div class="tm-profile">
-              <img src="<?php echo get_parent_theme_file_uri() ?>/assets/images/team-07.png" alt="" class="img-fluid">
-            </div>
-            <div class="tm-content">
-              <a href="#">
-                <h4>Sobit Bhandari</h4>
-                <p class="sm-text">Founder/Director</p>
-                <a href="#" class="bh-btn bh-btn-underlined">View Detail</a>
-              </a>
-            </div>
-          </div>
-        </div>
-        <div class="col col-6 col-md-4 col-lg-3">
-          <div class="team-member">
-            <div class="tm-profile">
-              <img src="<?php echo get_parent_theme_file_uri() ?>/assets/images/team-08.png" alt="" class="img-fluid">
-            </div>
-            <div class="tm-content">
-              <a href="#">
-                <h4>Sobit Bhandari</h4>
-                <p class="sm-text">Founder/Director</p>
-                <a href="#" class="bh-btn bh-btn-underlined">View Detail</a>
-              </a>
-            </div>
-          </div>
-        </div>
-        <div class="col col-6 col-md-4 col-lg-3">
-          <div class="team-member">
-            <div class="tm-profile">
-              <img src="<?php echo get_parent_theme_file_uri() ?>/assets/images/team-09.png" alt="" class="img-fluid">
-            </div>
-            <div class="tm-content">
-              <a href="#">
-                <h4>Sobit Bhandari</h4>
-                <p class="sm-text">Founder/Director</p>
-                <a href="#" class="bh-btn bh-btn-underlined">View Detail</a>
-              </a>
-            </div>
-          </div>
-        </div>
-        <div class="col col-6 col-md-4 col-lg-3">
-          <div class="team-member">
-            <div class="tm-profile">
-              <img src="<?php echo get_parent_theme_file_uri() ?>/assets/images/team-10.png" alt="" class="img-fluid">
-            </div>
-            <div class="tm-content">
-              <a href="#">
-                <h4>Sobit Bhandari</h4>
-                <p class="sm-text">Founder/Director</p>
-                <a href="#" class="bh-btn bh-btn-underlined">View Detail</a>
-              </a>
-            </div>
-          </div>
-        </div>
+          <?php }endforeach; ?>
       </div>
     </div>
   </section>
-
   <div class="team-popup">
     <div class="team-popup-content d-md-flex justify-content-center">
       <div class="tp-member-profile">
-        <img src="<?php echo get_parent_theme_file_uri() ?>/assets/images/team-01-1.png" alt="" class="img-fluid">
+        <?php echo $post_thumbnail; ?>
       </div>
       <div class="tp-member-info ">
         <div class="tmi-key-info">
-          <h4>Sobit Bhandari</h4>
-          <p class="sm-text">Founder/Director</p>
+          <h4><?php echo $post_title; ?></h4>
+          <p class="sm-text"><?php echo $post_excerpt; ?></p>
         </div>
         <div class="tmi-message">
-          <p>Sobit Bhandari is the founder of Bold Himalaya, a young tourism entrepreneur of Nepalese Tourism. He grew
-            up in Dhading district the lap of Ganesh Himal. He started to work at "the age of a young" in a different
-            position in the tourism sector, getting experience in the travel industry and then becoming an
-            entrepreneur. He established Bold Himalaya Trek and Travel company to take delivery a unique test of
-            traveling experience.</p>
+          <p><?php echo $post_content;?></p>
         </div>
       </div>
-
       <button class="close-team-popup">
         <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32" fill="none">
           <path
