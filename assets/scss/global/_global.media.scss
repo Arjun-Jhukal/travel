@@ -138,3 +138,23 @@
 		padding: 0 50px;
 	}
 }
+
+@media print {
+	header,
+	footer,
+	.breadcrumb,
+	.gallery-banner,
+	.page-title-button,
+	.package-aside,
+	.package-listing,
+	footer ~ div,
+	.review-block,
+	.faq-block,
+	.handle-client-read-more {
+		display: none;
+	}
+
+	.text-wrapper.text-expandable {
+		max-height: unset;
+	}
+}
