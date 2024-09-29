@@ -380,7 +380,6 @@ jQuery(document).ready(function ($) {
 		});
 
 	/* Places to visit Tab */
-
 	$(".ptv-tab li a").on("click", function (e) {
 		e.preventDefault();
 		$(this).parent("li").addClass("active").siblings().removeClass("active");
@@ -418,6 +417,14 @@ jQuery(document).ready(function ($) {
 	// Observe each section
 	$(".ptv-tab-content").each(function () {
 		placeToVisitObserver.observe(this);
+	});
+
+	/* Attraction Modal */
+	$(".popular-destination-item a").each(function () {
+		$(this).on("click", function () {
+			$(".attraction-modal").addClass("show");
+			$(".overlay").addClass("show");
+		});
 	});
 
 	/* Dynamic Rating */
@@ -506,33 +513,33 @@ jQuery(document).ready(function ($) {
 		});
 	});
 
-	/* Review Form Show and Hide */
+	/* Review Comment And Inquiry Form Show and Hide */
+
+	$(".close-review-form").on("click", function () {
+		$("body").removeClass("overflow-hidden");
+		$(".overlay").removeClass("show");
+		$(".popup-form").removeClass("show");
+	});
+
 	$(".review-block .bh-btn-filled-dark").on("click", function (e) {
 		e.preventDefault();
 		$("body").addClass("overflow-hidden");
 		$(".overlay").addClass("show");
 		$(".review-form").addClass("show");
-
-		$(".close-review-form").on("click", function () {
-			$("body").removeClass("overflow-hidden");
-			$(".overlay").removeClass("show");
-			$(".review-form").removeClass("show");
-		});
 	});
-
-	/* Comment Form */
 
 	$(".write-comment").on("click", function (e) {
 		e.preventDefault();
 		$("body").addClass("overflow-hidden");
 		$(".overlay").addClass("show");
 		$(".comment-form").addClass("show");
+	});
 
-		$(".close-review-form").on("click", function () {
-			$("body").removeClass("overflow-hidden");
-			$(".overlay").removeClass("show");
-			$(".comment-form").removeClass("show");
-		});
+	$(".inquiry-btn").on("click", function (e) {
+		e.preventDefault();
+		$("body").addClass("overflow-hidden");
+		$(".overlay").addClass("show");
+		$(".quick-inquiry").addClass("show");
 	});
 
 	/* Range Input Slider */

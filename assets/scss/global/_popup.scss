@@ -15,6 +15,20 @@
 	visibility: hidden;
 	transition: all 0.3s ease-in-out;
 	z-index: 10;
+	max-height: calc(100vh - 100px);
+	overflow: auto;
+
+	&::-webkit-scrollbar {
+		width: 3px;
+	}
+	&::-webkit-scrollbar-track {
+		width: 100%;
+		background-color: #e5e5e5;
+	}
+	&::-webkit-scrollbar-thumb {
+		width: 100%;
+		background-color: $lightGreen;
+	}
 
 	&.show {
 		opacity: 1;
@@ -67,6 +81,29 @@
 					}
 				}
 			}
+		}
+	}
+}
+
+.attraction-modal {
+	.am-image {
+		margin-bottom: 16px;
+	}
+	.am-text {
+		h4 {
+			margin-bottom: 16px;
+		}
+		p {
+			&:not(:last-child) {
+				margin-bottom: 16px;
+			}
+		}
+	}
+
+	.pf-content {
+		.close-review-form {
+			top: 8px;
+			right: 8px;
 		}
 	}
 }

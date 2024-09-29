@@ -57,7 +57,7 @@
     </div>
     <div class="aside-btn-group">
       <a href="#" class="bh-btn bh-btn-filled-dark d-block text-center">Book this Trip</a>
-      <a href="#" class="bh-btn bh-btn-outlined d-block text-center">Quick Inquiry</a>
+      <a href="#" class="bh-btn bh-btn-outlined d-block text-center inquiry-btn">Quick Inquiry</a>
     </div>
 
     <div class="aside-response d-flex justify-content-start align-items-center">

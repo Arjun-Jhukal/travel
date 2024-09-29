@@ -415,7 +415,7 @@
 
 
 <!-- Plan a trip form -->
-<div class="plan-a-trip">
+<div class="plan-a-trip ">
   <div class="pat-content">
     <div class="pat-header d-flex justify-content-between">
       <div class="title">
@@ -441,6 +441,89 @@
         </div>
       </div>
     </div>
+  </div>
+</div>
+
+<!-- Quick Inquiry form -->
+<div class="popup-form quick-inquiry ">
+  <div class="pf-content">
+    <div class="pf-header">
+      <h4>Quick Inquiry - Everest Basecamp Trek</h4>
+      <p>Submit the form and we will be back to you shortly</p>
+    </div>
+
+    <form action="#" class="inquiry-form">
+
+      <div class="form-item">
+        <div class="input-field">
+          <label for="start-date">
+            <img src="<?php echo get_parent_theme_file_uri()?>/assets/images/icons/user.svg" alt="">
+            Full Name</label>
+          <input type="text" placeholder="Enter your full name">
+        </div>
+      </div>
+
+      <div class="form-item">
+        <div class="input-field">
+          <label for="start-date">
+            <img src="<?php echo get_parent_theme_file_uri()?>/assets/images/icons/email.svg" alt="">
+            Email Address</label>
+          <input type="tel" placeholder="Enter your Email Address">
+        </div>
+      </div>
+      <div class="form-item">
+        <div class="input-field">
+          <label for="start-date">
+            <img src="<?php echo get_parent_theme_file_uri()?>/assets/images/icons/phone-v2.svg" alt="">
+            Phone Number</label>
+          <input type="tel" placeholder="Enter your Phone Number">
+        </div>
+      </div>
+      <div class="form-item">
+        <div class="input-field">
+          <label for="start-date">
+            <img src="<?php echo get_parent_theme_file_uri()?>/assets/images/icons/message-box.svg" alt="">
+            Message</label>
+          <textarea name="" id="" rows="4"
+            placeholder="Write your beautiful trip plan here with a group size, budget range, trip plan and other requirement..."></textarea>
+        </div>
+      </div>
+      <div class="form-item">
+        <button type="button" class="bh-btn bh-btn-filled-dark d-block w-100 text-center">Inquiry Now</button>
+      </div>
+
+    </form>
+
+    <button type="button" class="close-review-form">
+      <img src="<?php echo get_parent_theme_file_uri()?>/assets/images/icons/close-dark.svg" alt="">
+    </button>
+  </div>
+</div>
+
+<!-- Attraction Model Popup -->
+
+<div class="popup-form attraction-modal ">
+  <div class="pf-content">
+    <div class="am-content-box">
+      <div class="am-image">
+        <img src="<?php echo get_parent_theme_file_uri()?>/assets/images/placeholder-63.png" alt="" class="img-fluid">
+      </div>
+      <div class="am-text">
+        <h4>Narayanhiti Palace Museum</h4>
+        <p>The Narayanhiti Palace Museum (Nepali: नारायणहिटी दरवार) is a public museum in Kathmandu, Nepal located east
+          of the Kaiser Mahal and next to Thamel. The museum was created in 2008 from the complex of the former
+          Narayanhiti Palace (or Narayanhiti Durbar) following the 2006 revolution. Before the revolution, the palace
+          was the residence and principal workplace of the monarch of the Kingdom of Nepal, and hosted occasions of
+          state. The existing palace complex was built by King Mahendra in 1963, and incorporates an impressive array of
+          courtyards, gardens and buildings.
+        </p>
+        <p>Ownership of the palace site changed multiple times prior to being occupied by the monarchy. Prime Minister
+          Fateh Jung Shah; his father, Choutaria Pran Shah, also lived on the property. Fateh</p>
+      </div>
+    </div>
+    <button type="button" class="close-review-form">
+      <img src="<?php echo get_parent_theme_file_uri()?>/assets/images/icons/close-dark.svg" alt="">
+    </button>
   </div>
 </div>
 
