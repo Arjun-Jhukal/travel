@@ -49,6 +49,8 @@ jQuery(document).ready(function ($) {
 			$(".mm-controller").removeClass("activate-fixed-menu");
 			$(".tab-content-wrapper").removeClass("show-tab-content");
 			$(".booking-confirm").removeClass("show");
+			$(".plan-a-trip").removeClass("show");
+			$(".pat-item").first().addClass("show").siblings().removeClass("show");
 		});
 
 		$(".back-to-mobile-menu").on("click", function (e) {
