@@ -1,6 +1,5 @@
 jQuery(document).ready(function ($) {
 	/*Trip menu active handler */
-
 	$(function () {
 		let $totalActive = $(".booking-menu li.active").length;
 		let $totalItems = $(".booking-menu li").length;
@@ -26,7 +25,6 @@ jQuery(document).ready(function ($) {
 	});
 
 	/* Trip Start Date */
-
 	flatpickr(".start-date", {
 		dateFormat: "Y-m-d",
 		minDate: "today",
@@ -38,7 +36,6 @@ jQuery(document).ready(function ($) {
 	});
 
 	/* Number increase and decrease */
-
 	$(".number-controller button.decrease").on("click", function (e) {
 		e.preventDefault();
 
@@ -241,6 +238,76 @@ jQuery(document).ready(function ($) {
 			$(".overlay").removeClass("show");
 			$(".booking-confirm").removeClass("show");
 			$("body").removeClass("overflow-hidden");
+		});
+	});
+
+	/**
+	 *
+	 * Plan Trip Form Starts From Here
+	 *
+	 */
+
+	$(".bh-btn-plan").each(function (item) {
+		$(this).on("click", function () {
+			$(".plan-a-trip").addClass("show");
+			$(".overlay").addClass("show");
+			$("body").addClass("overflow-hidden");
+
+			$(".close-pat-btn").on("click", function () {
+				$(".plan-a-trip").removeClass("show");
+				$(".overlay").removeClass("show");
+				$("body").removeClass("overflow-hidden");
+				$(".pat-item").first().addClass("show").siblings().removeClass("show");
+			});
+		});
+	});
+
+	$(".pat-destination .patd-item").on("click", function () {
+		$(this).toggleClass("selected");
+	});
+
+	$(".pat-menu li a ").on("click", (e) => {
+		e.preventDefault();
+	});
+
+	/* Next and Prev Handler */
+	$(".pat-btn-group a").on("click", function (e) {
+		e.preventDefault();
+
+		var activateMenu = $(this).attr("href");
+
+		$(`.pat-item${activateMenu}`)
+			.addClass("show")
+			.siblings()
+			.removeClass("show");
+
+		let matchedIndex = -1;
+		$(".pat-menu li a").each(function (index) {
+			if ($(this).attr("href") === activateMenu) {
+				matchedIndex = index;
+				return false;
+			}
+		});
+
+		$(".pat-menu li").each(function (index) {
+			if (index <= matchedIndex) {
+				$(this).addClass("active");
+			} else {
+				$(this).removeClass("active");
+			}
+		});
+
+		// Plan Trip Menu Handler
+		$(function () {
+			let $totalActive = $(".pat-menu li.active").length;
+			let $totalItems = $(".pat-menu li").length;
+
+			let totalParts = $totalItems - 1;
+			let percentageIncrease = 100 / totalParts;
+
+			var afterHeight = ($totalActive - 1) * percentageIncrease;
+
+			$(".pat-menu").css("--after-height", `${afterHeight}%`);
 		});
 	});
 

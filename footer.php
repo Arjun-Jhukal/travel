@@ -392,6 +392,7 @@
 </div>
 
 <!-- Booking Success Form -->
+<!-- The text and image for the planning trip will changes as in figma -->
 <div class="booking-confirm">
   <div class="bc-content-wrapper">
     <button type="button" class="close-booking-form">
@@ -401,6 +402,7 @@
     <div class="bc-image">
       <img src="<?php echo get_parent_theme_file_uri()?>/assets/images/booking-confirm.png" alt="" class="img-fluid">
     </div>
+
     <div class="bc-content">
       <h4>Booking Confirmed!</h4>
       <p>Your tour has been successfully booked. Get ready for an unforgettable adventure! Check your itinerary or
@@ -411,6 +413,36 @@
   </div>
 </div>
 
+
+<!-- Plan a trip form -->
+<div class="plan-a-trip">
+  <div class="pat-content">
+    <div class="pat-header d-flex justify-content-between">
+      <div class="title">
+        <h4>Plan a trip</h4>
+        <p>Explore the recognitions we've earned and the legal foundations we've built.</p>
+      </div>
+      <button type="button" class="close-pat-btn">
+        <img src="<?php echo get_parent_theme_file_uri()?>/assets/images/icons/close-dark.svg" alt="">
+      </button>
+    </div>
+    <div class="pat-content-box">
+      <div class="row align-items-stretch">
+        <div class="col-lg-3">
+          <?php get_template_part('/template-parts/plan-a-trip/plan-a-trip-menu',null)?>
+        </div>
+        <div class="col-lg-9">
+          <?php
+         get_template_part("/template-parts/plan-a-trip/plan-a-trip-destinations", null);
+         get_template_part("/template-parts/plan-a-trip/plan-a-trip-activities", null);
+         get_template_part("/template-parts/plan-a-trip/plan-a-trip-dates", null);
+          get_template_part("/template-parts/plan-a-trip/plan-a-trip-contact", null);
+          ?>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
 
 <?php wp_footer(); ?>
 </body>

@@ -1009,3 +1009,27 @@ label {
 		}
 	}
 }
+
+.date-field-wrapper {
+	position: relative;
+	background-color: #f9f9f9;
+	border-radius: 76px;
+
+	input {
+		background-color: transparent;
+		position: relative;
+		z-index: 2;
+	}
+
+	&::before {
+		content: "";
+		width: 16px;
+		height: 16px;
+		background: url(../images/icons/angle-up-dark.svg) no-repeat center/contain;
+		position: absolute;
+		top: 50%;
+		right: 16px;
+		z-index: 1;
+		transform: translateY(-50%) rotate(180deg);
+	}
+}

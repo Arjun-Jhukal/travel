@@ -1,78 +1,4 @@
 .booking-module {
-	.booking-menu {
-		position: relative;
-
-		&::before,
-		&::after {
-			content: "";
-			position: absolute;
-			top: 8px;
-			bottom: 10px;
-			left: -16px;
-		}
-		&::before {
-			width: 1px;
-			border: 1px dashed #e5e5e5;
-		}
-
-		&::after {
-			height: calc(var(--after-height, 25%) - 18px);
-			width: 1px;
-			border: 2px solid $lightGreen;
-		}
-		li {
-			line-height: 148%;
-			letter-spacing: -0.08px;
-			cursor: pointer;
-			transition: all 0.3s ease-in-out;
-			position: relative;
-
-			&::before,
-			&::after {
-				position: absolute;
-				content: "";
-				top: 50%;
-				transform: translateY(-50%);
-				line-height: 0;
-				z-index: 0;
-			}
-
-			&::before {
-				width: 8px;
-				height: 8px;
-				border-radius: 50%;
-				background-color: #e5e5e5;
-				left: -19px;
-			}
-			&::after {
-				background: url(../images/icons/checked-radio.svg) no-repeat
-					center/contain;
-				left: -20px;
-				width: 12px;
-				height: 12px;
-				opacity: 0;
-			}
-
-			&:not(:last-child) {
-				margin-bottom: 32px;
-			}
-
-			&.active,
-			&:hover {
-				color: $black;
-				font-weight: 600;
-			}
-
-			&.active {
-				&::before {
-					display: none;
-				}
-				&::after {
-					opacity: 1;
-				}
-			}
-		}
-	}
 	.bm-content {
 		.bm-title {
 			margin-bottom: 24px;
@@ -153,31 +79,6 @@
 							center/contain;
 					}
 				}
-			}
-		}
-
-		.date-field-wrapper {
-			position: relative;
-			background-color: #f9f9f9;
-			border-radius: 76px;
-
-			input {
-				background-color: transparent;
-				position: relative;
-				z-index: 2;
-			}
-
-			&::before {
-				content: "";
-				width: 16px;
-				height: 16px;
-				background: url(../images/icons/angle-up-dark.svg) no-repeat
-					center/contain;
-				position: absolute;
-				top: 50%;
-				right: 16px;
-				z-index: 1;
-				transform: translateY(-50%) rotate(180deg);
 			}
 		}
 
@@ -307,6 +208,82 @@
 			color: $black;
 			&:hover {
 				color: $lightGreen;
+			}
+		}
+	}
+}
+
+.booking-menu,
+.pat-menu ul {
+	position: relative;
+
+	&::before,
+	&::after {
+		content: "";
+		position: absolute;
+		top: 8px;
+		bottom: 10px;
+		left: -16px;
+	}
+	&::before {
+		width: 1px;
+		border: 1px dashed #e5e5e5;
+	}
+
+	&::after {
+		height: calc(var(--after-height, 0%) - 11px);
+		width: 1px;
+		border: 2px solid $lightGreen;
+	}
+	li {
+		line-height: 148%;
+		letter-spacing: -0.08px;
+		cursor: pointer;
+		transition: all 0.3s ease-in-out;
+		position: relative;
+
+		&::before,
+		&::after {
+			position: absolute;
+			content: "";
+			top: 50%;
+			transform: translateY(-50%);
+			line-height: 0;
+			z-index: 0;
+		}
+
+		&::before {
+			width: 8px;
+			height: 8px;
+			border-radius: 50%;
+			background-color: #e5e5e5;
+			left: -19px;
+		}
+		&::after {
+			background: url(../images/icons/checked-radio.svg) no-repeat
+				center/contain;
+			left: -20px;
+			width: 12px;
+			height: 12px;
+			opacity: 0;
+		}
+
+		&:not(:last-child) {
+			margin-bottom: 32px;
+		}
+
+		&.active,
+		&:hover {
+			color: $black;
+			font-weight: 600;
+		}
+
+		&.active {
+			&::before {
+				display: none;
+			}
+			&::after {
+				opacity: 1;
 			}
 		}
 	}
