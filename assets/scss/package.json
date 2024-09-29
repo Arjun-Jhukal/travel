@@ -5,12 +5,22 @@
 	"main": "index.js",
 	"scripts": {
 		"test": "echo \"Error: no test specified\" && exit 1",
-		"dev": "sass --no-source-map --update --watch --style=compressed ./:../css "
+		"dev": "sass --no-source-map --update --watch --style=compressed ./:../css ",
+		"build": "gulp --gulpfile gulpfile.mjs"
 	},
 	"keywords": [],
 	"author": "",
 	"license": "ISC",
 	"dependencies": {
 		"sass": "^1.79.1"
+	},
+	"devDependencies": {
+		"gulp": "^5.0.0",
+		"gulp-rename": "^2.0.0",
+		"gulp-uglify": "^3.0.2",
+		"imagemin": "^9.0.0",
+		"imagemin-jpegtran": "^8.0.0",
+		"imagemin-pngquant": "^10.0.0",
+		"imagemin-svgo": "^11.0.1"
 	}
 }
