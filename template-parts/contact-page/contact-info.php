@@ -142,7 +142,7 @@
                 </svg>
                 Message
               </label>
-              <textarea name="" id="" rows="3" placeholder="Enter your Message here"></textarea>
+              <textarea   rows="3" placeholder="Enter your Message here"></textarea>
             </div>
 
             <div class="input-field">

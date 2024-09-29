@@ -38,7 +38,7 @@
             <label for="start-date">
               <img src="<?php echo get_parent_theme_file_uri()?>/assets/images/icons/message-box.svg" alt="">
               Message</label>
-            <textarea name="" id="" rows="4"
+            <textarea   rows="4"
               placeholder="Write your beautiful trip plan here with a group size, budget range, trip plan and other requirement..."></textarea>
           </div>
         </div>

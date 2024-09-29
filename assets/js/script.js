@@ -483,6 +483,7 @@ jQuery(document).ready(function ($) {
 			}
 
 			loadMoreButton.on("click", function (e) {
+				console.log("clicked");
 				e.preventDefault();
 				var visibleItems = itemList.filter(":visible").length;
 

@@ -1853,7 +1853,98 @@
           </a>
         </div>
       </div>
+      <div class="review-single">
+        <div class="review-rating" data-rating="4">
+          <ul class="d-flex stars justify-content-start ">
+            <li>
+              <img src="<?php echo get_parent_theme_file_uri()?>/assets/images/icons/outlined-star.svg" alt="">
+              <div class="filled-star">
+                <img src="<?php echo get_parent_theme_file_uri()?>/assets/images/icons/filled-star.svg" alt="">
+              </div>
+            </li>
+            <li>
+              <img src="<?php echo get_parent_theme_file_uri()?>/assets/images/icons/outlined-star.svg" alt="">
+              <div class="filled-star">
+                <img src="<?php echo get_parent_theme_file_uri()?>/assets/images/icons/filled-star.svg" alt="">
+              </div>
+            </li>
+            <li>
+              <img src="<?php echo get_parent_theme_file_uri()?>/assets/images/icons/outlined-star.svg" alt="">
+              <div class="filled-star">
+                <img src="<?php echo get_parent_theme_file_uri()?>/assets/images/icons/filled-star.svg" alt="">
+              </div>
+            </li>
+            <li>
+              <img src="<?php echo get_parent_theme_file_uri()?>/assets/images/icons/outlined-star.svg" alt="">
+              <div class="filled-star" style="width: 50%;">
+                <img src="<?php echo get_parent_theme_file_uri()?>/assets/images/icons/filled-star.svg" alt="">
+              </div>
+            </li>
+            <li>
+              <img src="<?php echo get_parent_theme_file_uri()?>/assets/images/icons/outlined-star.svg" alt="">
+              <div class="filled-star" style="width: 0%;">
+                <img src="<?php echo get_parent_theme_file_uri()?>/assets/images/icons/filled-star.svg" alt="">
+              </div>
+            </li>
+          </ul>
 
+        </div>
+        <div class="text-wrapper text-expandable">
+          <div class="text-read-more ">
+            <p>Everest Base Camp is the base camp of the world's highest mountain, Mount Everest. Everest Base Camp trek
+              is
+              one of the best treks in the Himalayas. It includes all the best features and attributes of the Everest
+              region. Everest region has spectacular mountain peaks, scenic views, and loyal & friendly Sherpa. The
+              region
+              has many appeals about both its cultural aspect and natural setting. Thus, it is one of the most amazing
+              trekking destinations in the entire world. Trekking to Everest, the Reg...</p>
+          </div>
+        </div>
+        <a href="#" class="bh-btn bh-btn-underlined handle-client-read-more">Read More</a>
+
+        <div class="reviewer-detail d-flex justify-content-start ">
+          <div class="reviewer-profile">
+            <span>RD</span>
+          </div>
+          <div class="reviewer-info">
+            <strong>Rupmaya Diyali</strong>
+            <small>Kathmandu, Nepal</small>
+          </div>
+        </div>
+
+        <div class="reaction-wrapper d-flex justify-content-start">
+          <a href="#">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none">
+              <g clip-path="url(#clip0_997_7996)">
+                <path
+                  d="M15.0477 8.19629L14.6356 8.49485L14.9414 8.90165C15.0784 9.0839 15.1591 9.30907 15.1591 9.55365C15.1591 9.91473 14.9821 10.2363 14.7069 10.4356L14.2947 10.7341L14.6005 11.1409C14.7375 11.3232 14.8182 11.5484 14.8182 11.793C14.8182 12.1542 14.6412 12.476 14.3662 12.6752L13.9542 12.9737L14.2598 13.3805C14.3967 13.5626 14.4773 13.7878 14.4773 14.0323C14.4773 14.632 13.9886 15.1207 13.3889 15.1207H8.38834C7.62467 15.1207 6.87551 14.9849 6.1605 14.7168L5.98494 15.1849L6.1605 14.7168L5.1875 14.3519V6.69188C5.90101 5.92234 6.58049 5.17515 7.1199 4.56397C7.67725 3.93246 8.12176 3.4058 8.27419 3.16184L8.35016 3.04026V2.8969V1.05315C8.35016 0.957713 8.4286 0.879272 8.52403 0.879272C9.78036 0.879272 10.8033 1.9022 10.8033 3.15852V3.91926L10.3205 5.58685L10.1355 6.2259H10.8008H14.4116C15.0113 6.2259 15.5 6.71462 15.5 7.3143C15.5 7.6753 15.323 7.99687 15.0477 8.19629ZM0.5 14.8144V5.91687H3.25V14.8144H0.5Z"
+                  stroke="#7FB51F" />
+              </g>
+              <defs>
+                <clipPath id="clip0_997_7996">
+                  <rect width="16" height="16" fill="white" />
+                </clipPath>
+              </defs>
+            </svg>
+            <span> Liked (2)</span>
+          </a>
+          <a href="#" class="active">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none">
+              <g clip-path="url(#clip0_997_7996)">
+                <path
+                  d="M15.0477 8.19629L14.6356 8.49485L14.9414 8.90165C15.0784 9.0839 15.1591 9.30907 15.1591 9.55365C15.1591 9.91473 14.9821 10.2363 14.7069 10.4356L14.2947 10.7341L14.6005 11.1409C14.7375 11.3232 14.8182 11.5484 14.8182 11.793C14.8182 12.1542 14.6412 12.476 14.3662 12.6752L13.9542 12.9737L14.2598 13.3805C14.3967 13.5626 14.4773 13.7878 14.4773 14.0323C14.4773 14.632 13.9886 15.1207 13.3889 15.1207H8.38834C7.62467 15.1207 6.87551 14.9849 6.1605 14.7168L5.98494 15.1849L6.1605 14.7168L5.1875 14.3519V6.69188C5.90101 5.92234 6.58049 5.17515 7.1199 4.56397C7.67725 3.93246 8.12176 3.4058 8.27419 3.16184L8.35016 3.04026V2.8969V1.05315C8.35016 0.957713 8.4286 0.879272 8.52403 0.879272C9.78036 0.879272 10.8033 1.9022 10.8033 3.15852V3.91926L10.3205 5.58685L10.1355 6.2259H10.8008H14.4116C15.0113 6.2259 15.5 6.71462 15.5 7.3143C15.5 7.6753 15.323 7.99687 15.0477 8.19629ZM0.5 14.8144V5.91687H3.25V14.8144H0.5Z"
+                  stroke="#7FB51F" />
+              </g>
+              <defs>
+                <clipPath id="clip0_997_7996">
+                  <rect width="16" height="16" fill="white" />
+                </clipPath>
+              </defs>
+            </svg>
+            <span> Dislike (2)</span>
+          </a>
+        </div>
+      </div>
     </div>
     <div class="text-start load-more-accordion">
       <a href="#" class="bh-btn bh-btn-outlined green-outlined load-more"><span>Load More</span>
