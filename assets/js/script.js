@@ -51,6 +51,7 @@ jQuery(document).ready(function ($) {
 			$(".booking-confirm").removeClass("show");
 			$(".plan-a-trip").removeClass("show");
 			$(".pat-item").first().addClass("show").siblings().removeClass("show");
+			$(".auth-module-wrapper").removeClass("show");
 		});
 
 		$(".back-to-mobile-menu").on("click", function (e) {

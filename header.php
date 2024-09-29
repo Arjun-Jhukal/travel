@@ -172,7 +172,7 @@
               <img src="<?php echo get_parent_theme_file_uri() ?>/assets/images/icons/close-dark.svg" alt="">
             </button>
 
-            <div class="auth-module login-module" id="login-module">
+            <div class="auth-module login-module show" id="login-module">
               <div class="am-header">
                 <h5>Welcome Back!</h5>
                 <p>Sign in and start exploring through personalized experiences.</p>
@@ -255,7 +255,7 @@
               </form>
 
               <div class="back-btn-wrapper text-center">
-                <button type="button" class="back-btn" id="login-module">
+                <a href="#login-module" class="back-btn">
                   <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
                     <path
                       d="M16.0742 10.9766H4.43359C3.89414 10.9766 3.45703 10.5395 3.45703 10C3.45703 9.46055 3.89414 9.02344 4.43359 9.02344H16.0742C16.6137 9.02344 17.0508 9.46055 17.0508 10C17.0508 10.5395 16.6137 10.9766 16.0742 10.9766Z"
@@ -264,7 +264,7 @@
                       d="M8.90588 15.5957C8.66838 15.5957 8.4301 15.5094 8.24221 15.3352L3.26174 10.716C3.06096 10.5297 2.94729 10.2676 2.94924 9.99338C2.9512 9.71955 3.06799 9.45861 3.27151 9.27502L8.3887 4.65588C8.78909 4.29455 9.40666 4.32619 9.76799 4.72658C10.1293 5.12697 10.0977 5.74455 9.69729 6.10588L5.37229 10.0098L9.57034 13.9031C9.96565 14.2699 9.98909 14.8879 9.62229 15.2832C9.42971 15.4906 9.16838 15.5957 8.90588 15.5957Z"
                       fill="#1E201F" />
                   </svg>
-                  Back to Login</button>
+                  Back to Login</a>
               </div>
             </div>
             <div class="auth-module forget-password-module" id="forgot-password-module">
@@ -283,7 +283,7 @@
               </form>
 
               <div class="back-btn-wrapper text-center">
-                <button type="button" class="back-btn" id="login-module">
+                <a href="#login-module" class="back-btn">
                   <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
                     <path
                       d="M16.0742 10.9766H4.43359C3.89414 10.9766 3.45703 10.5395 3.45703 10C3.45703 9.46055 3.89414 9.02344 4.43359 9.02344H16.0742C16.6137 9.02344 17.0508 9.46055 17.0508 10C17.0508 10.5395 16.6137 10.9766 16.0742 10.9766Z"
@@ -292,7 +292,7 @@
                       d="M8.90588 15.5957C8.66838 15.5957 8.4301 15.5094 8.24221 15.3352L3.26174 10.716C3.06096 10.5297 2.94729 10.2676 2.94924 9.99338C2.9512 9.71955 3.06799 9.45861 3.27151 9.27502L8.3887 4.65588C8.78909 4.29455 9.40666 4.32619 9.76799 4.72658C10.1293 5.12697 10.0977 5.74455 9.69729 6.10588L5.37229 10.0098L9.57034 13.9031C9.96565 14.2699 9.98909 14.8879 9.62229 15.2832C9.42971 15.4906 9.16838 15.5957 8.90588 15.5957Z"
                       fill="#1E201F" />
                   </svg>
-                  Back to Login</button>
+                  Back to Login</a>
               </div>
             </div>
             <div class="auth-module password-reset-module" id="password-reset-module">
@@ -311,12 +311,13 @@
 
               <button type="submit" class="bh-btn bh-btn-filled-dark d-block w-100 text-center">Continue</button>
 
-              <p class="redirect-option text-center">Didn’t receive the email? <a href="#register-module"
-                  class="bh-btn bh-btn-underlined">Click to resend</a>
+              <p class="redirect-option text-center">Didn’t receive the email? <button type="button"
+                  class="bh-btn bh-btn-underlined">Click
+                  to resend</button>
               </p>
 
               <div class="back-btn-wrapper text-center">
-                <button type="button" class="back-btn" id="login-module">
+                <a href="#login-module" class="back-btn">
                   <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
                     <path
                       d="M16.0742 10.9766H4.43359C3.89414 10.9766 3.45703 10.5395 3.45703 10C3.45703 9.46055 3.89414 9.02344 4.43359 9.02344H16.0742C16.6137 9.02344 17.0508 9.46055 17.0508 10C17.0508 10.5395 16.6137 10.9766 16.0742 10.9766Z"
@@ -325,7 +326,7 @@
                       d="M8.90588 15.5957C8.66838 15.5957 8.4301 15.5094 8.24221 15.3352L3.26174 10.716C3.06096 10.5297 2.94729 10.2676 2.94924 9.99338C2.9512 9.71955 3.06799 9.45861 3.27151 9.27502L8.3887 4.65588C8.78909 4.29455 9.40666 4.32619 9.76799 4.72658C10.1293 5.12697 10.0977 5.74455 9.69729 6.10588L5.37229 10.0098L9.57034 13.9031C9.96565 14.2699 9.98909 14.8879 9.62229 15.2832C9.42971 15.4906 9.16838 15.5957 8.90588 15.5957Z"
                       fill="#1E201F" />
                   </svg>
-                  Back to Login</button>
+                  Back to Login</a>
               </div>
             </div>
             <div class="auth-module new-password-module" id="new-password-module">
@@ -351,7 +352,7 @@
               </form>
 
               <div class="back-btn-wrapper text-center">
-                <button type="button" class="back-btn" id="login-module">
+                <a href="#login-module" class="back-btn">
                   <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
                     <path
                       d="M16.0742 10.9766H4.43359C3.89414 10.9766 3.45703 10.5395 3.45703 10C3.45703 9.46055 3.89414 9.02344 4.43359 9.02344H16.0742C16.6137 9.02344 17.0508 9.46055 17.0508 10C17.0508 10.5395 16.6137 10.9766 16.0742 10.9766Z"
@@ -360,7 +361,7 @@
                       d="M8.90588 15.5957C8.66838 15.5957 8.4301 15.5094 8.24221 15.3352L3.26174 10.716C3.06096 10.5297 2.94729 10.2676 2.94924 9.99338C2.9512 9.71955 3.06799 9.45861 3.27151 9.27502L8.3887 4.65588C8.78909 4.29455 9.40666 4.32619 9.76799 4.72658C10.1293 5.12697 10.0977 5.74455 9.69729 6.10588L5.37229 10.0098L9.57034 13.9031C9.96565 14.2699 9.98909 14.8879 9.62229 15.2832C9.42971 15.4906 9.16838 15.5957 8.90588 15.5957Z"
                       fill="#1E201F" />
                   </svg>
-                  Back to Login</button>
+                  Back to Login</a>
               </div>
             </div>
           </div>

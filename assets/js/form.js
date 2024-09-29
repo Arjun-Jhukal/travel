@@ -311,6 +311,38 @@ jQuery(document).ready(function ($) {
 		});
 	});
 
+	/**
+	 *
+	 * Auth Modules
+	 *
+	 */
+	$(function () {
+		$(".login a").on("click", function (e) {
+			e.preventDefault();
+			$(".auth-module-wrapper").addClass("show");
+			$("body").addClass("overflow-hidden");
+			$(".overlay").addClass("show");
+
+			$(".close-auth-module").on("click", function (e) {
+				e.preventDefault();
+				$(".auth-module-wrapper").removeClass("show");
+				$("body").removeClass("overflow-hidden");
+				$(".overlay").removeClass("show");
+			});
+		});
+
+		$(".auth-module a").on("click", function (e) {
+			e.preventDefault();
+
+			var currentActive = $(this).attr("href");
+
+			$(`.auth-module${currentActive}`)
+				.addClass("show")
+				.siblings()
+				.removeClass("show");
+		});
+	});
+
 	/* OTP Form */
 	var otp_inputs = document.querySelectorAll(".otp__digit");
 	var mykey = "0123456789".split("");
