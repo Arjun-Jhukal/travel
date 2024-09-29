@@ -40,7 +40,7 @@ gulp.task("minifyIcons", async () => {
 // Define the JavaScript minification task
 gulp.task("minifyJs", () => {
 	return gulp
-		.src(paths.js)
+		.src([paths.js, "!../js/*.min.js"]) // Exclude already minified files
 		.pipe(uglify())
 		.pipe(rename({ suffix: ".min" }))
 		.pipe(gulp.dest("../js")); // Save in the same directory

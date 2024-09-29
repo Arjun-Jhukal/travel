@@ -527,6 +527,69 @@
   </div>
 </div>
 
+
+<!-- Toast -->
+<div class="bh-toast success">
+  <div class="toast-content d-flex justify-content-start align-items-center">
+    <div class="toast-icon">
+      <img src="<?php echo get_parent_theme_file_uri()?>/assets/images/icons/success-icon.svg" alt="">
+    </div>
+    <div class="toast-message">
+      <h6>Bookmark Added Successfully</h6>
+      <small>You can always view your bookmarks on the profile page.</small>
+    </div>
+
+    <button class="toast-close-btn">
+      <img src="<?php echo get_parent_theme_file_uri()?>/assets/images/icons/close-dark.svg" alt="">
+    </button>
+  </div>
+</div>
+<div class="bh-toast error">
+  <div class="toast-content d-flex justify-content-start align-items-center">
+    <div class="toast-icon">
+      <img src="<?php echo get_parent_theme_file_uri()?>/assets/images/icons/error-icon.svg" alt="">
+    </div>
+    <div class="toast-message">
+      <h6>Error</h6>
+      <small>You can always view your bookmarks on the profile page.</small>
+    </div>
+
+    <button class="toast-close-btn">
+      <img src="<?php echo get_parent_theme_file_uri()?>/assets/images/icons/close-dark.svg" alt="">
+    </button>
+  </div>
+</div>
+<div class="bh-toast warning">
+  <div class="toast-content d-flex justify-content-start align-items-center">
+    <div class="toast-icon">
+      <img src="<?php echo get_parent_theme_file_uri()?>/assets/images/icons/warning.svg" alt="">
+    </div>
+    <div class="toast-message">
+      <h6>Warning</h6>
+      <small>You can always view your bookmarks on the profile page.</small>
+    </div>
+
+    <button class="toast-close-btn">
+      <img src="<?php echo get_parent_theme_file_uri()?>/assets/images/icons/close-dark.svg" alt="">
+    </button>
+  </div>
+</div>
+<div class="bh-toast info">
+  <div class="toast-content d-flex justify-content-start align-items-center">
+    <div class="toast-icon">
+      <img src="<?php echo get_parent_theme_file_uri()?>/assets/images/icons/info.svg" alt="">
+    </div>
+    <div class="toast-message">
+      <h6>Information</h6>
+      <small>You can always view your bookmarks on the profile page.</small>
+    </div>
+
+    <button class="toast-close-btn">
+      <img src="<?php echo get_parent_theme_file_uri()?>/assets/images/icons/close-dark.svg" alt="">
+    </button>
+  </div>
+</div>
+
 <?php wp_footer(); ?>
 </body>
 
