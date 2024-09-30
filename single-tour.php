@@ -105,7 +105,7 @@ if ($tour_gallery):
       </div>
       <ul class="page-title-button">
         <li>
-          <a href="#" class="wishlist">
+          <a href="#" class="wishlist" data-id="<?php echo get_the_ID(); ?>">
             <svg width="34" height="34" viewBox="0 0 34 34" fill="none" xmlns="http://www.w3.org/2000/svg">
               <rect width="34" height="34" rx="17" fill="#F9F9F9" />
               <rect x="0.5" y="0.5" width="33" height="33" rx="16.5" stroke="black" stroke-opacity="0.1" />

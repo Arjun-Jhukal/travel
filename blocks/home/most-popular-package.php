@@ -142,7 +142,7 @@ if ($enable_most_pop_packs):
                       <small>Most Selling Tour</small>
                     </div>
                   <?php endif; ?>
-                  <div class="wishlist">
+                  <div class="wishlist" data-id="<?php echo $post_id; ?>">
                     <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32" fill="none">
                       <g filter="url(#filter0_b_379_9366)">
                         <circle cx="16" cy="16" r="16" fill="black" fill-opacity="0.3" />
