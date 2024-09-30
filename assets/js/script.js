@@ -457,6 +457,21 @@ jQuery(document).ready(function ($) {
 		$(".group-discount-table").toggleClass("active");
 	});
 
+	const disabledDates = [
+		"2024-12-20",
+		"2024-12-31",
+		{ from: "2024-12-20", to: "2025-01-01" },
+		{ from: "2025-01-12", to: "2025-01-16" },
+	];
+
+	flatpickr(".available-dates", {
+		dateFormat: "Y-m-d",
+		minDate: "today",
+		inline: true,
+		showMonths: 2,
+		disable: disabledDates,
+	});
+
 	/* Print  */
 	$(".download-pdf").on("click", function (e) {
 		e.preventDefault();
@@ -516,7 +531,6 @@ jQuery(document).ready(function ($) {
 	});
 
 	/* Review Comment And Inquiry Form Show and Hide */
-
 	$(".close-review-form").on("click", function () {
 		$("body").removeClass("overflow-hidden");
 		$(".overlay").removeClass("show");
@@ -595,17 +609,17 @@ jQuery(document).ready(function ($) {
 	let toastTimeout; // Declare a variable to store the timeout ID
 
 	/* Temporary for wishlist */
-	$(".package-item .wishlist").on("click", function () {
-		$(this).toggleClass("added");
+	// $(".package-item .wishlist").on("click", function () {
+	// 	$(this).toggleClass("added");
 
-		$(".bh-toast.success").addClass("active");
+	// 	$(".bh-toast.success").addClass("active");
 
-		clearTimeout(toastTimeout);
+	// 	clearTimeout(toastTimeout);
 
-		toastTimeout = setTimeout(() => {
-			$(".bh-toast.success").removeClass("active");
-		}, 3000);
-	});
+	// 	toastTimeout = setTimeout(() => {
+	// 		$(".bh-toast.success").removeClass("active");
+	// 	}, 3000);
+	// });
 
 	// Close button functionality
 	$(".toast-close-btn").on("click", function () {

@@ -503,6 +503,18 @@ label {
 		top: 8px;
 		right: 8px;
 		cursor: pointer;
+
+		&.added {
+			svg {
+				path {
+					fill: #ee2f3a;
+					stroke: #ee2f3a;
+				}
+				circle {
+					fill: #ee2f3a;
+				}
+			}
+		}
 	}
 
 	.pi-content {

@@ -1347,12 +1347,18 @@
         <a href="#" class="bh-bth bh-btn-underlined ">
           Clear Dates
         </a>
-        <select>
-          <option value="2024">2024</option>
-          <option value="2025">2025</option>
-          <option value="2026">2026</option>
-        </select>
+        <div class="date-field-wrapper">
+          <select class="pe-5">
+            <option value="2024">2024</option>
+            <option value="2025">2025</option>
+            <option value="2026">2026</option>
+          </select>
+        </div>
       </div>
+    </div>
+
+    <div class="availability-calendar">
+      <input type="text" class="available-dates">
     </div>
   </div>
   <div class="trip-detail-block map-block">
