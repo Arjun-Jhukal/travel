@@ -49,6 +49,13 @@
 			.destination-item {
 				margin: 0 12px;
 			}
+
+			> .destination-item {
+				max-width: 280px;
+				&:not(:first-child) {
+					display: none;
+				}
+			}
 		}
 	}
 }

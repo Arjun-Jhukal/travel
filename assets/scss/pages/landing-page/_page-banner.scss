@@ -49,6 +49,87 @@
 					}
 				}
 			}
+
+			.pb-search-box {
+				max-width: 635px;
+				margin: 0 auto 32px;
+				position: relative;
+				padding: 8px 8px 8px 24px;
+				border-radius: 32px;
+				border: 1px solid #e5e5e5;
+				background: #fff;
+
+				strong,
+				.asp_w_container {
+					padding-left: 44px;
+				}
+
+				.proinput {
+				}
+				div#ajaxsearchpro2_1 {
+					padding: 0 !important;
+				}
+
+				img {
+					width: 32px;
+					height: 32px;
+					object-fit: contain;
+					position: absolute;
+					top: 50%;
+					transform: translateY(-50%);
+					left: 24px;
+				}
+
+				button {
+					&.promagnifier {
+						position: absolute;
+						right: 12px;
+						top: 50%;
+						transform: translateY(-50%);
+					}
+				}
+
+				#ajaxsearchpro2_1 .probox .proinput,
+				#ajaxsearchpro2_2 .probox .proinput,
+				div.asp_m.asp_m_2 .probox .proinput {
+					margin: 0;
+					max-width: 85%;
+
+					// padding: 0;
+				}
+
+				#ajaxsearchpro2_1 .probox .proclose,
+				#ajaxsearchpro2_2 .probox .proloading,
+				#ajaxsearchpro2_2 .probox .proclose,
+				#ajaxsearchpro2_2 .probox .prosettings,
+				div.asp_m.asp_m_2 .probox .proloading,
+				div.asp_m.asp_m_2 .probox .proclose {
+					width: 8px;
+					height: 8px;
+					top: 7px;
+				}
+
+				#ajaxsearchpro2_1,
+				#ajaxsearchpro2_2,
+				div.asp_m.asp_m_2 {
+					background-color: transparent;
+				}
+
+				#ajaxsearchpro2_1 .probox .proinput input.orig,
+				#ajaxsearchpro2_2 .probox .proinput input.orig,
+				div.asp_m.asp_m_2 .probox .proinput input.orig {
+					padding: 12px 0 !important;
+					font-size: 14px;
+					line-height: 140%;
+					letter-spacing: -0.035px;
+				}
+
+				button,
+				button > span {
+					width: 48px !important;
+					height: 48px !important;
+				}
+			}
 		}
 
 		&::before {
