@@ -36,10 +36,9 @@ if ($team_members):
                 </div>
                 <div class="tm-content">
                   <a href="#">
-                    <h4><?php echo $post_title; ?></h4>
+                    <h4><?php echo $post_title; ?></h4></a>
                     <p class="sm-text"><?php echo $post_excerpt; ?></p>
                     <a href="#" class="bh-btn bh-btn-underlined">View Detail</a>
-                  </a>
                 </div>
               </div>
             </div>
