@@ -233,11 +233,223 @@ if ($tour_gallery):
             </div>
             <div class="text-wrapper text-expandable">
               <div class="text-read-more ">
-                <p><?php echo the_content();?></p>
+                <p><?php echo the_content(); ?></p>
               </div>
             </div>
             <a href="#" class="bh-btn bh-btn-underlined handle-client-read-more">Read More</a>
           </div>
+          <!-- Itinerary -->
+          <?php
+          $tour_maps_itinerary = get_field('tour_maps_itinerary');
+          $enable_itinerary = $tour_maps_itinerary['enable_itinerary'];
+          $tour_itinerary_icon = $tour_maps_itinerary['tour_itinerary_icon'];
+          $tour_itinerary_title = $tour_maps_itinerary['tour_itinerary_title'];
+          $tour_itinerary_desc = $tour_maps_itinerary['tour_itinerary_desc'];
+          $tour_itinerary_items = $tour_maps_itinerary['tour_itinerary_items'];
+          if ($enable_itinerary && $tour_itinerary_items):
+            ?>
+            <div class="trip-detail-block itinerary">
+              <div class="block-title">
+                <div class="bt-icon">
+                  <?php echo $tour_itinerary_icon; ?>
+                </div>
+                <div class="bt-text">
+                  <h5><?php echo $tour_itinerary_title; ?></h5>
+                  <p><?php echo $tour_itinerary_desc; ?></p>
+                </div>
+              </div>
+              <div class="itinerary-wrapper accordions">
+                <?php
+                $firstItem = true;
+                foreach ($tour_itinerary_items as $tii):
+                  $tiiDay = $tii['day'];
+                  $tiiTitle = $tii['title'];
+                  $tiiDesc = $tii['desc'];
+                  $iti_key_info = $tii['iti_key_info'];
+                  $tour_attraction_places = $tii['tour_attraction_places'];
+                  $enable_tour_ext = $tii['enable_tour_ext'];
+                  $tour_extension_title = $tii['tour_extension_title'];
+                  $tour_extension = $tii['tour_extension'];
+
+                  ?>
+                  <div class="accordion-item">
+                    <div class="faq-wrapper <?php echo $firstItem ? 'expand' : ''; ?>">
+                      <div class="faq-title">
+                        <small><?php echo $tiiDay; ?></small>
+                        <strong><?php echo $tiiTitle; ?></strong>
+                      </div>
+                      <div class="faq-content-wrapper">
+                        <div class="faq-content">
+                          <?php if ($iti_key_info):
+                            ?>
+                            <div class="features">
+                              <div class="row">
+                                <?php
+                                if (is_array($iti_key_info)):
+                                  foreach ($iti_key_info as $item):
+                                    $svg = isset($item['svg_5']) ? $item['svg_5'] : '';
+                                    $title = isset($item['title_5']) ? $item['title_5'] : '';
+                                    $desc = isset($item['info_5']) ? $item['info_5'] : '';
+                                    if ($svg && $title && $desc): ?>
+                                      <div class="col-6 col-lg-3">
+                                        <div class="kf-item d-flex justify-content-start">
+                                          <div class="kf-icon">
+                                            <?php
+                                            if (filter_var($svg, FILTER_VALIDATE_URL)):
+                                              echo '<img src="' . esc_url($svg) . '" alt="' . esc_attr($title) . '">';
+                                            elseif (strpos($svg, 'dashicons') !== false):
+                                              echo '<span class="dashicons ' . esc_attr($svg) . '"></span>';
+                                            else:
+                                              echo wp_kses_post($svg);
+                                            endif;
+                                            ?>
+                                          </div>
+                                          <div class="kf-info">
+                                            <span class="sm-text"><?php echo esc_html($title); ?></span>
+                                            <strong class="sm-text"><?php echo esc_html($desc); ?></strong>
+                                          </div>
+                                        </div>
+                                      </div>
+                                      <?php
+                                    endif;
+                                  endforeach;
+                                else:
+                                  echo 'not array';
+                                endif;
+                                ?>
+                              </div>
+                            </div>
+                          <?php endif;
+                          echo $tiiDesc;
+                          if ($tour_attraction_places):
+                            ?>
+                            <div class="places">
+                              <div class="row">
+                                <?php foreach ($tour_attraction_places as $places):
+                                  if ($places instanceof WP_Post) {
+                                    $post_id = $places->ID;
+                                    $post_title = $places->post_title;
+                                    $fallback_tour_featured_image = get_field('fallback_tour_featured_image', 'option');
+                                    if (has_post_thumbnail($post_id)) {
+                                      $post_thumbnail = get_the_post_thumbnail($post_id, 'full', array('class' => 'img-fluid'));
+                                    } else {
+                                      $fallback_image_url = $fallback_tour_featured_image ?: esc_url(get_template_directory_uri() . '/path/to/default-image.jpg');
+                                      $post_thumbnail = '<img src="' . $fallback_image_url . '" alt="' . esc_attr($post_title) . '" class="img-fluid">';
+                                    }
+                                    ?>
+                                    <div class="col-lg-3 col-md-4">
+                                      <div class="popular-destination-item">
+                                        <div class="pdi-image">
+                                          <a href="#">
+                                            <?php echo $post_thumbnail; ?>
+                                          </a>
+                                        </div>
+                                        <div class="pdi-content">
+                                          <a href="#" class="sm-text"><?php echo $post_title; ?></a>
+                                        </div>
+                                      </div>
+                                    </div>
+                                  <?php }endforeach; ?>
+                              </div>
+                            </div>
+                          <?php endif;
+                          if ($enable_tour_ext):
+                            ?>
+                            <div class="available-expansion">
+                              <h6><?php echo $tour_extension_title; ?></h6>
+                              <div class="row">
+                                <?php foreach ($tour_extension as $ext):
+                                  if ($ext instanceof WP_Post) {
+                                    $post_id = $ext->ID;
+                                    $post_title = $ext->post_title;
+                                    $fallback_tour_featured_image = get_field('fallback_tour_featured_image', 'option');
+                                    if (has_post_thumbnail($post_id)) {
+                                      $post_thumbnail = get_the_post_thumbnail($post_id, 'full', array('class' => 'img-fluid'));
+                                    } else {
+                                      $fallback_image_url = $fallback_tour_featured_image ?: esc_url(get_template_directory_uri() . '/path/to/default-image.jpg');
+                                      $post_thumbnail = '<img src="' . $fallback_image_url . '" alt="' . esc_attr($post_title) . '" class="img-fluid">';
+                                    }
+                                    $ext_price_curr = get_field('ext_price_curr', $post_id);
+                                    $ext_price = get_field('ext_price', $post_id);
+                                    ?>
+                                    <div class="col-lg-3 col-md-4">
+                                      <div class="popular-destination-item">
+                                        <div class="pdi-image">
+                                          <a href="#">
+                                            <?php echo $post_thumbnail; ?>
+                                          </a>
+                                        </div>
+                                        <div class="pdi-content">
+                                          <a href="#" class="sm-text"><?php echo $post_title; ?></a>
+                                          <?php if ($ext_price): ?>
+                                            <span
+                                              class="d-block"><strong><?php echo $ext_price_curr; ?><?php echo $ext_price; ?></strong>
+                                              /person</span>
+                                          <?php endif; ?>
+                                        </div>
+                                      </div>
+                                    </div>
+                                  <?php }endforeach; ?>
+                              </div>
+                            </div>
+                          <?php endif; ?>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <?php
+                  $firstItem = false;
+                endforeach;
+                ?>
+              </div>
+            </div>
+          <?php endif; ?>
+          <!-- !Itinerary -->
+          <!-- Exckudes Includes -->
+          <?php
+          $tour_maps_Inclusions = get_field('tour_maps_Inclusions');
+          $enable_inclusions = $tour_maps_Inclusions['enable_inclusions'];
+          $tour_inclusions_icon = $tour_maps_Inclusions['tour_inclusions_icon'];
+          $tour_inclusions_title = $tour_maps_Inclusions['tour_inclusions_title'];
+          $tour_inclusions_desc = $tour_maps_Inclusions['tour_inclusions_desc'];
+          $tour_inc_list = $tour_maps_Inclusions['tour_inc_list'];
+          $tour_exc_list = $tour_maps_Inclusions['tour_exc_list'];
+          if ($enable_inclusions || ($tour_inc_list && $tour_exc_list)):
+            ?>
+            <div class="trip-detail-block inclusion-exclusion">
+              <div class="block-title">
+                <div class="bt-icon">
+                  <?php echo $tour_inclusions_icon; ?>
+                </div>
+                <div class="bt-text">
+                  <h5><?php echo $tour_inclusions_title; ?></h5>
+                  <p><?php echo $tour_inclusions_desc; ?></p>
+                </div>
+              </div>
+              <?php if ($tour_inc_list): ?>
+                <div class="includes">
+                  <strong>Includes</strong>
+                  <ul>
+                    <?php foreach ($tour_inc_list as $inc):
+                      $inc_title = $inc['title']; ?>
+                      <li><?php echo $inc_title; ?></li><?php endforeach; ?>
+                  </ul>
+                </div>
+              <?php endif;
+              if ($tour_exc_list): ?>
+                <div class="excludes">
+                  <strong>Excludes</strong>
+                  <ul>
+                    <?php foreach ($tour_exc_list as $exc):
+                      $exc_title = $exc['title']; ?>
+                      <li><?php echo $exc_title; ?></li><?php endforeach; ?>
+                  </ul>
+                </div>
+              <?php endif ?>
+            </div>
+          <?php endif; ?>
+          <!-- !Exckudes Includes -->
+
           <!--  -->
           <!--  -->
           <!--  -->
