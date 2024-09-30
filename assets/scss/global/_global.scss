@@ -65,10 +65,20 @@ h2 {
 	}
 }
 
+h1 {
+	font-size: 40px;
+	line-height: 108%;
+}
+
 h2 {
 	span {
 		color: $lightGreen;
 	}
+}
+
+h4 {
+	font-size: 24px;
+	line-height: 130%;
 }
 
 h5 {
