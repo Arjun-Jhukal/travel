@@ -353,7 +353,7 @@
   </div>
 </div>
 
-<div class="empty-booking section-padding-y">
+<div class="empty-block section-padding-y">
   <div class="eb-content">
     <div class="eb-icon">
       <img src="<?php echo get_parent_theme_file_uri()?>/assets/images/empty-booking.png" alt="" class="img-fluid">
@@ -367,3 +367,8 @@
     </div>
   </div>
 </div>
+
+<!-- Or You can use this -->
+<!-- <?php
+get_template_part("/template-parts/empty-state", null)
+?> -->
