@@ -1,0 +1,64 @@
+.availability-block {
+	position: relative;
+
+	input {
+		display: none;
+	}
+
+	.flatpickr-calendar {
+		box-shadow: none;
+
+		.flatpickr-weekdays,
+		.flatpickr-days {
+			width: 100%;
+			justify-content: space-between;
+		}
+
+		.flatpickr-day {
+			color: $black;
+			font-size: 14px;
+			font-weight: 400;
+			letter-spacing: -0.035px;
+			text-align: center;
+			border-radius: 0;
+
+			&.flatpickr-disabled {
+				color: $secondary;
+				text-decoration: line-through;
+				opacity: 0.3;
+			}
+
+			&.selected {
+				background-color: $lightGreen !important;
+				border-color: $lightGreen;
+				color: $white;
+			}
+
+			&.today {
+				border-color: $lightGreen;
+			}
+
+			&.trip-day {
+				background-color: rgba(0, 0, 0, 0.05);
+			}
+
+			&.trip-end-day {
+				border-color: $lightGreen;
+				color: $lightGreen;
+			}
+
+			&:hover {
+				background-color: $lightGreen;
+				color: $white;
+			}
+
+			&.selected,
+			&.today {
+				border-radius: 50%;
+			}
+		}
+		.dayContainer {
+			gap: 0;
+		}
+	}
+}
