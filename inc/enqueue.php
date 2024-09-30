@@ -12,6 +12,7 @@ wp_enqueue_style('bootstrap-style', 'https://cdn.jsdelivr.net/npm/bootstrap@5.3.
 '5.3.3', null );
 wp_enqueue_style('slick-bs', 'https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css', array(), '1.0.0');
 wp_enqueue_style('custom-style', get_template_directory_uri() . '/assets/css/styles.css', array(), '1.0.0');
+wp_enqueue_style('dashboard-style', get_template_directory_uri() . '/assets/css/dashboard-styles.css', array(), '1.0.0');
 
 
 wp_enqueue_script('jquery', 'https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js', array(), '3.6.0', true);
