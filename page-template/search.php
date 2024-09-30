@@ -64,7 +64,6 @@ if (!is_page('search'))
                 Search</label>
               <input type="text" placeholder="Enter any keyword">
             </div>
-
             <div class="fo-option">
               <div class="faq-wrapper">
                 <div class=" fo-title ">
@@ -134,11 +133,43 @@ if (!is_page('search'))
                 <div class="faq-content-wrapper">
                   <div class="faq-content">
                     <ul>
-                      <li><label><input type="radio" id="">Everest</label></li>
-                      <li><label><input type="radio" id="">Annapurna</label></li>
-                      <li><label><input type="radio" id="">Manaslu</label></li>
-                      <li><label><input type="radio" id="">Langtang</label></li>
-                      <li><label><input type="radio" id="">Mustang</label></li>
+                      <?php
+                      // Fetch 'regions' taxonomies
+                      $terms = get_terms(array(
+                        'taxonomy' => 'destination',
+                        'hide_empty' => false,
+                      ));
+                      $last_child_terms = [];
+                      if (!empty($terms) && !is_wp_error($terms)) {
+                        foreach ($terms as $term) {
+                          if ($term->parent) {
+                            $siblings = get_terms(array(
+                              'taxonomy' => 'destination',
+                              'hide_empty' => false,
+                              'parent' => $term->parent,
+                            ));
+                            if ($siblings) {
+                              if (end($siblings)->term_id === $term->term_id) {
+                                $first_child_id = $siblings[0]->term_id;
+                                if ($term->term_id !== $first_child_id) {
+                                  $last_child_terms[] = $term;
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                      if ($last_child_terms) {
+                        foreach ($last_child_terms as $term) {
+                          echo '<li>';
+                          echo '<label>';
+                          echo '<input type="radio" name="travel_with" value="' . esc_attr($term->term_id) . '" id="travel-with-' . esc_attr($term->term_id) . '">';
+                          echo esc_html($term->name);
+                          echo '</label>';
+                          echo '</li>';
+                        }
+                      }
+                      ?>
                     </ul>
                   </div>
                 </div>
@@ -167,12 +198,40 @@ if (!is_page('search'))
                 <div class="faq-content-wrapper">
                   <div class="faq-content">
                     <ul>
-                      <li><label><input type="radio" id="">Trekking</label></li>
-                      <li><label><input type="radio" id="">Hiking</label></li>
-                      <li><label><input type="radio" id="">Adventure</label></li>
-                      <li><label><input type="radio" id="">Sports</label></li>
-                      <li><label><input type="radio" id="">Cultural</label></li>
-                      <li><label><input type="radio" id="">Expedition</label></li>
+                      <?php
+                      // Fetch 'tour type' taxonomies
+                      $terms = get_terms(array(
+                        'taxonomy' => 'destination',
+                        'hide_empty' => false,
+                      ));
+                      $first_child_terms = [];
+                      if (!empty($terms) && !is_wp_error($terms)) {
+                        foreach ($terms as $term) {
+                          if ($term->parent) {
+                            $siblings = get_terms(array(
+                              'taxonomy' => 'destination',
+                              'hide_empty' => false,
+                              'parent' => $term->parent,
+                            ));
+                            if (count($siblings) > 1) {
+                              $first_child_terms[] = $term;
+                            }
+                          }
+                        }
+                      }
+                      // Output first child terms
+                      if ($first_child_terms) {
+                        foreach ($first_child_terms as $term) {
+                          echo '<li>';
+                          echo '<label>';
+                          echo '<input type="radio" name="travel_with" value="' . esc_attr($term->term_id) . '" id="travel-with-' . esc_attr($term->term_id) . '">';
+                          echo esc_html($term->name);
+                          echo '</label>';
+                          echo '</li>';
+                        }
+                      }
+                      ?>
+
                     </ul>
                   </div>
                 </div>
@@ -270,12 +329,25 @@ if (!is_page('search'))
                 <div class="faq-content-wrapper">
                   <div class="faq-content">
                     <ul>
-                      <li><label><input type="radio" id="">Solo</label></li>
-                      <li><label><input type="radio" id="">Couple</label></li>
-                      <li><label><input type="radio" id="">Luxury</label></li>
-                      <li><label><input type="radio" id="">Family</label></li>
-                      <li><label><input type="radio" id="">Group</label></li>
+                      <?php
+                      // Fetch 'travel-style' taxonomies
+                      $terms = get_terms(array(
+                        'taxonomy' => 'travel-style',
+                        'hide_empty' => false,
+                      ));
+                      if (!empty($terms) && !is_wp_error($terms)) {
+                        foreach ($terms as $term) {
+                          echo '<li>';
+                          echo '<label>';
+                          echo '<input type="radio" name="travel_with" value="' . esc_attr($term->term_id) . '" id="travel-with-' . esc_attr($term->term_id) . '">';
+                          echo esc_html($term->name);
+                          echo '</label>';
+                          echo '</li>';
+                        }
+                      }
+                      ?>
                     </ul>
+
                   </div>
                 </div>
               </div>
