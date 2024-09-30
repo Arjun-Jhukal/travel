@@ -1332,7 +1332,7 @@
     </div>
 
   </div>
-  <div class="trip-detail-block availability-block">
+  <div class="trip-detail-block availability-block" trip-duration="10">
     <div class="d-flex justify-content-between align-items-center flex-wrap block-title-wrapper">
 
       <div class="block-title">

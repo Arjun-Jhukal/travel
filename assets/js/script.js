@@ -204,45 +204,67 @@ jQuery(document).ready(function ($) {
 		],
 	});
 
-	/* Blog Slider */
-	$(".testimonial-slider").slick({
-		slidesToShow: 4,
-		slidesToScroll: 1,
-		infinite: true,
-		dots: true,
-		arrows: true,
-		appendDots: $(".testimonial-slider-dots"),
-		nextArrow: $(".testimonial-next"),
-		prevArrow: $(".testimonial-prev"),
-		responsive: [
-			{
-				breakpoint: 992,
-				settings: {
-					slidesToShow: 3,
+	/* Testimonial Slider */
+	$(".testimonial-slider").each(function () {
+		var $slider = $(this);
+
+		$slider.slick({
+			slidesToShow: 4,
+			slidesToScroll: 1,
+			infinite: true,
+			dots: true,
+			arrows: true,
+			appendDots: $(this).parent().find(".testimonial-slider-dots"),
+			nextArrow: $(this).parent().find(".testimonial-next"),
+			prevArrow: $(this).parent().find(".testimonial-prev"),
+			responsive: [
+				{
+					breakpoint: 992,
+					settings: {
+						slidesToShow: 3,
+					},
 				},
-			},
-			{
-				breakpoint: 768,
-				settings: {
-					slidesToShow: 2,
+				{
+					breakpoint: 768,
+					settings: {
+						slidesToShow: 2,
+					},
 				},
-			},
-			{
-				breakpoint: 576,
-				settings: {
-					slidesToShow: 1.2,
-					infinite: false,
-					arrows: false,
+				{
+					breakpoint: 576,
+					settings: {
+						slidesToShow: 1.2,
+						infinite: false,
+						arrows: false,
+					},
 				},
-			},
-		],
+			],
+		});
 	});
 
 	/* Testimonial slider Tab */
-	$(".testimonial-tab li a ").on("click", function (e) {
+	$(".testimonial-tab li a").on("click", function (e) {
 		e.preventDefault();
 
 		$(this).parent().addClass("active").siblings().removeClass("active");
+
+		var tabIndex = $(this).parent().index();
+
+		$(".platform-info")
+			.eq(tabIndex - 1)
+			.addClass("active")
+			.removeClass("active")
+			.siblings(".platform-info")
+			.removeClass("active")
+			.addClass("active");
+
+		$(".platform-testimonial-wrapper")
+			.eq(tabIndex - 1)
+			.addClass("active")
+			.removeClass("active")
+			.siblings(".platform-testimonial-wrapper")
+			.removeClass("active")
+			.addClass("active");
 	});
 
 	/* Footer Animation */
@@ -434,20 +456,26 @@ jQuery(document).ready(function ($) {
 		var ratingValue = parseFloat(currentRating);
 		var ratingBeforeDecimal = Math.floor(ratingValue);
 		var ratingAfterDecimal = ratingValue - ratingBeforeDecimal;
+
+		var widthPercentage = ratingAfterDecimal * 100;
+
+		if (ratingAfterDecimal >= 0) {
+			$(this)
+				.find("li")
+				.eq(ratingBeforeDecimal)
+				.find(".filled-star")
+				.css("width", widthPercentage + "%");
+		}
+
 		$(this)
 			.find("li")
 			.each(function (index) {
-				if (index < ratingBeforeDecimal) {
-					$(this).find(".filled-star").css("width", "100%");
-				} else if (index === ratingBeforeDecimal && ratingAfterDecimal > 0) {
-					var widthPercentage = ratingAfterDecimal * 100;
-					$(this)
-						.find(".filled-star")
-						.css("width", widthPercentage + "%");
-				} else {
+				if (index > ratingBeforeDecimal) {
 					$(this).find(".filled-star").css("width", "0%");
 				}
 			});
+
+		console.log({ currentRating, ratingBeforeDecimal, widthPercentage }); // Log the details
 	});
 
 	/* Group Discount */
@@ -464,13 +492,86 @@ jQuery(document).ready(function ($) {
 		{ from: "2025-01-12", to: "2025-01-16" },
 	];
 
+	let tripDates = []; // Store the trip dates globally
+	let startDate = null; // Store the selected start date
+
+	// Initialize flatpickr
 	flatpickr(".available-dates", {
 		dateFormat: "Y-m-d",
 		minDate: "today",
 		inline: true,
 		showMonths: 2,
 		disable: disabledDates,
+		onChange: (selectedDates, dateStr, instance) => {
+			const availabilityBlock = document.querySelector(".availability-block");
+			const tripDuration =
+				parseInt(availabilityBlock.getAttribute("trip-duration"), 10) || 10;
+
+			// Clear previous trip-day and trip-end-day classes
+			document
+				.querySelectorAll(
+					".flatpickr-day.trip-day, .flatpickr-day.trip-end-day",
+				)
+				.forEach((day) => {
+					day.classList.remove("trip-day", "trip-end-day");
+				});
+
+			// If a date is selected
+			if (selectedDates.length > 0) {
+				startDate = selectedDates[0];
+				tripDates = [];
+
+				// Generate an array of dates for the trip duration
+				for (let i = 0; i < tripDuration; i++) {
+					const date = new Date(startDate);
+					date.setDate(startDate.getDate() + i);
+					// Push the date to tripDates in "Y-m-d" format
+					tripDates.push(date.toISOString().split("T")[0]);
+				}
+
+				// Highlight trip days in the current view
+				highlightTripDays();
+			}
+		},
+		onMonthChange: () => {
+			// When the month changes, re-highlight the trip days
+			if (startDate) {
+				highlightTripDays();
+			}
+		},
 	});
+
+	// Function to highlight trip days
+	function highlightTripDays() {
+		// Clear previous trip-day and trip-end-day classes
+		document
+			.querySelectorAll(".flatpickr-day.trip-day, .flatpickr-day.trip-end-day")
+			.forEach((day) => {
+				day.classList.remove("trip-day", "trip-end-day");
+			});
+
+		// Get the last trip date for trip-end-day class
+		const lastTripDate = tripDates[tripDates.length - 1];
+
+		// Loop over each flatpickr-day element
+		document.querySelectorAll(".flatpickr-day").forEach((day) => {
+			const dayLabel = day.getAttribute("aria-label");
+
+			// Convert dayLabel to "Y-m-d" format
+			const parsedDate = new Date(dayLabel);
+			const formattedDayLabel = parsedDate.toISOString().split("T")[0];
+
+			// Add 'trip-day' class to all trip dates
+			if (tripDates.includes(formattedDayLabel)) {
+				day.classList.add("trip-day");
+
+				// Add 'trip-end-day' class to the last date
+				if (formattedDayLabel === lastTripDate) {
+					day.classList.add("trip-end-day");
+				}
+			}
+		});
+	}
 
 	/* Print  */
 	$(".download-pdf").on("click", function (e) {
@@ -626,6 +727,65 @@ jQuery(document).ready(function ($) {
 		clearTimeout(toastTimeout);
 		$(".bh-toast").removeClass("active");
 	});
+
+	//contact form 7 popup message
+	document.addEventListener(
+		"wpcf7invalid",
+		function (event) {
+			event.preventDefault();
+			var form = event.target;
+			$(form).find(".wpcf7-response-output").addClass("custom active error");
+			setTimeout(function () {
+				$(form)
+					.find(".wpcf7-response-output")
+					.removeClass("custom active error");
+			}, 10000);
+		},
+		false,
+	);
+	document.addEventListener(
+		"wpcf7spam",
+		function (event) {
+			event.preventDefault();
+			var form = event.target;
+			$(form).find(".wpcf7-response-output").addClass("custom active warning");
+			setTimeout(function () {
+				$(form)
+					.find(".wpcf7-response-output")
+					.removeClass("custom active warning");
+			}, 10000);
+		},
+		false,
+	);
+	document.addEventListener(
+		"wpcf7mailfailed",
+		function (event) {
+			event.preventDefault();
+			var form = event.target;
+			$(form).find(".wpcf7-response-output").addClass("custom active error");
+			setTimeout(function () {
+				$(form)
+					.find(".wpcf7-response-output")
+					.removeClass("custom active error");
+			}, 10000);
+		},
+		false,
+	);
+	document.addEventListener(
+		"wpcf7mailsent",
+		function (event) {
+			event.preventDefault();
+			var form = event.target;
+			$(form).find(".wpcf7-response-output").addClass("custom active success");
+			setTimeout(function () {
+				$(form)
+					.find(".wpcf7-response-output")
+					.removeClass("custom active success");
+			}, 3000);
+		},
+		false,
+	);
+	//contact form 7 popup message
 });
 
 jQuery(document).ready(function ($) {

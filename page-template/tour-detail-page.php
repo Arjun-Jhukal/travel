@@ -6,6 +6,8 @@
  */
 
  get_header();
+
+ echo "At detail page";
 ?>
 
 <?php
