@@ -8,7 +8,9 @@ $most_pop_pack_item = get_field('most_pop_pack_item');
 if ($enable_most_pop_packs):
   if ($most_pop_pack_item):
     ?>
-    <section class="package-listing section-gap bg-white">
+    <section class="package-listing section-padding-y <?php if (!is_singular('tour')) {
+      echo 'bg-white section-gap';
+    } ?>">
       <div class="container">
         <div class="section-title d-flex justify-content-between align-items-start flex-wrap">
           <h2><?php echo $most_pop_title; ?></h2>

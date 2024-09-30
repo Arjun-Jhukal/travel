@@ -18,6 +18,9 @@
 get_header();
 $tour_rating = get_field('tour_rating');
 $tour_ratings = get_field('tour_ratings');
+$tour_key_info = get_field('tour_key_info');
+$add_key_info = get_field('add_key_info');
+
 ?>
 <section class="breadcrumb">
   <div class="container">
@@ -152,13 +155,98 @@ if ($tour_gallery):
     </div>
     <div class="row">
       <div class="col-lg-8">
-        <?php get_template_part("/template-parts/tour-detail-page/trip-content", null) ?>
-      </div>
-      <div class="col-lg-4">
-        <?php get_template_part("/template-parts/tour-detail-page/trip-aside", null) ?>
+        <div class="trip-detail-blocks">
+          <div class="trip-detail-block trip-overview">
+            <div class="key-feature">
+              <div class="row">
+                <?php
+                if (is_array($tour_key_info)):
+                  $index = 1;
+                  while (isset($tour_key_info['svg_' . $index]) || isset($tour_key_info['title_' . $index]) || isset($tour_key_info['info_' . $index])):
+                    $svg = isset($tour_key_info['svg_' . $index]) ? $tour_key_info['svg_' . $index] : '';
+                    $title = isset($tour_key_info['title_' . $index]) ? $tour_key_info['title_' . $index] : '';
+                    $desc = isset($tour_key_info['info_' . $index]) ? $tour_key_info['info_' . $index] : '';
+                    if ($svg && $title && $desc): ?>
+                      <div class="col-6 col-lg-3">
+                        <div class="kf-item d-flex justify-content-start">
+                          <div class="kf-icon">
+                            <?php
+                            if (filter_var($svg, FILTER_VALIDATE_URL)):
+                              echo '<img src="' . esc_url($svg) . '" alt="' . esc_attr($title) . '">';
+                            elseif (strpos($svg, 'dashicons') !== false):
+                              echo '<span class="dashicons ' . esc_attr($svg) . '"></span>';
+                            else:
+                              echo wp_kses_post($svg);
+                            endif;
+                            ?>
+                          </div>
+                          <div class="kf-info">
+                            <span class="sm-text"><?php echo esc_html($title); ?></span>
+                            <strong class="sm-text"><?php echo esc_html($desc); ?></strong>
+                          </div>
+                        </div>
+                      </div>
+                      <?php
+                    endif;
+                    $index++;
+                  endwhile;
+                else:
+                  echo 'not array';
+                endif;
+                ?>
+                <?php
+                if (have_rows('add_key_info')):
+                  ?>
+                  <?php
+                  while (have_rows('add_key_info')):
+                    the_row();
+                    $add_svg = get_sub_field('svg_5');
+                    $add_title = get_sub_field('title_5');
+                    $add_desc = get_sub_field('info_5');
+                    if ($add_svg && $add_title && $add_desc): ?>
+                      <div class="col-6 col-lg-3">
+                        <div class="kf-item d-flex justify-content-start">
+                          <div class="kf-icon">
+                            <?php
+                            if (filter_var($add_svg, FILTER_VALIDATE_URL)):
+                              echo '<img src="' . esc_url($add_svg) . '" alt="' . esc_attr($add_title) . '">';
+                            elseif (strpos($add_svg, 'dashicons') !== false):
+                              echo '<span class="dashicons ' . esc_attr($add_svg) . '"></span>';
+                            else:
+                              echo wp_kses_post($add_svg);
+                            endif;
+                            ?>
+                          </div>
+                          <div class="kf-info">
+                            <span class="sm-text"><?php echo esc_html($add_title); ?></span>
+                            <strong class="sm-text"><?php echo esc_html($add_desc); ?></strong>
+                          </div>
+                        </div>
+                      </div>
+                      <?php
+                    endif;
+                  endwhile;
+                ?><?php
+                endif;
+                ?>
+              </div>
+            </div>
+            <div class="text-wrapper text-expandable">
+              <div class="text-read-more ">
+                <p><?php echo the_content();?></p>
+              </div>
+            </div>
+            <a href="#" class="bh-btn bh-btn-underlined handle-client-read-more">Read More</a>
+          </div>
+          <!--  -->
+          <!--  -->
+          <!--  -->
+        </div>
+        <div class="col-lg-4">
+          <?php get_template_part("/template-parts/tour-detail-page/trip-aside", null) ?>
+        </div>
       </div>
     </div>
-  </div>
 </section>
 <!-- !Tour Intro -->
 <?php

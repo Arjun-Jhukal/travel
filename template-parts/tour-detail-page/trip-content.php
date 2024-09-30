@@ -110,6 +110,7 @@
     </div>
     <a href="#" class="bh-btn bh-btn-underlined handle-client-read-more">Read More</a>
   </div>
+  
   <div class="trip-detail-block itinerary">
     <div class="block-title">
       <div class="bt-icon">
