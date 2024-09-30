@@ -1048,6 +1048,7 @@ label {
 	}
 }
 
+.wpcf7-response-output,
 .bh-toast {
 	position: fixed;
 	left: 60px;
@@ -1064,6 +1065,24 @@ label {
 		visibility: visible;
 	}
 
+	&.success {
+		border-color: #17a40b !important;
+	}
+	&.error {
+		border-color: $red !important;
+	}
+	&.warning {
+		border-color: #ffa800 !important;
+	}
+	&.info {
+		border-color: #1884d2 !important;
+	}
+}
+.wpcf7-response-output {
+	padding: 12px 24px !important;
+}
+
+.bh-toast {
 	.toast-content {
 		position: relative;
 		padding: 16px 64px 16px 12px;
@@ -1074,18 +1093,5 @@ label {
 			top: 0;
 			right: 0;
 		}
-	}
-
-	&.success {
-		border-color: #17a40b;
-	}
-	&.error {
-		border-color: $red;
-	}
-	&.warning {
-		border-color: #ffa800;
-	}
-	&.info {
-		border-color: #1884d2;
 	}
 }

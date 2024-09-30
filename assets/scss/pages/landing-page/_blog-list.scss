@@ -20,6 +20,13 @@
 					max-height: 393px;
 				}
 			}
+
+			> .blog-item {
+				max-width: 290px;
+				&:not(:first-child) {
+					display: none;
+				}
+			}
 		}
 	}
 

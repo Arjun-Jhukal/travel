@@ -69,13 +69,19 @@
 
 		.news-letter {
 			position: relative;
-			input {
-				&[type="submit"] {
-					max-width: 118px;
-					position: absolute;
-					top: 6px;
-					bottom: 6px;
-					right: 6px;
+			input[type="submit"],
+			> p span {
+				max-width: 118px;
+				position: absolute;
+				top: 6px;
+				right: 6px;
+			}
+
+			p {
+				.wpcf7-not-valid-tip {
+					text-align: left;
+					color: $red;
+					margin-top: 4px;
 				}
 			}
 		}
