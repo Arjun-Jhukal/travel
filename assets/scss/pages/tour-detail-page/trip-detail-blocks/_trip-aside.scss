@@ -149,3 +149,10 @@
 		}
 	}
 }
+
+@media (min-width: 992px) {
+	.package-aside {
+		position: sticky;
+		top: 100px;
+	}
+}

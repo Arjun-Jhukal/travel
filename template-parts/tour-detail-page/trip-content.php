@@ -110,7 +110,7 @@
     </div>
     <a href="#" class="bh-btn bh-btn-underlined handle-client-read-more">Read More</a>
   </div>
-  
+
   <div class="trip-detail-block itinerary">
     <div class="block-title">
       <div class="bt-icon">
@@ -1345,7 +1345,7 @@
         </div>
       </div>
       <div class="block-title-right d-flex align-items-center ">
-        <a href="#" class="bh-bth bh-btn-underlined ">
+        <a href="#" class="bh-bth bh-btn-underlined clear-dates">
           Clear Dates
         </a>
         <div class="date-field-wrapper">
@@ -1353,6 +1353,8 @@
             <option value="2024">2024</option>
             <option value="2025">2025</option>
             <option value="2026">2026</option>
+            <option value="2027">2027</option>
+            <option value="2028">2028</option>
           </select>
         </div>
       </div>

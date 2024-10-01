@@ -493,28 +493,70 @@ jQuery(document).ready(function ($) {
 		$(".group-discount-table").toggleClass("active");
 	});
 
-	const disabledDates = [
-		"2024-12-20",
-		"2024-12-31",
-		{ from: "2024-12-20", to: "2025-01-01" },
-		{ from: "2025-01-12", to: "2025-01-16" },
-	];
+	/**
+	 *
+	 * Availability Dates Functionality Start from here
+	 *
+	 */
+	$(function () {
+		const disabledDates = [
+			"2024-12-20",
+			"2024-12-31",
+			{ from: "2024-12-20", to: "2025-01-01" },
+			{ from: "2025-01-12", to: "2025-01-16" },
+		];
 
-	let tripDates = []; // Store the trip dates globally
-	let startDate = null; // Store the selected start date
+		let tripDates = []; // Store the trip dates globally
+		let startDate = null; // Store the selected start date
 
-	// Initialize flatpickr
-	flatpickr(".available-dates", {
-		dateFormat: "Y-m-d",
-		minDate: "today",
-		inline: true,
-		showMonths: 2,
-		disable: disabledDates,
-		onChange: (selectedDates, dateStr, instance) => {
-			const availabilityBlock = document.querySelector(".availability-block");
-			const tripDuration =
-				parseInt(availabilityBlock.getAttribute("trip-duration"), 10) || 10;
+		// Initialize flatpickr
+		var flatpickrInstance = flatpickr(".available-dates", {
+			dateFormat: "Y-m-d",
+			minDate: "today",
+			inline: true,
+			showMonths: 2,
+			disable: disabledDates,
+			onChange: (selectedDates, dateStr, instance) => {
+				const availabilityBlock = document.querySelector(".availability-block");
+				const tripDuration =
+					parseInt(availabilityBlock.getAttribute("trip-duration"), 10) || 10;
 
+				// Clear previous trip-day and trip-end-day classes
+				document
+					.querySelectorAll(
+						".flatpickr-day.trip-day, .flatpickr-day.trip-end-day",
+					)
+					.forEach((day) => {
+						day.classList.remove("trip-day", "trip-end-day");
+					});
+
+				// If a date is selected
+				if (selectedDates.length > 0) {
+					startDate = selectedDates[0];
+					tripDates = [];
+
+					// Generate an array of dates for the trip duration
+					for (let i = 0; i < tripDuration; i++) {
+						const date = new Date(startDate);
+						date.setDate(startDate.getDate() + i);
+						// Push the date to tripDates in "Y-m-d" format
+						tripDates.push(date.toISOString().split("T")[0]);
+					}
+
+					// Highlight trip days in the current view
+					highlightTripDays();
+				}
+			},
+			onMonthChange: () => {
+				// When the month changes, re-highlight the trip days
+				if (startDate) {
+					highlightTripDays();
+				}
+			},
+		});
+
+		// Function to highlight trip days
+		function highlightTripDays() {
 			// Clear previous trip-day and trip-end-day classes
 			document
 				.querySelectorAll(
@@ -524,62 +566,52 @@ jQuery(document).ready(function ($) {
 					day.classList.remove("trip-day", "trip-end-day");
 				});
 
-			// If a date is selected
-			if (selectedDates.length > 0) {
-				startDate = selectedDates[0];
-				tripDates = [];
+			// Get the last trip date for trip-end-day class
+			const lastTripDate = tripDates[tripDates.length - 1];
 
-				// Generate an array of dates for the trip duration
-				for (let i = 0; i < tripDuration; i++) {
-					const date = new Date(startDate);
-					date.setDate(startDate.getDate() + i);
-					// Push the date to tripDates in "Y-m-d" format
-					tripDates.push(date.toISOString().split("T")[0]);
+			// Loop over each flatpickr-day element
+			document.querySelectorAll(".flatpickr-day").forEach((day) => {
+				const dayLabel = day.getAttribute("aria-label");
+
+				// Convert dayLabel to "Y-m-d" format
+				const parsedDate = new Date(dayLabel);
+				const formattedDayLabel = parsedDate.toISOString().split("T")[0];
+
+				// Add 'trip-day' class to all trip dates
+				if (tripDates.includes(formattedDayLabel)) {
+					day.classList.add("trip-day");
+
+					// Add 'trip-end-day' class to the last date
+					if (formattedDayLabel === lastTripDate) {
+						day.classList.add("trip-end-day");
+					}
 				}
+			});
+		}
 
-				// Highlight trip days in the current view
-				highlightTripDays();
-			}
-		},
-		onMonthChange: () => {
-			// When the month changes, re-highlight the trip days
-			if (startDate) {
-				highlightTripDays();
-			}
-		},
+		$(".date-field-wrapper select").on("change", function () {
+			console.log($(this).val());
+			var selectedYear = $(this).val();
+			flatpickrInstance.jumpToDate(new Date(selectedYear, 0, 1));
+		});
+
+		// Functionality To Clear tripDates
+		$(".clear-dates").on("click", function (e) {
+			e.preventDefault();
+
+			flatpickrInstance.clear();
+			flatpickrInstance.setDate(new Date());
+			flatpickrInstance.jumpToDate(new Date());
+
+			$(".date-field-wrapper select").val(new Date().getFullYear());
+		});
 	});
 
-	// Function to highlight trip days
-	function highlightTripDays() {
-		// Clear previous trip-day and trip-end-day classes
-		document
-			.querySelectorAll(".flatpickr-day.trip-day, .flatpickr-day.trip-end-day")
-			.forEach((day) => {
-				day.classList.remove("trip-day", "trip-end-day");
-			});
-
-		// Get the last trip date for trip-end-day class
-		const lastTripDate = tripDates[tripDates.length - 1];
-
-		// Loop over each flatpickr-day element
-		document.querySelectorAll(".flatpickr-day").forEach((day) => {
-			const dayLabel = day.getAttribute("aria-label");
-
-			// Convert dayLabel to "Y-m-d" format
-			const parsedDate = new Date(dayLabel);
-			const formattedDayLabel = parsedDate.toISOString().split("T")[0];
-
-			// Add 'trip-day' class to all trip dates
-			if (tripDates.includes(formattedDayLabel)) {
-				day.classList.add("trip-day");
-
-				// Add 'trip-end-day' class to the last date
-				if (formattedDayLabel === lastTripDate) {
-					day.classList.add("trip-end-day");
-				}
-			}
-		});
-	}
+	/**
+	 *
+	 * Availability Dates Functionality Ends Here
+	 *
+	 */
 
 	/* Print  */
 	$(".download-pdf").on("click", function (e) {
