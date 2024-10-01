@@ -27,14 +27,13 @@ $cv_values = $values['cv_values'];
       </div>
       <div class="col-lg-6">
         <div class="ov-content">
+          <?php if (!empty($cv_values)): ?>
           <ul>
-            <?php if ($cv_values):
-              foreach ($cv_values as $cvv):
-                $item = $cvv['item'];
-                ?>
-                <li><?php echo $item; ?></li>
-              <?php endforeach; endif; ?>
+            <?php foreach ($cv_values as $cvv): ?>
+            <li><?php echo $cvv['item']; ?></li>
+            <?php endforeach; ?>
           </ul>
+          <?php endif; ?>
         </div>
       </div>
     </div>

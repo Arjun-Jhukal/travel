@@ -1,4 +1,7 @@
 .our-values {
+	.ov-featured-image {
+		margin-bottom: 32px;
+	}
 	.ov-content {
 		ul {
 			li {
@@ -19,6 +22,14 @@
 					margin-bottom: 12px;
 				}
 			}
+		}
+	}
+}
+
+@media (min-width: 992px) {
+	.our-values {
+		.ov-featured-image {
+			margin-bottom: 0;
 		}
 	}
 }
