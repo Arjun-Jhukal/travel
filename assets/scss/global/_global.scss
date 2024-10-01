@@ -4,6 +4,7 @@ $white: #fff;
 $black: #1e201f;
 $secondary: #363a38;
 $red: #f00;
+$body-bg: #f9f9f9;
 
 * {
 	margin: 0;
@@ -17,7 +18,7 @@ body {
 	font-size: 16px;
 	font-weight: 400;
 	color: #363a38;
-	background-color: #f9f9f9;
+	background-color: $body-bg;
 }
 
 h1,
@@ -362,13 +363,46 @@ label {
 	p {
 		margin-bottom: 0 !important;
 	}
+	label {
+		margin-bottom: 8px;
+	}
+	.password-field {
+		position: relative;
+
+		.show-hide-password {
+			position: absolute;
+			top: 50%;
+			transform: translateY(-50%);
+			right: 12px;
+
+			img {
+				transition: all 0.3s ease-in-out;
+				&.open-eye {
+					display: none;
+				}
+			}
+		}
+
+		&.show-password {
+			.show-hide-password {
+				img {
+					&.close-eye {
+						display: none;
+					}
+					&.open-eye {
+						display: block;
+					}
+				}
+			}
+		}
+	}
 }
 
 .group-discount-btn {
 	color: $black;
 	border-radius: 28px;
 	border: 1px solid rgba(0, 0, 0, 0.1);
-	background: #f9f9f9;
+	background: $body-bg;
 	font-size: 14px;
 	line-height: 140%;
 	letter-spacing: -0.035px;
@@ -947,7 +981,7 @@ label {
 .aside-item {
 	border-radius: 8px;
 	border: 1px solid #e5e5e5;
-	background: #f9f9f9;
+	background: $body-bg;
 	padding: 24px;
 
 	h4 {
@@ -1006,7 +1040,7 @@ label {
 			right: 0;
 			bottom: 0;
 			height: 70px;
-			background: linear-gradient(to top, #f9f9f9, transparent);
+			background: linear-gradient(to top, $body-bg, transparent);
 		}
 	}
 }
@@ -1055,7 +1089,7 @@ label {
 
 .date-field-wrapper {
 	position: relative;
-	background-color: #f9f9f9;
+	background-color: $body-bg;
 	border-radius: 76px;
 
 	input {

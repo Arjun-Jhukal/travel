@@ -1,5 +1,5 @@
 .not-found {
-	background: linear-gradient(to bottom, #f9f9f9 0%, #f7efca 77.35%);
+	background: linear-gradient(to bottom, $body-bg 0%, #f7efca 77.35%);
 	position: relative;
 	height: calc(100vh - 100px);
 	display: grid;

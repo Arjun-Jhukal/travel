@@ -28,7 +28,7 @@
           <td>$156</td>
           <td>
             <div class="table-btn-group">
-              <a href="#" class="bh-btn bh-btn-filled-dark">
+              <a href="#" class="bh-btn bh-btn-filled-dark view-detail">
                 <svg xmlns="http://www.w3.org/2000/svg" width="14" height="15" viewBox="0 0 14 15" fill="none">
                   <g clip-path="url(#clip0_285_6874)">
                     <path
@@ -68,7 +68,7 @@
           <td>$156</td>
           <td>
             <div class="table-btn-group">
-              <a href="#" class="bh-btn bh-btn-filled-dark">
+              <a href="#" class="bh-btn bh-btn-filled-dark view-detail">
                 <svg xmlns="http://www.w3.org/2000/svg" width="14" height="15" viewBox="0 0 14 15" fill="none">
                   <g clip-path="url(#clip0_285_6874)">
                     <path
@@ -99,7 +99,7 @@
           <td>$156</td>
           <td>
             <div class="table-btn-group">
-              <a href="#" class="bh-btn bh-btn-filled-dark">
+              <a href="#" class="bh-btn bh-btn-filled-dark view-detail">
                 <svg xmlns="http://www.w3.org/2000/svg" width="14" height="15" viewBox="0 0 14 15" fill="none">
                   <g clip-path="url(#clip0_285_6874)">
                     <path
@@ -139,7 +139,7 @@
           <td>$156</td>
           <td>
             <div class="table-btn-group">
-              <a href="#" class="bh-btn bh-btn-filled-dark">
+              <a href="#" class="bh-btn bh-btn-filled-dark view-detail">
                 <svg xmlns="http://www.w3.org/2000/svg" width="14" height="15" viewBox="0 0 14 15" fill="none">
                   <g clip-path="url(#clip0_285_6874)">
                     <path
@@ -179,7 +179,7 @@
           <td>$156</td>
           <td>
             <div class="table-btn-group">
-              <a href="#" class="bh-btn bh-btn-filled-dark">
+              <a href="#" class="bh-btn bh-btn-filled-dark view-detail">
                 <svg xmlns="http://www.w3.org/2000/svg" width="14" height="15" viewBox="0 0 14 15" fill="none">
                   <g clip-path="url(#clip0_285_6874)">
                     <path
@@ -210,7 +210,7 @@
           <td>$156</td>
           <td>
             <div class="table-btn-group">
-              <a href="#" class="bh-btn bh-btn-filled-dark">
+              <a href="#" class="bh-btn bh-btn-filled-dark view-detail">
                 <svg xmlns="http://www.w3.org/2000/svg" width="14" height="15" viewBox="0 0 14 15" fill="none">
                   <g clip-path="url(#clip0_285_6874)">
                     <path
@@ -250,7 +250,7 @@
           <td>$156</td>
           <td>
             <div class="table-btn-group">
-              <a href="#" class="bh-btn bh-btn-filled-dark">
+              <a href="#" class="bh-btn bh-btn-filled-dark view-detail">
                 <svg xmlns="http://www.w3.org/2000/svg" width="14" height="15" viewBox="0 0 14 15" fill="none">
                   <g clip-path="url(#clip0_285_6874)">
                     <path
@@ -290,7 +290,7 @@
           <td>$156</td>
           <td>
             <div class="table-btn-group">
-              <a href="#" class="bh-btn bh-btn-filled-dark">
+              <a href="#" class="bh-btn bh-btn-filled-dark view-detail">
                 <svg xmlns="http://www.w3.org/2000/svg" width="14" height="15" viewBox="0 0 14 15" fill="none">
                   <g clip-path="url(#clip0_285_6874)">
                     <path
@@ -321,7 +321,7 @@
           <td>$156</td>
           <td>
             <div class="table-btn-group">
-              <a href="#" class="bh-btn bh-btn-filled-dark">
+              <a href="#" class="bh-btn bh-btn-filled-dark view-detail">
                 <svg xmlns="http://www.w3.org/2000/svg" width="14" height="15" viewBox="0 0 14 15" fill="none">
                   <g clip-path="url(#clip0_285_6874)">
                     <path

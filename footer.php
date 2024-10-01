@@ -530,7 +530,6 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && is_user_logged_in()) {
 </div>
 
 <!-- Attraction Model Popup -->
-
 <div class="popup-form attraction-modal ">
   <div class="pf-content">
     <div class="am-content-box">
@@ -548,6 +547,228 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && is_user_logged_in()) {
         </p>
         <p>Ownership of the palace site changed multiple times prior to being occupied by the monarchy. Prime Minister
           Fateh Jung Shah; his father, Choutaria Pran Shah, also lived on the property. Fateh</p>
+      </div>
+    </div>
+    <button type="button" class="close-review-form">
+      <img src="<?php echo get_parent_theme_file_uri() ?>/assets/images/icons/close-dark.svg" alt="">
+    </button>
+  </div>
+</div>
+
+<!-- Attraction Model Popup -->
+<div class="popup-form trip-detail-modal">
+  <div class="pf-content">
+    <div class="td-content-wrapper">
+      <div class="row">
+        <div class="col-lg-4">
+          <div class="td-aside">
+            <div class="tda-image">
+              <img src="<?php echo get_parent_theme_file_uri()?>/assets/images/placeholder-06.png" alt=""
+                class="img-fluid">
+            </div>
+            <div class="tda-content">
+              <h4>Everest Basecamp Trek</h4>
+              <div class="pl-key-indicator d-flex justify-content-start align-items-center">
+                <div class=" indicator-item location">
+                  <img src="<?php echo get_parent_theme_file_uri()?>/assets/images/icons/location.svg" alt="">
+                  <small>Indonesia</small>
+                </div>
+                <div class="indicator-item ">
+                  <img src="<?php echo get_parent_theme_file_uri()?>/assets/images/icons/filled-star-sm.svg" alt="">
+                  <span> <small>4.5 &nbsp;</small><small>(45)</small></span>
+                </div>
+                <div class="indicator-item">
+                  <img src="<?php echo get_parent_theme_file_uri()?>/assets/images/icons/calendar-day.svg" alt="">
+                  <small>4 Days</small>
+                </div>
+              </div>
+              <div class="td-info-box">
+                <ul>
+                  <li class="d-flex">
+                    <span class="sm-text">Booking Status</span>
+                    <span class="status processing">Processing</span>
+                  </li>
+                  <li class="d-flex">
+                    <span class="sm-text">Booking Status</span>
+                    <strong class="sm-text">11 Sept. 2024</strong>
+                  </li>
+                  <li class="d-flex">
+                    <span class="sm-text">Payment Method</span>
+                    <strong class="sm-text">Offline Payment</strong>
+                  </li>
+                  <li class="d-flex">
+                    <span class="sm-text">Departure Date</span>
+                    <strong class="sm-text">12 Nov. 2024</strong>
+                  </li>
+                  <li class="d-flex">
+                    <span class="sm-text">No. of Traveller</span>
+                    <strong class="sm-text">2</strong>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-8">
+          <div class="tda-content-box">
+            <div class="td-price-info">
+              <div class="row">
+                <div class="col-md-4">
+                  <div class="td-card">
+                    <div class="td-card-info">
+                      <small>Total Amount</small>
+                      <h5>$200.00</h5>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-4">
+                  <div class="td-card">
+                    <div class="td-card-info">
+                      <small>Paid Amount</small>
+                      <h5>$50.00</h5>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-4">
+                  <div class="td-card">
+                    <div class="td-card-info">
+                      <small>Amount to be Paid</small>
+                      <h5>$150.00 <a href="#" class="bh-btn bh-btn-underlined">Pay Now</a></h5>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="td-tab-wrapper">
+              <ul class="td-tab-controller d-flex justify-content-start">
+                <li class="active">
+                  <a href="#lead-traveler">Lead Traveller Information</a>
+                </li>
+                <li>
+                  <a href="#guest-info">Guests Information</a>
+                </li>
+              </ul>
+              <div class="td-tab-content-box">
+                <div class="td-tab-content active" id="lead-traveler">
+                  <div class="dashboard-table">
+                    <div class="responsive-table">
+                      <table class="table">
+                        <thead class="thead">
+                          <tr>
+                            <th>Type</th>
+                            <th>Details</th>
+                          </tr>
+                        </thead>
+                        <tbody class="tbody">
+                          <tr>
+                            <td>Full Name</td>
+                            <td>John Michael</td>
+                          </tr>
+                          <tr>
+                            <td>Email Address</td>
+                            <td>johnmich@gmail.com</td>
+                          </tr>
+                          <tr>
+                            <td>Phone Number</td>
+                            <td>+977 - 9862964046</td>
+                          </tr>
+                          <tr>
+                            <td>Nationality</td>
+                            <td>Nepali</td>
+                          </tr>
+                          <tr>
+                            <td>Trip Plan</td>
+                            <td>Here goes the information on the plan that user sent</td>
+                          </tr>
+                        </tbody>
+                      </table>
+                    </div>
+                  </div>
+                </div>
+                <div class="td-tab-content" id="guest-info">
+                  <div class="dashboard-table">
+                    <div class="responsive-table">
+                      <table class="table">
+                        <thead class="thead">
+                          <tr>
+                            <th>Type</th>
+                            <th>Details</th>
+                          </tr>
+                        </thead>
+                        <tbody class="tbody">
+                          <tr>
+                            <td>Full Name</td>
+                            <td>John Michael</td>
+                          </tr>
+                          <tr>
+                            <td>Email Address</td>
+                            <td>johnmich@gmail.com</td>
+                          </tr>
+                          <tr>
+                            <td>Phone Number</td>
+                            <td>+977 - 9862964046</td>
+                          </tr>
+                          <tr>
+                            <td>Nationality</td>
+                            <td>Nepali</td>
+                          </tr>
+                          <tr>
+                            <td>Trip Plan</td>
+                            <td>Here goes the information on the plan that user sent</td>
+                          </tr>
+                        </tbody>
+                      </table>
+                    </div>
+                  </div>
+                  <div class="dashboard-table">
+                    <div class="responsive-table">
+                      <table class="table">
+                        <thead class="thead">
+                          <tr>
+                            <th>Type</th>
+                            <th>Details</th>
+                          </tr>
+                        </thead>
+                        <tbody class="tbody">
+                          <tr>
+                            <td>Full Name</td>
+                            <td>John Michael</td>
+                          </tr>
+                          <tr>
+                            <td>Email Address</td>
+                            <td>johnmich@gmail.com</td>
+                          </tr>
+                          <tr>
+                            <td>Phone Number</td>
+                            <td>+977 - 9862964046</td>
+                          </tr>
+                          <tr>
+                            <td>Nationality</td>
+                            <td>Nepali</td>
+                          </tr>
+                          <tr>
+                            <td>Trip Plan</td>
+                            <td>Here goes the information on the plan that user sent</td>
+                          </tr>
+                        </tbody>
+                      </table>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="td-cancellation-info d-md-flex flex-wrap text-center justify-content-md-between">
+              <p><strong class="text-uppercase">Note: &nbsp;</strong>For cancellation please contact our sales.</p>
+              <a href="mailto:sales@boldhimalaya.com" class="bh-btn bh-btn-underlined">
+                sales@boldhimalaya.com
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none">
+                  <path
+                    d="M3.22748 12.7123C2.93459 13.0052 2.93459 13.4801 3.22748 13.773C3.52038 14.0659 3.99525 14.0659 4.28814 13.773L3.22748 12.7123ZM12.9931 4.75739C12.9931 4.34318 12.6573 4.00739 12.2431 4.00739L5.49309 4.00739C5.07888 4.00739 4.74309 4.34318 4.74309 4.75739C4.74309 5.17161 5.07888 5.50739 5.49309 5.50739H11.4931V11.5074C11.4931 11.9216 11.8289 12.2574 12.2431 12.2574C12.6573 12.2574 12.9931 11.9216 12.9931 11.5074L12.9931 4.75739ZM4.28814 13.773L12.7734 5.28772L11.7128 4.22706L3.22748 12.7123L4.28814 13.773Z"
+                    fill="#7FB51F" />
+                </svg></a>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
     <button type="button" class="close-review-form">

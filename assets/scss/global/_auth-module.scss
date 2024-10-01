@@ -53,43 +53,10 @@
 		.input-field {
 			margin-bottom: 24px;
 			label {
-				margin-bottom: 8px;
-
 				img {
 					width: 16px;
 					height: 16px;
 					object-fit: contain;
-				}
-			}
-
-			.password-field {
-				position: relative;
-
-				.show-hide-password {
-					position: absolute;
-					top: 50%;
-					transform: translateY(-50%);
-					right: 12px;
-
-					img {
-						transition: all 0.3s ease-in-out;
-						&.open-eye {
-							display: none;
-						}
-					}
-				}
-
-				&.show-password {
-					.show-hide-password {
-						img {
-							&.close-eye {
-								display: none;
-							}
-							&.open-eye {
-								display: block;
-							}
-						}
-					}
 				}
 			}
 		}
