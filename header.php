@@ -193,7 +193,10 @@
                     <input type="password" autocomplete name="password" autocomplete placeholder="Enter Password">
 
                     <button type="button" class="show-hide-password">
-                      <img src="<?php echo get_parent_theme_file_uri() ?>/assets/images/icons/eye.svg" alt="">
+                      <img src="<?php echo get_parent_theme_file_uri() ?>/assets/images/icons/eye.svg" alt=""
+                        class="close-eye">
+                      <img src="<?php echo get_parent_theme_file_uri() ?>/assets/images/icons/eye-open.svg" alt=""
+                        class="open-eye">
                     </button>
                   </div>
                 </div>
@@ -242,7 +245,10 @@
                     <input type="password" autocomplete autocomplete name="password" placeholder="Enter Password">
 
                     <button type="button" class="show-hide-password">
-                      <img src="<?php echo get_parent_theme_file_uri() ?>/assets/images/icons/eye.svg" alt="">
+                      <img src="<?php echo get_parent_theme_file_uri() ?>/assets/images/icons/eye.svg" alt=""
+                        class="close-eye">
+                      <img src="<?php echo get_parent_theme_file_uri() ?>/assets/images/icons/eye-open.svg" alt=""
+                        class="open-eye">
                     </button>
                   </div>
                 </div>
@@ -339,13 +345,33 @@
                   <label for="new-password">
                     <img src="<?php echo get_parent_theme_file_uri() ?>/assets/images/icons/lock.svg" alt="">
                     New Password</label>
-                  <input type="password" autocomplete name="new-password" placeholder="Enter new password again">
+                  <div class="password-field">
+                    <input type="password" autocomplete autocomplete name="New Password"
+                      placeholder="Enter New Password">
+
+                    <button type="button" class="show-hide-password">
+                      <img src="<?php echo get_parent_theme_file_uri() ?>/assets/images/icons/eye.svg" alt=""
+                        class="close-eye">
+                      <img src="<?php echo get_parent_theme_file_uri() ?>/assets/images/icons/eye-open.svg" alt=""
+                        class="open-eye">
+                    </button>
+                  </div>
                 </div>
                 <div class="input-field">
                   <label for="confirm-password">
                     <img src="<?php echo get_parent_theme_file_uri() ?>/assets/images/icons/lock.svg" alt="">
                     Confirm Password</label>
-                  <input type="password" autocomplete name="confirm-password" placeholder="Confirm Password">
+                  <div class="password-field">
+                    <input type="password" autocomplete autocomplete name="confirm-password"
+                      placeholder="Confirm Password">
+
+                    <button type="button" class="show-hide-password">
+                      <img src="<?php echo get_parent_theme_file_uri() ?>/assets/images/icons/eye.svg" alt=""
+                        class="close-eye">
+                      <img src="<?php echo get_parent_theme_file_uri() ?>/assets/images/icons/eye-open.svg" alt=""
+                        class="open-eye">
+                    </button>
+                  </div>
                 </div>
                 <button type="submit" class="bh-btn bh-btn-filled-dark d-block w-100 text-center">Reset
                   Password</button>
@@ -1429,15 +1455,15 @@
                       <a href="#" class="bh-btn bh-btn-filled-dark">View Nepal in Detail</a>
                     </div>
                     <ul class="inner-tab d-flex justify-content-xl-center align-items-center">
-                      <li class="active"><a href="#itc1">Trekking/Hiking</a></li>
-                      <li><a href="#itc2">Hunting</a></li>
-                      <li><a href="#itc3">Water Sports</a></li>
-                      <li><a href="#itc4">Spritual Religious</a></li>
-                      <li><a href="#itc5">Wildlife & Nature</a></li>
-                      <li><a href="#itc6">Tours & Sightseen</a></li>
+                      <li class="active"><a href="#itc7">Trekking/Hiking</a></li>
+                      <li><a href="#itc8">Hunting</a></li>
+                      <li><a href="#itc9">Water Sports</a></li>
+                      <li><a href="#itc10">Spritual Religious</a></li>
+                      <li><a href="#itc11">Wildlife & Nature</a></li>
+                      <li><a href="#itc12">Tours & Sightseen</a></li>
                     </ul>
                     <div class="tc-list-box">
-                      <div class="inner-tab-content active" id="itc1">
+                      <div class="inner-tab-content active" id="itc7">
                         <div class="row">
                           <div class="col-md-6 col-lg-4">
                             <div class="tclb-item">
@@ -1591,7 +1617,7 @@
                           </div>
                         </div>
                       </div>
-                      <div class="inner-tab-content" id="itc2">
+                      <div class="inner-tab-content" id="itc8">
                         <div class="row">
                           <div class="col-md-6 col-lg-4">
                             <div class="tclb-item">
@@ -1745,7 +1771,7 @@
                           </div>
                         </div>
                       </div>
-                      <div class="inner-tab-content" id="itc3">
+                      <div class="inner-tab-content" id="itc9">
                         <div class="row">
                           <div class="col-md-6 col-lg-4">
                             <div class="tclb-item">
@@ -1899,7 +1925,7 @@
                           </div>
                         </div>
                       </div>
-                      <div class="inner-tab-content" id="itc4">
+                      <div class="inner-tab-content" id="itc10">
                         <div class="row">
                           <div class="col-md-6 col-lg-4">
                             <div class="tclb-item">
@@ -2053,7 +2079,7 @@
                           </div>
                         </div>
                       </div>
-                      <div class="inner-tab-content" id="itc5">
+                      <div class="inner-tab-content" id="itc11">
                         <div class="row">
                           <div class="col-md-6 col-lg-4">
                             <div class="tclb-item">
@@ -2207,7 +2233,7 @@
                           </div>
                         </div>
                       </div>
-                      <div class="inner-tab-content" id="itc6">
+                      <div class="inner-tab-content" id="itc12">
                         <div class="row">
                           <div class="col-md-6 col-lg-4">
                             <div class="tclb-item">

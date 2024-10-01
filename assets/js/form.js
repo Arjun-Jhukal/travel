@@ -320,6 +320,19 @@ jQuery(document).ready(function ($) {
 	 * Auth Modules
 	 *
 	 */
+
+	/* Show and hide Password */
+	$(".show-hide-password").on("click", function (e) {
+		e.preventDefault();
+		$(this)
+			.siblings("input")
+			.attr("type", function (index, attr) {
+				return attr === "password" ? "text" : "password";
+			});
+		$(this).parent(".password-field").toggleClass("show-password");
+	});
+
+	/* Show and Hide Login Module */
 	$(function () {
 		$(".login a").on("click", function (e) {
 			e.preventDefault();

@@ -495,11 +495,13 @@
 
 	.tc-header {
 		margin-bottom: 12px;
+		cursor: pointer;
 
 		.dropdown-menu-item {
 			gap: 8px;
 			position: relative;
-			padding-left: 40px;
+			padding-left: 32px;
+			margin-bottom: 20px;
 
 			&::before {
 				content: "";
@@ -572,16 +574,11 @@
 			ul {
 				li {
 					width: 100%;
-					// overflow: hidden;
-					// text-overflow: ellipsis;
-					// white-space: nowrap;
 
 					a {
-						// white-space: nowrap;
 						display: block;
 						width: 100%;
-						// text-overflow: ellipsis;
-						// overflow: hidden;
+
 						line-height: 148%;
 						letter-spacing: -0.08px;
 
@@ -611,6 +608,15 @@
 	}
 }
 
+@media (min-width: 576px) {
+	.mega-menu-wrapper {
+		.tc-header {
+			.dropdown-menu-item {
+				margin-bottom: 0;
+			}
+		}
+	}
+}
 @media (min-width: 768px) {
 	.header {
 		.header-content-wrapper {
@@ -748,6 +754,15 @@
 		.mega-menu-wrapper {
 			background-color: $white;
 			padding: 40px 20px 40px 40px;
+
+			.tc-header {
+				cursor: auto;
+				.dropdown-menu-item {
+					&::before {
+						display: none;
+					}
+				}
+			}
 			.mm-controller,
 			.tab-content-wrapper {
 				max-height: calc(100vh - 100px);
