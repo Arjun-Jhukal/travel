@@ -840,3 +840,88 @@ jQuery(document).ready(function ($) {
 		}
 	});
 });
+// like/dislike reviews
+jQuery(document).ready(function ($) {
+	$(".like-button, .dislike-button").on("click", function (e) {
+		e.preventDefault();
+
+		var commentId = $(this).data("comment-id");
+		var type = $(this).data("type");
+		var $countSpan =
+			type === "like"
+				? $(this).find(".like-count")
+				: $(this).find(".dislike-count");
+		var isLiked = $(this).hasClass("liked");
+		var isDisliked = $(this).hasClass("disliked");
+
+		// Toggle like/dislike state
+		if (type === "like") {
+			if (!isLiked) {
+				$(this)
+					.addClass("liked")
+					.find("span")
+					.text(`Liked (${parseInt($countSpan.text()) + 1})`);
+				if (isDisliked) {
+					$(this)
+						.siblings(".dislike-button")
+						.removeClass("disliked")
+						.find("span")
+						.text(
+							`Dislike (${parseInt(
+								$(this)
+									.siblings(".dislike-button")
+									.find(".dislike-count")
+									.text(),
+							)})`,
+						);
+				}
+			} else {
+				$(this)
+					.removeClass("liked")
+					.find("span")
+					.text(`Like (${parseInt($countSpan.text()) - 1})`);
+			}
+		} else {
+			if (!isDisliked) {
+				$(this)
+					.addClass("disliked")
+					.find("span")
+					.text(`Disliked (${parseInt($countSpan.text()) + 1})`);
+				if (isLiked) {
+					$(this)
+						.siblings(".like-button")
+						.removeClass("liked")
+						.find("span")
+						.text(
+							`Like (${parseInt(
+								$(this).siblings(".like-button").find(".like-count").text(),
+							)})`,
+						);
+				}
+			} else {
+				$(this)
+					.removeClass("disliked")
+					.find("span")
+					.text(`Dislike (${parseInt($countSpan.text()) - 1})`);
+			}
+		}
+
+		$.ajax({
+			url: ajax_object.ajax_url,
+			type: "POST",
+			data: {
+				action: "handle_review_reaction",
+				comment_id: commentId,
+				type: type,
+			},
+			success: function (response) {
+				if (!response.success) {
+					alert("Error updating count");
+				}
+			},
+			error: function () {
+				alert("Error with AJAX request");
+			},
+		});
+	});
+});

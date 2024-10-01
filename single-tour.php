@@ -449,7 +449,356 @@ if ($tour_gallery):
             </div>
           <?php endif; ?>
           <!-- !Exckudes Includes -->
+          <!-- Availability -->
+          <div class="trip-detail-block availability-block" trip-duration="<?php echo get_field('tour_dur_day'); ?>">
+            <div class="d-flex justify-content-between align-items-center flex-wrap block-title-wrapper">
 
+              <div class="block-title">
+                <div class="bt-icon">
+                  <img src="<?php echo get_parent_theme_file_uri() ?>/assets/images/icons/availability-icon.svg" alt="">
+                </div>
+                <div class="bt-text">
+                  <h5>Availability</h5>
+                  <p>Add your travel dates for booking</p>
+                </div>
+              </div>
+              <div class="block-title-right d-flex align-items-center ">
+                <a href="#" class="bh-bth bh-btn-underlined ">
+                  Clear Dates
+                </a>
+                <div class="date-field-wrapper">
+                  <select class="pe-5">
+                    <option value="2024">2024</option>
+                    <option value="2025">2025</option>
+                    <option value="2026">2026</option>
+                  </select>
+                </div>
+              </div>
+            </div>
+
+            <div class="availability-calendar">
+              <input type="text" class="available-dates">
+            </div>
+          </div>
+          <!-- !Availability -->
+          <!-- Maps -->
+          <?php
+          $tour_maps = get_field('tour_maps');
+          $enable_maps = $tour_maps['enable_maps'];
+          $map_type = $tour_maps['map_type'];
+          $tour_map_icon = $tour_maps['tour_map_icon'];
+          $tour_map_title = $tour_maps['tour_map_title'];
+          $tour_map_desc = $tour_maps['tour_map_desc'];
+          $tour_map_image = $tour_maps['tour_map_image'];
+          $tour_map_iframe = $tour_maps['tour_map_iframe'];
+          if ($enable_maps):
+            ?>
+            <div class="trip-detail-block map-block">
+              <div class="block-title">
+                <div class="bt-icon">
+                  <?php echo $tour_map_icon; ?>
+                </div>
+                <div class="bt-text">
+                  <h5><?php echo $tour_map_title; ?></h5>
+                  <p><?php echo $tour_map_desc; ?></p>
+                </div>
+              </div>
+              <?php if ($map_type): ?>
+                <div class="map-wrapper">
+                  <img src="<?php echo $tour_map_image; ?>" alt="<?php echo get_the_title(); ?>" class="img-fluid">
+                </div>
+              <?php else: ?>
+                <div class="map-iframe-wrapper">
+                  <?php echo $tour_map_iframe; ?>
+                </div>
+              <?php endif; ?>
+            </div>
+          <?php endif; ?>
+          <!-- !Maps -->
+          <!-- Good to Know -->
+          <?php
+          $tour_maps_gtk = get_field('tour_maps_gtk');
+          $enable_gtk = $tour_maps_gtk['enable_gtk'];
+          $tour_gtk_icon = $tour_maps_gtk['tour_gtk_icon'];
+          $tour_gtk_title = $tour_maps_gtk['tour_gtk_title'];
+          $tour_gtk_desc = $tour_maps_gtk['tour_gtk_desc'];
+          $tour_gtk_items = $tour_maps_gtk['tour_gtk_items'];
+          if ($enable_gtk && $tour_gtk_items):
+            ?>
+            <div class="trip-detail-block good-to-know">
+              <div class="block-title">
+                <div class="bt-icon">
+                  <?php echo $tour_gtk_icon; ?>
+                </div>
+                <div class="bt-text">
+                  <h5><?php echo $tour_gtk_title; ?></h5>
+                  <p><?php echo $tour_gtk_desc; ?></p>
+                </div>
+              </div>
+              <div class="itinerary-wrapper accordions">
+                <?php foreach ($tour_gtk_items as $index => $gtk):
+                  $gtk_title = $gtk['title'];
+                  $gtk_desc = $gtk['desc'];
+                  ?>
+                  <div class="accordion-item">
+                    <div class="faq-wrapper <?php echo $index === 0 ? 'expand' : '' ?>">
+                      <div class="faq-title">
+                        <strong><?php echo $gtk_title; ?></strong>
+                      </div>
+                      <div class="faq-content-wrapper">
+                        <div class="faq-content">
+                          <?php echo $gtk_desc; ?>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                <?php endforeach; ?>
+              </div>
+            </div>
+          <?php endif; ?>
+          <!-- !Good to Know -->
+          <!-- FAQs -->
+          <?php
+          $tour_maps_faqs = get_field('tour_maps_faqs');
+          $enable_faqs = $tour_maps_faqs['enable_faqs'];
+          $tour_faqs_icon = $tour_maps_faqs['tour_faqs_icon'];
+          $tour_faqs_title = $tour_maps_faqs['tour_faqs_title'];
+          $tour_faqs_desc = $tour_maps_faqs['tour_faqs_desc'];
+          $tour_faqs_items = $tour_maps_faqs['tour_faqs_items'];
+          if ($enable_faqs && $tour_faqs_items): ?>
+            <div class="trip-detail-block faq-block load-more-block" data-initial="4">
+              <div class="block-title">
+                <div class="bt-icon">
+                  <?php echo $tour_faqs_icon; ?>
+                </div>
+                <div class="bt-text">
+                  <h5><?php echo $tour_faqs_title; ?></h5>
+                  <p><?php echo $tour_faqs_desc; ?></p>
+                </div>
+              </div>
+              <div class="item-list accordions">
+                <?php foreach ($tour_faqs_items as $index => $faq):
+                  $faq_title = $faq['title'];
+                  $faq_desc = $faq['desc'];
+                  ?>
+                  <div class="accordion-item">
+                    <div class="faq-wrapper <?php echo $index === 0 ? 'expand' : '' ?>">
+                      <div class="faq-title">
+                        <strong><?php echo $faq_title; ?></strong>
+                      </div>
+                      <div class="faq-content-wrapper">
+                        <div class="faq-content">
+                          <?php echo $faq_desc; ?>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                <?php endforeach; ?>
+              </div>
+              <div class="text-start load-more-accordion">
+                <a href="#" class="bh-btn bh-btn-outlined green-outlined load-more"><span>Load More</span>
+                  <svg xmlns="http://www.w3.org/2000/svg" width="17" height="16" viewBox="0 0 17 16" fill="none">
+                    <path
+                      d="M8.49902 11.317C8.29043 11.317 8.08187 11.2374 7.92284 11.0784L2.91845 6.07398C2.6001 5.75564 2.6001 5.23949 2.91845 4.92128C3.23666 4.60306 3.7527 4.60306 4.07107 4.92128L8.49902 9.34949L12.927 4.92143C13.2453 4.60322 13.7613 4.60322 14.0795 4.92143C14.398 5.23965 14.398 5.75579 14.0795 6.07414L9.0752 11.0786C8.9161 11.2376 8.70753 11.317 8.49902 11.317Z"
+                      fill="#015637" />
+                  </svg>
+                </a>
+              </div>
+            </div>
+          <?php endif; ?>
+          <!-- !FAQs -->
+          <!-- Reviews -->
+          <?php
+          $tour_maps_reviews = get_field('tour_maps_reviews');
+          $enable_reviews = $tour_maps_reviews['enable_reviews'];
+          $tour_reviews_icon = $tour_maps_reviews['tour_reviews_icon'];
+          $tour_reviews_title = $tour_maps_reviews['tour_reviews_title'];
+          $tour_reviews_desc = $tour_maps_reviews['tour_reviews_desc'];
+          $tour_reviews_items = $tour_maps_reviews['tour_reviews_items'];
+          if ($enable_reviews): ?>
+            <div class="trip-detail-block review-block load-more-block" data-initial="2">
+              <div class="d-flex justify-content-between align-items-center flex-wrap block-title-wrapper">
+                <div class="block-title">
+                  <div class="bt-icon">
+                    <img src="<?php echo get_parent_theme_file_uri() ?>/assets/images/icons/reviews-icon.svg" alt="">
+                  </div>
+                  <div class="bt-text">
+                    <h5>Reviews</h5>
+                    <p>What Our Travelers Say</p>
+                  </div>
+                </div>
+                <div class="block-title-right d-flex justify-content-md-end ">
+                  <div class="rating-wrapper d-flex align-items-center">
+                    <div class="review-rating" data-rating="4">
+                      <ul class="d-flex stars justify-content-start justify-content-lg-end">
+                        <li>
+                          <img src="<?php echo get_parent_theme_file_uri() ?>/assets/images/icons/outlined-star.svg"
+                            alt="">
+                          <div class="filled-star">
+                            <img src="<?php echo get_parent_theme_file_uri() ?>/assets/images/icons/filled-star.svg"
+                              alt="">
+                          </div>
+                        </li>
+                        <li>
+                          <img src="<?php echo get_parent_theme_file_uri() ?>/assets/images/icons/outlined-star.svg"
+                            alt="">
+                          <div class="filled-star">
+                            <img src="<?php echo get_parent_theme_file_uri() ?>/assets/images/icons/filled-star.svg"
+                              alt="">
+                          </div>
+                        </li>
+                        <li>
+                          <img src="<?php echo get_parent_theme_file_uri() ?>/assets/images/icons/outlined-star.svg"
+                            alt="">
+                          <div class="filled-star">
+                            <img src="<?php echo get_parent_theme_file_uri() ?>/assets/images/icons/filled-star.svg"
+                              alt="">
+                          </div>
+                        </li>
+                        <li>
+                          <img src="<?php echo get_parent_theme_file_uri() ?>/assets/images/icons/outlined-star.svg"
+                            alt="">
+                          <div class="filled-star" style="width: 50%;">
+                            <img src="<?php echo get_parent_theme_file_uri() ?>/assets/images/icons/filled-star.svg"
+                              alt="">
+                          </div>
+                        </li>
+                        <li>
+                          <img src="<?php echo get_parent_theme_file_uri() ?>/assets/images/icons/outlined-star.svg"
+                            alt="">
+                          <div class="filled-star" style="width: 0%;">
+                            <img src="<?php echo get_parent_theme_file_uri() ?>/assets/images/icons/filled-star.svg"
+                              alt="">
+                          </div>
+                        </li>
+                      </ul>
+                      <p class="sm-text">Based on 48 ratings </p>
+                    </div>
+                    <h3>5.0</h3>
+                  </div>
+                  <a href="#" class="bh-bth bh-btn-filled-dark">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none">
+                      <path
+                        d="M7.4089 14.0052C7.56567 14.1619 7.7783 14.25 8 14.25M7.4089 14.0052C7.4089 14.0052 7.4089 14.0052 7.4089 14.0052L8 14.25M7.4089 14.0052C7.25213 13.8484 7.16406 13.6358 7.16406 13.4141V2.58594C7.16406 2.36423 7.25213 2.15161 7.4089 1.99484C7.56567 1.83807 7.7783 1.75 8 1.75C8.2217 1.75 8.43433 1.83807 8.5911 1.99484C8.74787 2.15161 8.83594 2.36423 8.83594 2.58594V13.4141C8.83594 13.6358 8.74787 13.8484 8.5911 14.0052C8.43433 14.1619 8.2217 14.25 8 14.25M7.4089 14.0052L8 14.25"
+                        fill="white" stroke="white" stroke-width="0.5" />
+                      <path
+                        d="M2.58594 8.83594H13.4141L14.0052 7.4089C13.8484 7.25213 13.6358 7.16406 13.4141 7.16406H2.58594C2.36423 7.16406 2.15161 7.25213 1.99484 7.4089C1.83807 7.56567 1.75 7.7783 1.75 8C1.75 8.2217 1.83807 8.43433 1.99484 8.5911C2.15161 8.74787 2.36423 8.83594 2.58594 8.83594Z"
+                        fill="white" stroke="white" stroke-width="0.5" />
+                    </svg>
+                    Add a Review
+                  </a>
+                </div>
+              </div>
+
+              <div class="item-list review-list">
+                <?php
+                // get approved comments
+                $comments = get_comments([
+                  'post_id' => get_the_ID(),
+                  'status' => 'approve',
+                ]);
+                if ($comments) {
+                  foreach ($comments as $comment) {
+                    $rating = get_comment_meta($comment->comment_ID, 'rating', true);
+                    $rating_class = "review-rating";
+                    if ($rating) {
+                      $rating_class .= " data-rating=\"{$rating}\"";
+                    }
+                    ?>
+                    <div class="review-single">
+                      <div class="<?php echo $rating_class; ?>">
+                        <ul class="d-flex stars justify-content-start ">
+                          <?php for ($i = 1; $i <= 5; $i++): ?>
+                            <li>
+                              <img src="<?php echo get_parent_theme_file_uri(); ?>/assets/images/icons/outlined-star.svg"
+                                alt="">
+                              <div class="filled-star" style="width: <?php echo $i <= $rating ? '100%' : '0%'; ?>;">
+                                <img src="<?php echo get_parent_theme_file_uri(); ?>/assets/images/icons/filled-star.svg"
+                                  alt="">
+                              </div>
+                            </li>
+                          <?php endfor; ?>
+                        </ul>
+                      </div>
+                      <div class="text-wrapper text-expandable">
+                        <div class="text-read-more ">
+                          <p><?php echo esc_html($comment->comment_content); ?></p>
+                        </div>
+                      </div>
+                      <a href="#" class="bh-btn bh-btn-underlined handle-client-read-more">Read More</a>
+
+                      <div class="reviewer-detail d-flex justify-content-start ">
+                        <div class="reviewer-profile">
+                          <span><?php echo esc_html(substr($comment->comment_author, 0, 2)); ?></span>
+                        </div>
+                        <div class="reviewer-info">
+                          <strong><?php echo esc_html($comment->comment_author); ?></strong>
+                          <small><?php echo esc_html($comment->comment_author_email); ?></small>
+                        </div>
+                      </div>
+                      <div class="reaction-wrapper d-flex justify-content-start">
+                        <a href="#" class="like-button" data-comment-id="<?php echo $comment->comment_ID; ?>"
+                          data-type="like">
+                          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none">
+                        <g clip-path="url(#clip0_997_7996)">
+                          <path
+                            d="M15.0477 8.19629L14.6356 8.49485L14.9414 8.90165C15.0784 9.0839 15.1591 9.30907 15.1591 9.55365C15.1591 9.91473 14.9821 10.2363 14.7069 10.4356L14.2947 10.7341L14.6005 11.1409C14.7375 11.3232 14.8182 11.5484 14.8182 11.793C14.8182 12.1542 14.6412 12.476 14.3662 12.6752L13.9542 12.9737L14.2598 13.3805C14.3967 13.5626 14.4773 13.7878 14.4773 14.0323C14.4773 14.632 13.9886 15.1207 13.3889 15.1207H8.38834C7.62467 15.1207 6.87551 14.9849 6.1605 14.7168L5.98494 15.1849L6.1605 14.7168L5.1875 14.3519V6.69188C5.90101 5.92234 6.58049 5.17515 7.1199 4.56397C7.67725 3.93246 8.12176 3.4058 8.27419 3.16184L8.35016 3.04026V2.8969V1.05315C8.35016 0.957713 8.4286 0.879272 8.52403 0.879272C9.78036 0.879272 10.8033 1.9022 10.8033 3.15852V3.91926L10.3205 5.58685L10.1355 6.2259H10.8008H14.4116C15.0113 6.2259 15.5 6.71462 15.5 7.3143C15.5 7.6753 15.323 7.99687 15.0477 8.19629ZM0.5 14.8144V5.91687H3.25V14.8144H0.5Z"
+                            stroke="#7FB51F" />
+                        </g>
+                        <defs>
+                          <clipPath id="clip0_997_7996">
+                            <rect width="16" height="16" fill="white" />
+                          </clipPath>
+                        </defs>
+                      </svg>
+                          <span> Like (<span
+                              class="like-count"><?php echo intval(get_comment_meta($comment->comment_ID, 'likes', true) ?: 0); ?>
+                            </span>)</span>
+                        </a>
+                        <a href="#" class="dislike-button" data-comment-id="<?php echo $comment->comment_ID; ?>"
+                          data-type="dislike">
+                          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none">
+                        <g clip-path="url(#clip0_997_7996)">
+                          <path
+                            d="M15.0477 8.19629L14.6356 8.49485L14.9414 8.90165C15.0784 9.0839 15.1591 9.30907 15.1591 9.55365C15.1591 9.91473 14.9821 10.2363 14.7069 10.4356L14.2947 10.7341L14.6005 11.1409C14.7375 11.3232 14.8182 11.5484 14.8182 11.793C14.8182 12.1542 14.6412 12.476 14.3662 12.6752L13.9542 12.9737L14.2598 13.3805C14.3967 13.5626 14.4773 13.7878 14.4773 14.0323C14.4773 14.632 13.9886 15.1207 13.3889 15.1207H8.38834C7.62467 15.1207 6.87551 14.9849 6.1605 14.7168L5.98494 15.1849L6.1605 14.7168L5.1875 14.3519V6.69188C5.90101 5.92234 6.58049 5.17515 7.1199 4.56397C7.67725 3.93246 8.12176 3.4058 8.27419 3.16184L8.35016 3.04026V2.8969V1.05315C8.35016 0.957713 8.4286 0.879272 8.52403 0.879272C9.78036 0.879272 10.8033 1.9022 10.8033 3.15852V3.91926L10.3205 5.58685L10.1355 6.2259H10.8008H14.4116C15.0113 6.2259 15.5 6.71462 15.5 7.3143C15.5 7.6753 15.323 7.99687 15.0477 8.19629ZM0.5 14.8144V5.91687H3.25V14.8144H0.5Z"
+                            stroke="#7FB51F" />
+                        </g>
+                        <defs>
+                          <clipPath id="clip0_997_7996">
+                            <rect width="16" height="16" fill="white" />
+                          </clipPath>
+                        </defs>
+                      </svg>
+                          <span> Dislike (<span
+                              class="dislike-count"><?php echo intval(get_comment_meta($comment->comment_ID, 'dislikes', true) ?: 0); ?>
+                            </span>)</span>
+                        </a>
+                      </div>
+                    </div>
+                    <?php
+                  }
+                } else {
+                  get_template_part("/template-parts/empty-state");
+                }
+                ?>
+
+              <?php endif; ?>
+
+
+
+            </div>
+            <div class="text-start load-more-accordion">
+              <a href="#" class="bh-btn bh-btn-outlined green-outlined load-more"><span>Load More</span>
+                <svg xmlns="http://www.w3.org/2000/svg" width="17" height="16" viewBox="0 0 17 16" fill="none">
+                  <path
+                    d="M8.49902 11.317C8.29043 11.317 8.08187 11.2374 7.92284 11.0784L2.91845 6.07398C2.6001 5.75564 2.6001 5.23949 2.91845 4.92128C3.23666 4.60306 3.7527 4.60306 4.07107 4.92128L8.49902 9.34949L12.927 4.92143C13.2453 4.60322 13.7613 4.60322 14.0795 4.92143C14.398 5.23965 14.398 5.75579 14.0795 6.07414L9.0752 11.0786C8.9161 11.2376 8.70753 11.317 8.49902 11.317Z"
+                    fill="#015637" />
+                </svg>
+
+              </a>
+            </div>
+          </div>
+          <!-- !Reviews -->
           <!--  -->
           <!--  -->
           <!--  -->
