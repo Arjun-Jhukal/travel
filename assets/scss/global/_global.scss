@@ -29,10 +29,6 @@ h6 {
 	margin-bottom: 0;
 }
 
-h3 {
-	font-weight: 700;
-}
-
 h1,
 h2,
 h3,
@@ -43,6 +39,8 @@ h6 {
 
 h4 {
 	color: $secondary;
+	font-size: 20px;
+	line-height: 130%;
 }
 
 h3 {
@@ -71,14 +69,7 @@ h1 {
 }
 
 h2 {
-	span {
-		color: $lightGreen;
-	}
-}
-
-h4 {
-	font-size: 24px;
-	line-height: 130%;
+	font-size: 20px;
 }
 
 h5 {
@@ -222,6 +213,11 @@ label {
 	margin-bottom: 36px;
 	h2 {
 		margin-bottom: 16px;
+		font-size: 20px;
+		span {
+			font-size: 24px;
+			color: $lightGreen;
+		}
 	}
 	p {
 		color: $secondary;
@@ -230,7 +226,9 @@ label {
 	.st-brief {
 		max-width: 486px;
 		> p {
-			margin-bottom: 16px;
+			&:not(:last-child) {
+				margin-bottom: 16px;
+			}
 		}
 	}
 }
@@ -279,6 +277,7 @@ label {
 		line-height: 148%;
 		letter-spacing: -0.08px;
 		border-radius: 46px;
+		font-size: 14px;
 
 		span {
 			margin-left: 12px;
@@ -352,6 +351,12 @@ label {
 	font-weight: 600;
 	line-height: 130%;
 	padding: 4px 6px;
+}
+
+.input-field {
+	p {
+		margin-bottom: 0 !important;
+	}
 }
 
 .group-discount-btn {
@@ -468,7 +473,7 @@ label {
 		display: none;
 	}
 
-	&.popular {
+	&.most-popular {
 		background-color: #17a40b;
 
 		#popular {
