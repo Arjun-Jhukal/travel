@@ -93,7 +93,7 @@ function get_related_blogs($post_id)
 function get_related_tours($post_id)
 {
     // Get the current post's terms for the taxonomies
-    $taxonomies = ['tour-category', 'destination', 'travel-with'];
+    $taxonomies = [ 'destination', 'travel-style'];
     $terms = [];
 
     foreach ($taxonomies as $taxonomy) {
@@ -110,12 +110,7 @@ function get_related_tours($post_id)
         'post__not_in' => array($post_id),
         'tax_query' => array(
             'relation' => 'OR',
-            array(
-                'taxonomy' => 'tour-category',
-                'field' => 'id',
-                'terms' => $terms,
-                'operator' => 'IN',
-            ),
+           
             array(
                 'taxonomy' => 'destination',
                 'field' => 'id',
@@ -123,7 +118,7 @@ function get_related_tours($post_id)
                 'operator' => 'IN',
             ),
             array(
-                'taxonomy' => 'travel-with',
+                'taxonomy' => 'travel-style',
                 'field' => 'id',
                 'terms' => $terms,
                 'operator' => 'IN',
