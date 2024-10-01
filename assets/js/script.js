@@ -100,6 +100,14 @@ jQuery(document).ready(function ($) {
 			$(".mm-controller").removeClass("activate-fixed-menu");
 
 			/* For Desktop */
+			$(".tc-list-box ").each(function () {
+				$(this)
+					.find(".inner-tab-content")
+					.removeClass("active")
+					.eq(0)
+					.addClass("active");
+			});
+
 			$(".tab-content-wrapper .tab-content" + currentValue)
 				.addClass("active")
 				.siblings()
