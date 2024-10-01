@@ -59,3 +59,33 @@ function toggle_wishlist()
 add_action('wp_ajax_toggle_wishlist', 'toggle_wishlist');
 
 // !wishlist
+
+// reviews like/dislike
+function likedislike_enqueue_scripts()
+{
+  wp_enqueue_script('my-script', get_template_directory_uri() . '/js/my-script.js', ['jquery'], null, true);
+  wp_localize_script('my-script', 'ajax_object', [
+    'ajax_url' => admin_url('admin-ajax.php'),
+  ]);
+}
+add_action('wp_enqueue_scripts', 'likedislike_enqueue_scripts');
+function handle_review_reaction()
+{
+  if (!isset($_POST['comment_id']) || !isset($_POST['type'])) {
+    wp_send_json_error('Invalid request');
+  }
+  $comment_id = intval($_POST['comment_id']);
+  $type = sanitize_text_field($_POST['type']);
+  $meta_key = ($type === 'like') ? 'likes' : 'dislikes';
+  $current_count = intval(get_comment_meta($comment_id, $meta_key, true));
+  $new_count = $current_count + 1;
+
+  // Update the count in the database
+  update_comment_meta($comment_id, $meta_key, $new_count);
+
+  wp_send_json_success(['new_count' => $new_count]);
+}
+
+add_action('wp_ajax_handle_review_reaction', 'handle_review_reaction');
+add_action('wp_ajax_nopriv_handle_review_reaction', 'handle_review_reaction'); // for not-logged
+// !reviews like/dislike
