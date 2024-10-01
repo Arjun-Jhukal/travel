@@ -97,10 +97,10 @@ if (!is_page('search'))
                 <div class="faq-content-wrapper">
                   <div class="faq-content">
                     <ul>
-                      <li><label><input type="radio" id="">Easy</label></li>
-                      <li><label><input type="radio" id="">Medium</label></li>
-                      <li><label><input type="radio" id="">Hard</label></li>
-                      <li><label><input type="radio" id="">Challenging</label></li>
+                      <li><label><input type="radio" name="difficulty" value="Easy">Easy</label></li>
+                        <li><label><input type="radio" name="difficulty" value="Medium">Medium</label></li>
+                        <li><label><input type="radio" name="difficulty" value="Hard">Hard</label></li>
+                        <li><label><input type="radio" name="difficulty" value="Challenging">Challenging</label></li>
                     </ul>
                   </div>
                 </div>
@@ -133,43 +133,50 @@ if (!is_page('search'))
                 <div class="faq-content-wrapper">
                   <div class="faq-content">
                     <ul>
-                      <?php
-                      // Fetch 'regions' taxonomies
-                      $terms = get_terms(array(
-                        'taxonomy' => 'destination',
-                        'hide_empty' => false,
-                      ));
-                      $last_child_terms = [];
-                      if (!empty($terms) && !is_wp_error($terms)) {
-                        foreach ($terms as $term) {
-                          if ($term->parent) {
-                            $siblings = get_terms(array(
+                    <?php
+                    // Fetch 'regions' taxonomies
+                    $terms = get_terms(array(
+                      'taxonomy' => 'destination',
+                      'hide_empty' => false,
+                    ));
+
+                    $grandchild_terms = [];
+
+                    if (!empty($terms) && !is_wp_error($terms)) {
+                      foreach ($terms as $term) {
+                        // Check if the term has children
+                        $children = get_terms(array(
+                          'taxonomy' => 'destination',
+                          'hide_empty' => false,
+                          'parent' => $term->term_id,
+                        ));
+
+                        if ($children) {
+                          foreach ($children as $child) {
+                            $grandchildren = get_terms(array(
                               'taxonomy' => 'destination',
                               'hide_empty' => false,
-                              'parent' => $term->parent,
+                              'parent' => $child->term_id,
                             ));
-                            if ($siblings) {
-                              if (end($siblings)->term_id === $term->term_id) {
-                                $first_child_id = $siblings[0]->term_id;
-                                if ($term->term_id !== $first_child_id) {
-                                  $last_child_terms[] = $term;
-                                }
-                              }
+                            if ($grandchildren) {
+                              $grandchild_terms = array_merge($grandchild_terms, $grandchildren);
                             }
                           }
                         }
                       }
-                      if ($last_child_terms) {
-                        foreach ($last_child_terms as $term) {
-                          echo '<li>';
-                          echo '<label>';
-                          echo '<input type="radio" name="travel_with" value="' . esc_attr($term->term_id) . '" id="travel-with-' . esc_attr($term->term_id) . '">';
-                          echo esc_html($term->name);
-                          echo '</label>';
-                          echo '</li>';
-                        }
+                    }
+                    if ($grandchild_terms) {
+                      foreach ($grandchild_terms as $term) {
+                        echo '<li>';
+                        echo '<label>';
+                        echo '<input type="radio" name="region" value="' . esc_attr($term->term_id) . '" id="region-' . esc_attr($term->term_id) . '">';
+                        echo esc_html($term->name);
+                        echo '</label>';
+                        echo '</li>';
                       }
-                      ?>
+                    }
+                    ?>
+
                     </ul>
                   </div>
                 </div>
@@ -224,7 +231,7 @@ if (!is_page('search'))
                         foreach ($first_child_terms as $term) {
                           echo '<li>';
                           echo '<label>';
-                          echo '<input type="radio" name="travel_with" value="' . esc_attr($term->term_id) . '" id="travel-with-' . esc_attr($term->term_id) . '">';
+                          echo '<input type="radio" name="tour_type" value="' . esc_attr($term->term_id) . '" id="tour_type-' . esc_attr($term->term_id) . '">';
                           echo esc_html($term->name);
                           echo '</label>';
                           echo '</li>';
@@ -258,8 +265,8 @@ if (!is_page('search'))
                       </div>
                       <div class="price-range"></div>
 
-                      <input type="hidden" class="price-min" name="price-min" min="1" value="1" />
-                      <input type="hidden" class="price-max" name="price-max" max="15" value="5" />
+                      <input type="hidden" name="duration-min" placeholder="Min Days" min="0" class="price-min" value="0">
+                    <input type="hidden" name="duration-max" placeholder="Max Days" max="30" class="price-max" value="5">
                     </div>
                   </div>
                 </div>
@@ -302,8 +309,8 @@ if (!is_page('search'))
                       </div>
                       <div class="price-range"></div>
 
-                      <input type="hidden" class="price-min" name="price-min" min="100" value="100" />
-                      <input type="hidden" class="price-max" name="price-max" max="10000" value="9000" />
+                      <input type="hidden" name="price-min" placeholder="Min Price" class="price-min" min="100" value="100">
+                    <input type="hidden" name="price-max" placeholder="Max Price" class="price-max" max="1000000" value="15000">
                     </div>
                   </div>
                 </div>
@@ -339,7 +346,7 @@ if (!is_page('search'))
                         foreach ($terms as $term) {
                           echo '<li>';
                           echo '<label>';
-                          echo '<input type="radio" name="travel_with" value="' . esc_attr($term->term_id) . '" id="travel-with-' . esc_attr($term->term_id) . '">';
+                          echo '<input type="radio" name="travel_style" value="' . esc_attr($term->term_id) . '" id="travel_style-' . esc_attr($term->term_id) . '">';
                           echo esc_html($term->name);
                           echo '</label>';
                           echo '</li>';
@@ -357,9 +364,9 @@ if (!is_page('search'))
       </div>
       <div class="col-lg-9">
         <div class="pf-content">
-          <h5>Showing 24 Packages</h5>
+          <h5>Showing <span id="filter-count"></span> Packages</h5>
 
-          <div class="row">
+          <div class="row results-container">
             <?php
             $paged = (get_query_var('paged')) ? get_query_var('paged') : 1;
             $args = array(

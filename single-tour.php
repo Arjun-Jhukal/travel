@@ -470,9 +470,13 @@ if ($tour_gallery):
                 </a>
                 <div class="date-field-wrapper">
                   <select class="pe-5">
-                    <option value="2024">2024</option>
-                    <option value="2025">2025</option>
-                    <option value="2026">2026</option>
+                    <?php
+                    $current_year = date("Y");
+                    for ($i = 0; $i <= 5; $i++) {
+                      $year = $current_year + $i;
+                      echo "<option value=\"$year\">$year</option>\n";
+                    }
+                    ?>
                   </select>
                 </div>
               </div>

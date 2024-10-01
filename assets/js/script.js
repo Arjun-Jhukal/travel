@@ -977,3 +977,60 @@ jQuery(document).ready(function ($) {
 		});
 	});
 });
+
+jQuery(document).ready(function ($) {
+	$(".filter-options input").on("input change", function () {
+		var keyword = $('input[placeholder="Enter any keyword"]').val();
+		var difficulty = $('input[name="difficulty"]:checked').val();
+		var region = $('input[name="region"]:checked').val();
+		var tour_type = $('input[name="tour_type"]:checked').val();
+		var travel_style = $('input[name="travel_style"]:checked').val();
+		var durationMin = $('input[name="duration-min"]').val();
+		var durationMax = $('input[name="duration-max"]').val();
+		var priceMin = $('input[name="price-min"]').val();
+		var priceMax = $('input[name="price-max"]').val();
+		var paged = 1; // Adjust for pagination if needed
+
+		console.log({
+			keyword,
+			difficulty,
+			region,
+			tour_type,
+			travel_style,
+			durationMin,
+			durationMax,
+			priceMin,
+			priceMax,
+		}); // Log the values for debugging
+
+		$.ajax({
+			url: ajax_search_params.ajax_url,
+			type: "POST",
+			data: {
+				action: "ajax_search",
+				keyword: keyword,
+				difficulty: difficulty,
+				region: region,
+				tour_type: tour_type,
+				travel_style: travel_style,
+				duration_min: durationMin,
+				duration_max: durationMax,
+				price_min: priceMin,
+				price_max: priceMax,
+				paged: paged,
+			},
+			success: function (response) {
+				$(".results-container").html(response);
+				
+			},
+		});
+	});
+});
+jQuery(document).ready(function ($) {
+	function updateFilterCount() {
+		var count = $(".results-container .col-lg-4.col-md-6").length;
+		$("#filter-count").text(count);
+	}
+	updateFilterCount();
+	setInterval(updateFilterCount, 2000);
+});

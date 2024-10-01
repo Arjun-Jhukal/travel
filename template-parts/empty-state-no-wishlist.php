@@ -7,7 +7,7 @@
       <div class="eb-info">
         <h4>No Wishlists Found</h4>
         <p>You haven’t added any tour packages to your wishlist yet. The packages you save will be displayed here.</p>
-        <a href="#" class="bh-btn bh-btn-filled-dark w-100 text-center">
+        <a href="<?php echo get_home_url(); ?>/search" class="bh-btn bh-btn-filled-dark w-100 text-center">
           Explore Packages
         </a>
       </div>

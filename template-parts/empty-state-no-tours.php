@@ -1,0 +1,16 @@
+<section class="empty-block section-padding-y">
+  <div class="container">
+    <div class="eb-content">
+      <div class="eb-icon">
+        <img src="<?php echo get_parent_theme_file_uri() ?>/assets/images/empty-booking.png" alt="" class="img-fluid">
+      </div>
+      <div class="eb-info">
+        <h4>No Tours Found</h4>
+        <p>It looks like there are no tours matching your search. Check back later or explore our other packages!</p>
+        <a href="<?php echo get_home_url(); ?>/search" class="bh-btn bh-btn-filled-dark w-100 text-center">
+          Explore Packages
+        </a>
+      </div>
+    </div>
+  </div>
+</section>

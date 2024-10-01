@@ -1,4 +1,6 @@
 <?php
+require_once get_template_directory() . '/inc/filter.php';
+
 // SVG support
 function cc_mime_types($mimes)
 {
