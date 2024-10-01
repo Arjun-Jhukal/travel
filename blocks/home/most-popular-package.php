@@ -18,9 +18,9 @@ if ($enable_most_pop_packs):
               $mpb_link = $most_pop_btn['url'];
               $mpb_title = $most_pop_btn['title'];
               ?>
-        <a href="<?php echo esc_url($mpb_link); ?>"
-          class="bh-btn bh-btn-underlined"><?php echo $mpb_link; ?></a><?php endif; ?>
-      </div>
+              <a href="<?php echo esc_url($mpb_link); ?>"
+                class="bh-btn bh-btn-underlined"><?php echo $mpb_title; ?></a><?php endif; ?>
+          </div>
 
     </div>
     <div class="row">
