@@ -141,18 +141,18 @@
               <ul class="dropdown-items">
                 <li class="dropdown-menu-item">
                   <a href="#">
-                    <p> <img src="<?php echo get_parent_theme_file_uri() ?>/assets/images/profile.png" alt=""
+                    <span> <img src="<?php echo get_parent_theme_file_uri() ?>/assets/images/profile.png" alt=""
                         class="img-fluid">
                       <span class="sm-text">Go to Dashboard</span>
-                    </p>
+                    </span>
                   </a>
                 </li>
                 <li class="dropdown-menu-item">
                   <a href="#">
-                    <p> <img src="<?php echo get_parent_theme_file_uri() ?>/assets/images/icons/logout.svg" alt=""
+                    <span> <img src="<?php echo get_parent_theme_file_uri() ?>/assets/images/icons/logout.svg" alt=""
                         class="img-fluid">
                       <span class="sm-text">Logout</span>
-                    </p>
+                    </span>
                   </a>
                 </li>
               </ul>
@@ -175,7 +175,7 @@
             <div class="auth-module login-module show" id="login-module">
               <div class="am-header">
                 <h5>Welcome Back!</h5>
-                <p>Sign in and start exploring through personalized experiences.</p>
+                <span>Sign in and start exploring through personalized experiences.</p>
               </div>
 
               <form action="" class="login-form">
@@ -209,13 +209,13 @@
 
                 <p class="redirect-option text-center">Don’t have an account? <a href="#register-module"
                     class="bh-btn bh-btn-underlined">Register Now</a>
-                </p>
+                  </span>
               </form>
             </div>
             <div class="auth-module register-module" id="register-module">
               <div class="am-header">
                 <h5>Register Account</h5>
-                <p>Register and start exploring through personalized experiences.</p>
+                <span>Register and start exploring through personalized experiences.</p>
               </div>
 
               <form action="" class="register-form">
@@ -276,7 +276,7 @@
             <div class="auth-module forget-password-module" id="forgot-password-module">
               <div class="am-header">
                 <h5>Forgot Password</h5>
-                <p>Register and start exploring through personalized experiences.</p>
+                <span>Register and start exploring through personalized experiences.</p>
               </div>
               <form action="" class="register-form">
                 <div class="input-field">
@@ -304,7 +304,7 @@
             <div class="auth-module password-reset-module" id="password-reset-module">
               <div class="am-header">
                 <h5>Forgot Password</h5>
-                <p>Register and start exploring through personalized experiences.</p>
+                <span>Register and start exploring through personalized experiences.</p>
               </div>
               <div class="otp-input-fields d-flex justify-content-center align-items-center">
                 <input type="number" class="otp__digit otp__field__1">
@@ -320,7 +320,7 @@
               <p class="redirect-option text-center">Didn’t receive the email? <button type="button"
                   class="bh-btn bh-btn-underlined">Click
                   to resend</button>
-              </p>
+                </span>
 
               <div class="back-btn-wrapper text-center">
                 <a href="#login-module" class="back-btn">
@@ -338,7 +338,7 @@
             <div class="auth-module new-password-module" id="new-password-module">
               <div class="am-header">
                 <h5>Forgot Password</h5>
-                <p>Register and start exploring through personalized experiences.</p>
+                <span>Register and start exploring through personalized experiences.</p>
               </div>
               <form action="" class="register-form">
                 <div class="input-field">
@@ -414,83 +414,83 @@
                   </li>
                   <li class="dropdown-menu-item active">
                     <a href="#nepal_01">
-                      <p>
+                      <span>
                         <img src="<?php echo get_parent_theme_file_uri() ?>/assets/images/destinaton-01.png" alt=""
                           class="img-fluid">
                         <span>Nepal</span>
-                      </p>
+                      </span>
                     </a>
                   </li>
                   <li class="dropdown-menu-item">
                     <a href="#india_02">
-                      <p>
+                      <span>
                         <img src="<?php echo get_parent_theme_file_uri() ?>/assets/images/destinaton-02.png" alt=""
                           class="img-fluid">
                         <span>India</span>
-                      </p>
+                      </span>
                     </a>
                   </li>
                   <li class="dropdown-menu-item ">
                     <a href="#vietnam_03">
-                      <p>
+                      <span>
                         <img src="<?php echo get_parent_theme_file_uri() ?>/assets/images/destinaton-03.png" alt=""
                           class="img-fluid">
                         <span>Vietnam</span>
-                      </p>
+                      </span>
                     </a>
                   </li>
                   <li class="dropdown-menu-item ">
                     <a href="#new_zealand_04">
-                      <p>
+                      <span>
                         <img src="<?php echo get_parent_theme_file_uri() ?>/assets/images/destinaton-04.png" alt=""
                           class="img-fluid">
                         <span>New Zealand</span>
-                      </p>
+                      </span>
                     </a>
                   </li>
                   <li class="dropdown-menu-item ">
                     <a href="#dubai_05">
-                      <p>
+                      <span>
                         <img src="<?php echo get_parent_theme_file_uri() ?>/assets/images/destinaton-05.png" alt=""
                           class="img-fluid">
                         <span>Dubai</span>
-                      </p>
+                      </span>
                     </a>
                   </li>
                   <li class="dropdown-menu-item ">
                     <a href="#thailand_06">
-                      <p>
+                      <span>
                         <img src="<?php echo get_parent_theme_file_uri() ?>/assets/images/destinaton-06.png" alt=""
                           class="img-fluid">
                         <span>Thailand</span>
-                      </p>
+                      </span>
                     </a>
                   </li>
                   <li class="dropdown-menu-item ">
                     <a href="#europe_07">
-                      <p>
+                      <span>
                         <img src="<?php echo get_parent_theme_file_uri() ?>/assets/images/destinaton-07.png" alt=""
                           class="img-fluid">
                         <span>Europe</span>
-                      </p>
+                      </span>
                     </a>
                   </li>
                   <li class="dropdown-menu-item ">
                     <a href="#fizi_08">
-                      <p>
+                      <span>
                         <img src="<?php echo get_parent_theme_file_uri() ?>/assets/images/destinaton-08.png" alt=""
                           class="img-fluid">
                         <span>Fiji</span>
-                      </p>
+                      </span>
                     </a>
                   </li>
                   <li class="dropdown-menu-item ">
                     <a href=" #srilanka_09">
-                      <p>
+                      <span>
                         <img src="<?php echo get_parent_theme_file_uri() ?>/assets/images/destinaton-09.png" alt=""
                           class="img-fluid">
                         <span>Srilanka</span>
-                      </p>
+                      </span>
                     </a>
                   </li>
                 </ul>
@@ -9045,83 +9045,83 @@
                   </li>
                   <li class="dropdown-menu-item active">
                     <a href="#nepal">
-                      <p>
+                      <span>
                         <img src="<?php echo get_parent_theme_file_uri() ?>/assets/images/destinaton-01.png" alt=""
                           class="img-fluid">
                         <span>Nepal</span>
-                      </p>
+                      </span>
                     </a>
                   </li>
                   <li class="dropdown-menu-item">
                     <a href="#india">
-                      <p>
+                      <span>
                         <img src="<?php echo get_parent_theme_file_uri() ?>/assets/images/destinaton-02.png" alt=""
                           class="img-fluid">
                         <span>India</span>
-                      </p>
+                      </span>
                     </a>
                   </li>
                   <li class="dropdown-menu-item ">
                     <a href="#vietnam">
-                      <p>
+                      <span>
                         <img src="<?php echo get_parent_theme_file_uri() ?>/assets/images/destinaton-03.png" alt=""
                           class="img-fluid">
                         <span>Vietnam</span>
-                      </p>
+                      </span>
                     </a>
                   </li>
                   <li class="dropdown-menu-item ">
                     <a href="#new_zealand">
-                      <p>
+                      <span>
                         <img src="<?php echo get_parent_theme_file_uri() ?>/assets/images/destinaton-04.png" alt=""
                           class="img-fluid">
                         <span>New Zealand</span>
-                      </p>
+                      </span>
                     </a>
                   </li>
                   <li class="dropdown-menu-item ">
                     <a href="#dubai">
-                      <p>
+                      <span>
                         <img src="<?php echo get_parent_theme_file_uri() ?>/assets/images/destinaton-05.png" alt=""
                           class="img-fluid">
                         <span>Dubai</span>
-                      </p>
+                      </span>
                     </a>
                   </li>
                   <li class="dropdown-menu-item ">
                     <a href="#thailand">
-                      <p>
+                      <span>
                         <img src="<?php echo get_parent_theme_file_uri() ?>/assets/images/destinaton-06.png" alt=""
                           class="img-fluid">
                         <span>Thailand</span>
-                      </p>
+                      </span>
                     </a>
                   </li>
                   <li class="dropdown-menu-item ">
                     <a href="#europe">
-                      <p>
+                      <span>
                         <img src="<?php echo get_parent_theme_file_uri() ?>/assets/images/destinaton-07.png" alt=""
                           class="img-fluid">
                         <span>Europe</span>
-                      </p>
+                      </span>
                     </a>
                   </li>
                   <li class="dropdown-menu-item ">
                     <a href="#fizi">
-                      <p>
+                      <span>
                         <img src="<?php echo get_parent_theme_file_uri() ?>/assets/images/destinaton-08.png" alt=""
                           class="img-fluid">
                         <span>Fiji</span>
-                      </p>
+                      </span>
                     </a>
                   </li>
                   <li class="dropdown-menu-item ">
                     <a href=" #srilanka">
-                      <p>
+                      <span>
                         <img src="<?php echo get_parent_theme_file_uri() ?>/assets/images/destinaton-09.png" alt=""
                           class="img-fluid">
                         <span>Srilanka</span>
-                      </p>
+                      </span>
                     </a>
                   </li>
                 </ul>
