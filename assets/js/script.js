@@ -1,6 +1,5 @@
 jQuery(document).ready(function ($) {
 	/* Sticky Header */
-
 	var scrollPosition = $(window).scrollTop();
 	if (scrollPosition >= 150) {
 		$(".header").addClass("sticky");
@@ -18,8 +17,21 @@ jQuery(document).ready(function ($) {
 		}
 	});
 
-	/* Mobile Menu */
+	// Select the last section inside main
+	$(function () {
+		const lastSection = $("main section").last();
+		const hasBgWhiteClass = lastSection.hasClass("bg-white");
+		const computedBgColor = lastSection.css("background-color");
+		const isBgWhite =
+			hasBgWhiteClass ||
+			computedBgColor === "rgb(255, 255, 255)" ||
+			computedBgColor === "rgba(255, 255, 255, 1)";
+		if (isBgWhite) {
+			$(".footer-animate").addClass("bg-white");
+		}
+	});
 
+	/* Mobile Menu */
 	$(function () {
 		$(".hamburger-icon").on("click", function () {
 			$(".primary-menu").addClass("active");

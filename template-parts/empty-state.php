@@ -1,4 +1,4 @@
-<div class="empty-block section-padding-y">
+<section class="empty-block section-padding-y">
   <div class="container">
     <div class="eb-content">
       <div class="eb-icon">
@@ -13,4 +13,4 @@
       </div>
     </div>
   </div>
-</div>
+</section>
