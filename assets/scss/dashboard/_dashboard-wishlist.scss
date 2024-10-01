@@ -1,0 +1,27 @@
+.dashboard-wishlist {
+	.row {
+		> div {
+			&:not(:last-child) {
+				.wl-item {
+					margin-bottom: 16px;
+				}
+			}
+		}
+	}
+}
+
+@media (min-width: 768px) {
+	.dashboard-wishlist {
+		.row {
+			--bs-gutter-y: 16px;
+
+			> div {
+				&:not(:last-child) {
+					.wl-item {
+						margin-bottom: 0;
+					}
+				}
+			}
+		}
+	}
+}

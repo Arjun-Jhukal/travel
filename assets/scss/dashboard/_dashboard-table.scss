@@ -61,30 +61,224 @@
 				}
 			}
 		}
+	}
+}
 
-		span.status {
-			font-size: 10px;
-			font-weight: 600;
-			line-height: 130%;
-			padding: 4px 12px;
-			border-radius: 16px;
-			border: 1px solid;
+.trip-detail-modal {
+	&.popup-form {
+		max-width: 1200px;
+	}
 
-			&.processing {
-				border-color: #0e4cc2;
-				color: #0e4cc2;
-				background: rgba(14, 76, 194, 0.1);
+	.dashboard-table {
+		border-radius: 4px;
+		border: 1px solid #e5e5e5;
+		&:not(:last-child) {
+			margin-bottom: 32px;
+		}
+	}
+
+	.td-content-wrapper {
+		> .row {
+			--bs-gutter-x: 60px;
+		}
+
+		.tda-content-box {
+			.td-price-info {
+				max-width: 616px;
+				.row {
+					--bs-gutter-x: 8px;
+				}
 			}
-			&.cancelled {
-				border-color: #cb1520;
-				color: #cb1520;
-				background: rgba(203, 21, 32, 0.1);
+		}
+	}
+
+	.td-aside {
+		margin-bottom: 32px;
+		.tda-image {
+			border-radius: 4px;
+			max-height: 200px;
+			overflow: hidden;
+			margin-bottom: 16px;
+		}
+		.tda-content {
+			h4 {
+				margin-bottom: 8px;
 			}
-			&.completed {
-				border-color: #0da31c;
-				color: #0da31c;
-				background: rgba(13, 163, 28, 0.1);
+			.pl-key-indicator {
+				margin-bottom: 20px;
+				gap: 24px;
 			}
+
+			.td-info-box {
+				border-radius: 4px;
+				border: 1px solid rgba(0, 0, 0, 0.1);
+				background: $body-bg;
+				padding: 16px 16px 24px;
+
+				ul {
+					li {
+						&:not(:last-child) {
+							margin-bottom: 16px;
+						}
+						* {
+							&:first-child {
+								flex: 0 1 50%;
+							}
+							&:last-child {
+								position: relative;
+								&::before {
+									content: ":";
+									font-size: 14px;
+									font-weight: 600;
+									letter-spacing: -0.035px;
+									position: absolute;
+									left: -12px;
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+
+	.td-price-info {
+		margin-bottom: 32px;
+		.td-card {
+			border-radius: 8px;
+			background: rgba(54, 58, 56, 0.1);
+			padding: 16px 20px;
+
+			small {
+				font-weight: 600;
+				margin-bottom: 4px;
+			}
+		}
+	}
+
+	.td-tab-wrapper {
+		ul {
+			margin-bottom: 16px;
+			gap: 16px;
+			border-bottom: 1px solid #e5e5e5;
+			li {
+				a {
+					color: $black;
+					font-weight: 600;
+					line-height: 148%;
+					letter-spacing: -0.08px;
+					padding-bottom: 16px;
+					position: relative;
+
+					&::after {
+						position: absolute;
+						content: "";
+						bottom: 0;
+						left: 0;
+						right: 0;
+						height: 4px;
+						background-color: $lightGreen;
+						opacity: 0;
+						visibility: hidden;
+						transition: all 0.3s ease-in-out;
+					}
+				}
+				&:hover,
+				&.active {
+					a {
+						&::after {
+							opacity: 1;
+							visibility: visible;
+						}
+					}
+				}
+			}
+		}
+
+		.td-tab-content-box {
+			margin-bottom: 28px;
+
+			.td-tab-content {
+				display: none;
+
+				&.active {
+					display: block;
+				}
+			}
+		}
+	}
+
+	.td-cancellation-info {
+		border-radius: 8px;
+		border: 1px solid #ea7810;
+		background: rgba(234, 120, 16, 0.1);
+		padding: 12px 8px 12px 16px;
+
+		> p {
+			margin-bottom: 12px;
+
+			strong {
+				color: #ea7810;
+			}
+		}
+
+		.bh-btn {
+			color: $black;
+		}
+	}
+}
+
+@media (min-width: 768px) {
+	.trip-detail-modal {
+		.td-tab-wrapper {
+			ul {
+				gap: 32px;
+			}
+		}
+
+		.td-cancellation-info {
+			> p {
+				margin-bottom: 0;
+			}
+		}
+	}
+}
+
+@media (min-width: 992px) {
+	.trip-detail-modal {
+		.td-aside {
+			margin-bottom: 0;
+		}
+		.td-price-info {
+			margin-bottom: 44px;
+		}
+
+		.td-tab-content-box {
+			max-height: 300px;
+			overflow: auto;
+
+			&::-webkit-scrollbar {
+				width: 3px;
+			}
+			&::-webkit-scrollbar-track,
+			&::-webkit-scrollbar-thumb {
+				width: 100%;
+			}
+
+			&::-webkit-scrollbar-track {
+				background-color: $body-bg;
+			}
+			&::-webkit-scrollbar-thumb {
+				background-color: $lightGreen;
+			}
+		}
+	}
+}
+
+@media (min-width: 1440px) {
+	.trip-detail-modal {
+		&.popup-form {
+			min-width: 1200px;
 		}
 	}
 }

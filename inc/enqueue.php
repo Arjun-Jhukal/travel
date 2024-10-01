@@ -35,4 +35,6 @@ wp_enqueue_script('custom-js', get_template_directory_uri() . '/assets/js/script
 'jquery-ui-slider'), '1.0.0', true);
 wp_enqueue_script('custom-form-js', get_template_directory_uri() . '/assets/js/form.js', array('jquery', 'jquery-ui-core',
 'jquery-ui-slider'), '1.0.0', true);
+wp_enqueue_script('dashboard-js', get_template_directory_uri() . '/assets/js/dashboard.js', array('jquery', 'jquery-ui-core',
+'jquery-ui-slider'), '1.0.0', true);
 }
