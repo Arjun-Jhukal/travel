@@ -2,7 +2,6 @@
 	position: relative;
 	overflow: hidden;
 	padding-bottom: 80px;
-	margin-bottom: 32px;
 
 	h2 {
 		color: $secondary;
@@ -49,8 +48,9 @@
 }
 
 .footer-subscription {
+	padding-top: 32px;
 	padding-bottom: 64px;
-	margin-bottom: 64px;
+
 	border-bottom: 1px solid rgba(0, 0, 0, 0.1);
 	.fs-content {
 		max-width: 588px;
@@ -89,6 +89,7 @@
 }
 
 .footer-menus {
+	padding-top: 64px;
 	.footer-info {
 		margin-bottom: 40px;
 		.footer-logo {
@@ -227,8 +228,23 @@
 	}
 }
 
-.footer {
-	background-color: rgba(255, 255, 255, 1);
+.footer-subscription,
+.footer-menus,
+.footer-signature,
+.footer-clients {
+	// position: relative;
+	background-color: #fff;
+
+	// &::before {
+	// 	content: "";
+	// 	top: var(--footer-bg-top, 0);
+	// 	left: 0;
+	// 	right: 0;
+	// 	bottom: 0;
+	// 	background-color: $white;
+	// 	position: absolute;
+	// 	z-index: -1;
+	// }
 }
 
 @media (min-width: 768px) {

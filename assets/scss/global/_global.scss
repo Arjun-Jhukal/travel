@@ -287,6 +287,11 @@ label {
 			border-color: $red;
 			color: $red;
 			padding: 8px 24px;
+
+			&:hover {
+				background-color: $red;
+				color: $white;
+			}
 		}
 		&.green-outlined {
 			border-color: $darkGreen;
@@ -611,8 +616,17 @@ label {
 		.pi-content {
 			padding: 16px 16px 0 16px;
 		}
-		.price-wrapper {
+		.price-wrapper,
+		.package-btn-group {
 			padding: 0 16px 16px;
+		}
+
+		.package-btn-group {
+			a {
+				&:first-child {
+					margin-bottom: 8px;
+				}
+			}
 		}
 	}
 }
