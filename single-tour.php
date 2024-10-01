@@ -629,7 +629,26 @@ if ($tour_gallery):
                 </div>
                 <div class="block-title-right d-flex justify-content-md-end ">
                   <div class="rating-wrapper d-flex align-items-center">
-                    <div class="review-rating" data-rating="4">
+                    <?php
+                    function get_average_rating($post_id)
+                    {
+                      $comments = get_comments(['post_id' => $post_id, 'status' => 'approve']);
+                      $total_rating = 0;
+                      $total_comments = count($comments);
+                      foreach ($comments as $comment) {
+                        $rating = get_comment_meta($comment->comment_ID, 'rating', true);
+                        if ($rating) {
+                          $total_rating += intval($rating);
+                        }
+                      }
+                      return $total_comments > 0 ? $total_rating / $total_comments : 0;
+                    }
+                    ?>
+                    <?php
+                    $average_rating = get_average_rating(get_the_ID());
+                    $rounded_rating = round($average_rating, 1);
+                    ?>
+                    <div class="review-rating" data-rating="<?php echo $rounded_rating; ?>">
                       <ul class="d-flex stars justify-content-start justify-content-lg-end">
                         <li>
                           <img src="<?php echo get_parent_theme_file_uri() ?>/assets/images/icons/outlined-star.svg"
@@ -672,9 +691,9 @@ if ($tour_gallery):
                           </div>
                         </li>
                       </ul>
-                      <p class="sm-text">Based on 48 ratings </p>
+                      <p class="sm-text">Based on <?php echo get_comments_number(); ?> ratings </p>
                     </div>
-                    <h3>5.0</h3>
+                    <h3><?php echo $rounded_rating; ?></h3>
                   </div>
                   <a href="#" class="bh-bth bh-btn-filled-dark">
                     <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none">
@@ -740,17 +759,17 @@ if ($tour_gallery):
                         <a href="#" class="like-button" data-comment-id="<?php echo $comment->comment_ID; ?>"
                           data-type="like">
                           <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none">
-                        <g clip-path="url(#clip0_997_7996)">
-                          <path
-                            d="M15.0477 8.19629L14.6356 8.49485L14.9414 8.90165C15.0784 9.0839 15.1591 9.30907 15.1591 9.55365C15.1591 9.91473 14.9821 10.2363 14.7069 10.4356L14.2947 10.7341L14.6005 11.1409C14.7375 11.3232 14.8182 11.5484 14.8182 11.793C14.8182 12.1542 14.6412 12.476 14.3662 12.6752L13.9542 12.9737L14.2598 13.3805C14.3967 13.5626 14.4773 13.7878 14.4773 14.0323C14.4773 14.632 13.9886 15.1207 13.3889 15.1207H8.38834C7.62467 15.1207 6.87551 14.9849 6.1605 14.7168L5.98494 15.1849L6.1605 14.7168L5.1875 14.3519V6.69188C5.90101 5.92234 6.58049 5.17515 7.1199 4.56397C7.67725 3.93246 8.12176 3.4058 8.27419 3.16184L8.35016 3.04026V2.8969V1.05315C8.35016 0.957713 8.4286 0.879272 8.52403 0.879272C9.78036 0.879272 10.8033 1.9022 10.8033 3.15852V3.91926L10.3205 5.58685L10.1355 6.2259H10.8008H14.4116C15.0113 6.2259 15.5 6.71462 15.5 7.3143C15.5 7.6753 15.323 7.99687 15.0477 8.19629ZM0.5 14.8144V5.91687H3.25V14.8144H0.5Z"
-                            stroke="#7FB51F" />
-                        </g>
-                        <defs>
-                          <clipPath id="clip0_997_7996">
-                            <rect width="16" height="16" fill="white" />
-                          </clipPath>
-                        </defs>
-                      </svg>
+                            <g clip-path="url(#clip0_997_7996)">
+                              <path
+                                d="M15.0477 8.19629L14.6356 8.49485L14.9414 8.90165C15.0784 9.0839 15.1591 9.30907 15.1591 9.55365C15.1591 9.91473 14.9821 10.2363 14.7069 10.4356L14.2947 10.7341L14.6005 11.1409C14.7375 11.3232 14.8182 11.5484 14.8182 11.793C14.8182 12.1542 14.6412 12.476 14.3662 12.6752L13.9542 12.9737L14.2598 13.3805C14.3967 13.5626 14.4773 13.7878 14.4773 14.0323C14.4773 14.632 13.9886 15.1207 13.3889 15.1207H8.38834C7.62467 15.1207 6.87551 14.9849 6.1605 14.7168L5.98494 15.1849L6.1605 14.7168L5.1875 14.3519V6.69188C5.90101 5.92234 6.58049 5.17515 7.1199 4.56397C7.67725 3.93246 8.12176 3.4058 8.27419 3.16184L8.35016 3.04026V2.8969V1.05315C8.35016 0.957713 8.4286 0.879272 8.52403 0.879272C9.78036 0.879272 10.8033 1.9022 10.8033 3.15852V3.91926L10.3205 5.58685L10.1355 6.2259H10.8008H14.4116C15.0113 6.2259 15.5 6.71462 15.5 7.3143C15.5 7.6753 15.323 7.99687 15.0477 8.19629ZM0.5 14.8144V5.91687H3.25V14.8144H0.5Z"
+                                stroke="#7FB51F" />
+                            </g>
+                            <defs>
+                              <clipPath id="clip0_997_7996">
+                                <rect width="16" height="16" fill="white" />
+                              </clipPath>
+                            </defs>
+                          </svg>
                           <span> Like (<span
                               class="like-count"><?php echo intval(get_comment_meta($comment->comment_ID, 'likes', true) ?: 0); ?>
                             </span>)</span>
@@ -758,17 +777,17 @@ if ($tour_gallery):
                         <a href="#" class="dislike-button" data-comment-id="<?php echo $comment->comment_ID; ?>"
                           data-type="dislike">
                           <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none">
-                        <g clip-path="url(#clip0_997_7996)">
-                          <path
-                            d="M15.0477 8.19629L14.6356 8.49485L14.9414 8.90165C15.0784 9.0839 15.1591 9.30907 15.1591 9.55365C15.1591 9.91473 14.9821 10.2363 14.7069 10.4356L14.2947 10.7341L14.6005 11.1409C14.7375 11.3232 14.8182 11.5484 14.8182 11.793C14.8182 12.1542 14.6412 12.476 14.3662 12.6752L13.9542 12.9737L14.2598 13.3805C14.3967 13.5626 14.4773 13.7878 14.4773 14.0323C14.4773 14.632 13.9886 15.1207 13.3889 15.1207H8.38834C7.62467 15.1207 6.87551 14.9849 6.1605 14.7168L5.98494 15.1849L6.1605 14.7168L5.1875 14.3519V6.69188C5.90101 5.92234 6.58049 5.17515 7.1199 4.56397C7.67725 3.93246 8.12176 3.4058 8.27419 3.16184L8.35016 3.04026V2.8969V1.05315C8.35016 0.957713 8.4286 0.879272 8.52403 0.879272C9.78036 0.879272 10.8033 1.9022 10.8033 3.15852V3.91926L10.3205 5.58685L10.1355 6.2259H10.8008H14.4116C15.0113 6.2259 15.5 6.71462 15.5 7.3143C15.5 7.6753 15.323 7.99687 15.0477 8.19629ZM0.5 14.8144V5.91687H3.25V14.8144H0.5Z"
-                            stroke="#7FB51F" />
-                        </g>
-                        <defs>
-                          <clipPath id="clip0_997_7996">
-                            <rect width="16" height="16" fill="white" />
-                          </clipPath>
-                        </defs>
-                      </svg>
+                            <g clip-path="url(#clip0_997_7996)">
+                              <path
+                                d="M15.0477 8.19629L14.6356 8.49485L14.9414 8.90165C15.0784 9.0839 15.1591 9.30907 15.1591 9.55365C15.1591 9.91473 14.9821 10.2363 14.7069 10.4356L14.2947 10.7341L14.6005 11.1409C14.7375 11.3232 14.8182 11.5484 14.8182 11.793C14.8182 12.1542 14.6412 12.476 14.3662 12.6752L13.9542 12.9737L14.2598 13.3805C14.3967 13.5626 14.4773 13.7878 14.4773 14.0323C14.4773 14.632 13.9886 15.1207 13.3889 15.1207H8.38834C7.62467 15.1207 6.87551 14.9849 6.1605 14.7168L5.98494 15.1849L6.1605 14.7168L5.1875 14.3519V6.69188C5.90101 5.92234 6.58049 5.17515 7.1199 4.56397C7.67725 3.93246 8.12176 3.4058 8.27419 3.16184L8.35016 3.04026V2.8969V1.05315C8.35016 0.957713 8.4286 0.879272 8.52403 0.879272C9.78036 0.879272 10.8033 1.9022 10.8033 3.15852V3.91926L10.3205 5.58685L10.1355 6.2259H10.8008H14.4116C15.0113 6.2259 15.5 6.71462 15.5 7.3143C15.5 7.6753 15.323 7.99687 15.0477 8.19629ZM0.5 14.8144V5.91687H3.25V14.8144H0.5Z"
+                                stroke="#7FB51F" />
+                            </g>
+                            <defs>
+                              <clipPath id="clip0_997_7996">
+                                <rect width="16" height="16" fill="white" />
+                              </clipPath>
+                            </defs>
+                          </svg>
                           <span> Dislike (<span
                               class="dislike-count"><?php echo intval(get_comment_meta($comment->comment_ID, 'dislikes', true) ?: 0); ?>
                             </span>)</span>

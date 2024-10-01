@@ -290,7 +290,7 @@
       <h4>Add Review</h4>
       <strong>Reviewing for <?php echo get_the_title(); ?></strong>
     </div>
-    <?php if (is_user_logged_in()): ?>git 
+    <?php if (is_user_logged_in()): ?>
       <form method="post" action="">
         <div class="rf-rating form-item">
           <div class="d-flex">
