@@ -6,7 +6,7 @@
 			h3,
 			h4,
 			h5 {
-				font-size: 24px;
+				font-size: 20px;
 				line-height: 130%;
 				margin-bottom: 8px;
 				&:not(:first-of-type) {
@@ -15,7 +15,6 @@
 			}
 			p {
 				color: $secondary;
-				font-size: 14px;
 				line-height: 140%;
 				letter-spacing: -0.035px;
 				&:not(:last-child) {
@@ -47,6 +46,19 @@
 		.alr-block {
 			&:not(:last-child) {
 				margin-bottom: 80px;
+			}
+
+			.alrb-content {
+				h1,
+				h2,
+				h3,
+				h4,
+				h5 {
+					font-size: 24px;
+				}
+				p {
+					font-size: 14px;
+				}
 			}
 		}
 	}
